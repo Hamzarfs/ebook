@@ -1,7 +1,7 @@
 import React from 'react';
-import ghostWritingImage from '../images/Ghost Writing.png';
-import designingImage from '../images/Designing.png';
-import bookEditingImage from '../images/book edit.png';
+import ghostWritingImage from '../../images/Ghost Writing.png';
+import designingImage from '../../images/Designing.png';
+import bookEditingImage from '../../images/book edit.png';
 
 const SecondSection = () => {
   return (
