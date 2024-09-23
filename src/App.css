@@ -230,6 +230,52 @@ text-align: left;
 
 
 
+.icon-box-1, .icon-box-2, .icon-box-3, .icon-box-4 {
+  background-color: #f4f4f4; /* Light grey color */
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+.icon-box-1:hover, .icon-box-2:hover, .icon-box-3:hover, .icon-box-4:hover {
+  transform: translateY(-5px);
+}
+.icon-box-1 img, .icon-box-2 img, .icon-box-3 img, .icon-box-4 img {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 30px; /* Space between image and text */
+}
+.text-content-1, .text-content-2, .text-content-3, .text-content-4 {
+  text-align: left;
+  
+}
+.icon-box-1 h3, .icon-box-2 h3, .icon-box-3 h3, .icon-box-4 h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fc9700;
+  margin-left: 15px;
+
+}
+.icon-box-1 h2, .icon-box-2 h2, .icon-box-3 h2, .icon-box-4 h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.icon-box-1 h4, .icon-box-2 h4, .icon-box-3 h4, .icon-box-4 h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -15px;
+  margin-left: 15px;
+
+}
+
+
+
+
+
 
 
 
