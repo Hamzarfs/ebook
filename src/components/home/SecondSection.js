@@ -1,19 +1,22 @@
 import React from 'react';
-import ghostWritingImage from '../images/Ghost Writing.png';
-import designingImage from '../images/Designing.png';
-import bookEditingImage from '../images/book edit.png';
+import ghostWritingImage from '../../images/Ghost Writing.png';
+import designingImage from '../../images/Designing.png';
+import bookEditingImage from '../../images/book edit.png';
 
 const SecondSection = () => {
   return (
-    <section className="ebook-second-section">
-      <div className="container">
-        <button className="heading-button">Photography</button>
-        <h2>Explore Kimono <br />Photography<span className="orange-text"> Services</span></h2>
-        <p>Kimono Photography Agency runs wide and deep. Across many<br />
-          markets, geographies typologies, our team members</p>
-      </div>
 
-      <div className="container py-5">
+
+
+    <section class="ebook-second-section">
+        <div class="container">
+            <button class="heading-button">Photography</button>
+            <h2>Explore Kimono <br />Photography<span class="orange-text"> Services</span></h2>
+            <p>Kimono Photography Agency runs wide and deep. Across many<br />
+                markets, geographies typologies, our team members</p>
+        </div>
+
+        <div className="second-section-container">
         <div className="row text-center">
           <div className="col-12 col-sm-6 col-lg-4">
             <div className="image-box">

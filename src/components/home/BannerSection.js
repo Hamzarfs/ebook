@@ -1,5 +1,5 @@
 import React from 'react';
-import mokeups from '../images/mokeups.png'; // Adjust the path as needed
+import mokeups from '../../images/mokeups.png'; // Adjust the path as needed
 
 const BannerSection = () => {
   return (
