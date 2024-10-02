@@ -6,18 +6,12 @@ import icon4 from '../../images/Group 80.png';
 
 const ThirdSection = () => {
   return (
-    <section className="ebook-third-section">
-      <div className="container">
-        <h2>
-          Explore Kimono <br />
-          Photography<span className="orange-text"> Services</span>
-        </h2>
-        <p>
-          Kimono Photography Agency runs wide and deep. Across many<br />
-          markets, geographies typologies, our team members
-        </p>
+ <section className="ebook-third-section">
+      <div className="container book-third-section">
+      <h2>Professional Creatives <br/>At Your<span class="orange-text"> Services</span></h2>
+        <p>AMZ Book Publishings will take care of all the tricky stuff, so you can focus on what matters:<br />
+        bringing your story to life. Reach out to us today and unlock the writer within, <br />ready to share your story with the world.</p>
       </div>
-
       <div className="third-section-container">
         <div className="row">
           {/* Box 1 */}
@@ -29,9 +23,9 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>50+</h3>
+                    <h3>04+</h3>
                     <h4>Years</h4>
-                    <h2>Published<br /> Worldwide</h2>
+                    <h2>Over 04 <br />years of experience</h2>
                   </div>
                 </div>
               </div>
@@ -46,9 +40,9 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>60+</h3>
+                    <h3>06+</h3>
                     <h4>Countries</h4>
-                    <h2>Operating<br /> Globally</h2>
+                    <h2>Top-tier <br />editorial team</h2>
                   </div>
                 </div>
               </div>
@@ -63,9 +57,9 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>1000+</h3>
+                    <h3>160+</h3>
                     <h4>Clients</h4>
-                    <h2>Satisfied<br /> Customers</h2>
+                    <h2>Personalized<br />services</h2>
                   </div>
                 </div>
               </div>
@@ -82,7 +76,7 @@ const ThirdSection = () => {
                   <div className="text-content">
                     <h3>200+</h3>
                     <h4>Projects</h4>
-                    <h2>Completed<br /> Successfully</h2>
+                    <h2>Eye-catching<br /> book cover designs</h2>
                   </div>
                 </div>
               </div>
@@ -90,7 +84,7 @@ const ThirdSection = () => {
           </div>
         </div>
       </div>
-    </section>
+ </section>
   );
 };
 

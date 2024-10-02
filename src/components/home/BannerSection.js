@@ -5,9 +5,9 @@ const BannerSection = () => {
   return (
     <section className="ebook-banner-section">
       <div className="container">
-        <h1>We Capture Your Best <br /><span className="orange-text">Memories</span> Here</h1>
-        <p>Kimono Photography Agency runs wide and deep. Across many<br />
-          markets, geographies typologies, our team members</p>
+        <h1><span className="orange-text">AMZ</span> Book Publishing <br />Best <span className="orange-text">Amazon</span><br /> Book Publishing <span className="orange-text">Services</span></h1>
+        <p>Turn your dream of becoming an author into reality. Let’s<br /> 
+        bring your story to life and share it with the world.</p>
         <button className="first-button">Discover More</button>
       </div>
       <img src={mokeups} alt="Sample" /> {/* Make sure to have correct image path */}

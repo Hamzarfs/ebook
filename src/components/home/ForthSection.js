@@ -16,11 +16,11 @@ const ForthSection = () => {
   return (
     <section class="ebook-forth-section custom-gallery">
     <div class="container second-section-container">
-      <button class="heading-button">Photography</button>
-      <h2>Explore Kimono <br/>Photography<span class="orange-text"> Services</span></h2>
-      <p>Kimono Photography Agency runs wide and deep. Across many<br/>
-        markets, geographies typologies, our team members
-      </p>
+      <button class="heading-button">g a l l e r y</button>
+      <h2>Our <span class="orange-text">Success</span> Stories</h2>
+      <p>Many writers who have come to us for guidance have gone on to become<br/>
+      bestselling authors. Curious to see how we helped them shine?<br/>
+      Let’s dive into a few of our standout success stories!</p>
     </div>
     <div class="forth-section-container">
       <div class="row">
