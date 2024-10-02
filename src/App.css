@@ -37,6 +37,8 @@ body {
 .ebook-banner-section p {
     margin-bottom: 20px;
     color: #666666 ; 
+    font-size: 24px;
+    margin-top: 20px;
 
 }
 
@@ -45,9 +47,9 @@ body {
     color: white; /* Set button text color */
     border: none;
     padding: 15px 30px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
     text-transform: uppercase;
     margin-bottom: 20px; /* Added margin for space between button and image */
@@ -73,10 +75,14 @@ body {
     max-width: 1600px;
     margin: 0 auto; /* Center the container */
 }
+.book-third-section{
+    padding-bottom: 30px;
+}
+
 .ebook-second-section {
     background-color: #f8fafa;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
     color: #000000;
     text-align: center;
     display: flex;
@@ -87,6 +93,7 @@ body {
 }
 .ebook-second-section p{
    color: #666666 ; 
+   margin-bottom: 20px;
 
 }
 .heading-button {
@@ -147,9 +154,7 @@ text-align: left;
 
 
 .ebook-third-section {
-    background-color: #f8fafa;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     color: #000000;
     text-align: center;
     display: flex;
@@ -166,7 +171,7 @@ text-align: left;
 .ebook-third-section h2 {
     font-weight: 600;
     font-size: 52px;
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.4em;
     margin-bottom: 20px;
     color: #333333;
@@ -186,7 +191,7 @@ text-align: left;
     transform: translateY(-5px);
 }
 .icon-box img {
-    width: 60px; /* Adjust size as needed */
+    width: 100%; /* Adjust size as needed */
     height: auto;
     margin-right: 20px; /* Space between image and text */
 }
@@ -221,12 +226,12 @@ text-align: left;
 /* --------------start ebook-forth-section ---------------- */
 
 .forth-section-container {
-    max-width: 920px;
+    max-width: 980px;
     margin-top: 30px; /* Center the container */
 }
 .ebook-forth-section {
-    background-color: #f8fafa;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #000000;
     text-align: center;
     display: flex;
@@ -249,6 +254,155 @@ text-align: left;
 .custom-gallery img {
     margin: 10px 5px; /* 10px top/bottom, 5px left/right */
     padding: 0;       /* Remove any padding */
+}
+    /* Start Fourth Section Why Choose us*/
+
+ .why-choose {
+  padding: 60px 0;
+}
+
+.gradient-btn {
+  background: linear-gradient(to bottom, rgb(248, 203, 106), #fc9700); /* Gradient from white to #fc9700 */
+  padding: 12px 40px;
+  color: white;
+  display: inline-block;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: inherit !important;
+ text-transform: uppercase;
+
+}
+
+.why-choose h2 {
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+}
+
+h3.gradient-text {
+  background: linear-gradient(180deg, #FFCE86 0%, #FB9130 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 52px;
+  text-align: center;
+}
+
+.number-container img {
+  position: absolute;
+  z-index: -1;
+  top: 2px;
+  width: 80px;
+  left: 22px;
+}
+
+.number-container {
+  position: relative;
+  padding: 50px 20px 0px 57px;
+}
+
+.number-container h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.number-container p {
+  font-size: 16px;
+  text-align: justify;
+  color: #333333;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.picture-1 img, 
+.picture-2 img {
+  border-radius: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 15px;
+  }
+  .number-container {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-choose {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .gradient-btn {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  .number-container img {
+    display: none;
+  }
+
+  .number-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gradient-btn {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .number-container h3 {
+    font-size: 1.25rem;
+  }
+
+  .number-container p {
+    font-size: 0.875rem;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
+
+
+
+
+ /* End Fourth Section Why Choose us*/
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1600px;
   }
   
   
@@ -285,4 +439,5 @@ text-align: left;
         width: 50%;
         margin-top: 30px;
     }
+}
 }

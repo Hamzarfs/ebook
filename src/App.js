@@ -6,8 +6,7 @@ import BannerSection from './components/home/BannerSection';
 import SecondSection from './components/home/SecondSection';
 import ThirdSection from './components/home/ThirdSection';
 import ForthSection from './components/home/ForthSection';
-
-
+import FourthSection from './components/home/FourthSection';
 
 
 function App() {
@@ -15,12 +14,12 @@ function App() {
     <div className="App">  
       <BannerSection />
       <SecondSection /> 
+      <FourthSection/>
       <ThirdSection />
       <ForthSection />
 
-
     </div>
-  );
+  )
 }
 
 export default App;
