@@ -2,12 +2,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BreadCrumb from '../components/Designing/BreadCrumb';
+import DesigningServices from '../components/Designing/DesigningServices'
 
 const PageHeading = () => {
   return (
     <div>
 
 <BreadCrumb />
+<DesigningServices/>
+
        
           {/* Include the BannerSection component here */}
       <h1>About Page</h1>
