@@ -8,7 +8,11 @@ body {
     font-family: 'Poppins', sans-serif; /* Set font family to Poppins */
 }
 
+
+
+
 /* ---------------Start ebook-banner-section ----------------- */
+
 .ebook-banner-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -304,8 +308,8 @@ h3.gradient-text {
 }
 
 .number-container h3 {
-  font-weight: 600;
-  font-size: 52px;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 1.4em;
   margin-bottom: 20px;
   color: #333333;
@@ -328,42 +332,419 @@ img {
   border-radius: 30px;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .container {
-    padding: 0 15px;
-  }
-  .number-container {
-    padding-left: 80px;
-  }
+
+     /************************************** Start Designing Page Styling ****************/
+
+/* Start Breadcrumb section */
+
+.page-heading {
+  /* background-image: url('.../image/breadcrumbbg.png'); */
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust as per your desired height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-@media (max-width: 768px) {
-  .why-choose {
-    text-align: center;
-    padding: 30px 0;
-  }
+.page-heading .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+}
 
-  h2 {
-    font-size: 2rem;
-  }
+.page-heading .container {
+  margin-top: 100px;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
 
-  .gradient-btn {
-    font-size: 1rem;
-    padding: 8px 15px;
-  }
+.page-heading h1 {
+  background: linear-gradient(180deg, #FFCE86 0%, #FB9130 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 96px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
 
-  .number-container img {
-    display: none;
-  }
+.orangegradient-h2 {
+  background: linear-gradient(180deg, #FFCE86 0%, #FB9130 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 10px;
+}
 
-  .number-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
 
-  .col-md-6 {
-    margin-bottom: 20px;
+.page-heading p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.page-heading .btn {
+  background-color: #FFA500; /* Orange button */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.page-heading .btn:hover {
+  background-color: #ff8700;
+}
+
+/* End Breadcrumb section */
+
+
+
+
+.service-card {
+  background: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
+  color: white;
+  padding: 20px;
+  text-align: left; /* Align text to the left as in the image */
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  height: 300px; /* Ensure consistent height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.service-card .number {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.service-card p {
+  margin-top: auto; /* Pushes the text to the bottom */
+  font-size: 1.2rem;
+  text-align: left; /* Align text to the left */
+  line-height: 1.4rem;
+  margin-bottom: 0;
+}
+
+.service-card:hover {
+  transform: translateY(-10px); /* Keep the hover effect */
+}
+
+span.service-number {
+  font-size: 35px;
+ 
+
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+  background-color: #ffffff00 !important;
+  color: #020202 !important;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+ 
+.coverdesignsec {
+  padding: 50px 0;
+}
+
+.coverdesignsec h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.coverdesignsec p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+
+
+/* Design Process Section */
+#design-process-section {
+  padding: 40px 0;
+}
+
+.design-process-heading {
+  font-size: 2.5rem;
+}
+
+.design-process-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.design-process-icon-box {
+  padding: 20px;
+}
+
+.design-process-icon {
+  max-width: 80px;
+  margin-bottom: 15px;
+}
+
+.design-process-icon-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.design-process-icon-text {
+  font-size: 16px;
+  color: #666;
+}
+
+.image-text-banner {
+padding: 50px 0;
+}
+
+.image-text-banner h2 {
+font-size: 2rem;
+font-weight: bold;
+}
+
+.image-text-banner p {
+font-size: 1rem;
+line-height: 1.5;
+color: #666;
+}
+
+.image-text-banner img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+/* Start CTA Section */
+
+.design-cta-sec {
+  /* background-color: #ffa500; */
+  background-image: url('./images/cta-bg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 61px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+.design-cta-sec .text-section {
+color: white;
+text-align: left;
+padding-right: 20px;
+}
+
+.design-cta-sec h2 {
+font-size: 2.5rem;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.design-cta-sec p {
+font-size: 1.2rem;
+margin-bottom: 20px;
+}
+
+.design-cta-sec .cta-btn {
+background-color: white;
+color: #ffa500;
+border: none;
+padding: 10px 20px;
+border-radius: 30px;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.design-cta-sec .cta-btn:hover {
+background-color: #f5f5f5;
+color: #ff8c00;
+cursor: pointer;
+}
+
+.design-cta-sec .image-section {
+position: relative;
+}
+
+.design-cta-sec .image-section img {
+  z-index: 1;
+  margin-top: -74px;
+}
+
+/* End CTA SECTION */
+
+/* .custom-slider-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.custom-slider-container h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.custom-slider-container p {
+  font-size: 1em;
+  margin-bottom: 20px;
+} */
+
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+/* FAQ SECTION */
+
+.faq-ebook-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  font-size: 1.1rem;
+  color: #333;
+  position: relative;
+}
+
+.accordion-button .icon {
+  font-size: 1.5rem;
+  color: #666;
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.accordion-body {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #FFCE86;
+  box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 #ffa500;
+}
+
+.accordion-button::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3e%3cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: auto;
+  transform: none;
+  transition: transform 0.2s ease;
+}
+
+/* Change to minus when expanded */
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3e%3cpath d='M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5z'/%3e%3c/svg%3e");
+}
+
+
+ /* Start FORM SECTION */
+
+/* Unique styling for the ebook-contact-form section */
+.ebook-contact-form {
+          padding: 50px 20px;
+         
+          align-items: center;
+      }
+
+      .ebook-contact-form .left-column {
+          text-align: left;
+          padding-right: 30px;
+      }
+
+      .ebook-contact-form h2 {
+          font-weight: bold;
+          color: black;
+          font-size: 2.5rem;
+      }
+
+      .ebook-contact-form .highlight-text {
+          color: #ff9800; /* Orange color */
+      }
+
+      .ebook-contact-form .btn-custom {
+          background: linear-gradient(90deg, #ff9800, #fbb040);
+          color: white;
+          border: none;
+          border-radius: 30px;
+          padding: 10px 25px;
+          font-size: 18px;
+          margin-bottom: 20px;
+      }
+
+      .ebook-contact-form .form-control {
+          border-radius: 30px;
+      }
+
+      .ebook-contact-form .btn-submit {
+          background: linear-gradient(90deg, #ff9800, #fbb040);
+          border: none;
+          border-radius: 30px;
+          padding: 10px 30px;
+          color: white;
+          font-size: 18px;
+          margin-top: 15px;
+      }
+
+/* FAQ SECTION */
+
+@media (max-width: 400px) {
+  .swiper-slide {
+      width: 100%; /* 1 slide visible on extra small screens */
   }
 }
 
@@ -388,56 +769,300 @@ img {
   .container {
     padding: 0 10px;
   }
+  .swiper-slide {
+    width: 50%; /* 2 slides visible on small screens */
+}
 }
 
 
 
-
- /* End Fourth Section Why Choose us*/
-
+/* Media Queries */
 
 
+      /* Responsive design */
+      @media (max-width: 768px) {
+        .image-box {
+          padding-right: 40px;
+          padding-left: 20px;
+          padding-bottom: 20px;
+          border-right: 1px solid #ddd;
+          text-align: left;
+        }
+      
+        .ebook-contact-form {
+          flex-direction: column;
+        }
+      
+        .ebook-contact-form .left-column {
+          padding-right: 0;
+          text-align: center;
+        }
+      
+        .ebook-contact-form h2 {
+          font-size: 28px;
+        }
+      
+        .page-heading .btn {
+          background-color: #FFA500;
+          color: white;
+          padding: 6px;
+          text-decoration: none;
+          border-radius: 5px;
+          font-size: 1rem;
+          transition: background-color 0.3s;
+        }
+      
+        .page-heading h1 {
+          font-size: 2rem;
+        }
+      
+        .faq-ebook-section h2 {
+          font-size: 1.5rem;
+        }
+      
+        .accordion-button {
+          font-size: 1rem;
+        }
+      
+        .accordion-body {
+          font-size: 0.9rem;
+        }
+      
+        .design-cta-sec {
+          text-align: center;
+          padding: 40px 10px;
+          overflow: hidden;
+        }
+      
+        .design-cta-sec h2 {
+          font-size: 2rem;
+        }
+      
+        .design-cta-sec p {
+          font-size: 1rem;
+        }
+      
+        .design-cta-sec .image-section img {
+          max-width: 100%;
+          position: relative;
+          right: 0;
+          top: 0;
+        }
+      
+        .image-text-banner h2 {
+          font-size: 1.5rem;
+        }
+      
+        .image-text-banner p {
+          font-size: 0.9rem;
+        }
+      
+        .image-text-banner .row {
+          margin-bottom: 30px;
+        }
+      
+        .image-text-banner img {
+          max-width: 100%;
+          height: auto;
+        }
+      
+        .design-process-heading {
+          font-size: 2rem;
+        }
+      
+        .design-process-icon-title {
+          font-size: 1.1rem;
+        }
+      
+        .design-process-icon {
+          max-width: 60px;
+        }
+      
+        .design-process-icon-text {
+          font-size: 0.85rem;
+        }
+      
+        .service-card {
+          margin-bottom: 15px;
+        }
+      
+        .nav-tabs .nav-link {
+          color: #FFA500;
+        }
+      
+        .nav-tabs .nav-link.active {
+          background-color: #FFA500;
+          color: white;
+        }
+      
+        .why-choose {
+          text-align: center;
+          padding: 30px 0;
+        }
+      
+        h2 {
+          font-size: 2rem;
+        }
+      
+        .gradient-btn {
+          font-size: 1rem;
+          padding: 8px 15px;
+        }
+      
+        .number-container img {
+          display: none;
+        }
+      
+        .number-container {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      
+        .col-md-6 {
+          margin-bottom: 20px;
+        }
+      
+        .ebook-banner-section h1 {
+          font-weight: 600;
+          font-size: 30px !important;
+          text-align: center;
+          line-height: 1.1em;
+          margin-bottom: 5px;
+          color: #333333;
+        }
+      
+        .ebook-banner-section p {
+          font-size: 11px;
+        }
+      
+        .ebook-second-section h2 {
+          font-weight: 550;
+          font-size: 27px;
+        }
+      
+        .ebook-banner-section .first-button {
+          padding: 12px 25px;
+          font-size: 14px;
+        }
+      
+        .ebook-second-section .col-12 {
+          flex: 0 0 auto;
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        .swiper-slide {
+          width: 33.33%; /* 3 slides visible on medium screens */
+      }
+      }
+      
 
 
 
-@media (min-width: 1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1600px;
+
+/* Updated CSS for Online Logo Section */
+
+.main-heading-online {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading-online {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3em;
+  text-align: left;
+  margin-top: 50px;
+}
+
+
+.description-online {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+
+.center-image-online {
+  display: flex; /* Ensure flexbox layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.center-image-online img {
+  max-height: 1000px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Allow height to adjust with width */
+}
+
+
+
+.image-online {
+  display: block; /* Ensure image is treated as a block element */
+  margin: 50px auto; /* Centers the image horizontally */
+  width: 150px; /* Adjusted width for a larger image */
+  max-height: 150px; /* Maintain image height */
+  object-fit: contain; /* Maintains the aspect ratio of the image */
+}
+
+.custom-button-online {
+  width: 194px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #646BD9;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  border-color: #646BD9;
+  margin-bottom: 60px;
+}
+
+.custom-button-online:hover {
+  background-color: #646BD9;
+  border-color: #646BD9;
+}
+@media (max-width: 768px) {
+  .center-image-online {
+    display: none !important; /* Hides the element on mobile screens */
+  }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .design-cta-sec .image-section img {
+    z-index: 1;
+    margin:0;
+  }
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+      padding: 0 15px;
+    }
+    .number-container {
+      padding: 30px;
+    }
   }
   
-  
-
-
-
-
-@media (max-width: 768px) {
-    .ebook-banner-section h1 {
-        font-size: 31px;
-        
+  @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1600px;
     }
-    .ebook-banner-section p {
-        font-size: 11px;
-    }
-    .ebook-second-section h2 {
-        font-weight: 550;
-        font-size: 27px;
-    }
-
-    .ebook-banner-section .first-button {
-        padding: 12px 25px;
-        font-size: 14px;
-    }
-    .ebook-second-section .col-12 {
-        flex: 0 0 auto;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
-@media (max-width: 994px) {
-    .col-sm-6 {
-        flex: 0 0 auto;
-        width: 50%;
-        margin-top: 30px;
-    }
-}
-}
+  }

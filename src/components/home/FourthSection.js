@@ -23,7 +23,7 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number1} alt="Number 1" />
-                  <h3>Bestselling Writers<br/> and Editors</h3>
+                  <h3>Bestselling Writers and Editors</h3>
                   <p>Work with our team of New York Times-bestselling ghostwriters and Big-5 acquisitions editors, bringing you unmatched talent and professionalism at every step.</p>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number2} alt="Number 2" />
-                  <h3>Professional <br/> Book Publishers</h3>
+                  <h3>Professional Book Publishers</h3>
                   <p>Our Senior and Executive Editors are the masterminds behind numerous #1 New York Times bestsellers, having served as acquisitions editors and editorial directors at 
                   Big-5 publishing houses. With their expertise, your book is in the hands of true industry leaders.</p>
                 </div>
@@ -42,7 +42,7 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number3} alt="Number 3" />
-                  <h3>Assistance <br/> At Every Step</h3>
+                  <h3>Assistance At Every Step</h3>
                   <p>We have a team of seasoned pros ready to support you at every turn, whether you are looking for expert ghostwriting, self-publishing guidance, or eye-catching illustrations.</p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number4} alt="Number 4" />
-                  <h3>Commitment <br/>To Your Dreams</h3>
+                  <h3>Commitment To Your Dreams</h3>
                   <p>Wherever you are in your book journey, we will be right there with you, making the process smooth and stress-free. 
                   We strive to bring your ideas to life through books, both ebooks and paperbacks.</p>
                 </div>
@@ -73,7 +73,7 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number5} alt="Number 5" />
-                  <h3>Personalized<br/> Approach</h3>
+                  <h3>Personalized Approach</h3>
                   <p>Just like every book has its own story, every writer has unique needs. That is why we customize our services just for you. 
                   Whether you need a captivating title or stunning visuals, we have your back!</p>
                 </div>
@@ -83,7 +83,7 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number6} alt="Number 6" />
-                  <h3>Proven And <br/>Methodical Process  </h3>
+                  <h3>Proven And Methodical Process  </h3>
                   <p>We have had the privilege of guiding countless writers on their journey to success, and we would love to do the same for you. 
                   Let’s turn your vision into something extraordinary together!</p>
                 </div>
