@@ -1,29 +1,37 @@
 import React from 'react';
-import  breadcrumbbg from '../../images/breadcrumbbg.png';
 
 const BreadCrum = (props) => {
-
-
   return (
-    <section className="page-heading"  style={{ backgroundImage: `url(${breadcrumbbg})` }} // Set background image here
+    <section
+      className="page-heading"
+      style={{
+        backgroundImage: `url(${props.backgroundImage || ''})`, // Set background image from prop
+        backgroundSize: 'cover', // Ensure background covers entire section
+        backgroundPosition: 'center',
+      }}
     >
       <div className="overlay">
         <div className="container text-center">
           <h1>{props.title}</h1>
-          <p> 
-          {props.desc || (
-              <>
-                
-              </>
-            )}
+          <p>
+            {props.desc || ''}
           </p>
-          <a href={props.buttonLink} className="btn">
-            {props.buttonText}
-          </a>
+          {props.buttonText && (
+            <a href={props.buttonLink} className="btn">
+              {props.buttonText}
+            </a>
+          )}
         </div>
       </div>
     </section>
   );
+};
+
+// Default props for fallback values
+BreadCrum.defaultProps = {
+  buttonText: '',
+  buttonLink: '#',
+  backgroundImage: '',
 };
 
 export default BreadCrum;

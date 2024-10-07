@@ -33,6 +33,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Designing from './pages/Designing';
 import BookEditing from './pages/BookEditing';
+import GhostWriting from './pages/GhostWriting';
+import OtherServices from './pages/OtherServices';
+import FictionGhostwriting from './pages/FictionGhostwriting';
+
+
 
 const App = () => {
   return (
@@ -41,7 +46,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/designing" element={<Designing />} />
+          <Route path="/ghost-writing" element={<GhostWriting />} />
+          <Route path="/other-services" element={<OtherServices />} />
           <Route path="/book-editing" element={<BookEditing />} />
+          <Route path="/fiction-ghostwriting" element={<FictionGhostwriting />} />
+          FictionGhostwriting.js
 
         </Routes>
       </div>
