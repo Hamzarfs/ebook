@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FAQSection = () => {
+const FAQSection = ({ faqData }) => {
     const [openIndex, setOpenIndex] = useState(null);
 
     const handleToggle = (index) => {
@@ -48,28 +48,5 @@ const FAQSection = () => {
         </div>
     );
 };
-
-const faqData = [
-    {
-        question: "How can I effectively utilize a logo maker to create a unique logo design?",
-        answer: "The answer to this question will go here. Replace this text with the actual answer."
-    },
-    {
-        question: "Can I use my logo for trademark and copyrights?",
-        answer: "The answer to this question will go here. Replace this text with the actual answer."
-    },
-    {
-        question: "What are the distinctions between using a logo maker and opting for custom logo design services?",
-        answer: "The answer to this question will go here. Replace this text with the actual answer."
-    },
-    {
-        question: "Is it possible to personalize my logo design using your logo maker tool?",
-        answer: "The answer to this question will go here. Replace this text with the actual answer."
-    },
-    {
-        question: "Do you provide help in customizing my design?",
-        answer: "The answer to this question will go here. Replace this text with the actual answer."
-    }
-];
 
 export default FAQSection;

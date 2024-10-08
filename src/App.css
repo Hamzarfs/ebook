@@ -27,7 +27,7 @@ body {
 
 .ebook-banner-section h1 {
     font-weight: 600;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     line-height: 1.1em;
     margin-bottom: 5px;
@@ -113,12 +113,21 @@ body {
     margin-bottom: 20px; /* Added margin for space between button and image */
 }
 .ebook-second-section h2 {
+    padding-top: 20px;
     font-weight: 600;
-    font-size: 52px;
-    text-align: center;
+    font-size: 48px;
     line-height: 1.4em;
     margin-bottom: 20px;
     color: #333333;
+}
+
+.ebook-second-section h3 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #333333;
 }
 .image-box {
 padding-right: 40px;
@@ -137,7 +146,7 @@ text-align: left;
     background-color: #fc9700; /* Set button background color */
     color: white; /* Set button text color */
     border: none;
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
     font-size: 14px;
     border-radius: 25px;
     text-decoration: none;
@@ -334,6 +343,13 @@ img {
 
 
      /************************************** Start Designing Page Styling ****************/
+
+
+     /************ Start Fiction Ghost Writing ****************/
+
+    
+
+      /************ End Fiction Ghost Writing ****************/
 
 /* Start Breadcrumb section */
 
@@ -910,7 +926,26 @@ background-color:#F8F9FA ;
 
 }
 
+
+.paddingright {
+  padding-right: 66px !important;
+}
+
 @media (max-width: 768px) {
+  .paddingright {
+    padding-right: 0px !important;
+  }
+  .design-process-heading {
+    font-size: 28px;
+}
+
+.design-process-description {
+    font-size: 16px;
+}
+
+  .image-right-banner {
+    text-align: center;
+   }
   .carousel-item {
     display: flex;
     justify-content: center;
@@ -975,6 +1010,7 @@ background-color:#F8F9FA ;
         section.ebook-contact-form.container
 {
   padding: 30px;
+  text-align-last: center;
 }
       
         .ebook-contact-form {
@@ -1223,9 +1259,11 @@ background-color:#F8F9FA ;
 
 
 
-
-
-
+@media (max-width: 778px) {
+.second-section-container {
+  text-align-last: center;
+}
+}
 
 
 

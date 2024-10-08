@@ -15,10 +15,57 @@ import breadcrumbbg from '../images/breadcrumbbg.png'; // Import the image
 import frame10 from '../images/Frame 10.png'; // Adjust the path as necessary
 import frame11 from '../images/Frame 11.png'; // Adjust the path as necessary
 import frame12 from '../images/Frame 12.png'; // Adjust the path as necessary
+import designprocess1 from '../images/design-process-1.png';
+import designprocess2 from '../images/design-process-2.png';
+import designprocess3 from '../images/design-process-3.png';
+import designprocess4 from '../images/design-process-4.png';
 
 
 
 <Header/>
+
+// ******************************** Start Design Process Props ******************************
+
+const heading = {
+  title: "Designing Process",
+  highlight: "We Apply"
+};
+
+const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
+
+const steps = [
+  {
+    image: designprocess1,
+    alt: "Project Discussion",
+    title: "Project Discussion",
+    description: "First thing we do is discuss the client's expectations regarding the design."
+  },
+  {
+    image: designprocess2,
+    alt: "Design Research",
+    title: "Design Research",
+    description: "Our designers do thorough research to ensure the most fitting product."
+  },
+  {
+    image: designprocess3,
+    alt: "First Sample Layout",
+    title: "First Sample Layout",
+    description: "Our experts prepare the first draft and send it to the client for approval."
+  },
+  {
+    image: designprocess4,
+    alt: "Final Design Delivery",
+    title: "Final Design Delivery",
+    description: "Once approved, we deliver the final files to the client."
+  }
+];
+
+
+// ******************************** End Design Process Props ******************************
+
+// ******************************** Start ImageTextBanner ******************************
+
+
 const contentItems = [
   {
       heading: "Cover-To-Cover Creativity",
@@ -43,6 +90,32 @@ const contentItems = [
   },
 ];
 
+// ******************************** End ImageTextBanner ******************************
+
+
+// ******************************** Start FAQ Section ******************************
+const faqData = [
+  {
+    question: "I have a fantastic idea for a novel, but writing is not my strong suit. Can you help?",
+    answer: "Absolutely! Our talented team of fiction ghostwriters is here to turn your ideas into something amazing. Just share your story concepts with us, and we will weave them into captivating prose. Before you know it, people will be binge-reading your book in just a few sittings!"
+  },
+  {
+    question: "Can you help me become a published author?",
+    answer: "Absolutely! Our fiction book ghostwriting services are designed to help you create an engaging story that is ready to pitch to top publishing platforms and literary agents. With a professional ghostwriter on your side, someone who has helped numerous authors achieve their publishing dreams, you will significantly boost your chances of success."
+  },
+  {
+    question: "Are your services confidential?",
+    answer: "Absolutely! We understand the importance of confidentiality. Unlike unprofessional ghostwriters who might share project details to attract new clients, we keep everything you share with us strictly private. Your ideas and manuscripts are safe with us!"
+  },
+  {
+    question: "What if I don't like the final draft?",
+    answer: "No worries at all! If you are not completely satisfied with the draft, just let us know what you would like to change. We offer free revisions because your satisfaction is our priority. Your feedback helps us understand your vision better, and we are here to work with you until you are thrilled with the final product!"
+  }
+];
+
+// ******************************** End FAQ Section ******************************
+
+
 const PageHeading = () => {
   return (
     <div>
@@ -65,7 +138,11 @@ const PageHeading = () => {
 
 <DesigningServices/>
 <BookCoverSwiper/>
-<DesignProcess/>
+<DesignProcess 
+        heading={heading}
+        description={description}
+        steps={steps}
+      />
 
 
 
@@ -84,7 +161,7 @@ const PageHeading = () => {
 
 
 <CtaButton/>
-<FAQSection/>
+<FAQSection faqData={faqData} />
 <ContactForm/>
 
 
