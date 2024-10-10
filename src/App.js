@@ -50,7 +50,7 @@ const App = () => {
           <Route path="/other-services" element={<OtherServices />} />
           <Route path="/book-editing" element={<BookEditing />} />
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting />} />
-          FictionGhostwriting.js
+          
 
         </Routes>
       </div>
