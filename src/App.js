@@ -56,12 +56,23 @@ const App = () => {
         
         {/* Routes for different pages */}
         <Routes>
+<<<<<<< HEAD
           <Route path="/" element={<Home openModal={openModal} />} />
           <Route path="/designing" element={<Designing openModal={openModal} />} />
           <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
           <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
+=======
+          <Route path="/" element={<Home />} />
+          <Route path="/designing" element={<Designing />} />
+          <Route path="/ghost-writing" element={<GhostWriting />} />
+          <Route path="/other-services" element={<OtherServices />} />
+          <Route path="/book-editing" element={<BookEditing />} />
+          <Route path="/fiction-ghostwriting" element={<FictionGhostwriting />} />
+          
+
+>>>>>>> 38a8225ece2b24cbeb1c62de6e573ae73e0e040d
         </Routes>
 
         {/* Popup Form Modal */}
