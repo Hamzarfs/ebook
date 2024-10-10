@@ -400,6 +400,187 @@ img {
   margin-bottom: 10px;
 }
 
+/************ POPUP FORM ************/
+
+  
+/* .popupform1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.popupform1-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.popupform1-title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.popupform1-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.popupform1-highlight {
+  color: #F76C39;
+}
+
+.popupform1-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.popupform1-input:focus {
+  outline: none;
+  border-color: #F76C39;
+}
+
+textarea.popupform1-input {
+  resize: none;
+  height: 80px;
+}
+
+.popupform1-checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.popupform1-checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.popupform1-submit-button {
+  background-color: #F76C39;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.popupform1-submit-button:hover {
+  background-color: #d55f31;
+}
+
+.popupform1-error {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 10px;
+  text-align: left;
+} */
+
+.popupform1-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.popupform1-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.popupform1 h2 {
+  text-align: center;
+}
+
+.popupform1 .input-icon {
+  position: relative;
+}
+
+.popupform1 .icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #888;
+}
+
+.popupform1 input,
+.popupform1 textarea {
+  width: 100%;
+  padding: 8px 8px 8px 40px; /* Add padding for icons */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popupform1 button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f76c39;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popupform1 .error {
+  color: red;
+  font-size: 12px;
+}
+
+.newsletter label {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter input {
+  margin-right: 8px; /* Space between checkbox and text */
+  
+    width: 50px;
+  
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+
+
+
+/**************************** POPUP FORM ********************************/
+
 
 .page-heading p {
   font-size: 1.2rem;
@@ -407,7 +588,8 @@ img {
 }
 
 .page-heading .btn {
-  background-color: #FFA500; /* Orange button */
+  ;
+  background-color: #fd9f33 ; /* Orange button */
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -417,14 +599,64 @@ img {
 }
 
 .page-heading .btn:hover {
-  background-color: #ff8700;
+  background-color: #ff9720;
 }
 
 /* End Breadcrumb section */
 
 
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Makes sure the link covers the entire card */
+}
 
+.service-card-link .service-card {
+  
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  color: #fff;
+ 
+}
 
+.service-card-link .service-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service-card-link .service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fffafa !important;
+  border-radius: 20px;
+  background-color: #ff8b24 !important;
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: calc(-1* var(--bs-nav-tabs-border-width));
+  border: var(--bs-nav-tabs-border-width) solid transparent;
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-right-radius: var(--bs-nav-tabs-border-radius);
+  border-radius: 30px;
+  color: #000 !important;
+}
+
+.nav-link {
+
+  color: #040b16;
+  border-radius: 30px;
+  
+}
+
+.service-card a{
+  text-decoration: none;
+  color: #fff;
+}
 .service-card {
   background: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
   color: white;
@@ -438,6 +670,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+  
 }
 
 .service-card .number {
@@ -454,6 +687,7 @@ img {
   font-size: 1.2rem;
   text-align: left; /* Align text to the left */
   line-height: 1.4rem;
+  font-weight: 600;
   margin-bottom: 0;
 }
 
@@ -802,7 +1036,7 @@ section.ebook-contact-form.container
 .alice-carousel__stage-item * {
   line-height: initial;
   margin: 5px;
-  background: #FFA500 !important;
+  background: #fc9700 !important;
 }
 
 .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
@@ -1027,18 +1261,19 @@ background-color:#F8F9FA ;
         }
       
         .page-heading .btn {
-          background-color: #FFA500;
+          background-color: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
           color: white;
           padding: 6px;
           text-decoration: none;
           border-radius: 5px;
           font-size: 1rem;
-          transition: background-color 0.3s;
+          transition: background-color 0.s;
         }
       
         .page-heading h1 {
-          font-size: 2rem;
-        }
+          font-size: 10vw; /* Larger font size for small screens */
+          line-height: 1.1; /* Adjust line height for small screens */
+      }
       
         .faq-ebook-section h2 {
           font-size: 1.5rem;
@@ -1271,7 +1506,22 @@ background-color:#F8F9FA ;
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) 
+
+{
+  .page-heading .btn {
+    background-color: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.s;
+  }
+
+  .page-heading h1 {
+    font-size: 2rem;
+  }
   .design-cta-sec .image-section img {
     z-index: 1;
     margin:0;
@@ -1286,8 +1536,18 @@ background-color:#F8F9FA ;
       padding: 30px;
     }
   }
+  @media (max-width: 1199px) and (min-width: 768px) {
+    .page-heading h1 {
+        font-size: 6vw; /* Slightly smaller for tablets */
+    }
+}
   
   @media (min-width: 1200px) {
+    
+      .page-heading h1 {
+          font-size: 96px;
+      }
+  
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1600px;
     }

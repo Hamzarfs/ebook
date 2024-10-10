@@ -1,7 +1,8 @@
 // src/pages/About.js
-import React from 'react';
+import React,{ useState } from 'react';
 
 import BreadCrumb from '../components/common/BreadCrumb';
+
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/books/CtaButton';
 import Header from '../components/common/Header';
@@ -22,6 +23,8 @@ import designprocess1 from '../images/design-process-1.png';
 import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
+import PopupForm1 from '../components/common/PopupForm';
+
 
 // ******************************** Start SecondSection ******************************
 
@@ -112,23 +115,38 @@ const faqData = [
 // ******************************** End FAQ Section ******************************
 
 const FictionGhostwriting = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close the modal
+  };
+
   return (
     <div>
-{/* -------------------Start Banner section---------------------- */}
-<Header/>
-<BreadCrumb
-    title="Fiction Ghostwriting"
-    desc={
-      <>
-        With our fiction ghostwriting services, we bring your stories to life with captivating plots, 
-        <br />
-        unforgettable characters, and a creative spark that keeps readers hooked.
-      </>
-    }
-    buttonText="Discover More"
-    buttonLink="/learn-more"
-    backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-  />
+      {/* -------------------Start Banner section---------------------- */}
+      <Header />
+      <BreadCrumb
+        title="Fiction Ghostwriting"
+        desc={
+          <>
+            With our fiction ghostwriting services, we bring your stories to life with captivating plots,
+            <br />
+            unforgettable characters, and a creative spark that keeps readers hooked.
+          </>
+        }
+        buttonText="Get a Quote"
+        onClick={openModal} // Call openModal on button click
+        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+      />
+
+      {/* Popup Form */}
+      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+    
+   
 {/* -------------------End Banner section---------------------- */}
 
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
@@ -185,7 +203,7 @@ const FictionGhostwriting = () => {
         steps={steps}
       />
 
-<div style={{ padding: '30px 0px 50px 0px' }}>
+<div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
     heading="Why Choose Us"
     subHeading=""

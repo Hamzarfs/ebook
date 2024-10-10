@@ -1,50 +1,52 @@
 import React, { useState } from "react";
 
 // ServiceCard Component
-const ServiceCard = ({ number, text }) => {
+const ServiceCard = ({ number, text, link }) => {
   return (
     <div className="col-lg-3 col-md-6 mb-4">
-      <div className="service-card">
-        <span className="service-number">{number}</span>
-        <p>{text}</p>
-      </div>
+      <a href={link} target="_blank" rel="noopener noreferrer" className="service-card-link">
+        <div className="service-card">
+          <span className="service-number">{number}</span>
+          <p>{text}</p>
+        </div>
+      </a>
     </div>
   );
 };
 
-// Main DesigningServices Component
+// Main GhostwritingServices Component
 const GhostwritingServices = () => {
   // State to track which page/tab is active
   const [activeTab, setActiveTab] = useState("page1");
 
-  // Services data
+  // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Fiction  Ghostwriting" },
-    { number: "02", text: "Non-Fiction  Ghostwriting" },
-    { number: "03", text: "Science Fiction  Ghostwriting" },
-    { number: "04", text: "Memoir Ghost writing" },
-    { number: "05", text: "Children’s Book  Ghostwriting" },
-    { number: "06", text: "Cookbook Ghostwriting" },
-    { number: "07", text: "Adventure  Ghostwriting" },
-    { number: "08", text: "Business  Ghostwriting" },
+    { number: "01", text: "Fiction Ghostwriting", link: "/fiction-ghostwriting" },
+    { number: "02", text: "Non-Fiction Ghostwriting", link: "/services/non-fiction-ghostwriting" },
+    { number: "03", text: "Science Fiction Ghostwriting", link: "/services/science-fiction-ghostwriting" },
+    { number: "04", text: "Memoir Ghostwriting", link: "/services/memoir-ghostwriting" },
+    { number: "05", text: "Children’s Book Ghostwriting", link: "/services/childrens-book-ghostwriting" },
+    { number: "06", text: "Cookbook Ghostwriting", link: "/services/cookbook-ghostwriting" },
+    { number: "07", text: "Adventure Ghostwriting", link: "/services/adventure-ghostwriting" },
+    { number: "08", text: "Business Ghostwriting", link: "/services/business-ghostwriting" },
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Brand Identity Design" },
-    { number: "10", text: "Product Packaging" },
-    { number: "11", text: "Marketing Collaterals" },
-    { number: "12", text: "Brochure Design" },
-    { number: "13", text: "Flyer Design" },
-    { number: "14", text: "Social Media Graphics" },
-    { number: "15", text: "Poster Design" },
-    { number: "16", text: "Business Card Design" },
+    { number: "09", text: "Brand Identity Design", link: "/services/brand-identity-design" },
+    { number: "10", text: "Product Packaging", link: "/services/product-packaging" },
+    { number: "11", text: "Marketing Collaterals", link: "/services/marketing-collaterals" },
+    { number: "12", text: "Brochure Design", link: "/services/brochure-design" },
+    { number: "13", text: "Flyer Design", link: "/services/flyer-design" },
+    { number: "14", text: "Social Media Graphics", link: "/services/social-media-graphics" },
+    { number: "15", text: "Poster Design", link: "/services/poster-design" },
+    { number: "16", text: "Business Card Design", link: "/services/business-card-design" },
   ];
 
   return (
-    <section className="designing-services py-5">
+    <section className="ghostwriting-services py-5">
       <div className="container text-center">
         <h2 className="design-process-heading font-weight-bold">
-        <span className="orangegradient-h2"> Ghostwriting</span> Services
+          <span className="orangegradient-h2">Ghostwriting</span> Services
         </h2>
         {/* Tabs Content */}
         <div className="tab-content mt-5" id="serviceTabContent">
@@ -52,7 +54,7 @@ const GhostwritingServices = () => {
           <div className={`tab-pane fade ${activeTab === "page1" ? "show active" : ""}`} id="page1" role="tabpanel">
             <div className="row">
               {servicesPage1.map((service) => (
-                <ServiceCard key={service.number} number={service.number} text={service.text} />
+                <ServiceCard key={service.number} number={service.number} text={service.text} link={service.link} />
               ))}
             </div>
           </div>
@@ -61,7 +63,7 @@ const GhostwritingServices = () => {
           <div className={`tab-pane fade ${activeTab === "page2" ? "show active" : ""}`} id="page2" role="tabpanel">
             <div className="row">
               {servicesPage2.map((service) => (
-                <ServiceCard key={service.number} number={service.number} text={service.text} />
+                <ServiceCard key={service.number} number={service.number} text={service.text} link={service.link} />
               ))}
             </div>
           </div>
@@ -84,7 +86,7 @@ const GhostwritingServices = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className={`nav-link ${activeTab === "page2" ? "" : ""}`}
+              className={`nav-link ${activeTab === "page2" ? "active" : ""}`}
               id="page2-tab"
               onClick={() => setActiveTab("page2")}
               type="button"

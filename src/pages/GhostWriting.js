@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React from 'react';
+import React, {useState} from 'react';
 
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
@@ -15,6 +15,7 @@ import ghostimage2 from '../images/ghostimage2.png'; // Adjust the path as neces
 import ghostimage3 from '../images/ghostimage3.png'; // Adjust the path as necessary
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
+import PopupForm1 from '../components/common/PopupForm';
 
 
 
@@ -66,25 +67,40 @@ const faqData = [
 
 // ******************************** End FAQ Section ******************************
 
-
 const GhostWriting = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close the modal
+  };
+
   return (
     <div>
-{/* -------------------Start Banner section---------------------- */}
-<Header/>
-<BreadCrumb
-    title="Ghost Writing"
-    desc={
-      <>
-        Kimono photography Agency runs wide and deep. Across many markets,
-        <br />
-        geographies, typologies, our team members.
-      </>
-    }
-    buttonText="Learn More"
-    buttonLink="/learn-more"
-    backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-  />
+      {/* -------------------Start Banner section---------------------- */}
+      <Header />
+      <BreadCrumb
+        title="Ghostwriting"
+        desc={
+          <>
+            Let us turn your ideas into reality and help share your story with the world,
+            <br />
+            all while upholding the highest standards of excellence.
+          </>
+        }
+        buttonText="Get a Quote"
+        onClick={openModal} // Call openModal on button click
+        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+      />
+
+      {/* Popup Form */}
+      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+     
+
+
 {/* -------------------End Banner section---------------------- */}
 <GhostwritingServices/>
 <ImageTextBanner 

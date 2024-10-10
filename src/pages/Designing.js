@@ -1,5 +1,6 @@
 // src/pages/About.js
-import React from 'react';
+
+import React,{ useState } from 'react';
 // import { Link } from 'react-router-dom';
 import BreadCrumb from '../components/common/BreadCrumb';
 import DesigningServices from '../components/Designing/DesigningServices'
@@ -19,6 +20,7 @@ import designprocess1 from '../images/design-process-1.png';
 import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
+import PopupForm1 from '../components/common/PopupForm';
 
 
 
@@ -115,24 +117,38 @@ const faqData = [
 
 // ******************************** End FAQ Section ******************************
 
-
 const PageHeading = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close the modal
+  };
+
   return (
     <div>
-<Header/>
-<BreadCrumb
-    title="Designing"
-    desc={
-      <>
-        Kimono photography Agency runs wide and deep. Across many markets,
+      {/* -------------------Start Banner section---------------------- */}
+      <Header />
+      <BreadCrumb
+        title="Book Designing Services"
+        desc={
+          <>
+            Catch every reader’s eye with custom interior design and professional
         <br />
-        geographies, typologies, our team members.
-      </>
-    }
-    buttonText="Learn More"
-    buttonLink="/learn-more"
-    backgroundImage={breadcrumbbg} // Pass the image URL as a prop
-  />
+        typesetting that makes reading a truly enjoyable experience!
+          </>
+        }
+        buttonText="Get a Quote"
+        onClick={openModal} // Call openModal on button click
+        backgroundImage={breadcrumbbg} // Pass the image URL as a prop
+      />
+
+      {/* Popup Form */}
+      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+
 
 
 

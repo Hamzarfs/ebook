@@ -16,15 +16,10 @@ const BreadCrum = (props) => {
           <p>
             {props.desc || ''}
           </p>
-          {/* {props.buttonText && (
-               <button onClick={props.onClick} style={{ cursor: 'pointer' }}>
+          {props.buttonText && (
+            <a href={props.buttonLink} className="btn">
               {props.buttonText}
-              </button> */}
-
-{props.buttonText && (
-   <button onClick={props.onClick} className="btn" style={{ cursor: 'pointer' }}>
-    {props.buttonText}
-    </button> 
+            </a>
           )}
         </div>
       </div>
@@ -40,6 +35,3 @@ BreadCrum.defaultProps = {
 };
 
 export default BreadCrum;
-
-
-
