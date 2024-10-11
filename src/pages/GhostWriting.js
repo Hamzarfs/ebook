@@ -1,11 +1,9 @@
 // src/pages/About.js
 import React, {useState} from 'react';
-
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
 import GhostwritingServices from '../components/Ghostwritting/GhostWritingServices';
 import ImageTextBanner from '../components/common/ImageTextBanner';
-
 import CtaButton from '../components/books/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
@@ -18,51 +16,58 @@ import ContactForm from '../components/common/ContactForm1';
 import PopupForm1 from '../components/common/PopupForm';
 
 
+// ***************  Start ImageTextBanner **********************
 
 const contentItems = [
-   
     {
-        heading: "Cover-To-Cover Creativity",
-        paragraph: "A great book design starts with the perfect cover. Our global design community has created thousands of them. We’ve designed stunning artwork for everything from kids’ books to cookbooks—including New York Times bestselling authors Tim Ferris and Rick Warren.",
+        heading: "Critical Review & Analysis: ",
+        paragraph: "Whether you need a quick spelling and grammar check or a detailed developmental review, we have you covered. Our flexible editing options allow you to customize the process, ensuring your work gets the precise attention it deserves: from fine-tuning the details to reshaping the bigger picture.",
         imgSrc: ghostimage1,
         imgAlt: "Book Cover Design",
-        flexDirection: "normal"
-    },
-    {
-        heading: "Make Every Page Perfect With Creative Book Design",
-        paragraph: "We’d never forget about the inside of your book. We’ve curated a team of our expert book designers to bring you custom typesetting and interiors—whether you’ve got a novel, a self-help book, or something extra special.",
-        imgSrc: ghostimage2,
-        imgAlt: "Book Design",
         flexDirection: "reverse"
     },
     {
-        heading: "Your Destination For Custom Book Illustration",
-        paragraph: "Our book design artists love turning your words into gorgeous art. From storybook sketches to clever cartoons, imagine the beautiful imagery that will pull your readers further into your book.",
-        imgSrc: ghostimage3,
-        imgAlt: "Book Illustration",
+        heading: "Line Editing",
+        paragraph: "We ensure your book is polished to perfection by having our professional proofreaders meticulously review it for any grammatical or spelling errors. Any issues are quickly corrected, all while maintaining the integrity and flow of your story.",
+        imgSrc: ghostimage2,
+        imgAlt: "Book Design",
         flexDirection: "normal"
     },
+    {
+        heading: "Developmental Editing",
+        paragraph: "Our expert book editors dive deep into the topic of your book, adding valuable insights where needed. They will then create a detailed outline of the edits and work closely with you throughout the entire process, ensuring your vision stays intact every step of the way.",
+        imgSrc: ghostimage3,
+        imgAlt: "Book Illustration",
+        flexDirection: "reverse"
+    },
   ];
+
+  // *************** End ImageTextBanner **********************
 
 
   // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "I have a fantastic idea for a novel, but writing is not my strong suit. Can you help?",
-    answer: "Absolutely! Our talented team of fiction ghostwriters is here to turn your ideas into something amazing. Just share your story concepts with us, and we will weave them into captivating prose. Before you know it, people will be binge-reading your book in just a few sittings!"
+    question: "Q: What is the ghostwriting process from start to finish?",
+    answer: "Ghostwriting begins with a thorough consultation to understand your ideas, vision, and goals. Then, the ghostwriter creates an outline or proposal, followed by drafts that are reviewed and revised collaboratively. Once the final manuscript is complete, it undergoes editing, proofreading, and formatting for publication."
   },
   {
-    question: "Can you help me become a published author?",
-    answer: "Absolutely! Our fiction book ghostwriting services are designed to help you create an engaging story that is ready to pitch to top publishing platforms and literary agents. With a professional ghostwriter on your side, someone who has helped numerous authors achieve their publishing dreams, you will significantly boost your chances of success."
+    question: "Q: How do I choose the right ghostwriter for my project?",
+    answer: "Selecting the right ghostwriter involves assessing their expertise in your genre, reviewing past work samples, and discussing your vision for the book. Look for someone with a deep understanding of your subject matter and writing style preferences."
   },
   {
-    question: "Are your services confidential?",
-    answer: "Absolutely! We understand the importance of confidentiality. Unlike unprofessional ghostwriters who might share project details to attract new clients, we keep everything you share with us strictly private. Your ideas and manuscripts are safe with us!"
+    question: "Q: What kind of materials do I need to provide the ghostwriter?",
+    answer: "Depending on the stage of your project, you might need to provide an initial draft, notes, research materials, or simply your vision for the book. Some clients provide chapter outlines, while others give audio recordings or detailed interviews."
   },
   {
-    question: "What if I don't like the final draft?",
-    answer: "No worries at all! If you are not completely satisfied with the draft, just let us know what you would like to change. We offer free revisions because your satisfaction is our priority. Your feedback helps us understand your vision better, and we are here to work with you until you are thrilled with the final product!"
+    question: "Q: Can I retain full creative control while working with a ghostwriter?",
+    answer: "Absolutely. You will have full creative control throughout the project, from approving the outline to reviewing drafts. The ghostwriter’s job is to bring your ideas to life, ensuring your voice and message remain authentic."
+  },
+  {
+    question: "Q: How do ghostwriters ensure confidentiality?",
+    answer: "Most ghostwriting agreements include non-disclosure clauses, ensuring that the ghostwriter never reveals their involvement without your consent. Reputable ghostwriters prioritize confidentiality and respect for your intellectual property."
   }
+
 ];
 
 // ******************************** End FAQ Section ******************************
@@ -83,7 +88,7 @@ const GhostWriting = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Ghostwriting"
+        title="Ghostwriting Services"
         desc={
           <>
             Let us turn your ideas into reality and help share your story with the world,
@@ -104,8 +109,8 @@ const GhostWriting = () => {
 {/* -------------------End Banner section---------------------- */}
 <GhostwritingServices/>
 <ImageTextBanner 
-    title="A Whole New Chapter In" 
-    subtitle="Book Design" 
+    title="Professional Ghostwriting " 
+    subtitle="Services" 
     description={
         <>
             You've got the next bestseller. We’ve got a complete book design solution: custom covers,<br />

@@ -1,8 +1,7 @@
 // src/pages/About.js
-import React from 'react';
+import React,{ useState } from 'react';
 import { Link } from 'react-router-dom';
 import BreadCrumb from '../components/common/BreadCrumb';
-import DesigningServices from '../components/Designing/DesigningServices';
 import BookService from '../components/books/BookServices';
 import BookProcess from '../components/books/BookProces';
 import CtaButton from '../components/books/CtaButton';
@@ -10,6 +9,8 @@ import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import bookeditingbg from '../images/Bookeditingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
+import BookEditingServices from '../components/BookEditing/BookEditingServices';
+import PopupForm1 from '../components/common/PopupForm';
 
 
 
@@ -35,30 +36,43 @@ const faqData = [
 
 // ******************************** End FAQ Section ******
 
+// ******************************** End FAQ Section ******************************
 
 const BookEditing = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close the modal
+  };
+
   return (
     <div>
-{/* -------------------Start Banner section---------------------- */}
-<Header/>
+      {/* -------------------Start Banner section---------------------- */}
+      <Header />
+      <BreadCrumb
+        title="Book Editinga"
+        desc={
+          <>
+            Let us turn your ideas into reality and help share your story with the world,
+            <br />
+            all while upholding the highest standards of excellence.
+          </>
+        }
+        buttonText="Get a Quote"
+        onClick={openModal} // Call openModal on button click
+        backgroundImage={bookeditingbg} // Pass the image URL as a prop
+      />
 
-<BreadCrumb
-    title="Book Editing"
-    desc={
-      <>
-        Kimono photography Agency runs wide and deep. Across many markets,
-        <br />
-        geographies, typologies, our team members.
-      </>
-    }
-    buttonText="Learn More"
-    buttonLink="/learn-more"
-    backgroundImage={bookeditingbg} // Pass the image URL as a prop
-  />
+      {/* Popup Form */}
+      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
 
 {/* -------------------End Banner section---------------------- */}
 
-<DesigningServices/>
+<BookEditingServices/>
 <BookService/>
 <BookProcess/>
 

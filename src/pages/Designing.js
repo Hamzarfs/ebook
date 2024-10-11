@@ -29,8 +29,8 @@ import PopupForm1 from '../components/common/PopupForm';
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: "Designing Process",
-  highlight: "We Apply"
+  title: "How We Create ",
+  highlight: "Your Masterpiece"
 };
 
 const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
@@ -39,26 +39,27 @@ const steps = [
   {
     image: designprocess1,
     alt: "Project Discussion",
-    title: "Project Discussion",
-    description: "First thing we do is discuss the client's expectations regarding the design."
+    title: "Brainstorming",
+    description: "We believe in a collaborative and creative journey to bring your vision to life. With your guidance, we will brainstorm ideas together and dive into the details of what you want to accomplish, making sure every step reflects your goals perfectly."
+
   },
   {
     image: designprocess2,
     alt: "Design Research",
-    title: "Design Research",
-    description: "Our designers do thorough research to ensure the most fitting product."
+    title: "Research",
+    description: "Once we have nailed down the creative direction, our team dives deep into research, gathering all the necessary information. This way, we ensure that every word we write is not only accurate but also engaging, bringing your subject to life with confidence and flair."
   },
   {
     image: designprocess3,
     alt: "First Sample Layout",
     title: "First Sample Layout",
-    description: "Our experts prepare the first draft and send it to the client for approval."
+    description: "After plenty of fine-tuning and polishing, we will present you with the first draft. This is just a starting point, giving you a feel for what we can create. We are all ears for any edits or suggestions you have: it is all about making sure the final result aligns with your vision."
   },
   {
     image: designprocess4,
     alt: "Final Design Delivery",
-    title: "Final Design Delivery",
-    description: "Once approved, we deliver the final files to the client."
+    title: "Final Design Delivery ",
+    description: "After plenty of hard work and collaboration, our combined creativity brings the final product to life. We will send you the finished copy for your approval, and once you are happy with it, Voilà, we are all set!"
   }
 ];
 
@@ -70,22 +71,22 @@ const steps = [
 
 const contentItems = [
   {
-      heading: "Cover-To-Cover Creativity",
-      paragraph: "A great book design starts with the perfect cover. Our global design community has created thousands of them. We’ve designed stunning artwork for everything from kids’ books to cookbooks—including New York Times bestselling authors Tim Ferris and Rick Warren.",
+      heading: "Captivating Covers",
+      paragraph: "First impressions matter, especially when it comes to your book. Even if you have written the next big bestseller, readers will not pick it up unless the cover demands their attention. In a sea of titles on the shelf, or in an online store, you need a design that makes your book impossible to ignore. Let AMZ Book Publishers create a cover that pops, both in print and online.",
       imgSrc: frame10,
       imgAlt: "Book Cover Design",
       flexDirection: "normal"
   },
   {
-      heading: "Make Every Page Perfect With Creative Book Design",
-      paragraph: "We’d never forget about the inside of your book. We’ve curated a team of our expert book designers to bring you custom typesetting and interiors—whether you’ve got a novel, a self-help book, or something extra special.",
+      heading: "Creative Book Design",
+      paragraph: "When we take on your book, you can trust that we are handling the entire interior design, from the layout to the visual elements that enhance the reading experience. We carefully craft everything to ensure it aligns with your vision. Once the design is ready, we will gather your feedback to perfect the look, creating a custom template for the final typesetting.",
       imgSrc: frame11,
       imgAlt: "Book Design",
       flexDirection: "reverse"
   },
   {
-      heading: "Your Destination For Custom Book Illustration",
-      paragraph: "Our book design artists love turning your words into gorgeous art. From storybook sketches to clever cartoons, imagine the beautiful imagery that will pull your readers further into your book.",
+      heading: "Personalized Illustrations",
+      paragraph: "Every book has its own story to tell, and the right illustrations bring it to life. The good news? We have got you covered with custom illustrations that captivate readers from the first glance!",
       imgSrc: frame12,
       imgAlt: "Book Illustration",
       flexDirection: "normal"
@@ -98,20 +99,25 @@ const contentItems = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "I have a fantastic idea for a novel, but writing is not my strong suit. Can you help?",
-    answer: "Absolutely! Our talented team of fiction ghostwriters is here to turn your ideas into something amazing. Just share your story concepts with us, and we will weave them into captivating prose. Before you know it, people will be binge-reading your book in just a few sittings!"
+    question: "Will I own the book design files?",
+    answer: "Yes! Once your project is done, you will receive the final PDFs ready for print or eBook publishing, plus the original design files for any future updates or changes."
   },
   {
-    question: "Can you help me become a published author?",
-    answer: "Absolutely! Our fiction book ghostwriting services are designed to help you create an engaging story that is ready to pitch to top publishing platforms and literary agents. With a professional ghostwriter on your side, someone who has helped numerous authors achieve their publishing dreams, you will significantly boost your chances of success."
+    question: "How long does the book design process take?",
+    answer: "On average, a full project, which includes cover design, page layout, typesetting, proofreading, edits, and eBook formatting, can take around 2-3 months, maybe more depending on complexity. If you are only looking for specific services or your project is simpler, it will likely take less time. Do you have a tight deadline? Let us know, and we will do our best to work with it!"
   },
   {
-    question: "Are your services confidential?",
-    answer: "Absolutely! We understand the importance of confidentiality. Unlike unprofessional ghostwriters who might share project details to attract new clients, we keep everything you share with us strictly private. Your ideas and manuscripts are safe with us!"
+    question: "What is the difference between page design and typesetting?",
+    answer: "Page design is all about the visual layout, including how images, text, and other elements are arranged on each page. Typesetting, on the other hand, focuses on the organization and formatting of the text itself, ensuring readability and consistency throughout your book. Both play a big role in creating a professional and engaging final product."
   },
   {
-    question: "What if I don't like the final draft?",
-    answer: "No worries at all! If you are not completely satisfied with the draft, just let us know what you would like to change. We offer free revisions because your satisfaction is our priority. Your feedback helps us understand your vision better, and we are here to work with you until you are thrilled with the final product!"
+    question: "Do you offer design services for both print books and eBooks?",
+    answer: "Absolutely! Whether you are aiming for a stunning print edition or a sleek digital eBook, we have you covered. Our design services cater to both formats, ensuring your book looks amazing on any shelf,  virtual or physical!"
+  }
+  ,
+  {
+    question: "Why is strong book design so crucial?",
+    answer: "A compelling book design is not just about looking pretty; it is your book’s first impression and a key player in drawing readers in. A well-crafted design grabs attention, reflects the essence of your story, and sets the tone for the reading experience. It can make the difference between a book that stands out on a crowded shelf and one that gets overlooked. In short, strong design helps your book shine and invites readers to explore your world."
   }
 ];
 
@@ -163,12 +169,13 @@ const PageHeading = () => {
 
 
 <ImageTextBanner 
-    title="A Whole New Chapter In" 
-    subtitle="Book Design" 
+    title="Changing The Landscape Of" 
+    subtitle="Book Designing" 
     description={
         <>
-            You've got the next bestseller. We’ve got a complete book design solution: custom covers,<br />
-            interior design, illustration, tools and more.
+           With your creativity and our professional touch, we will craft a masterpiece<br />
+           that readers will not be able to put down!
+
         </>
     } 
     contentItems={contentItems} 

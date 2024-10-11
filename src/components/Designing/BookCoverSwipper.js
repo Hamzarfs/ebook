@@ -23,7 +23,7 @@ const BookCoverSwiper = () => {
             <h2 className="design-process-heading font-weight-bold">
               Custom Book <span className="orangegradient-h2">Cover Design</span>
             </h2>
-            <p>Designing Covers Stand out on the shelf with book cover designs</p>
+            <p>Hook your audience with our bespoke book cover designs.</p>
           </div>
         </div>
 

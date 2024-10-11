@@ -7,13 +7,13 @@ const CtaButton = () => {
                 <div className="row align-items-center">
                     {/* Text Section */}
                     <div className="col-md-6 text-section">
-                        <h2>Call Us To Start<br /> Your Project</h2>
+                        <h2>Get In Touch With Us To <br/>Kickstart Your Project</h2>
                         <p>24/7 customer support</p>
-                        <button className="cta-btn">Chat With Us</button>
+                        <button className="cta-btn">Call Us</button>
                     </div>
                     {/* Image Section */}
                     <div className="col-md-6 image-section">
-                        <img src={books10} alt="CTA Image" className="img-fluid" />
+                        <img src={books10} alt="CTA Image" className="img-fluid"/>
                     </div>
                 </div>
             </div>

@@ -1,33 +1,3 @@
-// import React from 'react';
-// import './App.css'; // Assuming your styles are in App.css or similar
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import BannerSection from './components/home/BannerSection';
-// import SecondSection from './components/home/SecondSection';
-// import ThirdSection from './components/home/ThirdSection';
-// import ForthSection from './components/home/ForthSection';
-// import FourthSection from './components/home/FourthSection';
-// import BreadCrumbs from './components/Designing/BreadCrumb';
-
-
-// function App() {
-//   return (
-//     <div className="App">  
-//       {/* <BannerSection />
-//       <SecondSection /> 
-//       <FourthSection/>
-//       <ThirdSection />
-//       <ForthSection /> 
-//       <BreadCrumbs/>
-//       }
-
-//     </div>
-//   )
-// }
-
-// export default App;
-
-//src/App.js
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
@@ -52,27 +22,13 @@ const App = () => {
   return (
     <Router>
       <div>
-        {/* Navigation could be here */}
-        
-        {/* Routes for different pages */}
         <Routes>
-<<<<<<< HEAD
           <Route path="/" element={<Home openModal={openModal} />} />
           <Route path="/designing" element={<Designing openModal={openModal} />} />
           <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
           <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
-=======
-          <Route path="/" element={<Home />} />
-          <Route path="/designing" element={<Designing />} />
-          <Route path="/ghost-writing" element={<GhostWriting />} />
-          <Route path="/other-services" element={<OtherServices />} />
-          <Route path="/book-editing" element={<BookEditing />} />
-          <Route path="/fiction-ghostwriting" element={<FictionGhostwriting />} />
-          
-
->>>>>>> 38a8225ece2b24cbeb1c62de6e573ae73e0e040d
         </Routes>
 
         {/* Popup Form Modal */}
