@@ -2,7 +2,7 @@
 import React,{ useState } from 'react';
 import { Link } from 'react-router-dom';
 import BreadCrumb from '../components/common/BreadCrumb';
-import BookService from '../components/books/BookServices';
+import BookService from '../components/BookEditing/BookServices';
 import BookProcess from '../components/books/BookProces';
 import CtaButton from '../components/books/CtaButton';
 import Header from '../components/common/Header';
@@ -11,26 +11,80 @@ import bookeditingbg from '../images/Bookeditingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import BookEditingServices from '../components/BookEditing/BookEditingServices';
 import PopupForm1 from '../components/common/PopupForm';
+import designprocess1 from '../images/design-process-1.png';
+import designprocess2 from '../images/design-process-2.png';
+import designprocess3 from '../images/design-process-3.png';
+import designprocess4 from '../images/design-process-4.png';
+import DesignProcess from '../components/common/DesignProcess';
+
+
+// ******************************** Start Design Process Props ******************************
+
+
+const heading = { 
+  title: "Professional ",
+  highlight: "Book Editing Services"
+};
+
+
+
+const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
+
+const steps = [
+  {
+    image: designprocess1,
+    alt: "Experienced & Skillful Editors",
+    title: "Experienced & Skillful Editors",
+    description: "Our team of  editors dives deep into your manuscript, meticulously polishing every detail. We refine your text for clarity and style while ensuring your unique voice shines through so your story is always authentically yours."
+
+  },
+  {
+    image: designprocess2,
+    alt: "Detailed Editing Services",
+    title: "Detailed Editing Services",
+    description: "With extensive experience in the field, AMZ Book Publishings goes beyond basic book editing. We offer everything from content and plot enhancements to typesetting, formatting, and cover design, making your publishing journey as smooth as possible."
+  },
+  {
+    image: designprocess3,
+    alt: "Unlimited Re-Editing",
+    title: "Unlimited Re-Editing",
+    description: "After plenty of fine-tuning and polishing, we will present you with the first draft. This is just a starting point, giving you a feel for what we can create. We are all ears for any edits or suggestions you have: it is all about making sure the final result aligns with your vision."
+  },
+  {
+    image: designprocess4,
+    alt: "Robust Data Security",
+    title: "Robust Data Security ",
+    description: "Your work is in safe hands with us. We adhere to a strict non-disclosure agreement and safeguard your files so you can confidently share your manuscript, knowing your intellectual property is secure."
+  }
+];
+
+
+// ******************************** End Design Process Props ******************************
 
 
 
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "I have a fantastic idea for a novel, but writing is not my strong suit. Can you help?",
-    answer: "Absolutely! Our talented team of fiction ghostwriters is here to turn your ideas into something amazing. Just share your story concepts with us, and we will weave them into captivating prose. Before you know it, people will be binge-reading your book in just a few sittings!"
+    question: "Who will edit my manuscript?",
+    answer: "We handpick experienced professionals to ensure every detail of your manuscript is spot-on. Our editors are English speakers with specialized knowledge in various academic fields and publishing. They bring a keen eye for grammar, terminology, and conventions specific to your subject matter, providing thorough assessments and invaluable guidance to help your book reach its full potential."
   },
   {
-    question: "Can you help me become a published author?",
-    answer: "Absolutely! Our fiction book ghostwriting services are designed to help you create an engaging story that is ready to pitch to top publishing platforms and literary agents. With a professional ghostwriter on your side, someone who has helped numerous authors achieve their publishing dreams, you will significantly boost your chances of success."
+    question: "What makes your Book Editing service stand out?",
+    answer: "We recognize the hard work that goes into crafting your manuscript and know that just a basic proofread will not cut it. At AMZ Book Publishings, we offer a blend of developmental and substantive editing, along with copyediting and proofreading. This comprehensive approach ensures that your book not only shines but also connects effectively with your target audience."
   },
   {
-    question: "Are your services confidential?",
-    answer: "Absolutely! We understand the importance of confidentiality. Unlike unprofessional ghostwriters who might share project details to attract new clients, we keep everything you share with us strictly private. Your ideas and manuscripts are safe with us!"
+    question: "Is my manuscript secure?",
+    answer: "Your manuscript’s confidentiality is our top priority. We ensure all our editors sign non-disclosure agreements to keep your work private. Plus, our secure online system means only your manuscript editor and project manager will see your draft. If needed, we are happy to sign a confidentiality agreement with you before you share anything you want to keep strictly private."
   },
   {
-    question: "What if I don't like the final draft?",
-    answer: "No worries at all! If you are not completely satisfied with the draft, just let us know what you would like to change. We offer free revisions because your satisfaction is our priority. Your feedback helps us understand your vision better, and we are here to work with you until you are thrilled with the final product!"
+    question: "What background and specializations do your editors have?",
+    answer: "We are all about expertise. Our editorial team is made up of professionals who have deep technical knowledge and a thorough understanding of book editing, including the right conventions and terminology."
+  }
+  ,
+  {
+    question: "How do you ensure that my manuscript is edited according to my specific needs?",
+    answer: "We start by discussing your manuscript's unique requirements and goals. Our editors then tailor their approach to fit your vision, using their subject-matter expertise to provide feedback and improvements that align with your intended message. You will also receive detailed feedback throughout the process, so you are always in the loop and can guide the editing to match your expectations."
   }
 ];
 
@@ -54,12 +108,12 @@ const BookEditing = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Book Editinga"
+        title="Book Editing Services"
         desc={
           <>
-            Let us turn your ideas into reality and help share your story with the world,
-            <br />
-            all while upholding the highest standards of excellence.
+           Take your good writing and transform it into something great with our professional editing services. We will polish your manuscript
+            {/* <br /> */}
+            until it shines helping you turn your book into something truly exceptional.
           </>
         }
         buttonText="Get a Quote"
@@ -74,7 +128,11 @@ const BookEditing = () => {
 
 <BookEditingServices/>
 <BookService/>
-<BookProcess/>
+<DesignProcess 
+        heading={heading}
+        description={description}
+        steps={steps}
+      />
 
 <CtaButton/>
 

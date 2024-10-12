@@ -1,8 +1,6 @@
 // src/pages/About.js
 import React,{ useState } from 'react';
-
 import BreadCrumb from '../components/common/BreadCrumb';
-
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/books/CtaButton';
 import Header from '../components/common/Header';
@@ -24,7 +22,6 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
-
 
 // ******************************** Start SecondSection ******************************
 
@@ -56,36 +53,39 @@ const services = [
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: "Designing Process",
-  highlight: "We Apply"
+  title: (
+    <>
+     Expert Fiction Book Writing Services<br />
+    </>
+  ),
+  highlight: " Across All Genres"
 };
-
 const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Project Discussion",
-    title: "Project Discussion",
-    description: "First thing we do is discuss the client's expectations regarding the design."
+    alt: "Showcase Talent",
+    title: "Showcase Talent",
+    description: "Secure your spot by completing a quick and easy form, and you will be warmly greeted by one of our friendly project managers. They will eagerly gather all the details you want to share about your book!"
   },
   {
     image: designprocess2,
-    alt: "Design Research",
-    title: "Design Research",
-    description: "Our designers do thorough research to ensure the most fitting product."
+    alt: "Pay A Fee",
+    title: "Pay A Fee",
+    description: "We will whip up a personalized quote just for you based on our services, and when you are ready, you can easily make your payment through our secure system!"
   },
   {
     image: designprocess3,
-    alt: "First Sample Layout",
-    title: "First Sample Layout",
-    description: "Our experts prepare the first draft and send it to the client for approval."
+    alt: "Fiction Writer",
+    title: "Fiction Writer",
+    description: "Your assigned writer will send you a chapter for your approval. Once you give the thumbs up, they will wait for your go-ahead. Plus, you can request changes along the way without affecting the entire project each time a revision is made!"
   },
   {
     image: designprocess4,
-    alt: "Final Design Delivery",
-    title: "Final Design Delivery",
-    description: "Once approved, we deliver the final files to the client."
+    alt: "Final Approval",
+    title: "Final Approval",
+    description: "Once you have given the final manuscript the green light for publishing, we will get your book out there in your preferred format. Moreover, we will roll out a tailored marketing and promotional strategy just for you!"
   }
 ];
 
@@ -134,8 +134,9 @@ const FictionGhostwriting = () => {
         desc={
           <>
             With our fiction ghostwriting services, we bring your stories to life with captivating plots,
-            <br />
+            <br/> 
             unforgettable characters, and a creative spark that keeps readers hooked.
+
           </>
         }
         buttonText="Get a Quote"
@@ -209,8 +210,9 @@ const FictionGhostwriting = () => {
     subHeading=""
     description={
         <>
-            At RFS, we offer a wide range of book services tailored to meet the needs of authors, publishers, and book enthusiasts. Whether you're looking to publish your next great read, seeking expert editing, or need support with distribution, we've got you covered. Our dedicated team is here to guide you through every step of the book process.<br /><br />
-            We understand that writing a book is a profound and personal journey. Our expert book writing services are designed to support you every step of the way, transforming your ideas into a compelling, polished manuscript. Whether you’re an aspiring author with a story to tell or a seasoned writer seeking professional assistance, our team is here to help you bring your vision to life.
+            Looking to hire a fiction ghostwriter? Our team at AMZ Book Publishing is trained to craft the best fiction books. No matter the genre you choose within the fiction realm, our writers are here to make your job easier. You can expect creative, engaging, and high-quality content from us. <br /><br />
+            We understand that structuring a novel can be challenging, especially when you have so many ideas swirling around. That is where our skilled fiction ghostwriters come in: they will help turn your thoughts into an exciting novel. In addition, our ghostwriting services are not just budget-friendly; they are so well-written that readers will be hooked until the very last page!
+
         </>
     }
     imageSrc={fictionwhychoose}

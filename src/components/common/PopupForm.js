@@ -49,7 +49,7 @@ const PopupForm1 = ({ isOpen, closeModal }) => {
         <FaTimes />
       </button>
       <form className="popupform1" onSubmit={handleSubmit}>
-        <h2>Contact  <span style={{ color: '#F76C39' }}>Us</span></h2>
+        <h2>Get a <span style={{ color: '#F76C39' }}>Quote</span></h2>
         <div>
           <label>Name</label>
           <div className="input-icon">
@@ -96,10 +96,11 @@ const PopupForm1 = ({ isOpen, closeModal }) => {
           <div className="input-icon">
             <FaCommentAlt className="icon" />
             <textarea
-              placeholder="Your message here"
-              value={formData.message}
-              onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            />
+        placeholder="Your message here"
+        value={formData.message}
+        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+        style={{ resize: 'none' }}
+      />
           </div>
         </div>
         {/* <div className="newsletter">

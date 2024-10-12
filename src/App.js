@@ -6,7 +6,10 @@ import BookEditing from './pages/BookEditing';
 import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
 import FictionGhostwriting from './GhostWritingCategories/FictionGhostwriting';
+import NonFictionGhostwriting from './GhostWritingCategories/NonFictionGhostwriting';
+import ScienceFictionGhostwriting from './GhostWritingCategories/ScienceFictionGhostwriting';
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
+
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,6 +32,8 @@ const App = () => {
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
           <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
+          <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
+          <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
         </Routes>
 
         {/* Popup Form Modal */}

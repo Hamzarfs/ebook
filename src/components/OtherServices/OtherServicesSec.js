@@ -15,63 +15,63 @@ const ServiceCard = ({ number, text, link }) => {
 };
 
 // Main GhostwritingServices Component
-const GhostwritingServices = () => {
+const OtherServicesSec = () => {
   // State to track which page/tab is active
-  // const [activeTab, setActiveTab] = useState("page1");
+  const [activeTab, setActiveTab] = useState("page1");
 
   // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Fiction Ghostwriting", link: "/fiction-ghostwriting" },
-    { number: "02", text: "Non-Fiction Ghostwriting", link: "/non-fiction-ghostwriting" },
-    { number: "03", text: "Science Fiction Ghostwriting", link: "/science-fiction-ghostwriting" },
-    { number: "04", text: "Memoir Ghostwriting", link: "/services/memoir-ghostwriting" },
-    { number: "05", text: "Children’s Book Ghostwriting", link: "/services/childrens-book-ghostwriting" },
-    { number: "06", text: "Cookbook Ghostwriting", link: "/services/cookbook-ghostwriting" },
-    { number: "07", text: "Adventure Ghostwriting", link: "/services/adventure-ghostwriting" },
-    { number: "08", text: "Business Ghostwriting", link: "/services/business-ghostwriting" },
+    { number: "01", text: "Book Writing ", link: "/fiction-ghostwriting" },
+    { number: "02", text: "Book Publishing ", link: "/services/non-fiction-ghostwriting" },
+    { number: "03", text: "Book Marketing", link: "/services/science-fiction-ghostwriting" },
+    { number: "04", text: "Video Book", link: "/services/memoir-ghostwriting" },
+    { number: "05", text: "Trailers", link: "/services/childrens-book-ghostwriting" },
+    { number: "06", text: "Social Media Marketing", link: "/services/cookbook-ghostwriting" },
+    { number: "07", text: "Amazon Marketing", link: "/services/adventure-ghostwriting" },
+    { number: "08", text: "SEO Services", link: "/services/business-ghostwriting" },
   ];
 
-  // const servicesPage2 = [
-  //   { number: "09", text: "Brand Identity Design", link: "/services/brand-identity-design" },
-  //   { number: "10", text: "Product Packaging", link: "/services/product-packaging" },
-  //   { number: "11", text: "Marketing Collaterals", link: "/services/marketing-collaterals" },
-  //   { number: "12", text: "Brochure Design", link: "/services/brochure-design" },
-  //   { number: "13", text: "Flyer Design", link: "/services/flyer-design" },
-  //   { number: "14", text: "Social Media Graphics", link: "/services/social-media-graphics" },
-  //   { number: "15", text: "Poster Design", link: "/services/poster-design" },
-  //   { number: "16", text: "Business Card Design", link: "/services/business-card-design" },
-  // ];
+  const servicesPage2 = [
+    { number: "09", text: "Audio Book", link: "/services/brand-identity-design" },
+    { number: "10", text: "Book Reviews", link: "/services/product-packaging" },
+    { number: "11", text: "Author Website Development", link: "/services/marketing-collaterals" },
+    { number: "12", text: "Book Launch Strategy", link: "/services/brochure-design" },
+    // { number: "13", text: "Flyer Design", link: "/services/flyer-design" },
+    // { number: "14", text: "Social Media Graphics", link: "/services/social-media-graphics" },
+    // { number: "15", text: "Poster Design", link: "/services/poster-design" },
+    // { number: "16", text: "Business Card Design", link: "/services/business-card-design" },
+  ];
 
   return (
     <section className="ghostwriting-services py-5">
       <div className="container text-center">
         <h2 className="design-process-heading font-weight-bold">
-          <span className="orangegradient-h2">Affordable Book 
-          </span> Ghostwriting Services
+          <span className="orangegradient-h2">Other Services 
+          </span> We Offer
         </h2>
         {/* Tabs Content */}
         <div className="tab-content mt-5" id="serviceTabContent">
           {/* First Page of Services */}
-          {/* <div className={`tab-pane fade ${activeTab === "page1" ? "show active" : ""}`} id="page1" role="tabpanel"> */}
+          <div className={`tab-pane fade ${activeTab === "page1" ? "show active" : ""}`} id="page1" role="tabpanel">
             <div className="row">
               {servicesPage1.map((service) => (
                 <ServiceCard key={service.number} number={service.number} text={service.text} link={service.link} />
               ))}
             </div>
-          {/* </div> */}
+          </div>
 
           {/* Second Page of Services */}
-          {/* <div className={`tab-pane fade ${activeTab === "page2" ? "show active" : ""}`} id="page2" role="tabpanel">
+          <div className={`tab-pane fade ${activeTab === "page2" ? "show active" : ""}`} id="page2" role="tabpanel">
             <div className="row">
               {servicesPage2.map((service) => (
                 <ServiceCard key={service.number} number={service.number} text={service.text} link={service.link} />
               ))}
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* Tabs Navigation */}
-        {/* <ul className="nav nav-tabs justify-content-center mt-4" id="serviceTab" role="tablist">
+        <ul className="nav nav-tabs justify-content-center mt-4" id="serviceTab" role="tablist">
           <li className="nav-item" role="presentation">
             <button
               className={`nav-link ${activeTab === "page1" ? "active" : ""}`}
@@ -98,10 +98,10 @@ const GhostwritingServices = () => {
               2
             </button>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </section>
   );
 };
 
-export default GhostwritingServices;
+export default OtherServicesSec;
