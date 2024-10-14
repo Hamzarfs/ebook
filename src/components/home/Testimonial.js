@@ -6,42 +6,43 @@ import '../../App.css'; // Add your custom styles here if needed
 
 const testimonials = [
     {
-        quote: "OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya",
+        quote: "AMZ Book Publishing helped me publish my novel seamlessly. Their team is professional, supportive, and highly efficient. Highly recommended!",
         name: "John Williams",
-        role: "Lead Designer",
+        role: "Author",
         image: testimonialimage1,
     },
     {
-        quote: "I love this site so much so simply want to imagine how just beautiful everything is great",
+        quote: "Incredible experience! AMZ Book Publishing made the process easy and stress-free. I’m thrilled with the final product and service.",
         name: "Edward",
-        role: "Web Designer",
+        role: "Author",
         image: testimonialimage1,
     },
     {
-        quote: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        quote: "AMZ Book Publishing turned my manuscript into a polished book. Great communication, timely updates, and excellent publishing support.",
         name: "Jane Copper",
-        role: "Graphic Designer",
+        role: "Author",
         image: testimonialimage1,
     },
     {
-        quote: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        quote: "I had a fantastic experience with AMZ Book Publishing. Their expert guidance and swift publishing process exceeded all expectations!",
         name: "Emily",
-        role: "Assistant Manager",
+        role: "Author",
         image: testimonialimage1,
     },
     {
-        quote: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        quote: "The team at AMZ Book Publishing was extremely helpful. They guided me every step of the way to publication success.",
         name: "John Doe",
-        role: "SEO Specialist",
+        role: "Author",
         image: testimonialimage1,
     },
     {
-        quote: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        quote: "AMZ Book Publishing made my dream of becoming an author come true. Their professionalism and care ensured a perfect result!",
         name: "Peter",
-        role: "Manager",
+        role: "Author",
         image: testimonialimage1,
     },
 ];
+
 
 // Carousel responsive settings
 const responsive = {
@@ -52,7 +53,7 @@ const responsive = {
 
 // Generate carousel items from the testimonial data
 const items = testimonials.map((testimonial, index) => (
-    <div className="item text-center" key={index} style={{ padding: '15px' }}>
+    <div className="item text-center" key={index} style={{ padding: '85px 10px 85px 10px' }}>
         <i className="bi bi-quote quote1"></i>
         <p className="card-text">{testimonial.quote}</p>
         <div className="text-center">
@@ -73,9 +74,9 @@ const items = testimonials.map((testimonial, index) => (
 ));
 
 const TestimonialCarousel = () => (
-    <div className="container-fluid mt-4">
-        <h1 className="text-center">
-            Explore Kimono <br /> Photography <span style={{ color: 'orange' }}>Projects</span>
+    <div className="container-fluid mt-4 mb-4 ">
+        <h1 className="text-center py-4">
+        Our Happy  <span style={{ color: 'orange' }}>Authors</span>
         </h1>
         <AliceCarousel
             mouseTracking

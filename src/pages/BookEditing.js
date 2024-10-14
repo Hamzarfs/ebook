@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import BreadCrumb from '../components/common/BreadCrumb';
 import BookService from '../components/BookEditing/BookServices';
 import BookProcess from '../components/books/BookProces';
-import CtaButton from '../components/books/CtaButton';
+import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import bookeditingbg from '../images/Bookeditingbg.png'; // Import the image

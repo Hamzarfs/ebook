@@ -7,7 +7,7 @@ import DesigningServices from '../components/Designing/DesigningServices'
 import DesignProcess from '../components/common/DesignProcess';
 import BookCoverSwiper from '../components/Designing/BookCoverSwipper';
 import ImageTextBanner from '../components/common/ImageTextBanner';
-import CtaButton from '../components/books/CtaButton';
+import CtaButton from '../components/common/CtaButton';
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
 import Header from '../components/common/Header';

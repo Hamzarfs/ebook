@@ -24,7 +24,7 @@ const GhostwritingServices = () => {
     { number: "01", text: "Fiction Ghostwriting", link: "/fiction-ghostwriting" },
     { number: "02", text: "Non-Fiction Ghostwriting", link: "/non-fiction-ghostwriting" },
     { number: "03", text: "Science Fiction Ghostwriting", link: "/science-fiction-ghostwriting" },
-    { number: "04", text: "Memoir Ghostwriting", link: "/services/memoir-ghostwriting" },
+    { number: "04", text: "Memoir Ghostwriting", link: "/memoir-ghostwriting" },
     { number: "05", text: "Children’s Book Ghostwriting", link: "/services/childrens-book-ghostwriting" },
     { number: "06", text: "Cookbook Ghostwriting", link: "/services/cookbook-ghostwriting" },
     { number: "07", text: "Adventure Ghostwriting", link: "/services/adventure-ghostwriting" },

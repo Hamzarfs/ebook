@@ -1043,7 +1043,7 @@ section.ebook-contact-form.container
 .alice-carousel__stage-item * {
   line-height: initial;
   margin: 5px;
-  background: #fc9700 !important;
+  background: #fbac48 !important;
 }
 
 .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
@@ -1354,7 +1354,7 @@ background-color:#F8F9FA ;
         }
       
         .design-cta-sec h2 {
-          font-size: 2rem;
+          font-size: 1.1rem;
         }
       
         .design-cta-sec p {
@@ -1489,11 +1489,23 @@ background-color:#F8F9FA ;
           text-align-last: center;
         }
         }
-        
 
+        @media (max-width: 1278px) and (min-width: 651px) {
+        .design-cta-sec h2 {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 15px;
+      }
+    }
 @media (max-width: 1000px) 
 
 {
+
+  .ebook-contact-form h2 {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+}
   .page-heading .btn {
     background-color: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
     color: white;

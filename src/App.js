@@ -8,6 +8,7 @@ import OtherServices from './pages/OtherServices';
 import FictionGhostwriting from './GhostWritingCategories/FictionGhostwriting';
 import NonFictionGhostwriting from './GhostWritingCategories/NonFictionGhostwriting';
 import ScienceFictionGhostwriting from './GhostWritingCategories/ScienceFictionGhostwriting';
+import MemoirGhostwriting from './GhostWritingCategories/MemoirGhostwriting';
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
 
 
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
           <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
           <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
+          <Route path="/memoir-ghostwriting" element={<MemoirGhostwriting openModal={openModal} />} />
         </Routes>
 
         {/* Popup Form Modal */}

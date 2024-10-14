@@ -2,7 +2,7 @@
 import React,{ useState } from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
-import CtaButton from '../components/books/CtaButton';
+import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image

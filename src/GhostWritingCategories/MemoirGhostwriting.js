@@ -27,23 +27,23 @@ import PopupForm1 from '../components/common/PopupForm';
 
 const services = [
   {
-    title: "Hard Science Fiction",
+    title: "Personal Memoirs",
     image: ghostWritingImage,
-    description: "Whether it is interstellar travel or quantum physics, we will ensure your story is grounded in well-researched, scientific accuracy while still being thrilling and engaging.",
+    description: "Capture your unique journey with a skilled memoir ghostwriter who will help transform your life experiences into an engaging narrative that resonates with readers.",
     // link: "https://www.facebook.com/",
     // buttonPadding :"10px 25px",
     // learnmore:"Click Here",
   },
   {
-    title: "Soft Science Fiction",
+    title: "Family Memoirs",
     image: designingImage,
-    description: " Our team excels at crafting rich, character-driven narratives that delve into social dynamics, creating thought-provoking stories that resonate with readers.",
+    description: "Share your family’s rich history by collaborating with AMZ Book Publishings and together, we will weave cherished stories from multiple generations to preserve your legacy for years to come.",
     
   },
   {
-    title: "Space Opera",
+    title: "Professional Memoirs",
     image: bookEditingImage,
-    description: " From epic space battles to vast galactic empires, we will build a universe filled with adventure, tension, and unforgettable characters that will leave your readers wanting more.",
+    description: "Showcase your career journey with the expertise of a memoir writing coach who can articulate your professional milestones and lessons learned, creating a compelling narrative that highlights your growth and achievements.",
     
   }
 ];
@@ -55,7 +55,8 @@ const services = [
 const heading = {
   title: (
     <>
-     Our Creative Process For 
+     What Our Process Looks Like
+
      <br />
     </>
   ),
@@ -133,12 +134,13 @@ const FictionGhostwriting = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Science Fiction Ghostwriting"
+        title="Memoir Ghostwriting"
         desc={
           <>
-          Whether you are dreaming of a gripping standalone novel, an epic series, or even a captivating short story, we have the skills
+        Think of our memoir ghostwriting services as finding a creative partner who helps you navigate tough questions and uncover feelings
             <br/> 
-            to turn your sci-fi vision into a reality with our science-fiction ghostwriting services!
+            you may have never addressed before, ensuring your unique narrative shines through!
+
           </>
         }
         buttonText="Get a Quote"
@@ -163,16 +165,13 @@ const FictionGhostwriting = () => {
 
 <div style={{ padding: '40px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Science Fiction "
+    heading="Memoir"
     subHeading="Ghostwriting"
     description={
         <>
-           Got a mind-blowing idea for a sci-fi novel, but just cannot find the time (or maybe the words) to bring it to life? AMZ Book Publishings is here to help! Our talented team of science fiction publishers and ghostwriters specializes in crafting stories that transport readers to dystopian futures, alien-filled galaxies, time-travelling adventures, and parallel universes. 
-
+         Your life story is a tapestry woven from countless experiences, and every day adds another thread. While we gain wisdom from our own journeys, there is a treasure trove of lessons to learn from the stories of those around us, like the tales we hear from our parents and grandparents, who in turn learned from their ancestors. This beautiful cycle of storytelling connects us all! So, why not capture your unique insights and life lessons? 
            <br /><br />
-           Let us handle the writing, so you can focus on your next big idea! If you are searching for reliable, affordable, and talented science fiction ghostwriting, look no further. We will bring your ideas to life while you remain the proud author behind it all.
-
-
+           Working with a ghostwriter for memoir is a fantastic way to preserve your legacy and share your experiences with the world and future generations. Let’s turn your story into something unforgettable!
         </>
     }
     imageSrc={FictionImage1}
@@ -188,12 +187,12 @@ const FictionGhostwriting = () => {
 <SecondSection 
         buttonLabel="S e r v i c e s"
         heading1={ <>
-        Skilled  </>}
+        Expert  </>}
         subHeading={<>
-        Science Fiction<br/>
+         Memoir <br/>
         Ghostwriters </>}
-        heading2="At Your Service"
-        paragraph="Our team of bestselling authors, ghostwriters, and editors are industry experts are sought after for their exceptional work. They are the creative minds making waves and can help you get noticed!"
+        heading2="Services"
+        paragraph="Our team of highly skilled and capable professionals will weave your stories into words and produce a masterpiece of your life that is worth sharing with the world!"
         services={services}
       />
       </div>
