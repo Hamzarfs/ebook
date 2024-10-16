@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 
 // ServiceCard Component
-const ServiceCard = ({ number, text }) => {
+const ServiceCard = ({ number, text, link }) => {
   return (
     <div className="col-lg-3 col-md-6 mb-4">
-      <div className="service-card">
-        <span className="service-number">{number}</span>
-        <p>{text}</p>
-      </div>
+      <a href={link} target="_blank" rel="noopener noreferrer" className="service-card-link">
+        <div className="service-card">
+          <span className="service-number">{number}</span>
+          <p>{text}</p>
+        </div>
+      </a>
     </div>
   );
 };
@@ -17,27 +19,27 @@ const DesigningServices = () => {
   // State to track which page/tab is active
   const [activeTab, setActiveTab] = useState("page1");
 
-  // Services data
+  // Services data with links
   const servicesPage1 = [
-    { number: "01", text: "Author Website Design" },
-    { number: "02", text: "Logo Design" },
-    { number: "03", text: "Stationary Design" },
-    { number: "04", text: "Book Teaser" },
-    { number: "05", text: "Book Printing" },
-    { number: "06", text: "Book Illustration" },
-    { number: "07", text: "Book Interior Formatting" },
-    { number: "08", text: "Letterhead & Envelope Design" },
+    { number: "01", text: "Author Website Design", link: "/author-website-design" },
+    { number: "02", text: "Logo Design", link: "/logo-design" },
+    { number: "03", text: "Stationary Design", link: "/stationary-design" },
+    { number: "04", text: "Book Teaser", link: "/book-teaser" },
+    { number: "05", text: "Book Printing", link: "/book-printing" },
+    { number: "06", text: "Book Illustration", link: "/book-illustration" },
+    { number: "07", text: "Book Interior Formatting", link: "/book-interior-formatting" },
+    { number: "08", text: "Letterhead & Envelope Design", link: "/letterhead-envelope-design" },
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Brand Identity Design" },
-    { number: "10", text: "Product Packaging" },
-    { number: "11", text: "Marketing Collaterals" },
-    { number: "12", text: "Brochure Design" },
-    { number: "13", text: "Flyer Design" },
-    { number: "14", text: "Social Media Graphics" },
-    { number: "15", text: "Poster Design" },
-    { number: "16", text: "Business Card Design" },
+    { number: "09", text: "Brand Identity Design", link: "/brand-identity-design" },
+    { number: "10", text: "Product Packaging", link: "/product-packaging" },
+    { number: "11", text: "Marketing Collaterals", link: "/marketing-collaterals" },
+    { number: "12", text: "Brochure Design", link: "/brochure-design" },
+    { number: "13", text: "Flyer Design", link: "/flyer-design" },
+    { number: "14", text: "Social Media Graphics", link: "/social-media-graphics" },
+    { number: "15", text: "Poster Design", link: "/poster-design" },
+    { number: "16", text: "Business Card Design", link: "/business-card-design" },
   ];
 
   return (
@@ -52,7 +54,7 @@ const DesigningServices = () => {
           <div className={`tab-pane fade ${activeTab === "page1" ? "show active" : ""}`} id="page1" role="tabpanel">
             <div className="row">
               {servicesPage1.map((service) => (
-                <ServiceCard key={service.number} number={service.number} text={service.text} />
+                <ServiceCard key={service.number} number={service.number} text={service.text} link={service.link} />
               ))}
             </div>
           </div>
@@ -61,7 +63,7 @@ const DesigningServices = () => {
           <div className={`tab-pane fade ${activeTab === "page2" ? "show active" : ""}`} id="page2" role="tabpanel">
             <div className="row">
               {servicesPage2.map((service) => (
-                <ServiceCard key={service.number} number={service.number} text={service.text} />
+                <ServiceCard key={service.number} number={service.number} text={service.text} link={service.link} />
               ))}
             </div>
           </div>
@@ -84,7 +86,7 @@ const DesigningServices = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className={`nav-link ${activeTab === "page2" ? "" : ""}`}
+              className={`nav-link ${activeTab === "page2" ? "active" : ""}`}
               id="page2-tab"
               onClick={() => setActiveTab("page2")}
               type="button"

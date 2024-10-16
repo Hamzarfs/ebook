@@ -21,9 +21,10 @@ import ShortStoriesGhostwriting from './GhostWritingCategories/ShortStoriesGhost
 import MysteryGhostwriting from './GhostWritingCategories/MysteryGhostwriting';
 import EbookWriting from './GhostWritingCategories/EbookWriting';
 import LegalGhostwriting from './GhostWritingCategories/LegalGhostwriting';
+import AuthorWebsiteDesign from './DesigningCategories/AuthorWebsiteDesign';
+import LogoDesign from './DesigningCategories/LogoDesign';
+
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
-
-
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -61,13 +62,9 @@ const App = () => {
         <Route path="/mystery-ghostwriting" element={<MysteryGhostwriting openModal={openModal} />} />
         <Route path="/ebook-writing" element={<EbookWriting openModal={openModal} />} />
         <Route path="/legal-ghostwriting" element={<LegalGhostwriting openModal={openModal} />} />
-
-        
-
-        
-        
-
-
+         {/* Sub Categories of Designing */}
+        <Route path="/author-website-design" element={<AuthorWebsiteDesign openModal={openModal} />} />
+        <Route path="/logo-design" element={<LogoDesign openModal={openModal} />} />
         </Routes>
         
         {/* Popup Form Modal */}

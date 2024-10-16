@@ -1,5 +1,5 @@
 import React from 'react';
-import ebooklogo from '../../images/ebooklogo.png';
+import ebooklogo from '../../images/Logo-AMZ-02.png';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // For JS functionality (hamburger)
@@ -38,12 +38,15 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link to="/fiction-ghostwriting" className="nav-link">Fiction Ghostwriting</Link>
                             </li>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item">
+                                <Link to="/other-services" className="nav-link">Other Services</Link>
+                            </li>
+                            {/* <li className="nav-item dropdown">
                                 <Link
                                     className="nav-link dropdown-toggle"
                                     to="/other-services"
                                     role="button"
-                                    // data-bs-toggle="dropdown"
+                                    data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
                                     Other Services
@@ -54,7 +57,7 @@ const Header = () => {
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
