@@ -116,7 +116,7 @@ const faqData = [
 
 // ******************************** End FAQ Section ******************************
 
-const FantasyGhostwriting = () => {
+const MedicalGhostwriting = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
   const openModal = () => {
@@ -238,6 +238,6 @@ const FantasyGhostwriting = () => {
     </div>
   );
 };
-export default FantasyGhostwriting;
+export default MedicalGhostwriting;
 
 

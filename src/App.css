@@ -15,6 +15,52 @@ body {
   margin-top: 0;
 }
 
+.footer {
+  background-color: #2b2b2b;
+}
+
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #444;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #fff;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+
 
 /* ---------------Start ebook-banner-section ----------------- */
 
@@ -1283,6 +1329,16 @@ background-color:#F8F9FA ;
 
       /* Responsive design */
       @media (max-width: 768px) {
+
+
+        .footer.footer.bg-dark.text-light {
+          text-align: center;
+      }
+
+      .d-flex.gap-3.mb-3 {
+   
+        flex-flow: column-reverse !important;
+    }
         .image-box {
           padding-right: 40px;
           padding-left: 20px;

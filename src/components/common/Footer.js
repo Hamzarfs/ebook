@@ -1,80 +1,79 @@
 import React from 'react';
-import { FaYoutube, FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+
+import Flag from 'react-world-flags'; // To render the country flags
+import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
+
 
 const Footer = () => {
   return (
-    <section className="footer">
-      <div className="container">
+    <footer className="footer bg-dark text-light">
+      <div className="container py-5">
         <div className="row">
-          {/* Left Column (Booking, Products, etc.) */}
-          <div className="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+          
+          {/* Featured Services Section */}
+          <div className="col-md-3 mb-4">
+            <h5>Featured Services</h5>
             <ul className="list-unstyled">
-              <li className="mb-2"><a href="#">Booking</a></li>
-              <li className="mb-2"><a href="#">Products</a></li>
-              <li className="mb-2"><a href="#">Recent Post</a></li>
-              <li className="mb-2"><a href="#">Latest News</a></li>
-              <li className="mb-2"><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-
-          {/* Center Column (Signup for Newsletter) */}
-          <div className="col-lg-4 text-center mb-4 mb-lg-0">
-            <div className="signup-container">
-              <h5 style={{ color: 'black', textAlign: 'center' }}>
-                SIGN UP FOR ALL THE LATEST <br /> NEWS AND OFFERS
-              </h5>
-              <form action="">
-                <div className="input-group">
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Enter your email"
-                    aria-label="Email Address"
-                    style={{ padding: '5px' }}
-                  />
-                  <button className="btn btn-warning" type="submit" style={{ marginLeft: '-14px' }}>
-                    Subscribe <i className="bi bi-arrow-up-right small-icon"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-
-          {/* Right Column (About Us, Our Team, etc.) */}
-          <div className="col-lg-4 text-center text-lg-end mb-4 mb-lg-0">
-            <ul className="list-unstyled">
-              <li className="mb-2"><a href="#">About Us</a></li>
-              <li className="mb-2"><a href="#">Our Team</a></li>
-              <li className="mb-2"><a href="#">Packages</a></li>
-              <li className="mb-2"><a href="#">Gallery</a></li>
-              <li className="mb-2"><a href="#">Services</a></li>
-            </ul>
-          </div>
-        </div>
+              <li><a href="#" className="text-light">Ebook Services</a></li>
+              <li><a href="#" className="text-light">Ghostwriting</a></li>
+              <li><a href="#" className="text-light">Book Editing</a></li>
+              <li><a href="#" className="text-light">Designing</a></li>
         
-
-        {/* Footer Bottom (Copyright & Social Media Links) */}
-      </div>
-      <div className="footer-bottom text-center py-3">
-        <div className="d-flex justify-content-between align-items-center">
-          <p className="mb-0" style={{ marginLeft: '10px' }}>RFS All Rights Reserved</p>
-          <div className="social-icons">
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube Channel">
-              <FaYoutube />
-            </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Page">
-              <FaFacebookF />
-            </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Page">
-              <FaInstagram />
-            </a>
+            </ul>
           </div>
+
+          {/* Useful Links Section */}
+          <div className="col-md-3 mb-4">
+            <h5>Useful Links</h5>
+            <ul className="list-unstyled">
+              <li><a href="#" className="text-light">Resources</a></li>
+              <li><a href="#" className="text-light">Testimonials</a></li>
+              <li><a href="#" className="text-light">News & Events</a></li>
+              <li><a href="#" className="text-light">About Us</a></li>
+              <li><a href="#" className="text-light">Portfolio</a></li>
+              <li><a href="#" className="text-light">FAQ's</a></li>
+             
+            </ul>
+          </div>
+
+          {/* Locations Section */}
+          <div className="col-md-3 mb-4">
+            <h5>Locations</h5>
+            <ul className="list-unstyled">
+              <li><Flag code="USA" alt="USA" width="20" /> NC, USA</li>
+              <li><Flag code="GBR" alt="UK" width="20" /> England, UK</li>
+              <li><Flag code="ARE" alt="UAE" width="20" /> Dubai, UAE</li>
+            </ul>
+          </div>
+
+          {/* Social Media Links Section */}
+          <div className="col-md-3 mb-4">
+  <h5>Follow Us</h5>
+  <div className="d-flex gap-3 mb-3">
+    <a href="#" className="text-light"><FaTwitter size={25} /></a>
+    <a href="#" className="text-light"><FaFacebookF size={25} /></a>
+    <a href="#" className="text-light"><FaLinkedinIn size={25} /></a>
+    <a href="#" className="text-light"><FaInstagram size={25} /></a>
+    <a href="#" className="text-light"><FaYoutube size={25} /></a>
+  </div>
+
+  {/* Contact Details */}
+  <div>
+    <p className="mb-1"><FaPhoneAlt /> +123-456-7890</p>
+    <p className="mb-1"><FaEnvelope /> contact@amzbookpublishing.net</p>
+    <p><FaMapMarkerAlt /> 1234 Main St, City, Country</p>
+  </div>
+</div>
+
         </div>
       </div>
 
-    
-    </section>
+      <div className="footer-bottom text-center py-3 bg-secondary">
+        <p>&copy; 2024 AMZ Ebook . All rights reserved. | <a href="#" className="text-light">Terms of Use</a> | <a href="#" className="text-light">Privacy Policy</a></p>
+      </div>
+    </footer>
   );
-};
+}
 
 export default Footer;

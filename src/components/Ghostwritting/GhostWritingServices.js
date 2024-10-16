@@ -33,7 +33,7 @@ const GhostwritingServices = () => {
 
   const servicesPage2 = [
     { number: "09", text: "Fantasy Ghostwriting", link: "/fantasy-ghostwriting" },
-    { number: "10", text: "Product Packaging", link: "/services/product-packaging" },
+    { number: "10", text: "Medical Ghostwriting", link: "/medical-ghostwriting" },
     { number: "11", text: "Marketing Collaterals", link: "/services/marketing-collaterals" },
     { number: "12", text: "Brochure Design", link: "/services/brochure-design" },
     { number: "13", text: "Flyer Design", link: "/services/flyer-design" },
