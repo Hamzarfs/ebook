@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Home from './pages/Home';
 import Designing from './pages/Designing';
 import BookEditing from './pages/BookEditing';
@@ -9,7 +10,12 @@ import FictionGhostwriting from './GhostWritingCategories/FictionGhostwriting';
 import NonFictionGhostwriting from './GhostWritingCategories/NonFictionGhostwriting';
 import ScienceFictionGhostwriting from './GhostWritingCategories/ScienceFictionGhostwriting';
 import MemoirGhostwriting from './GhostWritingCategories/MemoirGhostwriting';
+import ChildrensBookGhostwriting from './GhostWritingCategories/ChildrensBookGhostwriting';
+import CookbookGhostwriting from './GhostWritingCategories/CookbookGhostwriting';
+import AdventureGhostwriting from './GhostWritingCategories/AdventureGhostwriting';
+import BusinessGhostwriting from './GhostWritingCategories/BusinessGhostwriting';
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
+
 
 
 const App = () => {
@@ -32,12 +38,19 @@ const App = () => {
           <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
           <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
+          {/* Sub Categories of Ghostwriting */}
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
           <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
           <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
           <Route path="/memoir-ghostwriting" element={<MemoirGhostwriting openModal={openModal} />} />
-        </Routes>
+          <Route path="/childrens-book-ghostwriting" element={<ChildrensBookGhostwriting openModal={openModal} />} />
+        <Route path="/cookbook-ghostwriting" element={<CookbookGhostwriting openModal={openModal} />} />
+        <Route path="/adventure-ghostwriting" element={<AdventureGhostwriting openModal={openModal} />} />
+        <Route path="/business-ghostwriting" element={<BusinessGhostwriting openModal={openModal} />} />
 
+
+        </Routes>
+        
         {/* Popup Form Modal */}
         <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
       </div>

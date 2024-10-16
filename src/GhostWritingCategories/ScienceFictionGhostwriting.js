@@ -137,7 +137,7 @@ const FictionGhostwriting = () => {
         desc={
           <>
           Whether you are dreaming of a gripping standalone novel, an epic series, or even a captivating short story, we have the skills
-            <br/> 
+            {/* <br/>  */}
             to turn your sci-fi vision into a reality with our science-fiction ghostwriting services!
           </>
         }

@@ -60,34 +60,34 @@ const heading = {
      <br />
     </>
   ),
-  highlight: "Non-Fiction Ghostwriting"
+ 
 };
 // const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Brainstorming",
-    title: "Brainstorming",
-    description: "We begin by collaborating with you to understand your vision and the story you want to tell. Together, we brainstorm ideas, shaping the plot, characters, and setting to bring your concept to life."
+    alt: "Preparing And Researching",
+    title: "Preparing And Researching",
+    description: "Let’s dive into your memoir together! Through friendly phone calls and helpful questionnaires, we will explore your life, audience, and the marketplace. Plus, we will sift through any drafts, notes, or outlines you have on hand to gather all the juicy details and ensure we are on the right track!"
   },
   {
     image: designprocess2,
-    alt: "Writing",
-    title: "Writing",
-    description: "Once the outline is set, our talented science fiction writers dive into crafting the first draft. We focus on developing multi-dimensional characters, painting vivid worlds, and weaving in dialogue that draws readers in from the start."
+    alt: "Strategizing And Outlining",
+    title: "Strategizing And Outlining",
+    description: "Get ready to roll up your sleeves and dive deep into your memoir! You will meet with your dedicated book-writing team, whether in person or over video chat, for engaging strategy sessions. Together, we will brainstorm, plan, and lay down the groundwork for your story."
   },
   {
     image: designprocess3,
-    alt: "Editing",
-    title: "Editing",
-    description: "Once the draft is ready, we jump into the editing phase. Our sharp-eyed editors comb through the text, catching grammar, spelling, and punctuation hiccups while also keeping an eye out for any plot holes, character inconsistencies, or theme misalignments."
+    alt: "Writing",
+    title: "Writing",
+    description: "It is time to kick off your memoir! When you hire a memoir writer, we make sure your book truly reflects who you are. Through engaging interviews and thoughtful editing, we will capture your unique voice, ensuring every idea and word resonates with your distinct style."
   },
   {
     image: designprocess4,
-    alt: "Publishing",
-    title: "Publishing",
-    description: "Once the final draft is polished and ready to go, we team up with our clients to bring their stories to life. With a solid network of science fiction publishers at our disposal, we handle everything from eye-catching cover designs to seamless book formatting and distribution."
+    alt: "Showcasing Your Masterpiece",
+    title: "Showcasing Your Masterpiece",
+    description: "We will not only help you with your ghostwritten memoir but stand by you throughout the publishing journey. We will connect you with industry professionals for cover design, formatting, and distribution and make sure your book stands out in the crowded marketplace."
   }
 ];
 
@@ -97,20 +97,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "What is science fiction writing?",
-    answer: "Science fiction, or sci-fi for short, is all about exploring futuristic worlds and the consequences of technological advancements. What is great about sci-fi is that it plays by the rules of science. If a story starts leaning into magic or supernatural forces, then we are stepping into the realm of fantasy!"
+    question: "Is there enough in my life to write about?",
+    answer: "Absolutely! Our talented ghostwriters are expert interviewers who will help you uncover intriguing anecdotes and moments from your life. Contrary to popular belief, no one's life is 'too boring'; everyone has unique stories and insights just waiting to be shared."
   },
   {
-    question: "What is fiction?",
-    answer: "Fiction is like a big umbrella covering all sorts of creative writing that is not based on real-life events. It includes a ton of genres, each with its own flavor and themes. Even though these genres can be really different from one another, they often share some common threads that help us categorize them."
+    question: "Do you have any samples?",
+    answer: "Definitely! We can provide a few writing samples, with the permission of our clients, so you can see the quality of our work."
   },
   {
-    question: "What are three common mistakes to avoid when writing science fiction?",
-    answer: "When it comes to writing sci-fi, watch out for these three common traps: skipping on world-building, creating flat characters, and losing sight of the science! Building a believable universe, crafting rich characters, and keeping your scientific concepts grounded are all keys to a captivating story."
+    question: "Will my memoir sound like it was written in my voice?",
+    answer: "You bet! Our interviews go beyond just gathering information; they are designed to capture your essence. This way, your ghostwriter can craft your memoir in a way that truly reflects your voice and the tone you want."
   },
   {
-    question: "What are the different types of science fiction ghostwriting?",
-    answer: "There is a whole world of science fiction ghostwriting to explore! You have hard sci-fi, which sticks closely to realistic technology and science. Then there is soft sci-fi, which dives deep into character development and emotional stories. And do not forget speculative fiction, which stretches the limits of what we know about science and society!"
+    question: "Who will be credited as the author of my book?",
+    answer: "You will! We do not take any credit as authors or co-authors, nor do we receive royalties. This is your story, and you deserve to own it."
+  },
+  {
+    question: "What if I don’t know what I want to say?",
+    answer: "No worries at all! You do not need to have everything figured out; just knowing you have something to share is a great start. Our friendly and approachable ghostwriters are here to ask the right questions to help you uncover and shape your narrative."
   }
 ];
 
@@ -138,7 +142,7 @@ const FictionGhostwriting = () => {
         desc={
           <>
         Think of our memoir ghostwriting services as finding a creative partner who helps you navigate tough questions and uncover feelings
-            <br/> 
+            {/* <br/>  */}
             you may have never addressed before, ensuring your unique narrative shines through!
 
           </>
@@ -215,10 +219,11 @@ const FictionGhostwriting = () => {
     subHeading=""
     description={
       <>
-       Crafting a science fiction story that keeps its logic intact can be quite the challenge, especially when you are diving into tricky concepts like time travel, alternate timelines, or parallel universes. Nobody wants to trip over plot holes or contradictions that leave readers scratching their heads!
+       Writing and publishing your memoir is one of the best ways to share the unique story of your life with the world. At AMZ Book Publishings, we are all about bringing your vision to life and telling your story just the way you’ve always imagined. Our memoir ghostwriting services focus on crafting a personalized narrative that not only meets but exceeds your expectations, making sure that your book finds its rightful place on the shelf.
+
        <br /><br />
-       That is where our skilled fiction ghostwriters come in. With their expertise in the genre, they will weave a high-quality science fiction tale that is consistent, original, and believable. We collaborate closely with you to capture your vision, goals, and preferences and offer affordable ghostwriting services that will not break the bank.<br /><br />
-       Remember, it is your story; we are just here to put it into words!
+       We pride ourselves on offering affordable and reliable services tailored just for you. So, why wait? Reach out today, and let’s embark on your journey to becoming a published author together!
+
       </>
   }
     imageSrc={fictionwhychoose}

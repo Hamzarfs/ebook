@@ -743,6 +743,7 @@ span.service-number {
 }
 
 .design-process-description {
+  text-align: justify;
   font-size: 1rem;
   color: #666;
 }

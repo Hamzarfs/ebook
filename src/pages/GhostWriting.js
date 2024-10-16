@@ -92,7 +92,7 @@ const GhostWriting = () => {
         desc={
           <>
             Let us turn your ideas into reality and help share your story with the world,
-            <br />
+            {/* <br /> */}
             all while upholding the highest standards of excellence.
           </>
         }
