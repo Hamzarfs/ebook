@@ -34,12 +34,12 @@ const GhostwritingServices = () => {
   const servicesPage2 = [
     { number: "09", text: "Fantasy Ghostwriting", link: "/fantasy-ghostwriting" },
     { number: "10", text: "Medical Ghostwriting", link: "/medical-ghostwriting" },
-    { number: "11", text: "Marketing Collaterals", link: "/services/marketing-collaterals" },
-    { number: "12", text: "Brochure Design", link: "/services/brochure-design" },
-    { number: "13", text: "Flyer Design", link: "/services/flyer-design" },
-    { number: "14", text: "Social Media Graphics", link: "/services/social-media-graphics" },
-    { number: "15", text: "Poster Design", link: "/services/poster-design" },
-    { number: "16", text: "Business Card Design", link: "/services/business-card-design" },
+    { number: "11", text: "Historical Ghostwriting", link: "/historical-ghostwriting" },
+    { number: "12", text: "Short Stories Ghostwriting", link: "/short-stories-ghostwriting" },
+    { number: "13", text: "Mystery Ghostwriting", link: "/mystery-ghostwriting" },
+    { number: "14", text: "Ebook Writing", link: "/ebook-writing" },
+    { number: "15", text: "Legal Ghostwriting", link: "/legal-ghostwriting" },
+    // { number: "16", text: "Business Card Design", link: "/services/business-card-design" },
   ];
 
   return (

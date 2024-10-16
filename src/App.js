@@ -16,7 +16,11 @@ import AdventureGhostwriting from './GhostWritingCategories/AdventureGhostwritin
 import BusinessGhostwriting from './GhostWritingCategories/BusinessGhostwriting';
 import FantasyGhostwriting from './GhostWritingCategories/FantasyGhostwriting';
 import MedicalGhostwriting from './GhostWritingCategories/MedicalGhostwriting';
-
+import HistoricalGhostwriting from './GhostWritingCategories/HistoricalGhostwriting';
+import ShortStoriesGhostwriting from './GhostWritingCategories/ShortStoriesGhostwriting';
+import MysteryGhostwriting from './GhostWritingCategories/MysteryGhostwriting';
+import EbookWriting from './GhostWritingCategories/EbookWriting';
+import LegalGhostwriting from './GhostWritingCategories/LegalGhostwriting';
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
 
 
@@ -52,6 +56,16 @@ const App = () => {
         <Route path="/business-ghostwriting" element={<BusinessGhostwriting openModal={openModal} />} />
         <Route path="/fantasy-ghostwriting" element={<FantasyGhostwriting openModal={openModal} />} />
         <Route path="/medical-ghostwriting" element={<MedicalGhostwriting openModal={openModal} />} />
+        <Route path="/historical-ghostwriting" element={<HistoricalGhostwriting openModal={openModal} />} />
+        <Route path="/short-stories-ghostwriting" element={<ShortStoriesGhostwriting openModal={openModal} />} />
+        <Route path="/mystery-ghostwriting" element={<MysteryGhostwriting openModal={openModal} />} />
+        <Route path="/ebook-writing" element={<EbookWriting openModal={openModal} />} />
+        <Route path="/legal-ghostwriting" element={<LegalGhostwriting openModal={openModal} />} />
+
+        
+
+        
+        
 
 
         </Routes>

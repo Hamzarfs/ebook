@@ -19,7 +19,6 @@ const Footer = () => {
               <li><a href="#" className="text-light">Ghostwriting</a></li>
               <li><a href="#" className="text-light">Book Editing</a></li>
               <li><a href="#" className="text-light">Designing</a></li>
-        
             </ul>
           </div>
 
@@ -51,7 +50,6 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
   <h5>Follow Us</h5>
   <div className="d-flex gap-3 mb-3">
-    <a href="#" className="text-light"><FaTwitter size={25} /></a>
     <a href="#" className="text-light"><FaFacebookF size={25} /></a>
     <a href="#" className="text-light"><FaLinkedinIn size={25} /></a>
     <a href="#" className="text-light"><FaInstagram size={25} /></a>
@@ -62,10 +60,9 @@ const Footer = () => {
   <div>
     <p className="mb-1"><FaPhoneAlt /> +123-456-7890</p>
     <p className="mb-1"><FaEnvelope /> contact@amzbookpublishing.net</p>
-    <p><FaMapMarkerAlt /> 1234 Main St, City, Country</p>
+    <p><FaMapMarkerAlt /> 41 Winthrop Rd, Edison, NJ 08817</p>
   </div>
 </div>
-
         </div>
       </div>
 
