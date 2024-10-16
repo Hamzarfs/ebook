@@ -14,6 +14,8 @@ import ChildrensBookGhostwriting from './GhostWritingCategories/ChildrensBookGho
 import CookbookGhostwriting from './GhostWritingCategories/CookbookGhostwriting';
 import AdventureGhostwriting from './GhostWritingCategories/AdventureGhostwriting';
 import BusinessGhostwriting from './GhostWritingCategories/BusinessGhostwriting';
+import FantasyGhostwriting from './GhostWritingCategories/FantasyGhostwriting';
+
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
 
 
@@ -47,6 +49,7 @@ const App = () => {
         <Route path="/cookbook-ghostwriting" element={<CookbookGhostwriting openModal={openModal} />} />
         <Route path="/adventure-ghostwriting" element={<AdventureGhostwriting openModal={openModal} />} />
         <Route path="/business-ghostwriting" element={<BusinessGhostwriting openModal={openModal} />} />
+        <Route path="/fantasy-ghostwriting" element={<FantasyGhostwriting openModal={openModal} />} />
 
 
         </Routes>
