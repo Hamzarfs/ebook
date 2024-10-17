@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://amzbookpublishing.net/sitemap.xml

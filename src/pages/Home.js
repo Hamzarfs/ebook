@@ -1,23 +1,13 @@
-// src/pages/Home.js
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// const Home = () => {
-//   return (
-//     <div>
-//       <h1>Home Page</h1>
-//       <p>Welcome to the Home page!</p>
-//       <Link to="/about">Go to About Page</Link>
-//     </div>
-//   );
-// };
-// export default Home;
-
-
+ 
 
 import React from 'react';
 import '../App.css'; // Assuming your styles are in App.css or similar
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'; // Make sure this import is included if you're using Link
+import { Helmet } from 'react-helmet-async';
+
+
+
 
 import BannerSection from '../components/home/BannerSection';
 import SecondSection from '../components/home/SecondSection';
@@ -60,6 +50,12 @@ const services = [
 
 const Home = () => {
     return (
+      <>
+       <Helmet>
+        <title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
+        <meta name="description" content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in US and worldwide. Get your dream book published today!" />
+      </Helmet>
+      
       <div>
         <Header/>
         <BannerSection />
@@ -86,7 +82,7 @@ const Home = () => {
         <Footer/>
       </div>
       
-      
+      </>
     );
     
   };

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+
 
 import Home from './pages/Home';
 import Designing from './pages/Designing';
@@ -38,6 +40,7 @@ const App = () => {
   };
 
   return (
+    <HelmetProvider>
     <Router>
       <div>
         <Routes>
@@ -71,6 +74,7 @@ const App = () => {
         <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
       </div>
     </Router>
+    </HelmetProvider>
   );
 };
 

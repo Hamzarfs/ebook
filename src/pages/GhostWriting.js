@@ -1,6 +1,8 @@
 // src/pages/About.js
 import React, {useState} from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
+import { Helmet } from 'react-helmet-async';
+
 // import DesigningServices from '../components/Designing/DesigningServices';
 import GhostwritingServices from '../components/Ghostwritting/GhostWritingServices';
 import ImageTextBanner from '../components/common/ImageTextBanner';
@@ -84,6 +86,12 @@ const GhostWriting = () => {
   };
 
   return (
+    <>
+     <Helmet>
+        <title>Affordable Book Ghostwriting Services by Expert Ghostwriters</title>
+        <meta name="description" content="Need a ghostwriter for your book? Get professional ghostwriting services on affordable price. We are the best book ghostwriting agency in USA for best-selling author." />
+      </Helmet>
+    
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
@@ -125,7 +133,7 @@ const GhostWriting = () => {
 
       <Footer/>
     </div>
-    
+    </>
   );
 };
 export default GhostWriting;
