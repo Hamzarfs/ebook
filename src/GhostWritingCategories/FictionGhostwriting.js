@@ -22,6 +22,7 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -115,6 +116,7 @@ const faqData = [
 // ******************************** End FAQ Section ******************************
 
 const FictionGhostwriting = () => {
+
   const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
   const openModal = () => {
@@ -127,6 +129,10 @@ const FictionGhostwriting = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Affordable Fiction Ghostwriting Services by Ghostwriters</title>
+        <meta name="description" content="Need fiction ghostwriter? We offer professional fiction ghostwriting services on affordable price. Our experinced writers are well trained for all genres." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

@@ -15,6 +15,7 @@ import ContactForm from '../components/common/ContactForm1';
 import PopupForm1 from '../components/common/PopupForm';
 import SideTabContent from '../components/OtherServices/SideTabContent';
 import OtherServicesSec from '../components/OtherServices/OtherServicesSec';
+import { Helmet } from 'react-helmet-async';
 
 
 const contentItems = [
@@ -94,6 +95,10 @@ const OtherServices = () => {
 
   return (
     <div>
+       <Helmet>
+        <title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
+        <meta name="description" content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in US and worldwide. Get your dream book published today!" />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

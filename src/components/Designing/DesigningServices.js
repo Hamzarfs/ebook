@@ -23,7 +23,7 @@ const DesigningServices = () => {
   const servicesPage1 = [
     { number: "01", text: "Author Website Design", link: "/author-website-design" },
     { number: "02", text: "Logo Design", link: "/logo-design" },
-    { number: "03", text: "Stationary Design", link: "/stationary-design" },
+    { number: "03", text: "Stationary Design", link: "/stationery-design" },
     { number: "04", text: "Book Teaser", link: "/book-teaser" },
     { number: "05", text: "Book Printing", link: "/book-printing" },
     { number: "06", text: "Book Illustration", link: "/book-illustration" },

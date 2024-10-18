@@ -25,6 +25,10 @@ import EbookWriting from './GhostWritingCategories/EbookWriting';
 import LegalGhostwriting from './GhostWritingCategories/LegalGhostwriting';
 import AuthorWebsiteDesign from './DesigningCategories/AuthorWebsiteDesign';
 import LogoDesign from './DesigningCategories/LogoDesign';
+import StationeryDesign from './DesigningCategories/LogoDesign';
+
+
+import ThankYouPage from "./pages/ThankYouPage";
 
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
 
@@ -44,7 +48,7 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<Home openModal={openModal} />} />
+          <Route path="/home" element={<Home openModal={openModal} />} />
           <Route path="/designing" element={<Designing openModal={openModal} />} />
           <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
@@ -68,6 +72,12 @@ const App = () => {
          {/* Sub Categories of Designing */}
         <Route path="/author-website-design" element={<AuthorWebsiteDesign openModal={openModal} />} />
         <Route path="/logo-design" element={<LogoDesign openModal={openModal} />} />
+        <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
+        <Route path="/stationery-design" element={<StationeryDesign openModal={openModal} />} />
+        
+        
+
+
         </Routes>
         
         {/* Popup Form Modal */}

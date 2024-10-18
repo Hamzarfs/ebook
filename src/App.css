@@ -1247,6 +1247,19 @@ background-color:#F8F9FA ;
   text-align: justify;
 }
 
+.header-btn{
+background-color: #fd9f33;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 25px;
+font-size: 1.2rem;
+transition: background-color 0.3s ease;
+}
+.highlight-orange-text{
+  color: #ffa958;
+}
+
 .center-image-online {
   display: flex; /* Ensure flexbox layout */
   justify-content: center; /* Center the content horizontally */

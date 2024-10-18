@@ -17,19 +17,12 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import DesignProcess from '../components/common/DesignProcess';
 
-
 // ******************************** Start Design Process Props ******************************
-
-
 const heading = { 
   title: "Professional ",
   highlight: "Book Editing Services"
 };
-
-
-
 const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
-
 const steps = [
   {
     image: designprocess1,
@@ -57,11 +50,7 @@ const steps = [
     description: "Your work is in safe hands with us. We adhere to a strict non-disclosure agreement and safeguard your files so you can confidently share your manuscript, knowing your intellectual property is secure."
   }
 ];
-
-
 // ******************************** End Design Process Props ******************************
-
-
 
 // ******************************** Start FAQ Section ******************************
 const faqData = [

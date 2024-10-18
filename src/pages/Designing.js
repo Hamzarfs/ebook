@@ -1,7 +1,7 @@
 // src/pages/About.js
-
 import React,{ useState } from 'react';
 // import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import BreadCrumb from '../components/common/BreadCrumb';
 import DesigningServices from '../components/Designing/DesigningServices'
 import DesignProcess from '../components/common/DesignProcess';
@@ -135,9 +135,14 @@ const PageHeading = () => {
   };
 
   return (
+    
     <div>
+       <Helmet>
+        <title>Book Designing Services for Authors by Top Book Designers</title>
+        <meta name="description" content="Need book designing services? We are expert in ebook and book cover design and book layout design. Our professional designers cover every style and genre."/>
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
-      <Header />
+      <Header/>
       <BreadCrumb
         title="Book Designing Services"
         desc={

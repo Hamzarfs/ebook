@@ -1,0 +1,75 @@
+html, body {
+    font-family: Arial, sans-serif;  
+    margin: 0;
+    padding: 0;
+}
+
+.thankyou-page {
+    text-align: center;
+ background-image: linear-gradient(0deg, #E6E6FA, #FB9130);
+    color: white;
+    padding: 100px 100px 50px 100px;
+}
+
+.thankyou-page img {
+    width: 400px;
+}
+
+.contact {
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.thankyou-page h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.thankyou-page p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.thankyou-page a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.thankyou-page .btn {
+    background-color: #FFCE86;
+    color: #FFCE86;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn {
+    margin-bottom: 20px;
+    background-color: #FB9130;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffb546;;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+
+.thankyou-page .btn:hover {
+    background-color: #FB9130;
+}
