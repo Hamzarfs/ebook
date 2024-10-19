@@ -1,28 +1,27 @@
 // src/pages/About.js
 import React,{ useState } from 'react';
-import BreadCrumb from '../components/common/BreadCrumb';
+import BreadCrumb from '../../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
-import CtaButton from '../components/common/CtaButton';
-import Header from '../components/common/Header';
-import Footer from '../components/common/Footer';
-import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
-import FAQSection from '../components/Designing/DesignFaq';
-import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
-import DesignProcess from '../components/common/DesignProcess';
-import ImageRightBanner from '../components/common/ImageRightText';
-import ImageLeftBanner from '../components/common/ImageLeftText';
-import FictionImage1 from '../images/fictiongimg1.png';
-import fictionwhychoose from '../images/fictionwhychoose.png';
-import ghostWritingImage from '../images/Ghost Writing.png';
-import designingImage from '../images/Designing.png';
-import bookEditingImage from '../images/book edit.png';
-import designprocess1 from '../images/design-process-1.png';
-import designprocess2 from '../images/design-process-2.png';
-import designprocess3 from '../images/design-process-3.png';
-import designprocess4 from '../images/design-process-4.png';
-import PopupForm1 from '../components/common/PopupForm';
-
+import CtaButton from '../../components/common/CtaButton';
+import Header from '../../components/common/Header';
+import Footer from '../../components/common/Footer';
+import Ghostwritingbg from '../../images/Ghostwritingbg.png'; // Import the image
+import FAQSection from '../../components/Designing/DesignFaq';
+import ContactForm from '../../components/common/ContactForm1';
+import SecondSection from '../../components/home/SecondSection';
+import DesignProcess from '../../components/common/DesignProcess';
+import ImageRightBanner from '../../components/common/ImageRightText';
+import ImageLeftBanner from '../../components/common/ImageLeftText';
+import FictionImage1 from '../../images/fictiongimg1.png';
+import fictionwhychoose from '../../images/fictionwhychoose.png';
+import ghostWritingImage from '../../images/Ghost Writing.png';
+import designingImage from '../../images/Designing.png';
+import bookEditingImage from '../../images/book edit.png';
+import designprocess1 from '../../images/design-process-1.png';
+import designprocess2 from '../../images/design-process-2.png';
+import designprocess3 from '../../images/design-process-3.png';
+import designprocess4 from '../../images/design-process-4.png';
+import PopupForm1 from '../../components/common/PopupForm';
 // ******************************** Start SecondSection ******************************
 
 const services = [

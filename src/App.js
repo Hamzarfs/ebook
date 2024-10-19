@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-
-
 import Home from './pages/Home';
 import Designing from './pages/Designing';
 import BookEditing from './pages/BookEditing';
@@ -23,13 +21,32 @@ import ShortStoriesGhostwriting from './GhostWritingCategories/ShortStoriesGhost
 import MysteryGhostwriting from './GhostWritingCategories/MysteryGhostwriting';
 import EbookWriting from './GhostWritingCategories/EbookWriting';
 import LegalGhostwriting from './GhostWritingCategories/LegalGhostwriting';
-import AuthorWebsiteDesign from './DesigningCategories/AuthorWebsiteDesign';
-import LogoDesign from './DesigningCategories/LogoDesign';
-import StationeryDesign from './DesigningCategories/LogoDesign';
+
+
+
+import AuthorWebsiteDesign from './pages/DesigningCategories/AuthorWebsiteDesign';
+import LogoDesign from './pages/DesigningCategories/LogoDesign';
+import StationeryDesign from './pages/DesigningCategories/StationeryDesign';
+import BookTeaser from './pages/DesigningCategories/BookTeaser';
+import BookPrinting from './pages/DesigningCategories/BookPrinting';
+import BookIllustrations from './pages/DesigningCategories/BookIllustrations';
+import BookInteriorFormatting from './pages/DesigningCategories/BookInteriorFormatting';
+import LetterheadEnvelopeDesign from './pages/DesigningCategories/LetterheadEnvelopeDesign';
+import BusinessCardDesign from './pages/DesigningCategories/BusinessCardDesign';
+
+
+
+
+
+
+
+
+
+
+
 
 
 import ThankYouPage from "./pages/ThankYouPage";
-
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
 
 const App = () => {
@@ -48,7 +65,7 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/home" element={<Home openModal={openModal} />} />
+          <Route path="/" element={<Home openModal={openModal} />} />
           <Route path="/designing" element={<Designing openModal={openModal} />} />
           <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
@@ -74,10 +91,13 @@ const App = () => {
         <Route path="/logo-design" element={<LogoDesign openModal={openModal} />} />
         <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
         <Route path="/stationery-design" element={<StationeryDesign openModal={openModal} />} />
+        <Route path="/book-teaser" element={<BookTeaser openModal={openModal} />} />
+        <Route path="/book-printing" element={<BookPrinting openModal={openModal} />} />
+        <Route path="/book-illustrations" element={<BookIllustrations openModal={openModal} />} />
+        <Route path="/book-interior-formatting" element={<BookInteriorFormatting openModal={openModal} />} />
+        <Route path="/letterhead-envelope-design" element={<LetterheadEnvelopeDesign openModal={openModal} />} />
+        <Route path="/business-card-design" element={<BusinessCardDesign openModal={openModal} />} />
         
-        
-
-
         </Routes>
         
         {/* Popup Form Modal */}

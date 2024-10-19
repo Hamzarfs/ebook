@@ -26,13 +26,13 @@ const DesigningServices = () => {
     { number: "03", text: "Stationary Design", link: "/stationery-design" },
     { number: "04", text: "Book Teaser", link: "/book-teaser" },
     { number: "05", text: "Book Printing", link: "/book-printing" },
-    { number: "06", text: "Book Illustration", link: "/book-illustration" },
+    { number: "06", text: "Book Illustration", link: "/book-illustrations" },
     { number: "07", text: "Book Interior Formatting", link: "/book-interior-formatting" },
     { number: "08", text: "Letterhead & Envelope Design", link: "/letterhead-envelope-design" },
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Brand Identity Design", link: "/brand-identity-design" },
+    { number: "09", text: "Business Card Design", link: "/business-card-design" },
     { number: "10", text: "Product Packaging", link: "/product-packaging" },
     { number: "11", text: "Marketing Collaterals", link: "/marketing-collaterals" },
     { number: "12", text: "Brochure Design", link: "/brochure-design" },
