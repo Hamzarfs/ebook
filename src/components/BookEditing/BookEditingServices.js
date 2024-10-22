@@ -21,12 +21,12 @@ const BookEditingServices = () => {
 
   // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Novel Editing", link: "/fiction-ghostwriting" },
-    { number: "02", text: "Poetry Editing", link: "/services/non-fiction-ghostwriting" },
-    { number: "03", text: "Screenplay Editing", link: "/services/science-fiction-ghostwriting" },
-    { number: "04", text: "Short Story Editing", link: "/services/memoir-ghostwriting" },
-    { number: "05", text: "Proofreading", link: "/services/childrens-book-ghostwriting" },
-    { number: "06", text: "Fiction Book Editing", link: "/services/cookbook-ghostwriting" },
+    { number: "01", text: "Novel Editing", link: "/novel-editing" },
+    { number: "02", text: "Poetry Editing", link: "/poetry-editing" },
+    { number: "03", text: "Screenplay Editing", link: "/screenplay-editing" },
+    { number: "04", text: "Short Story Editing", link: "/shorts-story-editing" },
+    { number: "05", text: "Proofreading", link: "/bookproof-reading" },
+    { number: "06", text: "Fiction Book Editing", link: "/fiction-book-editing" },
     { number: "07", text: "Non-Fiction Book Editing", link: "/services/adventure-ghostwriting" },
     { number: "08", text: "Self-Editing for Fiction Writers", link: "/services/business-ghostwriting" },
   ];

@@ -791,7 +791,7 @@ span.service-number {
 }
 
 .design-process-description {
-  text-align: justify;
+
   font-size: 1rem;
   color: #666;
 }
@@ -825,6 +825,7 @@ font-weight: bold;
 }
 
 .image-text-banner p {
+  
 font-size: 1rem;
 line-height: 1.5;
 color: #666;
@@ -852,9 +853,6 @@ border-radius: 10px;
   width: 80%;
   margin: 0 auto;
 }
-
-
-
 
 .design-cta-sec .text-section {
 color: white;

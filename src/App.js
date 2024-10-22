@@ -6,6 +6,9 @@ import Designing from './pages/Designing';
 import BookEditing from './pages/BookEditing';
 import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
+
+// *************** GhostWriting Subcategories ****************************
+
 import FictionGhostwriting from './GhostWritingCategories/FictionGhostwriting';
 import NonFictionGhostwriting from './GhostWritingCategories/NonFictionGhostwriting';
 import ScienceFictionGhostwriting from './GhostWritingCategories/ScienceFictionGhostwriting';
@@ -22,7 +25,7 @@ import MysteryGhostwriting from './GhostWritingCategories/MysteryGhostwriting';
 import EbookWriting from './GhostWritingCategories/EbookWriting';
 import LegalGhostwriting from './GhostWritingCategories/LegalGhostwriting';
 
-
+// *************** Designing Subcategories ****************************
 
 import AuthorWebsiteDesign from './pages/DesigningCategories/AuthorWebsiteDesign';
 import LogoDesign from './pages/DesigningCategories/LogoDesign';
@@ -35,6 +38,15 @@ import LetterheadEnvelopeDesign from './pages/DesigningCategories/LetterheadEnve
 import BusinessCardDesign from './pages/DesigningCategories/BusinessCardDesign';
 
 
+// *************** Book Editing Subcategories ****************************
+
+import BookEditingCategory from './pages/BookEditingCategories/BookEditingcat';
+import NovelEditing from './pages/BookEditingCategories/NovelEditing';
+import PoetryEditing from './pages/BookEditingCategories/PoetryEditing';
+import ScreenplayEditing from './pages/BookEditingCategories/ScreenplayEditing';
+import ShortStoryEditing from './pages/BookEditingCategories/ShortStoryEditing';
+import BookProofreading from './pages/BookEditingCategories/BookProofreading';
+import FictionBookEditing from './pages/BookEditingCategories/FictionBookEditing';
 
 
 
@@ -97,7 +109,15 @@ const App = () => {
         <Route path="/book-interior-formatting" element={<BookInteriorFormatting openModal={openModal} />} />
         <Route path="/letterhead-envelope-design" element={<LetterheadEnvelopeDesign openModal={openModal} />} />
         <Route path="/business-card-design" element={<BusinessCardDesign openModal={openModal} />} />
+        <Route path="/book-editing-cat" element={<BookEditingCategory openModal={openModal} />} />
+        <Route path="/novel-editing" element={<NovelEditing openModal={openModal} />} />
+        <Route path="/poetry-editing" element={<PoetryEditing openModal={openModal} />} />
+        <Route path="/screenplay-editing" element={<ScreenplayEditing openModal={openModal} />} />
+        <Route path="/shorts-story-editing" element={<ShortStoryEditing openModal={openModal} />} />
+        <Route path="/bookproof-reading" element={<BookProofreading openModal={openModal} />} />
+        <Route path="/fiction-book-editing" element={<FictionBookEditing openModal={openModal} />} />
         
+ 
         </Routes>
         
         {/* Popup Form Modal */}
