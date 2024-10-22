@@ -47,6 +47,18 @@ import ScreenplayEditing from './pages/BookEditingCategories/ScreenplayEditing';
 import ShortStoryEditing from './pages/BookEditingCategories/ShortStoryEditing';
 import BookProofreading from './pages/BookEditingCategories/BookProofreading';
 import FictionBookEditing from './pages/BookEditingCategories/FictionBookEditing';
+import NonFictionBookEditing from './pages/BookEditingCategories/NonFictionBookEditing';
+import SelfEditingFictionWriters from './pages/BookEditingCategories/SelfEditingFictionWriters';
+
+// *************** Others Services Subcategories ****************************
+
+import BookWriting from './pages/OtherServices/BookWriting';
+import BookPublishing from './pages/OtherServices/BookPublishing';
+import BookMarketing from './pages/OtherServices/BookMarketing';
+
+
+
+
 
 
 
@@ -116,6 +128,18 @@ const App = () => {
         <Route path="/shorts-story-editing" element={<ShortStoryEditing openModal={openModal} />} />
         <Route path="/bookproof-reading" element={<BookProofreading openModal={openModal} />} />
         <Route path="/fiction-book-editing" element={<FictionBookEditing openModal={openModal} />} />
+        <Route path="/non-fiction-book-editing" element={<NonFictionBookEditing openModal={openModal} />} />
+        <Route path="/self-editing-fiction-writers" element={<SelfEditingFictionWriters openModal={openModal} />} />
+
+         {/**************  Other Services */}
+        
+         <Route path="/book-writing" element={<BookWriting openModal={openModal} />} />
+        <Route path="/book-publishing" element={<BookPublishing openModal={openModal} />} />
+        <Route path="/book-marketing" element={<BookMarketing openModal={openModal} />} />
+        
+        
+        
+        
         
  
         </Routes>

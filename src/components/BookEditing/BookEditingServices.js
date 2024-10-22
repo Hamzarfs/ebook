@@ -27,8 +27,8 @@ const BookEditingServices = () => {
     { number: "04", text: "Short Story Editing", link: "/shorts-story-editing" },
     { number: "05", text: "Proofreading", link: "/bookproof-reading" },
     { number: "06", text: "Fiction Book Editing", link: "/fiction-book-editing" },
-    { number: "07", text: "Non-Fiction Book Editing", link: "/services/adventure-ghostwriting" },
-    { number: "08", text: "Self-Editing for Fiction Writers", link: "/services/business-ghostwriting" },
+    { number: "07", text: "Non-Fiction Book Editing", link: "/non-fiction-book-editing" },
+    { number: "08", text: "Self-Editing for Fiction Writers", link: "/self-editing-fiction-writers"},
   ];
 
   // const servicesPage2 = [

@@ -21,9 +21,9 @@ const OtherServicesSec = () => {
 
   // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Book Writing ", link: "/fiction-ghostwriting" },
-    { number: "02", text: "Book Publishing ", link: "/services/non-fiction-ghostwriting" },
-    { number: "03", text: "Book Marketing", link: "/services/science-fiction-ghostwriting" },
+    { number: "01", text: "Book Writing ", link: "/book-writing" },
+    { number: "02", text: "Book Publishing ", link: "/book-publishing" },
+    { number: "03", text: "Book Marketing", link: "/book-marketing" },
     { number: "04", text: "Video Book", link: "/services/memoir-ghostwriting" },
     { number: "05", text: "Trailers", link: "/services/childrens-book-ghostwriting" },
     { number: "06", text: "Social Media Marketing", link: "/services/cookbook-ghostwriting" },
