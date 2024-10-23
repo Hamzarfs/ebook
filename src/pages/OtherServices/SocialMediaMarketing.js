@@ -26,19 +26,19 @@ import PopupForm1 from '../../components/common/PopupForm';
 // ******************************** Start SecondSection ******************************
 const services = [
   {
-    title: "Video Book Teasers",
+    title: "Voice of Your Brand",
     image: ghostWritingImage, // Update this if you have a specific image
-    description: "Our experienced team of video book teasers creates excitement for any genre. Whether it's a thriller mystery or heartfelt romantic moment, our video will grip the spirit of your work."
+    description: "Our team collaborates with you to learn your values, style, and target audience. We then develop authentic messaging that resonates with your readers. "
   },
   {
-    title: "Boost Your Book",
+    title: "Designed Content",
     image: designingImage, // Update this if you have a specific image
-    description: "Book video teasers are all the rage on social media! We craft video book teasers that you can share on all your favorite social media sites, from YouTube and Instagram to TikTok and more."
+    description: "Our experts will create a personalised content strategy in line with your book genre and areas of interest among the audience. "
   },
   {
-    title: "Amazing Video Teaser",
+    title: "Engaging Visuals",
     image: bookEditingImage, // Update this if you have a specific image
-    description: "Get ready for that blockbuster video teaser, which is great in visuals, full-option soundtracks, and great professional voice-overs. "
+    description: "Our creative team creates those awesome graphics, videos, and images that will promote your book as well as embody your brand.  "
   }
 ];
 
@@ -48,37 +48,37 @@ const services = [
 const heading = {
   title: (
     <>
-Crafting Compelling Video
+Social Media Strategy for 
     </>
   ),
-  highlight: "Book Trailers"
+  highlight: "Book Marketing"
 };
 // const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Vision Understanding",
-    title: "Vision Understanding",
-    description: "We explore your book's themes, characters, and emotions to craft trailers that reflect your narrative."
+    alt: "Initial Consultation",
+    title: "Initial Consultation",
+    description: "We discuss your needs, target audience, and social media presence. This ensures a strategy aligned with your vision."
   },
   {
     image: designprocess2,
-    alt: "Compelling Content",
-    title: "Compelling Content",
-    description: "Our creative team selects key scenes and visuals to authentically capture your book's message."
+    alt: "Platform Selection",
+    title: "Platform Selection",
+    description: "We identify the best platforms for your audience, focusing on reaching the right readers for your book."
   },
   {
     image: designprocess3,
-    alt: "Brilliant Visuals",
-    title: "Brilliant Visuals",
-    description: "We design captivating graphics, aligning colors and imagery with your book's tone to grab attention."
+    alt: "Content Calendar",
+    title: "Content Calendar",
+    description: "We develop a calendar of promotional and interactive content to keep your book consistently top-of-mind."
   },
   {
     image: designprocess4,
-    alt: "Final Launch",
-    title: "Final Launch",
-    description: "After refining the trailer, we prepare it for a successful launch across your chosen platforms."
+    alt: "Performance Tracking",
+    title: "Performance Tracking",
+    description: "We track engagement metrics and adjust strategies based on data to ensure maximum marketing effectiveness."
   }
 ];
 
@@ -88,31 +88,32 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "How long will the trailer be for the video?",
-    answer: "Generally, our trailers are between 30 seconds and two minutes in length, depending on how complex your book is and the kind of site you are using it on."
+    question: "How do you determine the cost for a campaign?",
+    answer: "We work within your budget, customizing our programs to meet your goals. A comprehensive quote is provided after discussing your objectives."
   },
   {
-    question: "Can I give input at various points along the way?",
-    answer: "Absolutely. We welcome your input throughout the process to make sure that this trailer reflects your vision."
+    question: "Can I see the content before it's published?",
+    answer: "Yes, absolutely! We send you content for approval beforehand to ensure it aligns with your vision and brand."
   },
   {
-    question: "Do I require different trailers for various platforms?",
-    answer: "We offer you various packages of your trailer customized to suit different platforms and audience groups."
+    question: "How do you measure the success of your social media strategy?",
+    answer: "We track metrics like engagement rates, follower growth, and website traffic, adjusting strategies for effectiveness based on data."
   },
   {
-    question: "How do I promote my trailer video?",
-    answer: "We'll give some ideas on how to distribute it, including social campaign ideas, email marketing, and website integration."
+    question: "Do you support social media ads?",
+    answer: "Absolutely! We offer full support for social media advertising, including ad creation, targeting, and performance monitoring."
   },
   {
-    question: "May I use it for promotional activities prior to its launch date?",
-    answer: "Yes! A video trailer is a fantastic buzz generator before the book comes out, increasing anticipation and getting early readers."
+    question: "What if I need help after the initial campaign?",
+    answer: "Our team is available to assist even after the campaign. Whether it's strategy changes or new initiatives, we're here to help."
   }
 ];
 
 
+
 // ******************************** End FAQ Section ******************************
 
-const VideoBookTrailers = () => {
+const SocialMediaMarketing = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
   const openModal = () => {
@@ -128,11 +129,10 @@ const VideoBookTrailers = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Video Book Trailers"
+        title="Social Media Marketing"
         desc={
           <>
-Capture the imagination of your readers and captivate their mind with our Video Book Trailers!
-</>
+Enhance your online visibility and connect with your target audience online with our Social Media Marketing!</>
         }
         buttonText="Get a Quote"
         onClick={openModal} // Call openModal on button click
@@ -150,13 +150,13 @@ Capture the imagination of your readers and captivate their mind with our Video 
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Book "
+    heading="Social Media"
     subHeading="Marketing"
     description={
         <>
-Do you have the fear of your book getting drowned in the crowd and, hence, finding it difficult to gain prominence over millions of other books? Or, do you want to grasp more eyeballs for your book and give that added oomph it needs? At AMZ Book Publishings, we realize that tapping into today's trends can make all the difference in creating a video book trailer that stands out. That is why we are here to help you shine with a visually stunning and trendy book trailer.
+Social media is a big deal these days in the world of marketing. Millions of users are on various platforms. In this dynamic environment, a social media strategy becomes crucial and assists the author in promoting and reaching out to his readers. AMZ Book Publishings helps you unleash your power in telling your story to your readers.
 <br/><br/>
-Our skilled team specialize in making videos that can command audiences and connect with popular themes and styles. This will skyrocket the excitement and buzz around your story. So, contact us to make your book an interesting visual experience resonating deep down in readers' hearts! 
+Our experienced team comes up with creative strategies to promote your online presence, add value to your community, and increase traffic directed to your book or author page.
         </>
     }
     imageSrc={FictionImage1}
@@ -172,12 +172,12 @@ Our skilled team specialize in making videos that can command audiences and conn
 <SecondSection 
         buttonLabel="S e r v i c e s"
         heading1={ <>
-        Create Buzz With </>}
+        Reach Your Readers </>}
         subHeading={<>
-        Our Captivating <br/>
-        Video </>}
-        heading2="Book Trailers!"
-        paragraph="A video book trailer is truly remarkable to engage your audience and promote your book visually. Our team create outstanding book trailers which keeps the readers hooked for more!"
+        Online with  <br/>
+        Our Social Media </>}
+        heading2="Marketing!"
+        paragraph="Our team develops compelling strategies that connect with your target market, ensuring growth across all platforms."
         services={services}
       />
       </div>
@@ -195,12 +195,10 @@ Our skilled team specialize in making videos that can command audiences and conn
     subHeading=""
     description={
       <>
-Imagine your video book trailer in which exactly the sense is delivered to the reader's eyes, enticing readers before they even turn a page without having to spend a dollar upfront. Our service allows you to see your trailer first before it is released to the public so you can be sure it meets your creative vision perfectly.
+Our passion for storytelling and understanding of the needs of authors make us different from others in social media marketing. We believe that your book has a unique voice, and our team combines creativity with effective strategies to help you make your brand resonate on Facebook, Instagram, Twitter, and TikTok.
 
 <br/><br/>
-No more guesswork, miscommunication, or endless adjustments. Our trailers are built for authors specifically to connect you with readers, build anticipation, and stand out among the crowd. You will know exactly how your trailer is going to look and feel with expert support.
-Ready to hook your audience? Find out your options and let us bring your story to life today!
-
+We manage your online presence with a content calendar geared to interact and connect with your audience. Measuring performance and making adjustments to improve means that we will be here working to make your story reach those readers' hearts all around the world. Let's work together to get your book out there and shining in the digital world.
       </>
   }
     imageSrc={fictionwhychoose}
@@ -221,6 +219,6 @@ Ready to hook your audience? Find out your options and let us bring your story t
     </div>
   );
 };
-export default VideoBookTrailers;
+export default SocialMediaMarketing;
 
 

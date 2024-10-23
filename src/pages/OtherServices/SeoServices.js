@@ -26,19 +26,19 @@ import PopupForm1 from '../../components/common/PopupForm';
 // ******************************** Start SecondSection ******************************
 const services = [
   {
-    title: "Video Book Teasers",
+    title: "Keyword Research",
     image: ghostWritingImage, // Update this if you have a specific image
-    description: "Our experienced team of video book teasers creates excitement for any genre. Whether it's a thriller mystery or heartfelt romantic moment, our video will grip the spirit of your work."
+    description: "The right keyword means more in terms of successful SEO. Our in-depth research will discover the terms searched for by your target audience."
   },
   {
-    title: "Boost Your Book",
+    title: "On Page Optimization",
     image: designingImage, // Update this if you have a specific image
-    description: "Book video teasers are all the rage on social media! We craft video book teasers that you can share on all your favorite social media sites, from YouTube and Instagram to TikTok and more."
+    description: "On-page optimization makes the elements of your website more search-engine friendly. We enhance title tags, meta descriptions, header tags, and content structure. "
   },
   {
-    title: "Amazing Video Teaser",
+    title: "Quality Content Creation",
     image: bookEditingImage, // Update this if you have a specific image
-    description: "Get ready for that blockbuster video teaser, which is great in visuals, full-option soundtracks, and great professional voice-overs. "
+    description: "Content is at the heart of SEO. Our published content writers create entertaining, high-quality content that communicates well to your target audience while still using those focused keywords"
   }
 ];
 
@@ -48,37 +48,36 @@ const services = [
 const heading = {
   title: (
     <>
-Crafting Compelling Video
+Comprehensive 
     </>
   ),
-  highlight: "Book Trailers"
+  highlight: "SEO Approach"
 };
 // const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
-
 const steps = [
   {
     image: designprocess1,
-    alt: "Vision Understanding",
-    title: "Vision Understanding",
-    description: "We explore your book's themes, characters, and emotions to craft trailers that reflect your narrative."
+    alt: "Pre-Consultation",
+    title: "Pre-Consultation",
+    description: "We discuss your goals, target audience, and online presence to design a customized SEO approach tailored to your needs."
   },
   {
     image: designprocess2,
-    alt: "Compelling Content",
-    title: "Compelling Content",
-    description: "Our creative team selects key scenes and visuals to authentically capture your book's message."
+    alt: "SEO Audit",
+    title: "SEO Audit",
+    description: "We conduct a full website audit to identify areas for improvement, including site speed, mobile-friendliness, and content quality."
   },
   {
     image: designprocess3,
-    alt: "Brilliant Visuals",
-    title: "Brilliant Visuals",
-    description: "We design captivating graphics, aligning colors and imagery with your book's tone to grab attention."
+    alt: "SEO Strategy",
+    title: "SEO Strategy",
+    description: "We create a specific, time-bound SEO strategy with actionable goals and tactics, aligning with your objectives for focused optimization."
   },
   {
     image: designprocess4,
-    alt: "Final Launch",
-    title: "Final Launch",
-    description: "After refining the trailer, we prepare it for a successful launch across your chosen platforms."
+    alt: "Implementation & Monitoring",
+    title: "Implementation & Monitoring",
+    description: "We implement the strategy and monitor key metrics continuously, adjusting based on data to optimize results and help you achieve your goals."
   }
 ];
 
@@ -88,31 +87,30 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "How long will the trailer be for the video?",
-    answer: "Generally, our trailers are between 30 seconds and two minutes in length, depending on how complex your book is and the kind of site you are using it on."
+    question: "How much are your SEO services?",
+    answer: "Our pricing varies based on individual needs and project scope. After discussing your goals, we provide a detailed quote reflecting the customized nature of our services."
   },
   {
-    question: "Can I give input at various points along the way?",
-    answer: "Absolutely. We welcome your input throughout the process to make sure that this trailer reflects your vision."
+    question: "Can I be involved in the SEO process?",
+    answer: "Yes! Your involvement and input are highly valued. Your insights help shape our SEO strategies, ensuring your narrative is conveyed authentically."
   },
   {
-    question: "Do I require different trailers for various platforms?",
-    answer: "We offer you various packages of your trailer customized to suit different platforms and audience groups."
+    question: "How long before I begin to see results from SEO?",
+    answer: "SEO is a long-term strategy, and results can vary. Typically, improvements are noticeable within a few months. We set realistic goals together and assess progress regularly to keep you informed."
   },
   {
-    question: "How do I promote my trailer video?",
-    answer: "We'll give some ideas on how to distribute it, including social campaign ideas, email marketing, and website integration."
+    question: "Do you support content creation?",
+    answer: "Yes! We offer full-scale content creation services, ensuring all content is optimized for SEO and tailored to your target audience."
   },
   {
-    question: "May I use it for promotional activities prior to its launch date?",
-    answer: "Yes! A video trailer is a fantastic buzz generator before the book comes out, increasing anticipation and getting early readers."
+    question: "Do you provide assistance after the initial SEO campaign?",
+    answer: "Absolutely! Our support continues after the campaign ends. Whether you need ongoing assistance or want to start new initiatives, our team is ready to help."
   }
 ];
 
-
 // ******************************** End FAQ Section ******************************
 
-const VideoBookTrailers = () => {
+const SeoServices = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
   const openModal = () => {
@@ -128,10 +126,10 @@ const VideoBookTrailers = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Video Book Trailers"
+        title="SEO Services"
         desc={
           <>
-Capture the imagination of your readers and captivate their mind with our Video Book Trailers!
+Boost your online presence and drive traffic to your book using our SEO Services!
 </>
         }
         buttonText="Get a Quote"
@@ -150,13 +148,13 @@ Capture the imagination of your readers and captivate their mind with our Video 
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Book "
-    subHeading="Marketing"
+    heading="SEO "
+    subHeading="Services"
     description={
         <>
-Do you have the fear of your book getting drowned in the crowd and, hence, finding it difficult to gain prominence over millions of other books? Or, do you want to grasp more eyeballs for your book and give that added oomph it needs? At AMZ Book Publishings, we realize that tapping into today's trends can make all the difference in creating a video book trailer that stands out. That is why we are here to help you shine with a visually stunning and trendy book trailer.
+At AMZ Book Publishings, we understand that effective online presence is essential to succeed as an author in the modern world. Our SEO strategy tailors to your website so it ranks better on search engines such as Google. This helps potential readers find your work more easily. To design all-inclusive SEO plans consistent with your goals, we combine technical know-how with creative strategies.
 <br/><br/>
-Our skilled team specialize in making videos that can command audiences and connect with popular themes and styles. This will skyrocket the excitement and buzz around your story. So, contact us to make your book an interesting visual experience resonating deep down in readers' hearts! 
+As a writer, you should solely focus on the creative aspects of your work to write something truly remarkable. Let our highly skilled SEO team use optimum strategies in optimising your site and content. Hence, your book will reach the target audience and top the searches without any hassle! 
         </>
     }
     imageSrc={FictionImage1}
@@ -172,12 +170,12 @@ Our skilled team specialize in making videos that can command audiences and conn
 <SecondSection 
         buttonLabel="S e r v i c e s"
         heading1={ <>
-        Create Buzz With </>}
+      Make Your   </>}
         subHeading={<>
-        Our Captivating <br/>
-        Video </>}
-        heading2="Book Trailers!"
-        paragraph="A video book trailer is truly remarkable to engage your audience and promote your book visually. Our team create outstanding book trailers which keeps the readers hooked for more!"
+        Book  <br/>
+        More </>}
+        heading2="Discoverable! "
+        paragraph="Our skilled SEO experts assist you in establishing your author presence online, you reach your intended readers and achieve your author goals."
         services={services}
       />
       </div>
@@ -195,12 +193,10 @@ Our skilled team specialize in making videos that can command audiences and conn
     subHeading=""
     description={
       <>
-Imagine your video book trailer in which exactly the sense is delivered to the reader's eyes, enticing readers before they even turn a page without having to spend a dollar upfront. Our service allows you to see your trailer first before it is released to the public so you can be sure it meets your creative vision perfectly.
+AT AMZ Book Publishings, we totally understand that effective SEO is not only ranking but connecting your content with your audience. Hence, our skilled team opts for a more holistic approach, including keyword research and on-page optimisation, as well as working on quality content for your niche. We are up to date with the best trends and algorithms. So, your website will always stay competitive. We always believe in transparency, so you will also have access to a regular report on our performance.
 
 <br/><br/>
-No more guesswork, miscommunication, or endless adjustments. Our trailers are built for authors specifically to connect you with readers, build anticipation, and stand out among the crowd. You will know exactly how your trailer is going to look and feel with expert support.
-Ready to hook your audience? Find out your options and let us bring your story to life today!
-
+We understand that every business is different, and we do differently too, with customised SEO strategies tailored to the specific needs of different businesses. So whether you're an upcoming author or a well-established one, through our established knowledge base, that prioritises your objectives with personalised support at every step, we can help you achieve success! 
       </>
   }
     imageSrc={fictionwhychoose}
@@ -221,6 +217,6 @@ Ready to hook your audience? Find out your options and let us bring your story t
     </div>
   );
 };
-export default VideoBookTrailers;
+export default SeoServices;
 
 

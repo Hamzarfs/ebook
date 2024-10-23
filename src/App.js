@@ -55,18 +55,10 @@ import SelfEditingFictionWriters from './pages/BookEditingCategories/SelfEditing
 import BookWriting from './pages/OtherServices/BookWriting';
 import BookPublishing from './pages/OtherServices/BookPublishing';
 import BookMarketing from './pages/OtherServices/BookMarketing';
-
-
-
-
-
-
-
-
-
-
-
-
+import VideoBookTrailers from './pages/OtherServices/VideoBookTrailers';
+import SocialMediaMarketing from './pages/OtherServices/SocialMediaMarketing';
+import AmazonMarketing from './pages/OtherServices/AmazonMarketing';
+import SeoServices from './pages/OtherServices/SeoServices';
 
 
 
@@ -94,7 +86,9 @@ const App = () => {
           <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
           <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
           <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
+
           {/* Sub Categories of Ghostwriting */}
+
           <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
           <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
           <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
@@ -110,7 +104,9 @@ const App = () => {
         <Route path="/mystery-ghostwriting" element={<MysteryGhostwriting openModal={openModal} />} />
         <Route path="/ebook-writing" element={<EbookWriting openModal={openModal} />} />
         <Route path="/legal-ghostwriting" element={<LegalGhostwriting openModal={openModal} />} />
+
          {/* Sub Categories of Designing */}
+
         <Route path="/author-website-design" element={<AuthorWebsiteDesign openModal={openModal} />} />
         <Route path="/logo-design" element={<LogoDesign openModal={openModal} />} />
         <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
@@ -133,9 +129,13 @@ const App = () => {
 
          {/**************  Other Services */}
         
-         <Route path="/book-writing" element={<BookWriting openModal={openModal} />} />
-        <Route path="/book-publishing" element={<BookPublishing openModal={openModal} />} />
-        <Route path="/book-marketing" element={<BookMarketing openModal={openModal} />} />
+        <Route path="/other-services/book-writing" element={<BookWriting openModal={openModal} />} />
+        <Route path="/other-services/book-publishing" element={<BookPublishing openModal={openModal} />} />
+        <Route path="/other-services/book-marketing" element={<BookMarketing openModal={openModal} />} />
+        <Route path="/other-services/video-book-trailers" element={<VideoBookTrailers openModal={openModal} />} />
+        <Route path="/other-services/social-media-marketing" element={<SocialMediaMarketing openModal={openModal} />} />
+        <Route path="/other-services/amazon-marketing" element={<AmazonMarketing openModal={openModal} />} />
+        <Route path="/other-services/seo-services" element={<SeoServices openModal={openModal} />} />
         
         
         

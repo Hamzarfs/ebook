@@ -14,6 +14,7 @@ const ServiceCard = ({ number, text, link }) => {
   );
 };
 
+
 // Main GhostwritingServices Component
 const OtherServicesSec = () => {
   // State to track which page/tab is active
@@ -21,12 +22,12 @@ const OtherServicesSec = () => {
 
   // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Book Writing ", link: "/book-writing" },
-    { number: "02", text: "Book Publishing ", link: "/book-publishing" },
-    { number: "03", text: "Book Marketing", link: "/book-marketing" },
-    { number: "04", text: "Video Book", link: "/services/memoir-ghostwriting" },
-    { number: "05", text: "Trailers", link: "/services/childrens-book-ghostwriting" },
-    { number: "06", text: "Social Media Marketing", link: "/services/cookbook-ghostwriting" },
+    { number: "01", text: "Book Writing ", link: "/other-services/book-writing" },
+    { number: "02", text: "Book Publishing ", link: "/other-services/book-publishing" },
+    { number: "03", text: "Book Marketing", link: "/other-services/book-marketing" },
+    { number: "04", text: "Video Book", link: "/other-services/video-book-trailers" },
+    { number: "05", text: "Social Media Marketing", link: "/other-services/social-media-marketing" },
+    { number: "06", text: "SEO Services", link: "/other-services/seo-services" },
     { number: "07", text: "Amazon Marketing", link: "/services/adventure-ghostwriting" },
     { number: "08", text: "SEO Services", link: "/services/business-ghostwriting" },
   ];
