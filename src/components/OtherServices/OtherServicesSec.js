@@ -33,7 +33,7 @@ const OtherServicesSec = () => {
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Audio Book", link: "/services/brand-identity-design" },
+    { number: "09", text: "Audio Book", link: "/other-services/audiobook" },
     { number: "10", text: "Book Reviews", link: "/services/product-packaging" },
     { number: "11", text: "Author Website Development", link: "/services/marketing-collaterals" },
     { number: "12", text: "Book Launch Strategy", link: "/services/brochure-design" },

@@ -59,6 +59,7 @@ import VideoBookTrailers from './pages/OtherServices/VideoBookTrailers';
 import SocialMediaMarketing from './pages/OtherServices/SocialMediaMarketing';
 import AmazonMarketing from './pages/OtherServices/AmazonMarketing';
 import SeoServices from './pages/OtherServices/SeoServices';
+import Audiobook from './pages/OtherServices/Audiobook';
 
 
 
@@ -136,6 +137,7 @@ const App = () => {
         <Route path="/other-services/social-media-marketing" element={<SocialMediaMarketing openModal={openModal} />} />
         <Route path="/other-services/amazon-marketing" element={<AmazonMarketing openModal={openModal} />} />
         <Route path="/other-services/seo-services" element={<SeoServices openModal={openModal} />} />
+        <Route path="/other-services/audiobook" element={<Audiobook openModal={openModal} />} />
         
         
         
