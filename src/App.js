@@ -6,6 +6,7 @@ import Designing from './pages/Designing';
 import BookEditing from './pages/BookEditing';
 import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
+import AboutUs from './pages/AboutUs';
 
 // *************** GhostWriting Subcategories ****************************
 
@@ -60,7 +61,7 @@ import SocialMediaMarketing from './pages/OtherServices/SocialMediaMarketing';
 import AmazonMarketing from './pages/OtherServices/AmazonMarketing';
 import SeoServices from './pages/OtherServices/SeoServices';
 import Audiobook from './pages/OtherServices/Audiobook';
-
+import BookReview from './pages/OtherServices/BookReview';
 
 
 import ThankYouPage from "./pages/ThankYouPage";
@@ -82,19 +83,20 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<Home openModal={openModal} />} />
-          <Route path="/designing" element={<Designing openModal={openModal} />} />
-          <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
-          <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
-          <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
+        <Route path="/" element={<Home openModal={openModal} />} />
+        <Route path="/designing" element={<Designing openModal={openModal} />} />
+        <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
+        <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
+        <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
+        <Route path="/about-us" element={<AboutUs openModal={openModal} />} />
 
           {/* Sub Categories of Ghostwriting */}
 
-          <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
-          <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
-          <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
-          <Route path="/memoir-ghostwriting" element={<MemoirGhostwriting openModal={openModal} />} />
-          <Route path="/childrens-book-ghostwriting" element={<ChildrensBookGhostwriting openModal={openModal} />} />
+        <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
+        <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
+        <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
+        <Route path="/memoir-ghostwriting" element={<MemoirGhostwriting openModal={openModal} />} />
+        <Route path="/childrens-book-ghostwriting" element={<ChildrensBookGhostwriting openModal={openModal} />} />
         <Route path="/cookbook-ghostwriting" element={<CookbookGhostwriting openModal={openModal} />} />
         <Route path="/adventure-ghostwriting" element={<AdventureGhostwriting openModal={openModal} />} />
         <Route path="/business-ghostwriting" element={<BusinessGhostwriting openModal={openModal} />} />
@@ -138,12 +140,8 @@ const App = () => {
         <Route path="/other-services/amazon-marketing" element={<AmazonMarketing openModal={openModal} />} />
         <Route path="/other-services/seo-services" element={<SeoServices openModal={openModal} />} />
         <Route path="/other-services/audiobook" element={<Audiobook openModal={openModal} />} />
+        <Route path="/other-services/book-review" element={<BookReview openModal={openModal} />} />
         
-        
-        
-        
-        
- 
         </Routes>
         
         {/* Popup Form Modal */}

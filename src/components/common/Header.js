@@ -40,6 +40,12 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link to="/about-us" className="nav-link active" aria-current="page">
+                  About Us
+                </Link>
+              </li>
+              
+              <li className="nav-item">
                 <Link to="/ghost-writing" className="nav-link">
                   Ghostwriting
                 </Link>

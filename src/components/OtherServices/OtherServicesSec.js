@@ -34,9 +34,9 @@ const OtherServicesSec = () => {
 
   const servicesPage2 = [
     { number: "09", text: "Audio Book", link: "/other-services/audiobook" },
-    { number: "10", text: "Book Reviews", link: "/services/product-packaging" },
-    { number: "11", text: "Author Website Development", link: "/services/marketing-collaterals" },
-    { number: "12", text: "Book Launch Strategy", link: "/services/brochure-design" },
+    { number: "10", text: "Book Reviews", link: "/other-services/book-review" },
+    // { number: "11", text: "Author Website Development", link: "/services/marketing-collaterals" },
+    // { number: "12", text: "Book Launch Strategy", link: "/services/brochure-design" },
     // { number: "13", text: "Flyer Design", link: "/services/flyer-design" },
     // { number: "14", text: "Social Media Graphics", link: "/services/social-media-graphics" },
     // { number: "15", text: "Poster Design", link: "/services/poster-design" },
