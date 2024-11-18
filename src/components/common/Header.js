@@ -65,6 +65,12 @@ const Header = () => {
                   Other Services
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/contact-us" className="nav-link">
+                  Contact Us
+                </Link>
+              </li>
+              
             </ul>
 
             {/* Right-aligned button */}

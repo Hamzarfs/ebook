@@ -23,7 +23,7 @@ const ImageLeftBanner = ({ heading, subHeading, description, imageSrc, objectfit
                     {/* Left Column: Text */}
                     <div className="col-md-6 pl-8">
                         <h2 className="design-process-heading font-weight-bold">
-                            {heading} <br />
+                            {heading} 
                             <span className="orangegradient-h2">{subHeading}</span>
                         </h2>
                         <p className="design-process-description">

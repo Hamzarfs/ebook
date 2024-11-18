@@ -34,6 +34,7 @@ import bookcard3 from '../images/Bookcard3.png';
 import PopupForm1 from '../components/common/PopupForm';
 import BookCards from '../components/AboutUs/BookCards';
 import ImageLeftTab from '../components/AboutUs/Imagelefttab';
+import ContactUsform from '../components/contactuspg';
 
 // ******************************** Start SecondSection ******************************
 
@@ -140,7 +141,7 @@ const faqData = [
 
 // ******************************** End FAQ Section ******************************
 
-const AboutUs = () => {
+const ContactUs = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
   const openModal = () => {
@@ -156,7 +157,7 @@ const AboutUs = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="About Us"
+        title="Contact Us"
         desc={
           <>
 Where Your Writing Dreams Come True
@@ -176,73 +177,8 @@ Where Your Writing Dreams Come True
 </div> */}
 
 
-<div style={{ padding: '30px 0px 0px 0px' }}>
-<ImageRightBanner
-    // heading="Book Review "
-    // subHeading="Services"
-    description={
-        <>
-<b>We’re your dedicated partners who believe every story deserves to be told and shared with the world. </b>At AMZ Book Publishing, we are committed to empowering authors with the tools and resources to transform their manuscripts into successful, published books.
-<br/><br/> We provide comprehensive services that bring your stories to life, from expert editing and captivating cover design to innovative marketing strategies. Whatever your publishing needs, we’ve got you covered every step of the way!
 
-
-
-        </>
-    }
-    imageSrc={aboutus1}
-    objectfit="cover"
-    imageHeight="300px"
-    imageWidth="550px"     // Set width here
-    borderRadius="30px"
-/>
-</div>
-
-<ImageLeftTab
-imageleft={imagetab}
-objectfit="cover"
- // Set height here
- imageHeight="300px"
-imageWidth="600px"     // Set width here
-
-/>
-
-{/*****************  SERVICE Section *****************/}
-
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
-<SecondSection/>
-</div> */}
-
-
-<DesignProcess 
-        heading={heading}
-        description={description}
-        steps={steps}
-      />
-
-<div style={{ padding: '0px 0px 50px 0px' }}>
-<ImageLeftBanner
-    heading="Partnering with You for Publishing Success"
-    subHeading="Your Success is Our Priority"
-    description={
-      <>
-At AMZ Book Publishing, we simplify the journey from manuscript to masterpiece. Whether you're a budding author or an experienced writer, our team provides personalized support in editing, formatting, and distribution, ensuring your first book stands out in a competitive market.
-
-
-<br/><br/>
-With a commitment to quality and innovation, AMZ Book Publishing doesn't just publish your book—we position it for success. From eye-catching cover designs to strategic marketing services, we ensure your story reaches its audience, empowering you to achieve your publishing dreams effortlessly.
-
-      </>
-  }
-    imageSrc={aboutus3}
-    imageHeight="500px"        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>
-</div>
-<div style={{ padding: '0px 0px 80px 0px' }}>
-<BookCards books={books} />
-</div>
+<ContactUsform/>
 <CtaButton/>
          
           <div>
@@ -254,6 +190,6 @@ With a commitment to quality and innovation, AMZ Book Publishing doesn't just pu
     </div>
   );
 };
-export default AboutUs;
+export default ContactUs;
 
 

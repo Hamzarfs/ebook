@@ -9,12 +9,10 @@ export default function BookCards({ books }) {
     <section className="book-cards">
       {/* Top Row with Heading and Subtext */}
       <div className="book-cards-header container">
-        <h2>Let’s see the inside full</h2>
-        <h3 className="highlighted-text">overview chapter.</h3>
+        <h2>Where Stories Come to Life!</h2>
+        <h3 className="highlighted-text">Your Vision, Our Craft – Published Perfectly!</h3>
         <p>
-          Creating a fictional world is an art, and our expert ghostwriters are here to help you
-          perfect it. Whether you have a plot, characters, just a concept, we transform your vision
-          into a compelling and professionally-written novel.
+        Explore our portfolio gallery to witness exceptional book publishing projects. From captivating covers to flawlessly formatted interiors, discover how AMZ Book Publishing transforms ideas into professionally published works of art.
         </p>
       </div>
 

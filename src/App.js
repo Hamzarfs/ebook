@@ -7,6 +7,7 @@ import BookEditing from './pages/BookEditing';
 import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
 import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 // *************** GhostWriting Subcategories ****************************
 
@@ -89,6 +90,9 @@ const App = () => {
         <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
         <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
         <Route path="/about-us" element={<AboutUs openModal={openModal} />} />
+        <Route path="/contact-us" element={<ContactUs openModal={openModal} />} />
+        
+        
 
           {/* Sub Categories of Ghostwriting */}
 

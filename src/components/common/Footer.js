@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-import ebooklogo from '../../images/Logo-AMZ-02.png';
+import ebooklogo from '../../images/footerlogo.webp';
 import Flag from 'react-world-flags'; // To render the country flags
 import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
 
