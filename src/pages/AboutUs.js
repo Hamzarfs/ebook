@@ -5,84 +5,108 @@ import BreadCrumb from '../components/common/BreadCrumb';
 import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
-import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
+import Ghostwritingbg from '../images/aboutus.webp'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
-import FictionImage1 from '../images/fictiongimg1.png';
-import fictionwhychoose from '../images/fictionwhychoose.png';
-import ghostWritingImage from '../images/Ghost Writing.png';
-import designingImage from '../images/Designing.png';
-import bookEditingImage from '../images/book edit.png';
-import designprocess1 from '../images/design-process-1.png';
-import designprocess2 from '../images/design-process-2.png';
-import designprocess3 from '../images/design-process-3.png';
-import designprocess4 from '../images/design-process-4.png';
+
+
+import aboutus1 from '../images/aboutus1.webp';
+
+import aboutusdesign1 from '../images/aboutusdesign1.png';
+import aboutusdesign2 from '../images/aboutusdesign2.png';
+import aboutusdesign3 from '../images/aboutusdesign3.png';
+import aboutusdesign4 from '../images/aboutusdesign4.png';
+import imagetab from '../images/aboutus2.webp';
+import aboutus3 from '../images/aboutus3.webp';
+
+import bookcard1 from '../images/Bookcard1.png';
+import bookcard2 from '../images/Bookcard2.png';
+import bookcard3 from '../images/Bookcard3.png';
+
+
+
+
+
 import PopupForm1 from '../components/common/PopupForm';
+import BookCards from '../components/AboutUs/BookCards';
+import ImageLeftTab from '../components/AboutUs/Imagelefttab';
 
 // ******************************** Start SecondSection ******************************
-const services = [
-  {
-    title: "Targeted Reviewer",
-    image: ghostWritingImage, // Update this if you have a specific image
-    description: "We connect your book with the right reviewers, ensuring it reaches the most relevant and interested readers through a vast network of influencers and critics."
-  },
-  {
-    title: "Authentic Feedback",
-    image: designingImage, // Update this if you have a specific image
-    description: "Our team provides honest, constructive feedback to help improve your book and guide future projects."
-  },
-  {
-    title: "Exposure & Credibility",
-    image: bookEditingImage, // Update this if you have a specific image
-    description: "Positive reviews build credibility on platforms like Amazon and Goodreads, increasing visibility and attracting more readers."
-  }
-  
-];
+
 
 
 // ******************************** End SecondSection ******************************
 // ******************************** Start Design Process Props ******************************
 const heading = {
+  
   title: (
     <>
-Maximise Your Book's Potential
+Why Choose The AMZ
     </>
     
   ),
 
-  highlight: "with Powerful Reviews!"
+  // highlight: "with Powerful Reviews!"
+ 
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const description = "A storyteller is best understood by someone who equally applauds the magic of words and recognizes the heart and soul woven into each narrative. ";
 const steps = [
   {
-    image: designprocess1,
-    alt: "Book Strategy",
-    title: "Book Strategy",
-    description: "We discuss your book's goals, target audience, and vision to create a customized production plan that fits your needs."
+    image: aboutusdesign1,
+    alt: "Novel Editing",
+    title: "Novel Editing",
+    description: "Refine your characters, dialogue, and plot to perfect your story. Enhance your vision, we ensure your manuscript is polished and ready to shine."
   },
   {
-    image: designprocess2,
-    alt: "Manuscript Prep",
-    title: "Manuscript Prep",
-    description: "We format and adjust your manuscript for narration, ensuring it's optimized for an engaging audio experience."
+    image: aboutusdesign2,
+    alt: "Video Trailer Production",
+    title: "Video Trailer Production",
+    description: "Make your book stand out with trendy, engaging trailers. Generate excitement and grab readers’ attention with captivating visuals."
   },
   {
-    image: designprocess3,
-    alt: "Narrator Selection",
-    title: "Narrator Selection",
-    description: "We select a narrator whose voice matches your book's tone and genre, offering samples to help you choose the best fit."
+    image: aboutusdesign3,
+    alt: "Book Editing",
+    title: "Book Editing",
+    description: "Make your manuscript publish-ready while honoring your voice. High-quality editing ensures readers connect deeply with your book."
   },
   {
-    image: designprocess4,
-    alt: "Audio Production",
-    title: "Audio Production",
-    description: "We record and edit your audiobook with attention to quality, ensuring the final product meets the highest standards."
+    image: aboutusdesign4,
+    alt: "Book Formatting",
+    title: "Book Formatting",
+    description: "Craft professional layouts for print and digital formats. Enhance readability and captivate readers with polished designs."
   }
   
+];
+
+const books = [
+  {
+    image: bookcard1,
+    title: 'Allies in Time',
+    rating: '⭐⭐⭐⭐⭐',
+    category: 'Series Writing',
+  },
+  {
+    image: bookcard2,
+    title: 'Make It Out',
+    rating: '⭐⭐⭐⭐⭐',
+    category: 'Series Writing',
+  },
+  {
+    image: bookcard3,
+    title: 'Blood Honey',
+    rating: '⭐⭐⭐⭐⭐',
+    category: 'Series Writing',
+  },
+  {
+    image: bookcard1,
+    title: 'Another Book',
+    rating: '⭐⭐⭐⭐⭐',
+    category: 'Novel Writing',
+  },
 ];
 
 
@@ -137,7 +161,7 @@ const AboutUs = () => {
         title="About Us"
         desc={
           <>
-Improve the credibility and visibility of your book with our Book Review Services!
+Where Your Writing Dreams Come True
 </>
         }
         buttonText="Get a Quote"
@@ -154,66 +178,71 @@ Improve the credibility and visibility of your book with our Book Review Service
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
+<div style={{ padding: '30px 0px 0px 0px' }}>
 <ImageRightBanner
-    heading="Book Review "
-    subHeading="Services"
+    // heading="Book Review "
+    // subHeading="Services"
     description={
         <>
-At AMZ Book Publishings, we recognize that a well-crafted review could go a long way in making or breaking the reader's choice. Our personalised approach is designed to attach your work to the reviewers who will appreciate your genre and style. It's this approach that we hope your book will be represented at its best strengths and through reviews appealing to a potential reader.
-<br/><br/>
-We understand the importance of quality reviews in today's cutthroat literary marketplace. We will enable you to receive authentic feedback from your target audience, which can elevate the reputation of your book.
+<b>We’re your dedicated partners who believe every story deserves to be told and shared with the world. </b>At AMZ Book Publishing, we are committed to empowering authors with the tools and resources to transform their manuscripts into successful, published books.
+<br/><br/> We provide comprehensive services that bring your stories to life, from expert editing and captivating cover design to innovative marketing strategies. Whatever your publishing needs, we’ve got you covered every step of the way!
+
+
+
         </>
     }
-    imageSrc={FictionImage1}
-    objectfit="contain"
-    imageHeight="400px"  // Set height here
-    imageWidth="100%"     // Set width here
+    imageSrc={aboutus1}
+    objectfit="cover"
+    imageHeight="300px"
+    imageWidth="550px"     // Set width here
     borderRadius="30px"
 />
 </div>
 
+<ImageLeftTab
+imageleft={imagetab}
+objectfit="cover"
+ // Set height here
+ imageHeight="300px"
+imageWidth="600px"     // Set width here
+
+/>
+
 {/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-     Maximise Your </>}
-        subHeading={<>
-        Book's Potential <br/>
-        with Powerful</>}
-        heading2=" Reviews! "
-        paragraph="Our authentic reviews build trust and excitement around your book, connect you with your target market, and increase your visibility. "
-        services={services}
-      />
-      </div>
+
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
+
+
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={description}
         steps={steps}
       />
+
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Us"
-    subHeading=""
+    heading="Let’s see the inside full"
+    subHeading="overview chapter."
     description={
       <>
-At AMZ Book Publishings, we believe every review tells the story of your book. It is our effort to ensure that your book reaches their ideal readers and creates meaningful communication with them. Useful and positive reviews creates trust but also help increase the visibility of a book because more readers are attracted to it.
+Creating a fictional world is an art, and our expert ghostwriters are here to help you perfect it. Whether you have a plot, characters,  just a concept, we transform your vision into a compelling and professionally-written novel.
 
 <br/><br/>
-Working closely with you, we ensure that your book receives just the right amount of attention needed for maximum success. Through our well-structured team, we carefully match your book with reviewers who resonate with the themes and genre. From improving the credibility of your book to increasing its visibility on platforms like Amazon and Goodreads, we take each step that helps your book stand out in the competitive market.
+Creating a fictional world is an art, and our expert ghostwriters are here to help you perfect it. Whether you have a plot, characters, or just a concept. Creating a fictional world is an art.
 
       </>
   }
-    imageSrc={fictionwhychoose}
-    imageHeight=""        // Set height here
+    imageSrc={aboutus3}
+    imageHeight="500px"        // Set height here
     imageWidth=""          // Set width here
     objectfit="cover"          // Set object-fit here
     borderRadius="15px"        // Set border radius here
 />
+</div>
+<div style={{ padding: '0px 0px 80px 0px' }}>
+<BookCards books={books} />
 </div>
 <CtaButton/>
          
