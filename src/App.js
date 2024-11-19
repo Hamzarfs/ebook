@@ -8,6 +8,8 @@ import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsConditions from './pages/Termscondition';
 
 // *************** GhostWriting Subcategories ****************************
 
@@ -91,6 +93,9 @@ const App = () => {
         <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
         <Route path="/about-us" element={<AboutUs openModal={openModal} />} />
         <Route path="/contact-us" element={<ContactUs openModal={openModal} />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy openModal={openModal} />} />
+        <Route path="/terms-condition" element={<TermsConditions openModal={openModal} />} />
+        
         
         
 

@@ -5,35 +5,15 @@ import BreadCrumb from '../components/common/BreadCrumb';
 import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
-import Ghostwritingbg from '../images/aboutus.webp'; // Import the image
+import contactusbg from '../images/contactusbg.webp'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
-import ContactForm from '../components/common/ContactForm1';
-
-import DesignProcess from '../components/common/DesignProcess';
-import ImageRightBanner from '../components/common/ImageRightText';
-import ImageLeftBanner from '../components/common/ImageLeftText';
-
-
-import aboutus1 from '../images/aboutus1.webp';
-
-import aboutusdesign1 from '../images/aboutusdesign1.png';
-import aboutusdesign2 from '../images/aboutusdesign2.png';
-import aboutusdesign3 from '../images/aboutusdesign3.png';
-import aboutusdesign4 from '../images/aboutusdesign4.png';
-import imagetab from '../images/aboutus2.webp';
-import aboutus3 from '../images/aboutus3.webp';
-
-import bookcard1 from '../images/Bookcard1.png';
-import bookcard2 from '../images/Bookcard2.png';
-import bookcard3 from '../images/Bookcard3.png';
 
 
 
 
 
 import PopupForm1 from '../components/common/PopupForm';
-import BookCards from '../components/AboutUs/BookCards';
-import ImageLeftTab from '../components/AboutUs/Imagelefttab';
+
 import ContactUsform from '../components/contactuspg';
 
 // ******************************** Start SecondSection ******************************
@@ -42,68 +22,6 @@ import ContactUsform from '../components/contactuspg';
 
 // ******************************** End SecondSection ******************************
 // ******************************** Start Design Process Props ******************************
-const heading = {
-  
-  title: (
-    <>
-Why Choose The AMZ
-    </>
-    
-  ),
-
-  // highlight: "with Powerful Reviews!"
- 
-};
-const description = "A storyteller is best understood by someone who equally applauds the magic of words and recognizes the heart and soul woven into each narrative. ";
-const steps = [
-  {
-    image: aboutusdesign1,
-    alt: "Novel Editing",
-    title: "Novel Editing",
-    description: "Refine your characters, dialogue, and plot to perfect your story. Enhance your vision, we ensure your manuscript is polished and ready to shine."
-  },
-  {
-    image: aboutusdesign2,
-    alt: "Video Trailer Production",
-    title: "Video Trailer Production",
-    description: "Make your book stand out with trendy, engaging trailers. Generate excitement and grab readers’ attention with captivating visuals."
-  },
-  {
-    image: aboutusdesign3,
-    alt: "Book Editing",
-    title: "Book Editing",
-    description: "Make your manuscript publish-ready while honoring your voice. High-quality editing ensures readers connect deeply with your book."
-  },
-  {
-    image: aboutusdesign4,
-    alt: "Book Formatting",
-    title: "Book Formatting",
-    description: "Craft professional layouts for print and digital formats. Enhance readability and captivate readers with polished designs."
-  }
-  
-];
-
-const books = [
-  {
-    image: bookcard1,
-    title: 'Allies in Time',
-    rating: '⭐⭐⭐⭐⭐',
-    category: 'Series Writing',
-  },
-  {
-    image: bookcard2,
-    title: 'Make It Out',
-    rating: '⭐⭐⭐⭐⭐',
-    category: 'Series Writing',
-  },
-  {
-    image: bookcard3,
-    title: 'Blood Honey',
-    rating: '⭐⭐⭐⭐⭐',
-    category: 'Series Writing',
-  },
-
-];
 
 
 
@@ -134,10 +52,6 @@ const faqData = [
   }
 ];
 
-  
-  
-
-
 
 // ******************************** End FAQ Section ******************************
 
@@ -156,6 +70,7 @@ const ContactUs = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
+
       <BreadCrumb
         title="Contact Us"
         desc={
@@ -165,17 +80,10 @@ Where Your Writing Dreams Come True
         }
         buttonText="Get a Quote"
         onClick={openModal} // Call openModal on button click
-        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+        backgroundImage={contactusbg} // Pass the image URL as a prop
       />
-      {/* Popup Form */}
-      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
-{/* -------------------End Banner section---------------------- */}
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
-<ImageTextBanner 
-    contentItems={contentItems} 
-/>
-</div> */}
 
+      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
 
 
 <ContactUsform/>
@@ -184,7 +92,7 @@ Where Your Writing Dreams Come True
           <div>
       <FAQSection faqData={faqData} />
     </div>
-         <ContactForm/>
+        
 
       <Footer/>
     </div>

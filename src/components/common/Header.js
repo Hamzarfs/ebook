@@ -20,7 +20,9 @@ const Header = () => {
     <section id="header">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <img src={ebooklogo} alt="Brand Logo" className="navbar-brand" />
+        <Link to="/">
+  <img src={ebooklogo} alt="Brand Logo" className="navbar-brand" />
+</Link>
           <button
             className="navbar-toggler"
             type="button"

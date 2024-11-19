@@ -114,6 +114,10 @@ img.navbar-brand {
 
 }
 
+a.first-button {
+  text-decoration: none;
+}
+
 .first-button:hover {
     background-color: #fc9700; /* Darker shade on hover */
 }
@@ -1438,7 +1442,7 @@ transition: background-color 0.3s ease;
   
   h2.contactuspg-heading-row {
     font-size: 2em;
-    font-weight: 400px;
+    font-weight: 600;
   }
   textarea.form-control.contactuspg-input {
     height: 200px !important;
@@ -1452,6 +1456,9 @@ transition: background-color 0.3s ease;
   .contactuspg-heading-row .contactuspg-subtext {
     font-size: 1.1rem;
     color: #666;
+  }
+  contactuspg-heading-row{
+
   }
   
   

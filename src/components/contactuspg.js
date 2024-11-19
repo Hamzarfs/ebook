@@ -68,11 +68,11 @@ const ContactUsform = () => {
             })
     }
     return (
-        <section className="contactuspg-section py-5">
+        <section className="contactuspg-section ">
             <div className="container">
                 <div className="row justify-content-center">
                     {/* Heading and Text */}
-                    <div className="col-12 text-center py-5">
+                    <div className="col-12 text-center">
                         <h2 className="contactuspg-heading-row">Want a Guide Contact Us today</h2>
                         <p className="contactuspg-subtext">A place where talent and ambition can soar. Unleash your creativity and let your talents take center stage.  <br />When you work with us, you step into a world where your passion meets our purpose.</p>
                     </div>
