@@ -34,6 +34,7 @@ import bookcard3 from '../images/Bookcard3.png';
 import PopupForm1 from '../components/common/PopupForm';
 import BookCards from '../components/AboutUs/BookCards';
 import ImageLeftTab from '../components/AboutUs/Imagelefttab';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -155,6 +156,10 @@ const AboutUs = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
+      <Helmet>
+        <title>About Us - AMZ Book Publishing</title>
+        <meta name="description" content="AMZ Book Publishing offers comprehensive book publishing solutions for authors. Let us guide you through every step of the publishing journey with professionalism and expertise." />
+      </Helmet>
       <BreadCrumb
         title="About Us"
         desc={

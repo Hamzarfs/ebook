@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -126,6 +127,10 @@ const AmazonMarketing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Expert Amazon Marketing Services for Increased Visibility</title>
+        <meta name="description" content="Need Amazon Marketing? We offer professional Amazon Marketing Services for book promotion and sale to self-published authors on affordable price. Get a free quote now!" />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Amazon Marketing"

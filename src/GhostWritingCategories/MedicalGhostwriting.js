@@ -22,6 +22,7 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -132,6 +133,10 @@ const MedicalGhostwriting = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Medical Ghostwriting Services by Experienced Medical Writers</title>
+        <meta name="description" content="Need Medical ghostwriter? We offer professional Medical ghostwriting services on affordable price. Contact us to hire Medical writers remotely for your project." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Medical Ghostwriting"

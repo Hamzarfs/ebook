@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -126,6 +127,10 @@ const BookProofreading = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Thorough Book Proofreading Services for Error-Free Texts</title>
+        <meta name="description" content="Need Book Proofreading Services? We offer professional Book Proofreading services for self-published authors on affordable price. Get a free quote now!" />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

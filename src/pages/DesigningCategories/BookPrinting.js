@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -124,6 +125,10 @@ const BookPrinting = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Quality Book Printing Services for Self-Published Authors</title>
+        <meta name="description" content="Need Book Printing services? We offer professional book printing services for authors on affordable price. Contact us to hire expert print on-deman services."/>
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -126,6 +127,11 @@ const BusinessCardDesign = () => {
 
   return (
     <div>
+     <Helmet>
+        <title>Professional Business Card Design Services</title>
+        <meta name="description" content="Need Business Card Design Services? We offer professional Business Card design services for self-published authors on affordable price. Hire expert designers." />
+      </Helmet>
+
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

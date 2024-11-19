@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -126,6 +127,10 @@ const VideoBookTrailers = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Engaging Video Book Trailer Services to Promote Your Book</title>
+        <meta name="description" content="Need Video Book Trailers Services? We offer professional and engaging Video Book Trailers creatives for self-published authors on affordable price." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Video Book Trailers"

@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -127,6 +128,10 @@ const NovelEditing = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Expert Novel Editing Services for Perfecting Your Story</title>
+        <meta name="description" content="Need Novel Editing Services? We offer professional Novel Editing services for self-published authors on affordable price. Hire expert editors for your Novel." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

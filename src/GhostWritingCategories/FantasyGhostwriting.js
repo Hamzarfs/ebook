@@ -22,6 +22,7 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -129,6 +130,10 @@ const FantasyGhostwriting = () => {
 
   return (
     <div>
+     <Helmet>
+        <title>Fantasy Ghostwriting Services by Professional Fantasy Writers</title>
+        <meta name="description" content="Need Fantasy ghostwriter? We offer professional Fantasy ghostwriting services on affordable price. Contact us to hire fantasy writers remotely for your project." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

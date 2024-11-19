@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -119,6 +120,10 @@ const BookTeaser = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Creating Captivating Book Teaser and Trailer Services</title>
+        <meta name="description" content="Need Book Teaser services? We offer professional book trailer and teaser services for authors book on affordable price. Contact us to hire expert services." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

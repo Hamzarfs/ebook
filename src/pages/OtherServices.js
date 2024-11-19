@@ -96,8 +96,8 @@ const OtherServices = () => {
   return (
     <div>
        <Helmet>
-        <title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
-        <meta name="description" content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in US and worldwide. Get your dream book published today!" />
+        <title>Multiple Book Publishing Services - AMZ Book Publishing</title>
+        <meta name="description" content="We provide many valuable services to authors like book marketing, book trailers, seo services and more. Contact us for for more information." />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

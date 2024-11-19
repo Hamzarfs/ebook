@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -123,6 +124,10 @@ const NonFictionBookEditing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Expert Non-Fiction Book Editing for Accuracy and Clarity</title>
+        <meta name="description" content="Need Non-Fiction Book Editing Services? We offer professional Non-Fiction Book Editing services for self-published authors on affordable price. Get a free quote now!" />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Non-Fiction Book Editing"

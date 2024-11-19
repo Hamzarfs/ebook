@@ -22,6 +22,7 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -129,6 +130,10 @@ const EbookWriting = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Ebook Writing Services by Professional Ebook Ghostwriters</title>
+        <meta name="description" content="Need E-Book writer? We offer professional ebook ghostwriting services services on affordable price. Contact us to hire expert writers remotely for your project." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -124,6 +125,10 @@ const PoetryEditing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Professional Poetry Editing Services to Enhance Your Verses</title>
+        <meta name="description" content="Need Poetry Editing Services? We offer professional Poetry Editing services for self-published poets on affordable price. Hire expert editors for your book." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Poetry Editing"

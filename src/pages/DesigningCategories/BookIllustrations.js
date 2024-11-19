@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -125,6 +126,10 @@ const BookIllustrations = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Stunning Book Illustration Services by Talented Artists</title>
+        <meta name="description" content="Need Book Illustration services? We offer professional book illustration services in the USA on affordable price. Contact us to hire expert illustrators." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Book Illustrations"

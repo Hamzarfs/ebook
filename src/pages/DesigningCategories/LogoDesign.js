@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 // ******************************** Start SecondSection ******************************
 
 const services = [
@@ -126,6 +127,10 @@ const LogoDesign = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Custom Logo Design Services From Top Logo Designers</title>
+        <meta name="description" content="Need a logo designer? We offer professional custom logo design services for book writer's website. Hire expert logo designers for portfolio website." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
