@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -131,6 +132,10 @@ const BookReview = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Book Review Services to Gain Credibility and Exposure</title>
+        <meta name="description" content="Need Book Review Services? We offer professional Book Review services to self-published authors on affordable price. Get a free quote now!" />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

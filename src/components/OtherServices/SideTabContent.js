@@ -31,42 +31,70 @@ const SideTabContent = () => {
     },
     {
       title: 'Book Publishing',
-      content: 'Our expert team can help with all your publishing needs...',
+      content: 'Being part of AMZ Book Publishings means that publishing becomes more than just producing a book. Its about talking to the world through your story in a way that resonates with your intended audience. Our custom publishing approach will bring your voice and vision to the top of every task we undertake. With this strategy, we are committed to ensuring you meet your potential in this competitive market as you utilise a platform that puts the focus on your unique voice and its intended audience.',
       image: frame11,
     },
     {
       title: 'Book Marketing',
-      content: 'We provide targeted book marketing strategies...',
+      content: (
+        <>
+          <p>
+          Do you have the fear of your book getting drowned in the crowd and, hence, finding it difficult to gain prominence over millions of other books? Or, do you want to grasp more eyeballs for your book and give that added oomph it needs? At AMZ Book Publishings, we realize that tapping into today's trends can make all the difference in creating a video book trailer that stands out. That is why we are here to help you shine with a visually stunning and trendy book trailer.
+          </p>
+      
+        </>
+      ),
+      
       image: bookwritingtab,
     },
     {
-      title: 'Video Book Trailers',
-      content: 'We provide targeted book marketing strategies...',
+      title: 'Video Book',
+      content:( <>
+        Our skilled team specialize in making videos that can command audiences and connect with popular themes and styles. This will skyrocket the excitement and buzz around your story. So, contact us to make your book an interesting visual experience resonating deep down in readers' hearts! </> ),
+       
       image: bookwritingtab,
     },
     {
       title: 'Social Media Marketing',
-      content: 'We provide targeted book marketing strategies...',
+      content:( <>
+         Social media is a big deal these days in the world of marketing. Millions of users are on various platforms. In this dynamic environment, a social media strategy becomes crucial and assists the author in promoting and reaching out to his readers. AMZ Book Publishings helps you unleash your power in telling your story to your readers.
+ <br/><br/>
+Our experienced team comes up with creative strategies to promote your online presence, add value to your community, and increase traffic directed to your book or author page. </> ),
       image: bookwritingtab,
     },
     {
       title: 'Amazon Marketing',
-      content: 'We provide targeted book marketing strategies...',
+      content:( <>
+        We, at AMZ Book Publishings, well understand that just getting a book listed on Amazon is not how one makes their book successful. There are millions of titles competing with one another for the reader's attention. With this, and many other reasons, efficient marketing helps you stand out. That's why we use strategic approaches that enhance the discoverability of your book in order to attract potential readers who eventually click on the "purchase" button.
+        <br/><br/>
+Our expert team helps you reach your target audience and really maximize the exposure of your book on the world's largest online marketplace.
+      title: 'Amazon Marketing', </> ),
       image: bookwritingtab,
     },
     {
       title: 'SEO Services',
-      content: 'We provide targeted book marketing strategies...',
+      content:( <>
+       At AMZ Book Publishings, we understand that effective online presence is essential to succeed as an author in the modern world. Our SEO strategy tailors to your website so it ranks better on search engines such as Google. This helps potential readers find your work more easily. To design all-inclusive SEO plans consistent with your goals, we combine technical know-how with creative strategies.
+        <br/><br/>
+        As a writer, you should solely focus on the creative aspects of your work to write something truly remarkable. Let our highly skilled SEO team use optimum strategies in optimising your site and content. Hence, your book will reach the target audience and top the searches without any hassle! </> ),
+
       image: bookwritingtab,
     },
     {
       title: 'Audio Book',
-      content: 'We provide targeted book marketing strategies...',
+      content:( <>
+       Audiobooks are now the number one favourite of busy readers. You can listen to your recent read while commuting, exercising, or doing housework. We capture your book's heart and make your audiobook a sleek-finished product that fans will appreciate, and new listeners will like. We want your audiobook to be a real treasure in your journey as an author, getting you closer to more people and widening your audience.
+        <br/><br/>
+        Our expert team at AMZ Book Publishings is dedicated to helping you reach a wider audience by bringing your stories to life with high-quality audio narration. This means making sure that your book will resonate with the book listeners worldwide. Let's join the audiobook revolution and make your book come alive! </> ),
       image: bookwritingtab,
     },
     {
       title: 'Book Reviews',
-      content: 'We provide targeted book marketing strategies...',
+      content:( <>
+   At AMZ Book Publishings, we recognize that a well-crafted review could go a long way in making or breaking the reader's choice. Our personalised approach is designed to attach your work to the reviewers who will appreciate your genre and style. It's this approach that we hope your book will be represented at its best strengths and through reviews appealing to a potential reader.
+
+        <br/><br/>
+        We understand the importance of quality reviews in today's cutthroat literary marketplace. We will enable you to receive authentic feedback from your target audience, which can elevate the reputation of your book. </> ),
       image: bookwritingtab,
     },
     // Add more tabs as needed

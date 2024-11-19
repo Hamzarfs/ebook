@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -124,6 +125,10 @@ const SeoServices = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>SEO Services for Authors to Enhance Online Discoverability</title>
+        <meta name="description" content="Need SEO Services? We offer professional Search Engine Optimization Services to self-published authors to gain visibility on affordable price. Get a free quote!" />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="SEO Services"

@@ -22,6 +22,7 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -134,6 +135,10 @@ const HistoryGhostwriting = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Historical Book Ghostwriting Services by History Writers</title>
+        <meta name="description" content="Need History ghostwriter? We offer professional Historical ghostwriting services on affordable price. Contact us to hire History writers remotely for your project." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Historical Ghostwriting"

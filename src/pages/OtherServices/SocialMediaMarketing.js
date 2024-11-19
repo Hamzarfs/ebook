@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -127,6 +128,10 @@ const SocialMediaMarketing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Social Media Marketing Services for Authors to Build Audience</title>
+        <meta name="description" content="Need Social Media Marketing? We offer professional Social Media Marketing for book promotion to self-published authors on affordable price. Get a free quote now!" />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Social Media Marketing"

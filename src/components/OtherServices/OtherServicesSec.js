@@ -1,19 +1,19 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 // ServiceCard Component
 const ServiceCard = ({ number, text, link }) => {
   return (
     <div className="col-lg-3 col-md-6 mb-4">
-      <a href={link} target="_blank" rel="noopener noreferrer" className="service-card-link">
+      <Link to={link} className="service-card-link"> {/* Replaced 'a' with 'Link' */}
         <div className="service-card">
           <span className="service-number">{number}</span>
           <p>{text}</p>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
-
 
 // Main GhostwritingServices Component
 const OtherServicesSec = () => {
@@ -28,8 +28,8 @@ const OtherServicesSec = () => {
     { number: "04", text: "Video Book", link: "/other-services/video-book-trailers" },
     { number: "05", text: "Social Media Marketing", link: "/other-services/social-media-marketing" },
     { number: "06", text: "SEO Services", link: "/other-services/seo-services" },
-    { number: "07", text: "Amazon Marketing", link: "/services/adventure-ghostwriting" },
-    { number: "08", text: "SEO Services", link: "/services/business-ghostwriting" },
+    { number: "07", text: "Amazon Marketing", link: "/other-services/amazon-marketing" },
+    { number: "08", text: "SEO Services", link: "/other-services/seo-services" },
   ];
 
   const servicesPage2 = [

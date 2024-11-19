@@ -16,6 +16,7 @@ import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import DesignProcess from '../components/common/DesignProcess';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start Design Process Props ******************************
 const heading = { 
@@ -95,6 +96,10 @@ const BookEditing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Book Editing Services for Authors by Professional Editors</title>
+        <meta name="description" content="Need book editing services? We offer professional book editing services for writers. Contact our experienced book editors for your manuscript editing today." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Book Editing Services"

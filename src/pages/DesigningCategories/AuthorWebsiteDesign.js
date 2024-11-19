@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 
@@ -129,6 +130,10 @@ const AuthorWebsiteDesign = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Custom Portfolio Website Design Services for Authors </title>
+        <meta name="description" content="We create stunning websites for writers. Get our author website design services for showcasing your books, book sales, readers email list and attention." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -123,6 +124,11 @@ const ScreenplayEditing = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Screenplay Editing Services by Experienced Industry Professionals</title>
+        <meta name="description" content="Need Screenplay Editing Services? We offer professional Screenplay Editing services for self-published authors on affordable price. Hire expert for your book." />
+      </Helmet>
+
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

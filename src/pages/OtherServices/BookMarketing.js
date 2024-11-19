@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -124,6 +125,10 @@ const BookMarketing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
+      <Helmet>
+        <title>Effective Book Marketing Strategies to Boost Your Sales</title>
+        <meta name="description" content="Need Book Marketing Services? We offer professional Book Marketing services for self-published authors on affordable price. Hire expert digital marketer for your book." />
+      </Helmet>
       <Header />
       <BreadCrumb
         title="Book Marketing"

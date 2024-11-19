@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -125,6 +126,10 @@ const ShortStoryEditing = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Short Story Editing Services to Refine Your Narrative</title>
+        <meta name="description" content="Need Short Story Editing Services? We offer professional Short Story Editing services for self-published authors on affordable price. Hire expert for your book." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

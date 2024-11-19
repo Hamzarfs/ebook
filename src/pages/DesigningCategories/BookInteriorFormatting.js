@@ -22,6 +22,7 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -124,6 +125,10 @@ const BookInteriorFormatting= () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Professional Book Formatting and Interior Formatting Services</title>
+        <meta name="description" content="Need Book Formatting services? We offer professional book interior formatting services for self-published authors on affordable price. Contact us to hire experts." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

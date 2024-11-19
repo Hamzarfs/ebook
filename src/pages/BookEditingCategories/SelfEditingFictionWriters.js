@@ -22,6 +22,8 @@ import designprocess2 from '../../images/design-process-2.png';
 import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
+import { Helmet, HelmetData } from 'react-helmet-async';
+
 
 // ******************************** Start SecondSection ******************************
 const services = [
@@ -119,7 +121,12 @@ const SelfEditingFictionWriters = () => {
 
   return (
     <div>
+     <Helmet>
+        <title>Self-Editing Tips for Fiction Writers to Polish Their Work</title>
+        <meta name="description" content="AMZ Book Publishing offers top quality tips for Self Editing for Fiction Writers. Our fiction writers are highly qualified to share valuable feedback for your book." />
+      </Helmet>
       {/* -------------------Start Banner section---------------------- */}
+  
       <Header />
       <BreadCrumb
         title="Self-Editing Fiction Writers"
