@@ -26,9 +26,6 @@ const ContactUsform = () => {
     };
 
     const validateEmailAndPhone = () => {
-        console.log(document.querySelector('.contactuspg-form input[name=email]'));
-        console.log(document.querySelector('.contactuspg-form input[name=phone]'));
-
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
             phoneRegex = /^\+1\d{10}$/
 
@@ -54,7 +51,7 @@ const ContactUsform = () => {
 
         setLoading(true)
 
-        await fetch(/*'http://localhost:9090'*//*"https://webdesignmania.co.uk/php/index.php"*/"https://webdesignmania.com/php_mailer/contact.php", {
+        await fetch(/*'http://localhost:9090/contact-us-email.php'*/"https://amzbookpublishing.net/PHPMailer/contact-us-email.php", {
             method: 'POST',
             body: JSON.stringify(formData)
         })
@@ -67,6 +64,7 @@ const ContactUsform = () => {
                     Swal.fire('Error', message, 'error')
             })
     }
+    
     return (
         <section className="contactuspg-section ">
             <div className="container">
@@ -126,7 +124,7 @@ const ContactUsform = () => {
 
                         {/* Second Column - Form */}
                         <div className="col-lg-7 contactuspg-form bg-light p-4">
-                            <form method='POST' onSubmit={handleSubmit}>
+                            <form method='POST' onSubmit={handleSubmit} className='contactuspg-form'>
                                 <div className="row">
                                     <div className="col-md-6 mb-3">
                                         <input type="text" className="form-control contactuspg-input" onChange={handleChange} value={formData.firstName} name='firstName' placeholder="First Name" required />
