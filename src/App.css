@@ -1254,6 +1254,33 @@ background-color:#F8F9FA ;
   text-align: justify;
 }
 
+/* Style for Web Scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Scrollbar width */
+  height: 12px; /* Scrollbar height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ec8600; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded corners */
+  border: 3px solid #fff; /* Optional: Adds a white border around the thumb for separation */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Light background for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Optional: Add hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f29b1a; /* A darker shade on hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #c77a00; /* Darker color when scrollbar is in use */
+}
+
+
 /* Header styles */
 #header .navbar {
   background-color: #fff; /* White background for the navbar */
@@ -1267,7 +1294,7 @@ background-color:#F8F9FA ;
 #header .nav-link {
   color: #333; /* Default text color */
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-transform: capitalize;
   position: relative; /* For the underline effect */
   transition: all 0.3s ease; /* For smooth transitions */
