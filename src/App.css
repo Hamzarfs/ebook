@@ -17,6 +17,11 @@ body {
 img.navbar-brand {
   width: 220px;
 }
+
+
+.footer img{
+  width: 300px;
+}
 .footer {
   background-color: #2b2b2b;
 }
@@ -1247,6 +1252,69 @@ background-color:#F8F9FA ;
   font-weight: 400;
   line-height: 27px;
   text-align: justify;
+}
+
+/* Header styles */
+#header .navbar {
+  background-color: #fff; /* White background for the navbar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+}
+
+#header .navbar-brand {
+  max-width: 150px;
+}
+
+#header .nav-link {
+  color: #333; /* Default text color */
+  font-weight: 500;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  position: relative; /* For the underline effect */
+  transition: all 0.3s ease; /* For smooth transitions */
+}
+
+/* Hover effect on nav links */
+#header .nav-link:hover {
+  color: #ec8600; /* Change to pinkish color on hover */
+}
+
+#header .nav-link:before {
+  content: ''; /* Create the underline */
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #ec8600; /* Underline color */
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+#header .nav-link:hover:before {
+  width: 100%; /* On hover, expand the underline to full width */
+}
+
+#header .nav-link.active {
+  color: #fd9f33; /* Orange color for active link */
+}
+
+#header .nav-link.active:before {
+  width: 100%; /* Full width underline for active state */
+}
+
+.header-btn {
+  background-color: #fd9f33;
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px; 
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.header-btn:hover {
+  background-color: #f3a3b3; 
+  transform: scale(1.05); 
 }
 
 .header-btn{

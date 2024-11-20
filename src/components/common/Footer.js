@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h5 className="highlight-orange-text">Featured Services</h5>
             <ul className="list-unstyled">
-              <li><Link to="/ghost-writing" className="text-light">GhostWriting</Link></li>
+              <li><Link to="/ghostwriting" className="text-light">GhostWriting</Link></li>
               <li><Link to="/designing" className="text-light">Designing</Link></li>
               <li><Link to="/book-editing" className="text-light">Book Editing</Link></li>
               <li><Link to="/other-services" className="text-light">Other Services</Link></li>
@@ -58,7 +58,7 @@ const Footer = () => {
               </p>
               <p className="mb-1 text-light">
                 <FaEnvelope /> 
-                <a href="mailto:contact@amzbookpublishing.net" className="text-light text-decoration-none"> contact@amzbookpublishing.net</a>
+                <a href="mailto:info@amzbookpublishing.net" className="text-light text-decoration-none"> info@amzbookpublishing.net</a>
               </p>
               <p className="text-light">
                 <FaMapMarkerAlt /> 

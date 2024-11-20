@@ -1,7 +1,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import testimonialimage1 from '../../images/testimonialimage (1).jpg';
+// import testimonialimage1 from '../../images/testimonialimage (1).jpg';
 import '../../App.css'; // Add your custom styles here if needed
 
 const testimonials = [
@@ -9,37 +9,37 @@ const testimonials = [
         quote: "AMZ Book Publishing helped me publish my novel seamlessly. Their team is professional, supportive, and highly efficient. Highly recommended!",
         name: "John Williams",
         role: "Author",
-        image: testimonialimage1,
+        // image: testimonialimage1,
     },
     {
         quote: "Incredible experience! AMZ Book Publishing made the process easy and stress-free. I’m thrilled with the final product and service.",
         name: "Edward",
         role: "Author",
-        image: testimonialimage1,
+        // image: testimonialimage1,
     },
     {
         quote: "AMZ Book Publishing turned my manuscript into a polished book. Great communication, timely updates, and excellent publishing support.",
         name: "Jane Copper",
         role: "Author",
-        image: testimonialimage1,
+        // image: testimonialimage1,
     },
     {
         quote: "I had a fantastic experience with AMZ Book Publishing. Their expert guidance and swift publishing process exceeded all expectations!",
         name: "Emily",
         role: "Author",
-        image: testimonialimage1,
+        // image: testimonialimage1,
     },
     {
         quote: "The team at AMZ Book Publishing was extremely helpful. They guided me every step of the way to publication success.",
         name: "John Doe",
         role: "Author",
-        image: testimonialimage1,
+        // image: testimonialimage1,
     },
     {
         quote: "AMZ Book Publishing made my dream of becoming an author come true. Their professionalism and care ensured a perfect result!",
         name: "Peter",
         role: "Author",
-        image: testimonialimage1,
+        // image: testimonialimage1,
     },
 ];
 
@@ -64,7 +64,7 @@ const items = testimonials.map((testimonial, index) => (
             <span className="star">&#9734;</span>
         </div>
         <div className="d-flex align-items-center mt-3 justify-content-center">
-            <img src={testimonial.image} className="rounded-circle" alt={testimonial.name} style={{ width: '50px', height: '50px' }} />
+            {/* <img src={testimonial.image} className="rounded-circle" alt={testimonial.name} style={{ width: '50px', height: '50px' }} /> */}
             <div className="ml-3">
                 <h5 className="mb-0" style={{ color: 'black' }}>{testimonial.name}</h5>
                 <p className="mb-0" style={{ color: 'gray' }}>{testimonial.role}</p>

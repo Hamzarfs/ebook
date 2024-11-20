@@ -88,56 +88,61 @@ const App = () => {
         <Routes>
         <Route path="/" element={<Home openModal={openModal} />} />
         <Route path="/designing" element={<Designing openModal={openModal} />} />
-        <Route path="/ghost-writing" element={<GhostWriting openModal={openModal} />} />
+        <Route path="/ghostwriting" element={<GhostWriting openModal={openModal} />} />
         <Route path="/other-services" element={<OtherServices openModal={openModal} />} />
         <Route path="/book-editing" element={<BookEditing openModal={openModal} />} />
         <Route path="/about-us" element={<AboutUs openModal={openModal} />} />
         <Route path="/contact-us" element={<ContactUs openModal={openModal} />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy openModal={openModal} />} />
         <Route path="/terms-condition" element={<TermsConditions openModal={openModal} />} />
-        
+        <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
+
         
         
 
           {/* Sub Categories of Ghostwriting */}
 
-        <Route path="/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
-        <Route path="/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
-        <Route path="/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
-        <Route path="/memoir-ghostwriting" element={<MemoirGhostwriting openModal={openModal} />} />
-        <Route path="/childrens-book-ghostwriting" element={<ChildrensBookGhostwriting openModal={openModal} />} />
-        <Route path="/cookbook-ghostwriting" element={<CookbookGhostwriting openModal={openModal} />} />
-        <Route path="/adventure-ghostwriting" element={<AdventureGhostwriting openModal={openModal} />} />
-        <Route path="/business-ghostwriting" element={<BusinessGhostwriting openModal={openModal} />} />
-        <Route path="/fantasy-ghostwriting" element={<FantasyGhostwriting openModal={openModal} />} />
-        <Route path="/medical-ghostwriting" element={<MedicalGhostwriting openModal={openModal} />} />
-        <Route path="/historical-ghostwriting" element={<HistoricalGhostwriting openModal={openModal} />} />
-        <Route path="/short-stories-ghostwriting" element={<ShortStoriesGhostwriting openModal={openModal} />} />
-        <Route path="/mystery-ghostwriting" element={<MysteryGhostwriting openModal={openModal} />} />
-        <Route path="/ebook-writing" element={<EbookWriting openModal={openModal} />} />
-        <Route path="/legal-ghostwriting" element={<LegalGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/fiction-ghostwriting" element={<FictionGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/non-fiction-ghostwriting" element={<NonFictionGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/science-fiction-ghostwriting" element={<ScienceFictionGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/memoir-ghostwriting" element={<MemoirGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/childrens-book-ghostwriting" element={<ChildrensBookGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/cookbook-ghostwriting" element={<CookbookGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/adventure-ghostwriting" element={<AdventureGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/business-ghostwriting" element={<BusinessGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/fantasy-ghostwriting" element={<FantasyGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/medical-ghostwriting" element={<MedicalGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/historical-ghostwriting" element={<HistoricalGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/short-stories-ghostwriting" element={<ShortStoriesGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/mystery-ghostwriting" element={<MysteryGhostwriting openModal={openModal} />} />
+        <Route path="/ghostwriting/ebook-writing" element={<EbookWriting openModal={openModal} />} />
+        <Route path="/ghostwriting/legal-ghostwriting" element={<LegalGhostwriting openModal={openModal} />} />
 
          {/* Sub Categories of Designing */}
 
-        <Route path="/author-website-design" element={<AuthorWebsiteDesign openModal={openModal} />} />
-        <Route path="/logo-design" element={<LogoDesign openModal={openModal} />} />
-        <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
-        <Route path="/stationery-design" element={<StationeryDesign openModal={openModal} />} />
-        <Route path="/book-teaser" element={<BookTeaser openModal={openModal} />} />
-        <Route path="/book-printing" element={<BookPrinting openModal={openModal} />} />
-        <Route path="/book-illustrations" element={<BookIllustrations openModal={openModal} />} />
-        <Route path="/book-interior-formatting" element={<BookInteriorFormatting openModal={openModal} />} />
-        <Route path="/letterhead-envelope-design" element={<LetterheadEnvelopeDesign openModal={openModal} />} />
-        <Route path="/business-card-design" element={<BusinessCardDesign openModal={openModal} />} />
-        <Route path="/book-editing-cat" element={<BookEditingCategory openModal={openModal} />} />
-        <Route path="/novel-editing" element={<NovelEditing openModal={openModal} />} />
-        <Route path="/poetry-editing" element={<PoetryEditing openModal={openModal} />} />
-        <Route path="/screenplay-editing" element={<ScreenplayEditing openModal={openModal} />} />
-        <Route path="/shorts-story-editing" element={<ShortStoryEditing openModal={openModal} />} />
-        <Route path="/bookproof-reading" element={<BookProofreading openModal={openModal} />} />
-        <Route path="/fiction-book-editing" element={<FictionBookEditing openModal={openModal} />} />
-        <Route path="/non-fiction-book-editing" element={<NonFictionBookEditing openModal={openModal} />} />
-        <Route path="/self-editing-fiction-writers" element={<SelfEditingFictionWriters openModal={openModal} />} />
+        <Route path="/designing/author-website-design" element={<AuthorWebsiteDesign openModal={openModal} />} />
+        <Route path="/designing/logo-design" element={<LogoDesign openModal={openModal} />} />
+        <Route path="/designing/stationery-design" element={<StationeryDesign openModal={openModal} />} />
+        <Route path="/designing/book-teaser" element={<BookTeaser openModal={openModal} />} />
+        <Route path="/designing/book-printing" element={<BookPrinting openModal={openModal} />} />
+        <Route path="/designing/book-illustrations" element={<BookIllustrations openModal={openModal} />} />
+        <Route path="/designing/book-interior-formatting" element={<BookInteriorFormatting openModal={openModal} />} />
+        <Route path="/designing/letterhead-envelope-design" element={<LetterheadEnvelopeDesign openModal={openModal} />} />
+        <Route path="/designing/business-card-design" element={<BusinessCardDesign openModal={openModal} />} />
+
+        {/* Sub Categories of Book Editing */}
+
+
+        
+        <Route path="/book-editing/book-editing" element={<BookEditingCategory openModal={openModal} />} />
+        <Route path="/book-editing/novel-editing" element={<NovelEditing openModal={openModal} />} />
+        <Route path="/book-editing/poetry-editing" element={<PoetryEditing openModal={openModal} />} />
+        <Route path="/book-editing/screenplay-editing" element={<ScreenplayEditing openModal={openModal} />} />
+        <Route path="/book-editing/shorts-story-editing" element={<ShortStoryEditing openModal={openModal} />} />
+        <Route path="/book-editing/bookproof-reading" element={<BookProofreading openModal={openModal} />} />
+        <Route path="/book-editing/fiction-book-editing" element={<FictionBookEditing openModal={openModal} />} />
+        <Route path="/book-editing/non-fiction-book-editing" element={<NonFictionBookEditing openModal={openModal} />} />
+        <Route path="/book-editing/self-editing-fiction-writers" element={<SelfEditingFictionWriters openModal={openModal} />} />
 
          {/**************  Other Services */}
         

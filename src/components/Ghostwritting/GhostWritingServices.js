@@ -1,15 +1,16 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; 
 
 // ServiceCard Component
 const ServiceCard = ({ number, text, link }) => {
   return (
     <div className="col-lg-3 col-md-6 mb-4">
-      <a href={link} target="_blank" rel="noopener noreferrer" className="service-card-link">
+       <Link to={link} className="service-card-link">
         <div className="service-card">
           <span className="service-number">{number}</span>
           <p>{text}</p>
         </div>
-      </a>
+        </Link>
     </div>
   );
 };
@@ -21,24 +22,24 @@ const GhostwritingServices = () => {
 
   // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Fiction Ghostwriting", link: "/fiction-ghostwriting" },
-    { number: "02", text: "Non-Fiction Ghostwriting", link: "/non-fiction-ghostwriting" },
-    { number: "03", text: "Science Fiction Ghostwriting", link: "/science-fiction-ghostwriting" },
-    { number: "04", text: "Memoir Ghostwriting", link: "/memoir-ghostwriting" },
-    { number: "05", text: "Children’s Book Ghostwriting", link: "/childrens-book-ghostwriting" },
-    { number: "06", text: "Cookbook Ghostwriting", link: "/cookbook-ghostwriting" },
-    { number: "07", text: "Adventure Ghostwriting", link: "/adventure-ghostwriting" },
-    { number: "08", text: "Business Ghostwriting", link: "/business-ghostwriting" },
+    { number: "01", text: "Fiction Ghostwriting", link: "/ghostwriting/fiction-ghostwriting" },
+    { number: "02", text: "Non-Fiction Ghostwriting", link: "/ghostwriting/non-fiction-ghostwriting" },
+    { number: "03", text: "Science Fiction Ghostwriting", link: "/ghostwriting/science-fiction-ghostwriting" },
+    { number: "04", text: "Memoir Ghostwriting", link: "/ghostwriting/memoir-ghostwriting" },
+    { number: "05", text: "Children’s Book Ghostwriting", link: "/ghostwriting/childrens-book-ghostwriting" },
+    { number: "06", text: "Cookbook Ghostwriting", link: "/ghostwriting/cookbook-ghostwriting" },
+    { number: "07", text: "Adventure Ghostwriting", link: "/ghostwriting/adventure-ghostwriting" },
+    { number: "08", text: "Business Ghostwriting", link: "/ghostwriting/business-ghostwriting" },
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Fantasy Ghostwriting", link: "/fantasy-ghostwriting" },
-    { number: "10", text: "Medical Ghostwriting", link: "/medical-ghostwriting" },
-    { number: "11", text: "Historical Ghostwriting", link: "/historical-ghostwriting" },
-    { number: "12", text: "Short Stories Ghostwriting", link: "/short-stories-ghostwriting" },
-    { number: "13", text: "Mystery Ghostwriting", link: "/mystery-ghostwriting" },
-    { number: "14", text: "Ebook Writing", link: "/ebook-writing" },
-    { number: "15", text: "Legal Ghostwriting", link: "/legal-ghostwriting" },
+    { number: "09", text: "Fantasy Ghostwriting", link: "/ghostwriting/fantasy-ghostwriting" },
+    { number: "10", text: "Medical Ghostwriting", link: "/ghostwriting/medical-ghostwriting" },
+    { number: "11", text: "Historical Ghostwriting", link: "/ghostwriting/historical-ghostwriting" },
+    { number: "12", text: "Short Stories Ghostwriting", link: "/ghostwriting/short-stories-ghostwriting" },
+    { number: "13", text: "Mystery Ghostwriting", link: "/ghostwriting/mystery-ghostwriting" },
+    { number: "14", text: "Ebook Writing", link: "/ghostwriting/ebook-writing" },
+    { number: "15", text: "Legal Ghostwriting", link: "/ghostwriting/legal-ghostwriting" },
     // { number: "16", text: "Business Card Design", link: "/services/business-card-design" },
   ];
 
