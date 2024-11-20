@@ -64,7 +64,7 @@ const ContactUsform = () => {
                     Swal.fire('Error', message, 'error')
             })
     }
-    
+
     return (
         <section className="contactuspg-section ">
             <div className="container">
@@ -105,11 +105,11 @@ const ContactUsform = () => {
                                 <address>
                                     <FaMapMarkerAlt /> 43 3rd Ave 2nd Floor, Edison, NJ 08837<br />
                                 </address>
-                                <a href="tel:+1 (551) 554-3283" className="contactuspg-link">
-                                    <FaPhoneAlt /> +1 (551) 554-3283
+                                <a href="tel:+1 (732) 797-9165" className="contactuspg-link">
+                                    <FaPhoneAlt /> +1 (732) 797-9165
                                 </a><br />
-                                <a href="mailto:info@webdesignmania.com" className="contactuspg-link">
-                                    <FaEnvelope /> info@webdesignmania.com
+                                <a href="mailto:info@amzbookpublishing.net" className="contactuspg-link">
+                                    <FaEnvelope /> info@amzbookpublishing.net
                                 </a>
 
                                 {/* Social Icons */}
