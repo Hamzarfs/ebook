@@ -43,10 +43,10 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h5 className="highlight-orange-text">Follow Us</h5>
             <div className="d-flex gap-3 mb-3">
-              <Link to="#" className="text-light"><FaFacebookF size={25} /></Link>
-              <Link to="#" className="text-light"><FaLinkedinIn size={25} /></Link>
-              <Link to="#" className="text-light"><FaInstagram size={25} /></Link>
-              <Link to="#" className="text-light"><FaYoutube size={25} /></Link>
+              <Link to="https://www.facebook.com/profile.php?id=61568722483317" target='blank' className="text-light"><FaFacebookF size={25} /></Link>
+              <Link to="https://www.linkedin.com/company/amzbookpublishing/" target='blank'  className="text-light"><FaLinkedinIn size={25} /></Link>
+              <Link to="https://www.instagram.com/amz_book_publishing/" target='blank' className="text-light"><FaInstagram size={25} /></Link>
+              {/* <Link to="#" className="text-light"><FaYoutube size={25} /></Link> */}
             </div>
 
             {/* Contact Us Section */}

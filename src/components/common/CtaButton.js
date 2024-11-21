@@ -9,8 +9,9 @@ const CtaButton = () => {
                     <div className="col-md-6 text-section">
                         <h2>Get In Touch With Us To <br/> Kickstart Your Project</h2>
                         <p>24/7 customer support</p>
+                        <a href="tel:+17327979165">
                         <button className="cta-btn">Call Us</button>
-                    </div>
+                        </a> </div>
                     {/* Image Section */}
                     <div className="col-md-6 image-section">
                         <img src={books10} alt="CTA Image" className="img-fluid"/>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import contactusbg from '../images/contactpgbg.png'
-
+import { Link } from 'react-router-dom'; 
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
@@ -103,9 +103,9 @@ const ContactUsform = () => {
                                 <h3>Contact Information</h3>
                                 <p>Say something to start a live chat</p>
                                 <address>
-                                    <FaMapMarkerAlt /> 43 3rd Ave 2nd Floor, Edison, NJ 08837<br />
+                                    <FaMapMarkerAlt /> 41 Winthrop Rd, Edison, NJ 08817<br />
                                 </address>
-                                <a href="tel:+1 (732) 797-9165" className="contactuspg-link">
+                                <a href="tel:+17327979165" className="contactuspg-link">
                                     <FaPhoneAlt /> +1 (732) 797-9165
                                 </a><br />
                                 <a href="mailto:info@amzbookpublishing.net" className="contactuspg-link">
@@ -114,10 +114,13 @@ const ContactUsform = () => {
 
                                 {/* Social Icons */}
                                 <div className="contactuspg-social-icons d-flex">
-                                    <a href="#" className="contactuspg-icon"><FaFacebookF /></a>
-                                    <a href="#" className="contactuspg-icon"><FaInstagram /></a>
-                                    <a href="#" className="contactuspg-icon"><FaTwitter /></a>
-                                    <a href="#" className="contactuspg-icon"><FaLinkedin /></a>
+                   
+
+
+                                    <a href="https://www.facebook.com/profile.php?id=61568722483317" target='blank' className="contactuspg-icon"><FaFacebookF /></a>
+                                    <a href="https://www.instagram.com/amz_book_publishing/" target='blank' className="contactuspg-icon"><FaInstagram /></a>
+                                    {/* <a href="#" className="contactuspg-icon"><FaTwitter /></a> */}
+                                    <a href="https://www.linkedin.com/company/amzbookpublishing/" target='blank' className="contactuspg-icon"><FaLinkedin /></a>
                                 </div>
                             </div>
                         </div>

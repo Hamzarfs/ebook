@@ -89,16 +89,16 @@ img.navbar-brand {
     text-align: center;
     line-height: 1.1em;
     margin-bottom: 5px;
-    color: #333333;
+    color: #ffffff;
 }
 
 .orange-text {
-    color: orange; /* Set the color of "Memories" to orange */
+  text-shadow: 0px 4px 8px #0000002e;
+  color: orange;
 }
-
 .ebook-banner-section p {
     margin-bottom: 20px;
-    color: #666666 ; 
+    color: #ffffff;
     font-size: 24px;
     margin-top: 20px;
 
@@ -147,8 +147,8 @@ a.first-button {
 
 .ebook-second-section {
     background-color: #f8fafa;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    
+
     color: #000000;
     text-align: center;
     display: flex;
@@ -305,8 +305,7 @@ text-align: left;
     margin-top: 30px; /* Center the container */
 }
 .ebook-forth-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+
     color: #000000;
     text-align: center;
     display: flex;
@@ -332,9 +331,6 @@ text-align: left;
 }
     /* Start Fourth Section Why Choose us*/
 
- .why-choose {
-  padding: 60px 0;
-}
 
 .gradient-btn {
   background: linear-gradient(to bottom, rgb(248, 203, 106), #fc9700); /* Gradient from white to #fc9700 */
@@ -556,6 +552,7 @@ textarea.popupform1-input {
 
 .popupform1-overlay {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
@@ -825,7 +822,7 @@ span.service-number {
 }
 
 .image-text-banner {
-padding: 50px 0;
+padding: 0px 0px 50px 0px;
 }
 
 .image-text-banner h2 {
@@ -888,6 +885,7 @@ padding: 10px 20px;
 border-radius: 30px;
 font-size: 1rem;
 font-weight: bold;
+text-decoration: none;
 }
 
 .design-cta-sec .cta-btn:hover {
@@ -1009,10 +1007,7 @@ position: relative;
 
 /* Unique styling for the ebook-contact-form section */
 
-section.ebook-contact-form.container
-{
-  padding: 100px;
-}
+
 .ebook-contact-form {
           padding: 50px 20px;
          
@@ -1288,7 +1283,7 @@ background-color:#F8F9FA ;
 }
 
 #header .navbar-brand {
-  max-width: 150px;
+  max-width: 250px;
 }
 
 #header .nav-link {
@@ -1934,7 +1929,7 @@ transition: background-color 0.3s ease;
           text-align: center;
           line-height: 1.1em;
           margin-bottom: 5px;
-          color: #333333;
+          color: #ffffff;
         }
         .ebook-third-section p {
           font-size: 14px;

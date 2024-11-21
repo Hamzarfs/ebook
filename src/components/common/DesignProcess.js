@@ -6,7 +6,7 @@ const DesignProcess = ({
   steps // Array of steps with image, alt text, title, and description
 }) => {
   return (
-    <section id="design-process-section" className="container text-center my-5">
+    <section id="design-process-section" className="container text-center">
       {/* First Row: Heading and Description */}
       <div className="row">
         <div className="col-12">
