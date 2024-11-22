@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-md-5 mb-4">
-            <Link to="/">
+            <a href="/">
               <img src={ebooklogo} alt="AMZ Book Publishing" className="img-fluid mb-3"/>
-            </Link>
+            </a>
             <p className="text-light">
               AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, book editing, cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire publishing process.
             </p>
@@ -20,10 +20,10 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h5 className="highlight-orange-text">Featured Services</h5>
             <ul className="list-unstyled">
-              <li><Link to="/ghostwriting" className="text-light">GhostWriting</Link></li>
-              <li><Link to="/designing" className="text-light">Designing</Link></li>
-              <li><Link to="/book-editing" className="text-light">Book Editing</Link></li>
-              <li><Link to="/other-services" className="text-light">Other Services</Link></li>
+              <li><a href="/ghostwriting" className="text-light">GhostWriting</a></li>
+              <li><a href="/designing" className="text-light">Designing</a></li>
+              <li><a href="/book-editing" className="text-light">Book Editing</a></li>
+              <li><a href="/other-services" className="text-light">Other Services</a></li>
             </ul>
           </div>
 
@@ -31,11 +31,11 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h5 className="highlight-orange-text">Useful Links</h5>
             <ul className="list-unstyled">
-              <li><Link to="/" className="text-light">Home</Link></li>
-              <li><Link to="/about-us" className="text-light">About Us</Link></li>
-              <li><Link to="/contact-us" className="text-light">Contact Us</Link></li>
-              <li><Link to="/privacy-policy" className="text-light">Privacy Policy</Link></li>
-              <li><Link to="/terms-condition" className="text-light">Terms & Condition</Link></li>
+              <li><a href="/" className="text-light">Home</a></li>
+              <li><a href="/about-us" className="text-light">About Us</a></li>
+              <li><a href="/contact-us" className="text-light">Contact Us</a></li>
+              <li><a href="/privacy-policy" className="text-light">Privacy Policy</a></li>
+              <li><a href="/terms-condition" className="text-light">Terms & Condition</a></li>
       
             </ul>
           </div>
