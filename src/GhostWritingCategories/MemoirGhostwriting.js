@@ -174,7 +174,7 @@ const FictionGhostwriting = () => {
 
 <div style={{ padding: '40px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Memoir"
+    heading="Memoir "
     subHeading="Ghostwriting"
     description={
         <>

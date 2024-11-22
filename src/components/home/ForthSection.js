@@ -4,7 +4,7 @@ import gellary3 from '../../images/book3.png';
 import gellary8 from '../../images/book8.png';
 import gellary2 from '../../images/book2.png';
 import gellary4 from '../../images/book4.png';
-import gellary7 from '../../images/book7.png';
+import gellary7 from '../../images/book7.jpg';
 import gellary10 from '../../images/book10.png';
 import gellary5 from '../../images/book5.png';
 import gellary6 from '../../images/book6.png';
@@ -16,7 +16,7 @@ const ForthSection = () => {
   return (
     <section class="ebook-forth-section custom-gallery">
     <div class="container second-section-container">
-      <button class="heading-button">g a l l e r y</button>
+      {/* <button class="heading-button">g a l l e r y</button> */}
       <h2>Our <span class="orange-text">Success</span> Stories</h2>
       <p>Many writers who have come to us for guidance have gone on to become<br/>
       bestselling authors. Curious to see how we helped them shine?<br/>

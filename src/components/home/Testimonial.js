@@ -76,7 +76,7 @@ const items = testimonials.map((testimonial, index) => (
 const TestimonialCarousel = () => (
     <div className="container-fluid mt-4 mb-4 ">
         <h1 className="text-center py-4">
-        Our Happy  <span style={{ color: 'orange' }}>Authors</span>
+        Stories of <span style={{ color: 'orange' }}>Success </span>
         </h1>
         <AliceCarousel
             mouseTracking

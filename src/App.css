@@ -281,7 +281,7 @@ text-align: left;
 .icon-box h2 {
     font-size: 28px;
     font-weight: 600;
-    margin-top: 100px;
+  
 }
 .icon-box h4 {
     font-size: 24px;
@@ -1632,10 +1632,19 @@ transition: background-color 0.3s ease;
   .contactuspg-form button:hover {
     background-color: #ff8903;
   }
+
+  
   
 
 /* Responsive Styling */
 @media (max-width: 768px) {
+  .page-hading {
+    height: 400px !important;
+  }
+  #header .nav-link.active:before {
+    width: 100%;
+    width: 150px !important;
+}
   .imagelefttab-heading {
     font-size: 1.5rem;
   }
@@ -1689,6 +1698,9 @@ transition: background-color 0.3s ease;
 
 /* Mobile Screens */
 @media (max-width: 767px) {
+  section#design-process-section {
+    padding-top: 50px;
+}
   .book-cards {
     padding: 1rem;
   }
@@ -1768,6 +1780,9 @@ transition: background-color 0.3s ease;
 
       /* Responsive design */
       @media (max-width: 768px) {
+        section.ghostwriting-services {
+          padding-top: 20px;
+      }
 
         img.navbar-brand {
           width: 150px;

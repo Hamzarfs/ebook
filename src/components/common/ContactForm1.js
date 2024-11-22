@@ -111,10 +111,10 @@ const ContactForm = () => {
         <section className="ebook-contact-form container">
             <div className="row">
                 <div className="col-md-5 left-column">
-                    <button className="btn btn-custom">Contact Us</button>
+                    <button className="heading-button">Contact Us</button>
                     <h2>
-                        Feel Free To <br />
-                        Ask Anything <span className="highlight-text"> <br />Contact Us</span>
+                    Open to Your  <br />
+                    Queries <span className="highlight-text"> <br /></span>
                     </h2>
                 </div>
 

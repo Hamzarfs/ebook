@@ -164,7 +164,7 @@ const AboutUs = () => {
         title="About Us"
         desc={
           <>
-Where Your Writing Dreams Come True
+Your Partner in Publishing Success
 </>
         }
         buttonText="Get a Quote"

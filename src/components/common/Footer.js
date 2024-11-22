@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom text-center py-3 bg-secondary">
-        <p>&copy; 2024 AMZ Ebook . All rights reserved. </p>
+        <p>&copy;© 2024 AMZ Book Publishing. All Rights Reserved.</p>
       </div>
     </footer>
   );
