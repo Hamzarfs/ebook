@@ -4,7 +4,7 @@ import { image36, number1, number2, number3, image34, number4, number5, number6 
 const FourthSection = () => {
   return (
     <section className="why-choose">
-      <div className="container text-center py-5">
+      <div className="container text-center">
         <div className="gradient-btn">A b o u t - U s</div>
         <h2>Why Choose</h2>
         <h3 className="gradient-text">AMZ Book Publishing?</h3>
@@ -51,7 +51,7 @@ const FourthSection = () => {
         </div>
       </div>
 
-      <div className="container py-5">
+      <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6 order-md-2 mb-4">
             <div className="picture-2">

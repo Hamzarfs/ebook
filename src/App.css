@@ -229,7 +229,7 @@ text-align: left;
 
 
 .ebook-third-section {
-    padding-bottom: 50px;
+  
     color: #000000;
     text-align: center;
     display: flex;
@@ -1808,6 +1808,7 @@ transition: background-color 0.3s ease;
           font-size: 28px;
         }
         .ebook-second-section {
+          padding-top: 30px;
           padding-bottom: 0; /* Remove bottom padding in mobile view */
         }
       
