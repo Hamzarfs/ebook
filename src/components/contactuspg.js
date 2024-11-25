@@ -66,7 +66,7 @@ const ContactUsform = () => {
     }
 
     return (
-        <section className="contactuspg-section ">
+        <section className="contactuspg-section mb-4">
             <div className="container">
                 <div className="row justify-content-center">
                     {/* Heading and Text */}
@@ -77,7 +77,7 @@ const ContactUsform = () => {
                 </div>
                 {/* First Row - Heading and Subtext */}
 
-                <div className="contactuspg-bg py-5">
+                <div className="contactuspg-bg">
                     <div className="contactuspg-heading-row text-center mb-4">
                         <h2 className="contactuspg-heading">Contact Us</h2>
                         <p className="contactuspg-subtext">Any question or remarks? Just write us a message!</p>
@@ -86,17 +86,17 @@ const ContactUsform = () => {
                     {/* Second Row - 2 Columns */}
                     <div className="row">
                         {/* First Column - Contact Information */}
-                        <div className="col-lg-5 contactuspg-info mb-4">
+                        <div className="col-lg-5 contactuspg-info">
 
                             <div
-                                className="contactuspg-info-box p-4"
+                                className="contactuspg-info-box"
                                 style={{
                                     backgroundImage: `url(${contactusbg})`,
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
                                     borderRadius: '10px',
-
                                     color: '#fff',
+                                    paddingbottom: '50px',
                                 }}
                             >
 
