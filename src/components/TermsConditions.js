@@ -30,26 +30,36 @@ const TermsAndConditionsSection = () => {
                     <p>Our terms and conditions may be updated periodically without prior notice. We recommend visiting this page regularly to stay informed of any changes.</p>
 
                     <p><strong>Refund Policy</strong></p>
-                    <p>Please carefully review the following terms regarding AMZ Book Publishing’s refund policy. If you have questions or need clarification, we encourage you to contact our customer service team for assistance. Refunds are issued only under special circumstances, as detailed below:</p>
-
+                    <p>Please read and understand the following terms carefully to avoid any misunderstanding of the terms regarding the AMZ Book Publishing refund policy. If you still have any confusion regarding the refund policy, you can contact our customer services representative and discuss the policy. We advise you to be sure about the refund terms and conditions if you have any confusion in this regard. We offer refunds only in special cases and specified conditions, detailed as under:</p>
+                    
                     <ul>
-                        <li><strong>Purchases above $15,000:</strong> If approved, refunds for purchases exceeding $15,000 will be processed in equal monthly installments of $5,000.</li>
+                        <li><strong>Refunds for Purchases Above $15,000:</strong> If approved, all purchases above $15,000 will be refunded in equal monthly installments of $5,000.</li>
                     </ul>
 
-                    <p><strong>Full Refund Conditions</strong></p>
-                    <p>You may be eligible for a full refund if work on your project has commenced, but you decide to halt it. Our support team will assess your situation and provide the current status of your project, along with available options.</p>
+                    <p><strong>Full Refund</strong></p>
+                    <p>With AMZ Book Publishing you may avail of the option of a full refund. We value our clients and try all possible ways to assist them. If the work on your project has started and you somehow need to stop or claim a refund, you can discuss the status of your work with our support team member to assist you further. The support and assistance will help you provide the current work status and the option you may have in the given situation.</p>
 
                     <p><strong>Change of Mind</strong></p>
-                    <p>If you change your mind after placing an order, you may request a refund within one hour of order placement. A 60% processing fee will apply to refunds requested after this period.</p>
+                    <p>If (for any reason) you change your mind and decide against continuing your project with us after placing your order, you can ask for a refund within the first hour of placing your order. A 60% processing fee will be charged in other cases.</p>
 
-                    <p><strong>Incomplete Delivery</strong></p>
-                    <p>If the delivered work does not meet the project requirements (as documented by the client), you are entitled to revisions until satisfaction is achieved. We provide unlimited revisions and reassign work as needed. If the delivery remains unsatisfactory after multiple revisions, we may issue a refund based on mutual agreement, in proportion to the deviation from the agreed-upon scope.</p>
+                    <p><strong>Incompetent Delivery</strong></p>
+                    <p>Once the work is delivered, customers are only entitled to claim a refund once they have exhausted all the options detailed as under:</p>
+                    <ul>
+                        <li>If it does not comply with project requirements (as requested/documented by the customer). We are committed to providing our customers with 100% satisfaction and offer unlimited revisions to ensure that the delivery is up to the mark. We assign, re-assign, and re-write your work to ensure complete satisfaction.</li>
+                        <li>Reserve FREE Pages for the future, but of the same value, and you can avail them at any time.</li>
+                    </ul>
+                    <p>If we’re still not able to deliver what you asked for, a refund will be processed with a mutual agreement on a set percentage (but only in the cases where the delivery is completely off the mark).</p>
 
-                    <p><strong>Refund Timeframe</strong></p>
-                    <p>Refund requests must be submitted within 120 days of delivery. Requests made after this period will not be considered. Clients should take note of this deadline when placing an order.</p>
+                    <p><strong>Refund Time Frame</strong></p>
+                    <p>Refunds must be claimed within 120 days of delivery. Refunds claimed after the set time frame will not be entertained. All the customers must note the deadline for claiming a refund at the time of placing an order.</p>
 
-                    <p><strong>Cases Where Refunds Are Not Issued</strong></p>
-                    <p>Refunds will not be issued for minor technical errors (e.g., grammar, typos, word count discrepancies) or delays caused by the client. Partial refunds or future discounts may be negotiated in such cases. Additionally, refunds are not granted for low-quality writing complaints. For book marketing or publishing projects, no refund will be provided if the client fails to grant access to necessary platforms (e.g., Amazon, Barnes & Noble, or social media accounts) required for effective marketing and sales optimization.</p>
+                    <p><strong>Cases Where Refund Will Not Be Issued</strong></p>
+                    <ul>
+                    <li>In case of late delivery due to some minor technical errors, such as grammatical, typing, word count, missing references etc., refunds will be processed with mutual agreement, and the company will only settle with a partial refund or discounts reserved for future purchases.</li>
+                    <li>The company will not be responsible for any delay from the client’s end.</li>
+                    <li>No refund will be issued on the basis of low writing.</li>
+                    <li> For book marketing/publishing projects, no refund will be issued if the client is unable to provide access to either their bookstores (Amazon, Barnes & Noble etc.) or their social media channels which help our team to maximize reach, engagement, and sales.</li>
+                    </ul>
                 </div>
             </div>
         </div>

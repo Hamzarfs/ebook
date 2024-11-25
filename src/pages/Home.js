@@ -60,7 +60,7 @@ const Home = () => {
         subHeading={<>
        We Have To Offer </>}
         
-        paragraph="From concept to publication as ebook or paperback, we have your back every step of the way, turning your ideas into reality. Our expert team will help you reach the right readers through targeted campaigns and promotions, so we can share your book with the world, together!"
+        paragraph="From concept to publication e-book, paperback or audio book, we have your back every step of the way, turning your ideas into reality. Our expert team will help you reach the right readers through targeted campaigns and promotions, so we can share your book with the world, together!"
         services={services}
       />
       </div>

@@ -8,9 +8,9 @@ const ThirdSection = () => {
   return (
  <section className="ebook-third-section">
       <div className="container book-third-section">
-      <h2>Professional Creatives <br/>At Your<span class="orange-text"> Services</span></h2>
-        <p>AMZ Book Publishings will take care of all the tricky stuff, so you can focus on what matters:<br />
-        bringing your story to life. Reach out to us today and unlock the writer within, <br />ready to share your story with the world.</p>
+      <h2>Professional eBook
+        <br/>Writing<span class="orange-text"> Services</span></h2>
+        <p>AMZ Book Publishings will take care of all the tricky stuff, so you can focus on what matters: bringing your story to life. <br/>Reach out to us today and share your digital e-book to the world!</p>
       </div>
       <div className="third-section-container">
         <div className="row">

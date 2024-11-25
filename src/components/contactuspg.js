@@ -117,7 +117,7 @@ const ContactUsform = () => {
                    
 
 
-                                    <a href="https://www.facebook.com/profile.php?id=61568722483317" target='blank' className="contactuspg-icon"><FaFacebookF /></a>
+                                    <a href="https://www.facebook.com/AmzBookPublishingUS" target='blank' className="contactuspg-icon"><FaFacebookF /></a>
                                     <a href="https://www.instagram.com/amz_book_publishing/" target='blank' className="contactuspg-icon"><FaInstagram /></a>
                                     {/* <a href="#" className="contactuspg-icon"><FaTwitter /></a> */}
                                     <a href="https://www.linkedin.com/company/amzbookpublishing/" target='blank' className="contactuspg-icon"><FaLinkedin /></a>

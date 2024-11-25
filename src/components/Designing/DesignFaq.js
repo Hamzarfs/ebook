@@ -8,7 +8,7 @@ const FAQSection = ({ faqData }) => {
     };
 
     return (
-        <div className="container faq-ebook-section mt-5 py-5">
+        <div className="container faq-ebook-section py-5">
             <div className="row">
                 <div className="col-12 text-center">
                     <h2>Frequently Asked Questions</h2>

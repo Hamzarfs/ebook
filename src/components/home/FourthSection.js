@@ -5,10 +5,10 @@ const FourthSection = () => {
   return (
     <section className="why-choose">
       <div className="container text-center">
-        <div className="gradient-btn">A b o u t - U s</div>
+        <div className="gradient-btn">About Us</div>
         <h2>Why Choose</h2>
         <h3 className="gradient-text">AMZ Book Publishing?</h3>
-        <p>Publishing a book on Amazon does not have to be a headache. With us, it is smooth sailing! Here is why.</p>
+        <p>Digital book publishing on Amazon does not have to be a headache. With us, it is smooth sailing! Here is why.</p>
       </div>
 
       <div className="container">

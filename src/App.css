@@ -1185,6 +1185,7 @@ p.alice-carousel__prev-btn-item {
   font-size: 18px;
   color: #666;
   margin-bottom: 40px;
+  text-align: justify;
 }
 
 div#panelundefined {
@@ -1793,7 +1794,7 @@ transition: background-color 0.3s ease;
       /* Responsive design */
       @media (max-width: 768px) {
         .text-content h2 {
-          font-size: 22px;
+          font-size: 22px !important;
       }
         .ebook-forth-section h2, .icon-box h3 {
         
@@ -1946,7 +1947,7 @@ transition: background-color 0.3s ease;
         }
         .why-choose {
           text-align: center;
-          padding: 30px 0;
+          
         }
         .gradient-btn {
           font-size: 1rem;
@@ -2019,7 +2020,7 @@ transition: background-color 0.3s ease;
           font-size:14px;
         }
         .ebook-third-section h2 {
-          font-size: 28px;
+          font-size: 30px;
         }
 
         }

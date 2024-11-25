@@ -14,7 +14,8 @@ const Footer = () => {
               <img src={ebooklogo} alt="AMZ Book Publishing" className="img-fluid mb-3"/>
             </a>
             <p className="text-light">
-              AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, book editing, cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire publishing process.
+            AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, e-book writing services, book editing, cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire digital book publishing process.
+
             </p>
           </div>
           <div className="col-md-2 mb-4">
@@ -43,7 +44,7 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h5 className="highlight-orange-text">Follow Us</h5>
             <div className="d-flex gap-3 mb-3">
-              <Link to="https://www.facebook.com/profile.php?id=61568722483317" target='blank' className="text-light"><FaFacebookF size={25} /></Link>
+              <Link to="https://www.facebook.com/AmzBookPublishingUS" target='blank' className="text-light"><FaFacebookF size={25} /></Link>
               <Link to="https://www.linkedin.com/company/amzbookpublishing/" target='blank'  className="text-light"><FaLinkedinIn size={25} /></Link>
               <Link to="https://www.instagram.com/amz_book_publishing/" target='blank' className="text-light"><FaInstagram size={25} /></Link>
               {/* <Link to="#" className="text-light"><FaYoutube size={25} /></Link> */}
