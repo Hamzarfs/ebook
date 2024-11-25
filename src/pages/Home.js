@@ -20,7 +20,7 @@ import bookEditingImage from '../images/book edit.png';
 const services = [
   {
     title: "Ghost Writing",
-    image: ghostWritingImage,
+    image: ghostWritingImage ,
     description: "Need an expert to bring your story to life? Whatever the genre, we help create a masterpiece. Our talented writers craft engaging plots, dynamic characters, and jaw-dropping twists that keep readers hooked to their Kindles and paperbacks from start to finish!",
     // link: "https://www.facebook.com/",
     // buttonPadding :"10px 25px",

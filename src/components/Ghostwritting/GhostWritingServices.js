@@ -26,6 +26,7 @@ const ServiceCard = ({ number, text, link, backgroundImage }) => {
         <div
           className="service-card"
           style={{
+            loading: "lazy",
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center",

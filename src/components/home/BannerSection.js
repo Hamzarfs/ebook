@@ -32,12 +32,13 @@ const BannerSection = () => {
       <div 
         className="background-image" 
         style={{
+          loading: "lazy",
           position: 'absolute',
           top: 0,
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundImage: `url(${homebg})`,  // Adjust this path to your image
+          backgroundImage: `url(${homebg}) `,  // Adjust this path to your image
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

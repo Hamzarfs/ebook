@@ -146,6 +146,7 @@ a.first-button {
 }
 
 .ebook-second-section {
+  overflow-x: hidden;
     background-color: #f8fafa;
     
 
@@ -192,8 +193,7 @@ a.first-button {
   color: #333333;
 }
 .image-box {
-padding-right: 40px;
-padding-left: 20px;
+padding: 15px;
 border-right: 1px solid #ddd;
 text-align: left;
 }
@@ -229,7 +229,7 @@ text-align: left;
 
 
 .ebook-third-section {
-  
+   overflow-x: hidden;
     color: #000000;
     text-align: center;
     display: flex;
@@ -305,7 +305,7 @@ text-align: left;
     margin-top: 30px; /* Center the container */
 }
 .ebook-forth-section {
-
+    overflow-x: hidden;
     color: #000000;
     text-align: center;
     display: flex;
@@ -423,6 +423,7 @@ img {
 }
 
 .page-heading .overlay {
+  align-content: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -432,7 +433,6 @@ img {
 }
 
 .page-heading .container {
-  margin-top: 100px;
   z-index: 1;
   color: white;
   text-align: center;
@@ -570,7 +570,7 @@ textarea.popupform1-input {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  width: 400px;
+  width: 350px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -1668,6 +1668,7 @@ transition: background-color 0.3s ease;
 
 /* Large Desktops and Laptops */
 @media (min-width: 1024px) {
+ 
   .book-cards-header h2 {
     font-size: 2.5rem;
   }
@@ -1681,6 +1682,7 @@ transition: background-color 0.3s ease;
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
+ 
   .book-cards-header h2 {
     font-size: 2rem;
   }
@@ -1728,6 +1730,9 @@ transition: background-color 0.3s ease;
 }
 
 @media (max-width: 1023px) {
+  .book-editing-services{
+    padding-top: 20px;
+  }
   .swiper-slide {
     width: 45%; /* Show fewer slides */
   }
@@ -1780,6 +1785,9 @@ transition: background-color 0.3s ease;
 
       /* Responsive design */
       @media (max-width: 768px) {
+        .page-heading{
+          height: 350px;
+        }
         section.ghostwriting-services {
           padding-top: 20px;
       }
@@ -1798,8 +1806,7 @@ transition: background-color 0.3s ease;
         flex-flow: column-reverse !important;
     }
         .image-box {
-          padding-right: 40px;
-          padding-left: 20px;
+       
           border-right: 1px solid #ddd;
           text-align: left;
         }

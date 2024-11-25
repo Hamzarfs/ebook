@@ -18,6 +18,7 @@ const ServiceCard = ({ number, text, link, backgroundImage }) => {
         <div
           className="service-card"
           style={{
+            loading: "lazy",
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -86,7 +87,7 @@ const BookEditingServices = () => {
   ];
 
   return (
-    <section className="book-editing-services py-5">
+    <section className="book-editing-services ">
       <div className="container text-center">
         <h2 className="design-process-heading font-weight-bold">
           <span className="orangegradient-h2">Book Editing </span> Made Easy

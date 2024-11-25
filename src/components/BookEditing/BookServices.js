@@ -8,7 +8,7 @@ import books5 from '../../images/Vector.png'; // Adjust the path as needed
 
 const BookServices = () => {
   return (
-    <div className="container my-5">
+    <div className="container">
       <h2 className="main-heading-online">
         Professional<br />
         <span className="orange-text">Book Editing</span> Services
