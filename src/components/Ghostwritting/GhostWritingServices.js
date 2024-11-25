@@ -6,7 +6,7 @@ import FictionImage from "../../images/Fiction.png";
 import NonFictionImage from "../../images/Non-Fiction.png";
 import ScienceFictionImage from "../../images/Science-Fiction.png";
 import MemoirImage from "../../images/Memoir.png";
-import ChildrenBookImage from "../../images/Children’s-Book.png";
+import ChildrenBookImage from "../../images/ChildrensBook.webp";
 import CookbookImage from "../../images/Cookbook.png";
 import AdventureImage from "../../images/Adventure.png";
 import BusinessImage from "../../images/Business.png";
@@ -26,13 +26,13 @@ const ServiceCard = ({ number, text, link, backgroundImage }) => {
         <div
           className="service-card"
           style={{
-            loading: "lazy",
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             color: "#fff", // Adjust text color for better visibility
             padding: "20px",
             borderRadius: "8px",
+            loading:"lazy",
           }}
         >
           <span className="service-number">{number}</span>

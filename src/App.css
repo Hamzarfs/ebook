@@ -719,6 +719,7 @@ textarea.popupform1-input {
   color: #fff;
 }
 .service-card {
+  background: #fb9130;
   background: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
   color: white;
   padding: 20px;
@@ -1791,6 +1792,15 @@ transition: background-color 0.3s ease;
 
       /* Responsive design */
       @media (max-width: 768px) {
+        .text-content h2 {
+          font-size: 22px;
+      }
+        .ebook-forth-section h2, .icon-box h3 {
+        
+          font-size: 42px;
+          font-weight: 600;
+    
+      }
         .page-heading{
           height: 350px;
         }
@@ -1809,7 +1819,7 @@ transition: background-color 0.3s ease;
 
       .d-flex.gap-3.mb-3 {
    
-        flex-flow: column-reverse !important;
+        justify-content: center;
     }
         .image-box {
        
