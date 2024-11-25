@@ -59,7 +59,7 @@ const OtherServicesSec = () => {
   ];
 
   return (
-    <section className="ghostwriting-services py-5">
+    <section className="ghostwriting-services">
       <div className="container text-center">
         <h2 className="design-process-heading font-weight-bold">
           <span className="orangegradient-h2">Other Services</span> We Offer

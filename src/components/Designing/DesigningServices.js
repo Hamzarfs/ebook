@@ -105,7 +105,7 @@ const DesigningServices = () => {
   // ];
 
   return (
-    <section className="designing-services py-5">
+    <section className="designing-services">
       <div className="container text-center">
         <h2 className="design-process-heading font-weight-bold">
           Designing <span className="orangegradient-h2">Services</span>

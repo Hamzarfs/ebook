@@ -1638,6 +1638,7 @@ transition: background-color 0.3s ease;
 
 /* Responsive Styling */
 @media (max-width: 768px) {
+
   .page-hading {
     height: 400px !important;
   }
@@ -1728,9 +1729,14 @@ transition: background-color 0.3s ease;
 .swiper {
   width: 100%;
 }
+.swiper-wrapper{
+  text-align: center;
+}
 
 @media (max-width: 1023px) {
-  .book-editing-services{
+
+  
+  .book-editing-services, .designing-services, .ghostwriting-services {
     padding-top: 20px;
   }
   .swiper-slide {

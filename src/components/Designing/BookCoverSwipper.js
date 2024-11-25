@@ -30,7 +30,7 @@ const BookCoverSwiper = () => {
         <div className="custom-slider-container">
           {/* Swiper Section */}
           <Swiper
-            navigation={true}
+            // navigation={true}
             spaceBetween={30}
             loop={true}
             className="mySwiper"
