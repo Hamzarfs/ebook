@@ -130,6 +130,8 @@ const LogoDesign = () => {
       <Helmet>
         <title>Custom Logo Design Services From Top Logo Designers</title>
         <meta name="description" content="Need a logo designer? We offer professional custom logo design services for book writer's website. Hire expert logo designers for portfolio website." />
+        <link rel="canonical" href="https://amzbookpublishing.net/logo-design" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

@@ -128,6 +128,8 @@ const LetterheadEnvelopeDesign= () => {
       <Helmet>
         <title>Custom Letterhead and Envelope Design Services for Authors</title>
         <meta name="description" content="Need Letterhead and Envelope Design Services? We offer professional letterhead and envelope design services for self-published authors on affordable price." />
+        <link rel="canonical" href="https://amzbookpublishing.net/letterhead-envelope-design" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

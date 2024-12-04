@@ -130,6 +130,8 @@ const BusinessCardDesign = () => {
      <Helmet>
         <title>Professional Business Card Design Services</title>
         <meta name="description" content="Need Business Card Design Services? We offer professional Business Card design services for self-published authors on affordable price. Hire expert designers." />
+        <link rel="canonical" href="https://amzbookpublishing.net/business-card-design" />
+
       </Helmet>
 
       {/* -------------------Start Banner section---------------------- */}

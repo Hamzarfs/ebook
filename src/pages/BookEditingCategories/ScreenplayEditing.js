@@ -127,6 +127,8 @@ const ScreenplayEditing = () => {
       <Helmet>
         <title>Screenplay Editing Services by Experienced Industry Professionals</title>
         <meta name="description" content="Need Screenplay Editing Services? We offer professional Screenplay Editing services for self-published authors on affordable price. Hire expert for your book." />
+        <link rel="canonical" href="https://amzbookpublishing.net/screenplay-editing" />
+
       </Helmet>
 
       {/* -------------------Start Banner section---------------------- */}

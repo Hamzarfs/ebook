@@ -132,6 +132,8 @@ const BusinessGhostwriting = () => {
      <Helmet>
         <title>Business Book Ghostwriting Services by Expert Ghostwriters</title>
         <meta name="description" content="Need Business book ghostwriter? We offer professional Business book ghostwriting services on affordable price. Meet our talented writers who can work easily." />
+        <link rel="canonical" href="https://amzbookpublishing.net/business-ghostwriting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

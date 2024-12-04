@@ -130,6 +130,8 @@ const AmazonMarketing = () => {
       <Helmet>
         <title>Expert Amazon Marketing Services for Increased Visibility</title>
         <meta name="description" content="Need Amazon Marketing? We offer professional Amazon Marketing Services for book promotion and sale to self-published authors on affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/amazon-marketing" />
+
       </Helmet>
       <Header />
       <BreadCrumb

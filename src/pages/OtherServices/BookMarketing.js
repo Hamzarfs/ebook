@@ -128,6 +128,8 @@ const BookMarketing = () => {
       <Helmet>
         <title>Effective Book Marketing Strategies to Boost Your Sales</title>
         <meta name="description" content="Need Book Marketing Services? We offer professional Book Marketing services for self-published authors on affordable price. Hire expert digital marketer for your book." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-marketing" />
+
       </Helmet>
       <Header />
       <BreadCrumb

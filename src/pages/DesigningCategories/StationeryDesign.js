@@ -131,6 +131,8 @@ const StationeryDesign = () => {
       <Helmet>
         <title>Creative Stationery Design Services for Authors</title>
         <meta name="description" content="Get our stationery design services on affordable price. Contact us for authors stationery designs including letterheads, envelopes and business card designs." />
+        <link rel="canonical" href="https://amzbookpublishing.net/stationery-design" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

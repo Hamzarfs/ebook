@@ -99,6 +99,7 @@ const BookEditing = () => {
       <Helmet>
         <title>Book Editing Services for Authors by Professional Editors</title>
         <meta name="description" content="Need book editing services? We offer professional book editing services for writers. Contact our experienced book editors for your manuscript editing today." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-editing" />
       </Helmet>
       <Header />
       <BreadCrumb

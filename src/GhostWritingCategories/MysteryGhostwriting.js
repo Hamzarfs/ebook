@@ -132,6 +132,8 @@ const MysteryGhostwriting = () => {
       <Helmet>
         <title>Mystery Ghostwriting Online Services by Mystery Book Writers</title>
         <meta name="description" content="Need Mystery ghostwriter? We offer professional Mystery ghostwriting services on affordable price. Contact us to hire expert writers remotely for your project." />
+        <link rel="canonical" href="https://amzbookpublishing.net/mystery-ghostwriting" />
+
       </Helmet>
       <Header />
       <BreadCrumb

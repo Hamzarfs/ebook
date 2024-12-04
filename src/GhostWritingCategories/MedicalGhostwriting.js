@@ -136,6 +136,8 @@ const MedicalGhostwriting = () => {
       <Helmet>
         <title>Medical Ghostwriting Services by Experienced Medical Writers</title>
         <meta name="description" content="Need Medical ghostwriter? We offer professional Medical ghostwriting services on affordable price. Contact us to hire Medical writers remotely for your project." />
+        <link rel="canonical" href="https://amzbookpublishing.net/medical-ghostwriting" />
+
       </Helmet>
       <Header />
       <BreadCrumb

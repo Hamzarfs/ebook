@@ -131,6 +131,8 @@ const NovelEditing = () => {
       <Helmet>
         <title>Expert Novel Editing Services for Perfecting Your Story</title>
         <meta name="description" content="Need Novel Editing Services? We offer professional Novel Editing services for self-published authors on affordable price. Hire expert editors for your Novel." />
+        <link rel="canonical" href="https://amzbookpublishing.net/novel-editing" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

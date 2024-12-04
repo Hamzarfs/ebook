@@ -131,6 +131,8 @@ const BookEditing = () => {
       <Helmet>
         <title>Comprehensive Book Editing Services for Flawless Manuscripts</title>
         <meta name="description" content="Our book editors are highly professional to initaite on your book editing project. Publish error free your book on online platforms confidently." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-editing" />
+
       </Helmet>
       <Header />
       <BreadCrumb

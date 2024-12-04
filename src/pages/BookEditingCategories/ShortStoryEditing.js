@@ -129,6 +129,8 @@ const ShortStoryEditing = () => {
       <Helmet>
         <title>Short Story Editing Services to Refine Your Narrative</title>
         <meta name="description" content="Need Short Story Editing Services? We offer professional Short Story Editing services for self-published authors on affordable price. Hire expert for your book." />
+        <link rel="canonical" href="https://amzbookpublishing.net/shorts-story-editing" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

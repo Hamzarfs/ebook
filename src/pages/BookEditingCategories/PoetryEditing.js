@@ -128,6 +128,8 @@ const PoetryEditing = () => {
       <Helmet>
         <title>Professional Poetry Editing Services to Enhance Your Verses</title>
         <meta name="description" content="Need Poetry Editing Services? We offer professional Poetry Editing services for self-published poets on affordable price. Hire expert editors for your book." />
+        <link rel="canonical" href="https://amzbookpublishing.net/poetry-editing" />
+
       </Helmet>
       <Header />
       <BreadCrumb

@@ -133,6 +133,8 @@ const AuthorWebsiteDesign = () => {
       <Helmet>
         <title>Custom Portfolio Website Design Services for Authors </title>
         <meta name="description" content="We create stunning websites for writers. Get our author website design services for showcasing your books, book sales, readers email list and attention." />
+        <link rel="canonical" href="https://amzbookpublishing.net/author-website-design" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

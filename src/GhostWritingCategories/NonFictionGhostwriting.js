@@ -137,6 +137,8 @@ const FictionGhostwriting = () => {
      <Helmet>
         <title>Non Fiction Ghostwriting Services - AMZ Book Publishing</title>
         <meta name="description" content="Need non fiction ghostwriter? We offer professional non fiction ghostwriting services on affordable price. Our experinced writers are well trained for all genres." />
+        <link rel="canonical" href="https://amzbookpublishing.net/non-fiction-ghostwriting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

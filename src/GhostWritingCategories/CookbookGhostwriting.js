@@ -134,6 +134,8 @@ const CookbookGhostwriting = () => {
       <Helmet>
         <title>Cookbook Ghostwriting Services by Cookbook Ghostwriters</title>
         <meta name="description" content="Need Cookbook ghostwriter? We offer professional Cookbook ghostwriting services on affordable price. We also offer custom cookbook printing services." />
+        <link rel="canonical" href="https://amzbookpublishing.net/cookbook-ghostwriting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

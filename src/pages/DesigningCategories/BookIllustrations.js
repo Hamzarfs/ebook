@@ -129,6 +129,8 @@ const BookIllustrations = () => {
       <Helmet>
         <title>Stunning Book Illustration Services by Talented Artists</title>
         <meta name="description" content="Need Book Illustration services? We offer professional book illustration services in the USA on affordable price. Contact us to hire expert illustrators." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-illustrations" />
+
       </Helmet>
       <Header />
       <BreadCrumb

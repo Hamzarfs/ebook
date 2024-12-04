@@ -134,6 +134,8 @@ const FictionGhostwriting = () => {
       <Helmet>
         <title>Science Fiction Ghostwriting Services by Top Ghostwriters</title>
         <meta name="description" content="Need science fiction ghostwriter? We offer professional science fiction ghostwriting services on affordable price. Meet well experienced book and ebook writers." />
+        <link rel="canonical" href="https://amzbookpublishing.net/fiction-ghostwriting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

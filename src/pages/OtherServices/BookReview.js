@@ -135,6 +135,8 @@ const BookReview = () => {
       <Helmet>
         <title>Book Review Services to Gain Credibility and Exposure</title>
         <meta name="description" content="Need Book Review Services? We offer professional Book Review services to self-published authors on affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-review" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

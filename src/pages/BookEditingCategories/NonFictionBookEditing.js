@@ -127,6 +127,8 @@ const NonFictionBookEditing = () => {
       <Helmet>
         <title>Expert Non-Fiction Book Editing for Accuracy and Clarity</title>
         <meta name="description" content="Need Non-Fiction Book Editing Services? We offer professional Non-Fiction Book Editing services for self-published authors on affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/non-fiction-book-editing" />
+
       </Helmet>
       <Header />
       <BreadCrumb

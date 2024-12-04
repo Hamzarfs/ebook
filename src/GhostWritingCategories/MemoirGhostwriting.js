@@ -139,6 +139,8 @@ const FictionGhostwriting = () => {
      <Helmet>
         <title>Memoir Ghostwriting Services by Experienced Memoir Writers</title>
         <meta name="description" content="Need Memoir ghostwriter? We offer professional Memoir ghostwriting services on affordable price. Meet well experienced biography book and ebook writers." />
+        <link rel="canonical" href="https://amzbookpublishing.net/memoir-ghostwriting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

@@ -159,6 +159,7 @@ const AboutUs = () => {
       <Helmet>
         <title>About Us - AMZ Book Publishing</title>
         <meta name="description" content="AMZ Book Publishing offers comprehensive book publishing solutions for authors. Let us guide you through every step of the publishing journey with professionalism and expertise." />
+        <link rel="canonical" href="https://amzbookpublishing.net/about-us" />
       </Helmet>
       <BreadCrumb
         title="About Us"

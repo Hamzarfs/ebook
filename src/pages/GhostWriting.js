@@ -90,6 +90,8 @@ const GhostWriting = () => {
      <Helmet>
         <title>Affordable Book Ghostwriting Services by Expert Ghostwriters</title>
         <meta name="description" content="Need a ghostwriter for your book? Get professional ghostwriting services on affordable price. We are the best book ghostwriting agency in USA for best-selling author." />
+        <link rel="canonical" href="https://amzbookpublishing.net/ghostwriting" />
+
       </Helmet>
     
     <div>

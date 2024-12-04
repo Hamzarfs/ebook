@@ -124,6 +124,8 @@ const SelfEditingFictionWriters = () => {
      <Helmet>
         <title>Self-Editing Tips for Fiction Writers to Polish Their Work</title>
         <meta name="description" content="AMZ Book Publishing offers top quality tips for Self Editing for Fiction Writers. Our fiction writers are highly qualified to share valuable feedback for your book." />
+        <link rel="canonical" href="https://amzbookpublishing.net/self-editing-fiction-writers" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
   

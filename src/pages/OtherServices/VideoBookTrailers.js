@@ -130,6 +130,8 @@ const VideoBookTrailers = () => {
       <Helmet>
         <title>Engaging Video Book Trailer Services to Promote Your Book</title>
         <meta name="description" content="Need Video Book Trailers Services? We offer professional and engaging Video Book Trailers creatives for self-published authors on affordable price." />
+        <link rel="canonical" href="https://amzbookpublishing.net/video-book-trailers" />
+
       </Helmet>
       <Header />
       <BreadCrumb

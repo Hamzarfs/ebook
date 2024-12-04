@@ -131,6 +131,8 @@ const Audiobook = () => {
      <Helmet>
         <title>Professional Audio Book Production Services for Your Written Work</title>
         <meta name="description" content="Need Audiobook Publishing Services? We offer professional amazon audio book publishing services to self-published authors on affordable price. Get a free quote!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/audiobook" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

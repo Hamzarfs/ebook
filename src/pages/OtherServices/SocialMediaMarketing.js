@@ -131,6 +131,8 @@ const SocialMediaMarketing = () => {
       <Helmet>
         <title>Social Media Marketing Services for Authors to Build Audience</title>
         <meta name="description" content="Need Social Media Marketing? We offer professional Social Media Marketing for book promotion to self-published authors on affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/social-media-marketing" />
+
       </Helmet>
       <Header />
       <BreadCrumb

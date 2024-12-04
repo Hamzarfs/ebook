@@ -130,6 +130,8 @@ const BookProofreading = () => {
       <Helmet>
         <title>Thorough Book Proofreading Services for Error-Free Texts</title>
         <meta name="description" content="Need Book Proofreading Services? We offer professional Book Proofreading services for self-published authors on affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/bookproof-reading" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

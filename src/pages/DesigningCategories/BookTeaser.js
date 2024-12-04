@@ -123,6 +123,8 @@ const BookTeaser = () => {
       <Helmet>
         <title>Creating Captivating Book Teaser and Trailer Services</title>
         <meta name="description" content="Need Book Teaser services? We offer professional book trailer and teaser services for authors book on affordable price. Contact us to hire expert services." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-teaser" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

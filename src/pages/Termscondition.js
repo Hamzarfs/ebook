@@ -15,6 +15,8 @@ const ContactUs = () => {
        <Helmet>
         <title>Terms and Conditions - AMZ Book Publishing</title>
         <meta name="description" content="Read our Terms and Conditions for better understanding regarding our working process." />
+        <link rel="canonical" href="https://amzbookpublishing.net/terms-condition" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

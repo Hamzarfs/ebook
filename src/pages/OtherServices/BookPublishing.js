@@ -125,6 +125,8 @@ const BookPublishing = () => {
       <Helmet>
         <title>Comprehensive Book Publishing Services for Every Author</title>
         <meta name="description" content="Need Book Publishing Services? We offer professional Book Publishing services for self-published authors on affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-publishing" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

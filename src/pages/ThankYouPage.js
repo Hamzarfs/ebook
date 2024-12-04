@@ -8,7 +8,7 @@ const ThankYouPage = () => {
     <div>
        <Helmet>
         <title>Thank You - AMZ Book Publishing</title>
-     
+        <link rel="canonical" href="https://amzbookpublishing.net/thank-you" />
       </Helmet>
       <div className="thankyou-page">
         <img src={ebooklogo} alt="Mobile Logo" />

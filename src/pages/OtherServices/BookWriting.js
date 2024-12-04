@@ -128,6 +128,8 @@ const BookWriting = () => {
      <Helmet>
         <title>Professional Book Writing Services to Bring Your Ideas to Life</title>
         <meta name="description" content="We offer professional book and ebook writing and publishing services to authors. Our book writing experts in company also offers valuable help and assistance." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-writing" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

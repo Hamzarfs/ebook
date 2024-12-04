@@ -135,6 +135,8 @@ const ChildrensBook = () => {
       <Helmet>
         <title>Children Book Ghostwriting Services by Top Ghostwriters</title>
         <meta name="description" content="Need Children book ghostwriter? We offer professional Children book ghostwriting services on affordable price. Meet well experienced book and ebook writers." />
+        <link rel="canonical" href="https://amzbookpublishing.net/childrens-book-ghostwriting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

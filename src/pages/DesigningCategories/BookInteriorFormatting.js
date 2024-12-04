@@ -128,6 +128,8 @@ const BookInteriorFormatting= () => {
       <Helmet>
         <title>Professional Book Formatting and Interior Formatting Services</title>
         <meta name="description" content="Need Book Formatting services? We offer professional book interior formatting services for self-published authors on affordable price. Contact us to hire experts." />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-interior-formatting" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

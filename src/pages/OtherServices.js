@@ -98,6 +98,8 @@ const OtherServices = () => {
        <Helmet>
         <title>Multiple Book Publishing Services - AMZ Book Publishing</title>
         <meta name="description" content="We provide many valuable services to authors like book marketing, book trailers, seo services and more. Contact us for for more information." />
+        <link rel="canonical" href="https://amzbookpublishing.net/other-services" />
+
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

@@ -128,6 +128,8 @@ const SeoServices = () => {
       <Helmet>
         <title>SEO Services for Authors to Enhance Online Discoverability</title>
         <meta name="description" content="Need SEO Services? We offer professional Search Engine Optimization Services to self-published authors to gain visibility on affordable price. Get a free quote!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/seo-services" />
+
       </Helmet>
       <Header />
       <BreadCrumb

@@ -46,6 +46,7 @@ const Home = () => {
        <Helmet>
         <title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
         <meta name="description" content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in US and worldwide. Get your dream book published today!" />
+        <link rel="canonical" href="https://amzbookpublishing.net" />
       </Helmet>
  
       
