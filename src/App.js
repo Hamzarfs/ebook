@@ -9,7 +9,9 @@ import OtherServices from './pages/OtherServices';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Lppage from './pages/Lppage';
 import TermsConditions from './pages/Termscondition';
+
 
 // *************** GhostWriting Subcategories ****************************
 
@@ -96,6 +98,8 @@ const App = () => {
         <Route path="/privacy-policy" element={<PrivacyPolicy openModal={openModal} />} />
         <Route path="/terms-condition" element={<TermsConditions openModal={openModal} />} />
         <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
+        <Route path="/lp" element={<Lppage openModal={openModal} />} />
+        
 
         
         

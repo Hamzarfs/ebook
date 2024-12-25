@@ -1,8 +1,3 @@
-html, body {
-    font-family: Arial, sans-serif;  
-    margin: 0;
-    padding: 0;
-}
 
 .thankyou-page {
     text-align: center;
@@ -50,24 +45,6 @@ html, body {
     transition: background-color 0.3s;
 }
 
-.btn {
-    margin-bottom: 20px;
-    background-color: #FB9130;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 16px;
-    border-radius: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #ffb546;;
-    transition: background-color 0.3s;
-    color: white;
-}
 
 
 .thankyou-page .btn:hover {
