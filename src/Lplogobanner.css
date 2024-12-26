@@ -1,0 +1,50 @@
+.lplogobanner {
+    background: linear-gradient(to right, #FFFFFF, #D7D7D7); /* Applying linear gradient background */
+     padding: 0px 0px 15px 0px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for the section */
+    margin: 0;
+  }
+  
+  .lplogobanner h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .lplogobanner .slick-slide {
+    display: flex;  /* Enables flexbox layout for the slide */
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Centers the content vertically */
+  }
+  
+  .lplogobanner .slick-slide img {
+    /* width: 150px;  
+    height: auto;   */
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
+  .lplogobanner .slick-track {
+    display: flex;  /* Ensures slides are arranged horizontally in a row */
+    justify-content: center;  /* Centers the slick track horizontally */
+  }
+  
+  .lplogobanner .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .lplogobanner h2 {
+      font-size: 28px;
+
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .lplogobanner h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  

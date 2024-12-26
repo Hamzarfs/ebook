@@ -1,0 +1,58 @@
+.lpcta-section {
+    background-color: #FC9700;
+    /* padding: 50px 0; */
+  }
+  
+  .lpcta-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px; /* To overlap the background color */
+  }
+  
+  .lpcta-heading {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .lpcta-text {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .lpcta-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .lpcta-buttons .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+  }
+  
+  .lpcta-buttons .btn-white {
+    background-color: #ffffff;
+    color: #FC9700;
+  }
+  
+  .lpcta-buttons .btn-transparent {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .lpcta-heading {
+      font-size: 2rem;
+    }
+  
+    .lpcta-buttons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

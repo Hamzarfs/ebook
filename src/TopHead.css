@@ -1,0 +1,96 @@
+.top-head {
+    color: #FC9700;
+	background: #ffffff;
+    /* margin: 0; */
+    padding:0;
+    
+}
+
+/* LPHeader Section */
+.lpheader {
+    background-color: #FC9700;
+    /* padding: 15px 0; */
+  }
+  
+
+  
+  .lpheader .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .lpheader .nav-link {
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .lpheader .custom-btn {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    display: inline-block;  /* Make sure buttons are displayed by default */
+  }
+
+  /* Navbar Toggler (Hamburger) */
+.navbar-toggler {
+    border-color: white; /* Set border color of the toggler button */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; /* Set background color of the hamburger icon */
+  }
+  
+  .lpheader .get-started {
+    color: #FC9700;
+    border-color: #FC9700;
+    background-color: white;
+  }
+  
+  .lpheader .live-chat {
+    color: #FC9700;
+    border-color: #FC9700;
+    background-color: white;
+  }
+  
+  .lpheader .nav-link:hover {
+    background-color: white;
+    color: #FC9700;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 767px) {
+        .lpheader .nav-link {
+        display: block;
+        width: 80%;
+        place-self: center;
+    }
+  
+    .lpheader .nav-item {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .lpheader .nav-link {
+        display: block;
+        width: 80%;
+        place-self: center;
+    }
+  }
+  
+  /* Ensure Buttons are visible in Desktop View */
+  @media (min-width: 768px) {
+    .lpheader .nav-item {
+      display: inline-block; /* Ensure nav items are inline */
+    }
+  
+    .lpheader .nav-link {
+      display: inline-block; /* Ensure nav links are inline */
+    }
+  }
+  
+
+
+  

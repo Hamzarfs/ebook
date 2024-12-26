@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../lpimagebanner.css';
 
-const Lpimagebanner = ({ heading, subHeading, description, imageSrc, imageHeight, imageWidth, objectfit, borderRadius, reverseOrder, updatePopupTitle, headinglightblue, heading2 }) => {
+const Lpimagebanner = ({ heading, subHeading, description, imageSrc, imageHeight, imageWidth, objectfit, borderRadius,
+     reverseOrder, updatePopupTitle, headinglightblue, heading2 }) => {
     return (
         <section className="image-right-banner">
             <div className="container ">
@@ -9,13 +10,12 @@ const Lpimagebanner = ({ heading, subHeading, description, imageSrc, imageHeight
                     {/* Left Column: Text or Image based on reverseOrder */}
                     <div className={`col-12 col-md-6 mb-md-0 ${reverseOrder ? 'order-md-2' : ''}`}>
                         <h2 className="sub-heading">{subHeading}</h2>
-                        <h2 className="book-cards-header">{heading}<span className="lightblue-h2">{headinglightblue}</span>{heading2}</h2>
+                        <h2 className="design-process-heading font-weight-bold">{heading}<span className="lightblue-h2">{headinglightblue}</span>{heading2}</h2>
                         <p className="design-process-description">{description}</p>
                         <div>
                             <button className="first-button" data-bs-toggle="modal" data-bs-target="#popupForm" >Get Started</button>
                         </div>
                     </div>
-
                     {/* Right Column: Image or Text based on reverseOrder */}
                     <div className={`col-12 col-md-6 text-center align-content-center ${reverseOrder ? 'order-md-1' : ''}`} >
                         <img

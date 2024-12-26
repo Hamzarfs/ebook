@@ -53,7 +53,6 @@ const Lpbanner = ({ updatePopupTitle }) => {
         // Email & phone validation
         if(!validateEmailAndPhone())
             return
-
         setLoading(true)
 
         await fetch(/*'http://localhost:9090'*//*"https://webdesignmania.co.uk/php/index.php"*/"https://webdesignmania.com/php_mailer/index.php", {
@@ -89,8 +88,7 @@ const Lpbanner = ({ updatePopupTitle }) => {
 
                         <div className="lp-banner-margin">
                             <p className="lpbanner-text">Our professional book publishing services provide the guidance and support you need every step of the way. We work closely with you to understand your vision and craft a publication strategy that maximizes your book's impact. </p>
-                            <div className="lpbanner-buttons">
-                               
+                            <div className="lpbanner-buttons mt-4">
                                 <a className="first-button" href="#pricing-section" >Let’s Talk About Project </a>
                             </div>
                             <div className="lpbanner-badges">

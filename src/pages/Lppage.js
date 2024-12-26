@@ -5,33 +5,102 @@ import Header from '../components/common/Header';
 import Lpbanner from '../components/LandingPage/bannerlp';
 import lpimg1 from '../images/lpimg1.png'
 import Lpimagebanner from '../components/LandingPage/Lpimagebanner';
-
+import Lplogobanner from '../components/LandingPage/Lplogobanner';
+import TopHead from '../components/LandingPage/Tophead';
+import LPHeader from '../components/LandingPage/Lpheader';
+import book1 from '../images/bookmemories1.png'
+import book2 from '../images/bookfiction2.png'
+import book3 from '../images/booknonfiction3.png'
+import book4 from '../images/bookromance4.png'
+import book5 from '../images/bookaudio5.png'
+import book6 from '../images/bookinfo6.png'
+import lpwhychoose from '../images/whychooselp.webp'
+import Bookservices from '../components/LandingPage/bookservices';
+import ImageLeftBanner from '../components/common/ImageLeftText';
+import Portfolio from '../components/LandingPage/GalleryLp';
+import OurProcessLp from '../components/LandingPage/ourprocesslp';
+import TestimonialSection from '../components/LandingPage/TestimonialLp';
+import Pricinglp from '../components/LandingPage/pricingsection'
+import AwardsLogo from '../components/LandingPage/Awardslogo';
+import LpContactSec from '../components/LandingPage/Lpcontact';
+import Lpcta from '../components/LandingPage/Lpcta';
+import LpFooter from '../components/LandingPage/lpFooter';
 
 // ******************************** End FAQ Section ******************************
 
 const lppage = () => {
 
+
+    const heading = {
+        title: (
+            <>
+                The Worlds We Write In
+            </>
+        ),
+        // highlight:"Animation Video",
+        // title2: "Production Company in the USA"
+    };
+    const description = "We have helped a broad range of authors publish their books successfully. Our projects include books of different genres, from thrilling suspense novels and heartwarming romances to insightful memoirs and engaging children's books. ";
+    const steps = [
+        {
+            image: book1,
+            alt: "Entertainment",
+            title: "Entertainment",
+            description: "Our animation studio specializes in creating outstanding visual effects, character animations, and motion graphics in film and television. We produce interactive gaming experiences with 3D and other animation options."
+        },
+        {
+            image: book2,
+            alt: "Commercial",
+            title: "Commercial",
+            description: "Our studio is engaged in the production of captivating commercials, explainer videos, or corporate videos that help brands and businesses communicate well."
+        },
+        {
+            image: book3,
+            alt: "Nonprofit",
+            title: "Nonprofit",
+            description: "We create powerful animations to amplify the voices of nonprofits and social causes. Using very strong imagery and engaging storytelling, we create videos that succeed in grabbing audience attention."
+        },
+        {
+            image: book4,
+            alt: "Healthcare",
+            title: "Healthcare",
+            description: "The studio helps create clear and informative medical animations to educate healthcare professional and patients, in addition to developing interactive animations around pharmaceutical concepts."
+        },
+        {
+            image: book5,
+            alt: "Educational",
+            title: "Educational",
+            description: "In creating e-learning materials, we specialize in interactive animations and simulations that animate difficult subjects, thus appealing to their visual sense. "
+        },
+        {
+            image: book6,
+            alt: "Sports",
+            title: "Sports",
+            description: "The studio creates vibrant graphics and animations for sports broadcasts as well as interesting videos promoting sports events and athletes."
+        }
+    ];
+
     return (
         <div>
             <Helmet>
-                <title>Contact Us - AMZ Book Publishing</title>
-                <meta name="description" content="Contact AMZ Book Publishing for professional book publishing services. From editing to distribution, we help authors bring their stories to life. Reach out today!" />
-                <link rel="canonical" href="https://amzbookpublishing.net/contact-us" />
+                <title>Best Book Publisher: AMZ Book Publishing Services Company</title>
+                <meta name="description" content="AMZ Book Publishing company enables self-published authors to publish their dream book on AMZN. We are the best publishers in US. Call Us at (732) 797-9165." />
+                <link rel="canonical" href="https://amzbookpublishing.net/book-publishing-services"/>
             </Helmet>
-            <Header/>
-            <Lpbanner/>
-            
+            <TopHead />
+            <LPHeader />
+            <Lpbanner />
+            <Lplogobanner />
             <Lpimagebanner
                 // subHeading="ABOUT US"
-                heading="What Sets Us Apart"
+                heading="AMZ Book Publishing Company"
                 // headinglightblue=" Animations"
                 // heading2=" Unique"
                 description={
                     <>
-                        We are a top creative video production company that believes in combining traditional innovative storytelling with the latest technology. The experience has made our staff realize that the client's vision should always come first above anything. 
+                        AMZ Book Publishing Company offers a one-stop solution for aspiring authors to publish their books on Amazon. Our services deceptively give complete guidance at each phase of publishing a book on Amazon, presenting it with an outstanding book cover, leveraging marketing campaigns, and deploying around-the-world distribution strategies.
                         <br></br> <br></br>
-                        Including optimization and maximizing reach is what our videos can do for your audience. Designing brand new types of engaging media, audio, and creative content for social media sites, websites, email marketing, and digital advertising will connect you with your audience and produce results.
-
+                        We here at this firm leverage an excellent knowledge of the Amazon ecosystem and how to bring your book's potential to the maximum through a wide audience to increase your chances of becoming a bestseller.
                     </>
                 }
                 imageSrc={lpimg1}
@@ -40,13 +109,87 @@ const lppage = () => {
                 imageWidth="450px"     // Set width here
                 borderRadius="10px"
                 reverseOrder={false}
-            // updatePopupTitle={handleTitleChange}
-            buttonUrl="https://www.facebook.com/"
+                // updatePopupTitle={handleTitleChange}
+                buttonUrl="https://www.facebook.com/"
             />
-            
-              
+            <Bookservices
+                heading={heading}
+                description={description}
+                steps={steps} />
+
+               {/*************************** Buttons *******************/}
+               <div className='container' style={{ padding: '0', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <div className='row' style={{ margin: '0' }}>
+    <div className='col-md-12' style={{ padding: '0', display: 'flex', justifyContent: 'center' }}>
+      <div className="lpbanner-buttons mt-0" style={{ textAlign: 'center', padding: '0', margin: '0', display: 'flex', justifyContent: 'center' }}>
+        <a 
+          className="first-button" 
+          href="#pricing-section" 
+          style={{ 
+            display: 'inline-block', 
+            marginRight: '10px',  // Gap between the buttons
+            padding: '10px 20px', // Adjust padding as needed
+            backgroundColor: '#FC9700',  // Button color (FC9700)
+            color: 'white',  // Text color
+            textDecoration: 'none',  // Remove underline
+            borderRadius: '30px', // Border radius of 30px
+            boxShadow: '0px 4px 6px rgba(252, 151, 0, 0.5)', // Drop shadow with FC9700 color
+          }}
+        >
+          Get Started
+        </a>
+        <a 
+          className="first-button" 
+          href="#pricing-section" 
+          style={{ 
+            display: 'inline-block', 
+            marginLeft: '10px',  // Gap between the buttons
+            padding: '10px 20px', 
+            backgroundColor: '#FC9700',
+            color: 'white',
+            textDecoration: 'none',
+            borderRadius: '30px', // Border radius of 30px
+            boxShadow: '0px 4px 6px rgba(252, 151, 0, 0.5)', // Drop shadow with FC9700 color
+          }}
+        >
+          Let’s Talk
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+         {/*************************** Buttons *******************/}
+         <ImageLeftBanner
+    heading="What Makes Us the Leading Book Publishers in the USA "
+    subHeading=""
+    description={
+      <>
+   Aspiring authors embarking on their first book journey often explore options like self-publishing, a service where we publish your book on Amazon and other platforms with your name prominently displayed. AMZ Book Publishing streamlines the publishing process, handling everything from editing and book cover design to marketing and distribution, including paperback publishing, e-book publishing, and even audiobook production. 
+       <br /><br />
+       This allows you to focus on your writing while we ensure your book reaches its full potential. Whether you're aiming for a traditional hardcover release or a wider reach through publishing book on Amazon, AMZ Book Publishing provides a comprehensive solution for navigating the complexities of the publishing world and achieving your publishing dreams.
+      </>
+  }
+    imageSrc={lpwhychoose}
+    imageHeight=""        // Set height here
+    imageWidth=""          // Set width here
+    objectfit="cover"          // Set object-fit here
+    borderRadius="15px"        // Set border radius here
+/>
+<Portfolio/>
+<Pricinglp/>
+<OurProcessLp/>
+<AwardsLogo/>
+<TestimonialSection/>
+<Lpcta/>
+
+<LpContactSec/>
+<LpFooter/>
+
+
+
 
         </div>
+
     );
 };
 export default lppage;
