@@ -7,6 +7,7 @@ import formbg from '../../images/formbg.png';
 import trustpilot from '../../images/truspiloticon.png';
 import clutch from '../../images/clutchicon.png';
 import barkicon from '../../images/barkicon.png';
+import fiftyoff from '../../images/fiftyoff.png';
 import '../../LandingPage.css';
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
@@ -89,12 +90,12 @@ const Lpbanner = ({ updatePopupTitle }) => {
                         <div className="lp-banner-margin">
                             <p className="lpbanner-text">Our professional book publishing services provide the guidance and support you need every step of the way. We work closely with you to understand your vision and craft a publication strategy that maximizes your book's impact. </p>
                             <div className="lpbanner-buttons mt-4">
-                                <a className="first-button" href="#pricing-section" >Let’s Talk About Project </a>
+                                <a className="first-button" href="tel:+17327979165" >Let’s Talk About Project </a>
                             </div>
                             <div className="lpbanner-badges">
-                                <img src={clutch} alt="Clutch" />
-                                <img src={trustpilot} alt="Trustpilot" />
-                                <img src={barkicon} alt="Bark" />
+                                <a href="https://clutch.co/profile/amz-book-publishing "><img src={clutch} alt="Clutch" /></a>
+                                <a href="https://www.trustpilot.com/review/amzbookpublishing.net "> <img src={trustpilot} alt="Trustpilot" /></a>
+                                <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ "><img src={barkicon} alt="Bark" /></a>
                             </div>
                         </div>
                     </div>
@@ -113,6 +114,11 @@ const Lpbanner = ({ updatePopupTitle }) => {
                         <div className="lpbanner-form"
                         // style={{ backgroundImage: `url(${formbg})` }} 
                         >
+                             <img
+                  src={fiftyoff}
+                  alt="Best Seller"
+                  className="fiftyoff"
+                />
                             <h3 className="lpbanner-form-title">Get a Website Quote</h3>
                             <p>Get response from us within 24 hours</p>
                             <form method="POST" onSubmit={handleSubmit} id="bannerForm">

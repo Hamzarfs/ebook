@@ -1,9 +1,11 @@
 // src/pages/About.js
 // import DesigningServices from '../components/Designing/DesigningServices';
-import Header from '../components/common/Header';
-import Footer from '../components/common/Footer';
+
 import TermsAndConditionsSection from '../components/TermsConditions';
 import { Helmet } from 'react-helmet-async';
+import TopHead from '../components/LandingPage/Tophead';
+import LPHeader from '../components/LandingPage/Lpheader';
+import LpFooter from '../components/LandingPage/lpFooter';
 
 
 // ******************************** End FAQ Section ******************************
@@ -19,13 +21,14 @@ const ContactUs = () => {
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
-      <Header />
+      <TopHead/>
+      <LPHeader/>
 
 
 <TermsAndConditionsSection/>
         
 
-      <Footer/>
+      <LpFooter/>
     </div>
   );
 };

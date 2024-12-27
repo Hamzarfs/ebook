@@ -23,7 +23,7 @@ const TopHead = ({ updatePopupTitle }) => {
                             <li>
                                 <a
                                     className="toll_icon"
-                                    href="tel:+02045112054"
+                                    href="tel:+17327979165"
                                     
                                     style={{
                                         textDecoration:'none',
@@ -33,12 +33,13 @@ const TopHead = ({ updatePopupTitle }) => {
                                     }}
                                 >
                                     <FaPhone style={{ marginRight: '8px' }} />
-                                    0204-511-2054
+                                    (732) 797-9165
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="https://wa.me/+447380100492"
+                                    href="+17327979165"
+                               
                                     className="chat_icon chat"
                                     style={{
                                         textDecoration:'none',
@@ -46,6 +47,7 @@ const TopHead = ({ updatePopupTitle }) => {
                                         display: 'flex',
                                         alignItems: 'center'
                                     }}
+                                    
                                 >
                                     <FaComment style={{ marginRight: '8px' }} />
                                     Live Chat with Expert

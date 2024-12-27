@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React, { useState } from 'react';
+
 import { Helmet } from 'react-helmet-async';
 import Header from '../components/common/Header';
 import Lpbanner from '../components/LandingPage/bannerlp';
@@ -20,16 +20,17 @@ import ImageLeftBanner from '../components/common/ImageLeftText';
 import Portfolio from '../components/LandingPage/GalleryLp';
 import OurProcessLp from '../components/LandingPage/ourprocesslp';
 import TestimonialSection from '../components/LandingPage/TestimonialLp';
-import Pricinglp from '../components/LandingPage/pricingsection'
 import AwardsLogo from '../components/LandingPage/Awardslogo';
 import LpContactSec from '../components/LandingPage/Lpcontact';
 import Lpcta from '../components/LandingPage/Lpcta';
 import LpFooter from '../components/LandingPage/lpFooter';
+import LPPricingSection from '../components/LandingPage/Pricingplan';
 
+import React, { useState } from 'react';
 // ******************************** End FAQ Section ******************************
 
 const lppage = () => {
-
+  
 
     const heading = {
         title: (
@@ -117,48 +118,7 @@ const lppage = () => {
                 description={description}
                 steps={steps} />
 
-               {/*************************** Buttons *******************/}
-               <div className='container' style={{ padding: '0', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <div className='row' style={{ margin: '0' }}>
-    <div className='col-md-12' style={{ padding: '0', display: 'flex', justifyContent: 'center' }}>
-      <div className="lpbanner-buttons mt-0" style={{ textAlign: 'center', padding: '0', margin: '0', display: 'flex', justifyContent: 'center' }}>
-        <a 
-          className="first-button" 
-          href="#pricing-section" 
-          style={{ 
-            display: 'inline-block', 
-            marginRight: '10px',  // Gap between the buttons
-            padding: '10px 20px', // Adjust padding as needed
-            backgroundColor: '#FC9700',  // Button color (FC9700)
-            color: 'white',  // Text color
-            textDecoration: 'none',  // Remove underline
-            borderRadius: '30px', // Border radius of 30px
-            boxShadow: '0px 4px 6px rgba(252, 151, 0, 0.5)', // Drop shadow with FC9700 color
-          }}
-        >
-          Get Started
-        </a>
-        <a 
-          className="first-button" 
-          href="#pricing-section" 
-          style={{ 
-            display: 'inline-block', 
-            marginLeft: '10px',  // Gap between the buttons
-            padding: '10px 20px', 
-            backgroundColor: '#FC9700',
-            color: 'white',
-            textDecoration: 'none',
-            borderRadius: '30px', // Border radius of 30px
-            boxShadow: '0px 4px 6px rgba(252, 151, 0, 0.5)', // Drop shadow with FC9700 color
-          }}
-        >
-          Let’s Talk
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-         {/*************************** Buttons *******************/}
+             
          <ImageLeftBanner
     heading="What Makes Us the Leading Book Publishers in the USA "
     subHeading=""
@@ -176,7 +136,7 @@ const lppage = () => {
     borderRadius="15px"        // Set border radius here
 />
 <Portfolio/>
-<Pricinglp/>
+<LPPricingSection/>
 <OurProcessLp/>
 <AwardsLogo/>
 <TestimonialSection/>

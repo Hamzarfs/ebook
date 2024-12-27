@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../lpimagebanner.css';
+import PopupForm1 from '../common/PopupForm';
 
 const Lpimagebanner = ({ heading, subHeading, description, imageSrc, imageHeight, imageWidth, objectfit, borderRadius,
      reverseOrder, updatePopupTitle, headinglightblue, heading2 }) => {
+           const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+          
+            const openModal = () => {
+              setIsModalOpen(true); // Open the modal
+            };
+          
+            const closeModal = () => {
+              setIsModalOpen(false); // Close the modal
+            };
     return (
         <section className="image-right-banner">
             <div className="container ">
@@ -13,7 +23,8 @@ const Lpimagebanner = ({ heading, subHeading, description, imageSrc, imageHeight
                         <h2 className="design-process-heading font-weight-bold">{heading}<span className="lightblue-h2">{headinglightblue}</span>{heading2}</h2>
                         <p className="design-process-description">{description}</p>
                         <div>
-                            <button className="first-button" data-bs-toggle="modal" data-bs-target="#popupForm" >Get Started</button>
+                            <button onClick={openModal} className="first-button" >Get Started</button>
+                            <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
                         </div>
                     </div>
                     {/* Right Column: Image or Text based on reverseOrder */}

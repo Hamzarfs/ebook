@@ -1,4 +1,9 @@
-
+.fiftyoff {
+  position: absolute;
+  top: -33px;
+  left: -33px;
+  width: 100px;
+}
 
 .lpbanner {
     /* background: darkblue; */
@@ -540,11 +545,6 @@ textarea.lpbanner-input.lpbanner-textarea {
 @media(max-width: 376px) {
 
 
-	.top-head {
-		background: #3716C7;
-		padding: 5px 0;
-		font-size: 10px;
-	}
 
 }
 
@@ -627,11 +627,7 @@ textarea.lpbanner-input.lpbanner-textarea {
 		display: none;
 	}
 
-    .top-head {
-		background: #3716C7;
-		padding: 5px 0;
-		font-size: 12px;
-	}
+
     img.lpbanner-bracket-img {
         display: none;
     }

@@ -9,35 +9,31 @@ const LpFooter = () => {
     <footer className="footer bg-dark text-light">
       <div className="container py-5">
         <div className="row">
-          <div className="col-md-5 mb-4">
-            <a href="/">
+          <div className="col-md-6 mb-4">
+           
               <img src={ebooklogo} alt="AMZ Book Publishing" className="img-fluid mb-3"/>
-            </a>
+          
             <p className="text-light">
-            AMZ Book Publishing was founded on February 22, 2023, with the mission of providing quality editing and publishing services for the authors worldwide.
-            </p>
+            AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, e-book writing services, book editing, book cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire digital book publishing process.            </p>
           </div>
-          <div className="col-md-4 mb-3">
-            <h5 className="highlight-orange-text">Featured Services</h5>
+          <div className="col-md-3 mb-3">
+            <h5 className="highlight-orange-text">Get Social</h5>
             <ul className="list-unstyled">
-            <p className="mb-1 text-light">
+            <p className=" text-light">
                 <FaFacebookF /> 
-                <a href="tel:+17327979165" className="text-light text-decoration-none"> Facebook </a>
+                <a href="https://www.facebook.com/AmzBookPublishingUS" target="_blank" className="text-light text-decoration-none"> Facebook </a>
               </p>
               <p className="text-light">
                 <FaInstagram /> 
-                <a href="https://www.google.com/maps/search/?api=1&query=41+Winthrop+Rd,+Edison,+NJ+08817" target="_blank" rel="noopener noreferrer" className="text-light text-decoration-none"> Instagram</a>
+                <a href="https://www.instagram.com/amz_book_publishing/" target="_blank" rel="noopener noreferrer" className="text-light text-decoration-none"> Instagram</a>
               </p>
-              <p className="mb-1 text-light">
-                <FaLinkedinIn /> 
-                <a href="mailto:info@amzbookpublishing.net" className="text-light text-decoration-none"> LinkedIn</a>
-              </p>
+     
             
             </ul>
           </div>
 
           <div className="col-md-3 mb-4">
-            <h5 className="highlight-orange-text">Follow Us</h5>
+            <h5 className="highlight-orange-text">Contact Us</h5>
             {/* Contact Us Section */}
             <div className="contact-details">
              
@@ -57,9 +53,20 @@ const LpFooter = () => {
           </div>
         </div>
       </div>
+<div></div>
+<div className='footer-bottom text-center py-3 bg-secondary'>
+      <div className="row">
+        <div className='col-6'>
+        <p>&copy; 2025 AMZ Book Publishing. All Rights Reserved.</p>
+        </div>
+        <div className='col-6'>
+        <p>
+  <a href="/privacy-policy" target="_blank">Privacy Policy</a> | 
+  <a href="/terms-condition" target="_blank"> Terms & Conditions</a>
+</p>
 
-      <div className="footer-bottom text-center py-3 bg-secondary">
-        <p>&copy; 2024 AMZ Book Publishing. All Rights Reserved.</p>
+        </div>
+      </div>
       </div>
     </footer>
   );

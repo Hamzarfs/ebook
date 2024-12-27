@@ -12,29 +12,32 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const TestimonialSection = () => {
     const testimonials = [
         {
-            text: 'Social Mediastics has contributed a lot to enhancing the online presence of our brand. Their team was successful in high-quality content deliveries and perfectly engaging with our audience as well. All this resulted in increased traffic to our website as well as social media followers, thanks to their strategic approach.',
-            name: 'Rachael',
-            location: 'UK'
+            text: ' I am satisfied with the publication services of AMZ. Alan guided me through every step of publishing my first book. The process was smooth, and the final product exceeded my expectations. Thank you AMZ',
+            name: ' Exceptional Publishing Services',
+            location: 'Victor Erickson'
         },
         {
-            text: 'We have been constantly amazed by how well Social Mediastics understands our corresponding target audience and tailors their strategies. Their creative content and timely responses have made it much easier to have a community built online. We love the results! ',
-            name: 'Peter',
-            location: 'Belgium'
+            text: 'Working with AMZ Book Publishing’s ghostwriting team was an incredible  experience. They skillfully captured my unique voice and transformed my  ideas into a beautifully written story that deeply resonated with my readers,   leaving a lasting impact and exceeding all expectations.',
+            name: 'Amazing Ghostwriting Experience ',
+            location: 'Keri'
+        },
+    
+        {
+            text: 'Thanks to Brian’s expert guidance, my book achieved bestseller status on Amazon. His marketing strategies were precise, impactful, and perfectly aligned with my goals, ensuring outstanding results that exceeded my expectations.',
+            name: 'Comprehensive Marketing Services',
+            location: 'Parker'
         },
         {
-            text: 'Social Mediastics makes our social media marketing a whole different level. Their data-driven and innovative approach has helped our goals be reached. We recommend their business to any company that would like to make it big in social media. ',
-            name: 'Keri',
-            location: 'UK'
+name: 'Creative Ebook Writing Team',
+            
+            text: 'Brian helped me in self publishing my book from scratch. The team’s creativity and professionalism made the process enjoyable. Highly recommended!',
+            location: 'Amy Carpenter',
         },
+        
         {
-            text: 'We first hesitated quite a bit about social media outsourcing, but as soon as we contacted Social Mediastics, all of that doubt disappeared. There is a great professional, fast response, and always go the extra mile taking from their team. So, no worries about handing over work to them. ',
-            name: 'Davide',
-            location: 'Italy'
-        },
-        {
-            text: 'Social Mediastics has totally changed the game for us as a company. Social media advertising expertise has had a positive impact on closing a good return for investment. We appreciate their partnership and look forward to continued benefits from this relationship."',
-            name: 'Davide',
-            location: 'Italy'
+            text: 'The design team, led by Alan, delivered a book cover that brought my book to life. The attention to detail was amazing! Thank you guys!',
+            name: 'Outstanding Book Cover Designs ',
+            location: 'David'
         }
     ];
 
@@ -47,11 +50,11 @@ const TestimonialSection = () => {
                 <div className='row'>
                     <Swiper
                         spaceBetween={20}
-                        slidesPerView={4}
+                        slidesPerView={3}
                         breakpoints={{
                             320: { slidesPerView: 1 },
                             768: { slidesPerView: 3 },
-                            1200: { slidesPerView: 4}
+                            1200: { slidesPerView: 3}
                         }}
                         navigation={{
                             nextEl: '.swiper-button-next',
@@ -62,9 +65,10 @@ const TestimonialSection = () => {
                             <SwiperSlide key={index}>
                                 <div className='testimonial-card'>
                                     <ImQuotesLeft className='quote-icon' />
+                                    <p className='testimonial-name'>{testimonial.name}</p>
                                     <p className='testimonial-text'>{testimonial.text}</p>
                                     <div className='testimonial-footer'>
-                                        <p className='testimonial-name'>{testimonial.name}, {testimonial.location}</p>
+                                        <p className='testimonial-name'>{testimonial.location}</p>
                                     </div>
                                 </div>
                             </SwiperSlide>

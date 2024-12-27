@@ -6,7 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 Modal.setAppElement("#root");
 
-const PopupForm1 = ({ isOpen, closeModal }) => {
+const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue}) => {
+    
     const navigate = useNavigate()
     const [loading, setLoading] = useState(false); // Loading state
     const [formData, setFormData] = useState({
@@ -52,7 +53,7 @@ const PopupForm1 = ({ isOpen, closeModal }) => {
                     Swal.fire('Error', message, 'error')
             })
     }
-
+    if (!isOpen) return null;
     return (
         <Modal
             isOpen={isOpen}
@@ -63,9 +64,15 @@ const PopupForm1 = ({ isOpen, closeModal }) => {
         >
             <button className="close-button" onClick={closeModal}>
                 <FaTimes />
-            </button>
+            </button> {/* <h2>Get a <span style={{ color: '#F76C39' }}>Quote</span></h2> */}
             <form className="popupform1" onSubmit={handleSubmit}>
-                <h2>Get a <span style={{ color: '#F76C39' }}>Quote</span></h2>
+               
+            <h4>
+  {modalTitle || modalValue 
+    ? `${modalTitle} - ${modalValue}` 
+    : 'Get a Quote'}
+</h4>
+
                 <div>
                     <label>Name</label>
                     <div className="input-icon">
