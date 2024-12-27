@@ -55,6 +55,7 @@ const LpFooter = () => {
       </div>
 <div></div>
 <div className='footer-bottom text-center py-3 bg-secondary'>
+  
       <div className="row">
         <div className='col-6'>
         <p>&copy; 2025 AMZ Book Publishing. All Rights Reserved.</p>
