@@ -72,7 +72,9 @@ import BookReview from './pages/OtherServices/BookReview';
 import ThankYouPage from "./pages/ThankYouPage";
 import PopupForm1 from "./components/common/PopupForm"; // Import the popup form
 
+
 const App = () => {
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -87,6 +89,7 @@ const App = () => {
     <HelmetProvider>
     <Router>
       <div>
+        
         <Routes>
         <Route path="/" element={<Home openModal={openModal} />} />
         <Route path="/designing" element={<Designing openModal={openModal} />} />
@@ -161,6 +164,7 @@ const App = () => {
         <Route path="/other-services/book-review" element={<BookReview openModal={openModal} />} />
         
         </Routes>
+        
         
         {/* Popup Form Modal */}
         <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />

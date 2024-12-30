@@ -187,10 +187,11 @@
     background-color: #F1EFEF;
     border-radius: 0px 0px 30px 30px;
 }
-  .footer-info a {
-    color: black;
-    text-decoration: none;
-  }
+.footer-info a {
+  color: black;
+  text-decoration: none;
+  animation: blinker 1s linear infinite;
+}
   
   .footer-info .left-footer,
   .footer-info .right-footer {

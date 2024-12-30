@@ -20,7 +20,7 @@ const ContactUs = () => {
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
-      <TopHead/>
+      {/* <TopHead/> */}
       <LPHeader/>
      
 <PrivacyPolicySection/>  

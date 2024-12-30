@@ -88,7 +88,7 @@ const lppage = () => {
                 <meta name="description" content="AMZ Book Publishing company enables self-published authors to publish their dream book on AMZN. We are the best publishers in US. Call Us at (732) 797-9165." />
                 <link rel="canonical" href="https://amzbookpublishing.net/book-publishing-services"/>
             </Helmet>
-            <TopHead />
+            {/* <TopHead /> */}
             <LPHeader />
             <Lpbanner />
             <Lplogobanner />

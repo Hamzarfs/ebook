@@ -14,7 +14,7 @@ const ThankYouPage = () => {
         <img src={ebooklogo} alt="Mobile Logo" />
         <h1>Thank You!</h1>
       </div>
-      <div className="contact">
+      <div className="contact ">
         <h2>Please check your email for further instructions.</h2>
         <p>
           Your brief has been successfully received. We’ve received it and one
@@ -22,11 +22,11 @@ const ThankYouPage = () => {
           guide you through the next steps.
         </p>
         <p>
-          Having trouble? <a href="tel:+02045112054">Contact us</a>
+          Having trouble? <a href="tel:+17327979165">Contact us</a>
         </p>
-        <a className="btn" href="/home">
-          Back to homepage
-        </a>
+        <div className='py-3'>
+        <a className="first-button " href="https://amzbookpublishing.net/book-publishing-services" >Back to Homepage </a>
+        </div>
       </div>
     </div>
   );

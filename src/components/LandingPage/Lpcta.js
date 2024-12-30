@@ -6,10 +6,23 @@ import PopupForm1 from '../common/PopupForm';
 
 const Lpcta = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
-    
-      const openModal = () => {
-        setIsModalOpen(true); // Open the modal
-      };
+
+
+  const [modalTitle, setModalTitle] = useState('');
+    const [modalValue, setModalValue] = useState('');
+
+    const [modalInput, setModalInput] = useState(''); // This is for form input
+  
+    // Function to open the modal and set the title and value
+    const openModal = (title, value) => {
+      setModalTitle(title);   // Store the name (title) in state
+      setModalValue(value);   // Store the value in state
+      setIsModalOpen(true);    // Open the modal
+    };
+  
+    // Function to close the modal
+
+
     
       const closeModal = () => {
         setIsModalOpen(false); // Close the modal
@@ -34,9 +47,20 @@ const Lpcta = () => {
             Ready to share your fascinating story with your potential audience? Contact AMZ Book Publishing and get a free quote
             </p>
             <div className="lpcta-buttons">
-              <button onClick={openModal} className="btn btn-white">Get Started</button>
-              <button className="btn btn-transparent">Let's Talk</button>
-              <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+              <button 
+               name="Start Up Package" 
+               value="$999" 
+               onClick={() => openModal("Start Up Package", "$999")} 
+              
+ className="btn btn-white">Get Started</button>
+              <a  href="tel:+17327979165" className="btn btn-transparent">Let's Talk</a>
+              <PopupForm1 
+  isOpen={isModalOpen} 
+  closeModal={closeModal} 
+  modalTitle={modalTitle} 
+  modalValue={modalValue} 
+/>
+
             </div>
           </div>
         </div>

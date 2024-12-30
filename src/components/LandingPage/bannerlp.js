@@ -119,11 +119,11 @@ const Lpbanner = ({ updatePopupTitle }) => {
                   alt="Best Seller"
                   className="fiftyoff"
                 />
-                            <h3 className="lpbanner-form-title">Get a Website Quote</h3>
-                            <p>Get response from us within 24 hours</p>
+                            <h3 className="lpbanner-form-title">Claim Your Discount</h3>
+                            <p>Enjoy exclusive savings with this limited-time offer!</p>
                             <form method="POST" onSubmit={handleSubmit} id="bannerForm">
                                 <input type="text" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} className="lpbanner-input" required />
-                                <input type="tel" placeholder="Enter your number" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required />
+                                <input type="tel" placeholder="Enter your phone number" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required />
                                 <input type="email" placeholder="Enter your email" name="email" value={formData.email} onChange={handleChange} className="lpbanner-input" required />
                                 <textarea placeholder="Message" name="message" className="lpbanner-input lpbanner-textarea" value={formData.message} onChange={handleChange} required ></textarea>
                                 <button type="submit" className="btn btn-dark lpbanner-submit-btn" disabled={loading}>
@@ -132,7 +132,7 @@ const Lpbanner = ({ updatePopupTitle }) => {
                                             <span className="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
                                             <span role="status">Submitting...</span>
                                         </>
-                                    ) : 'Send Your Query'}
+                                    ) : 'Sign Up'}
                                 </button>
                             </form>
                         </div>

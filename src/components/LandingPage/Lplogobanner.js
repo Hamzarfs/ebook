@@ -4,20 +4,24 @@ import 'slick-carousel/slick/slick.css'; // Slick Carousel CSS
 import 'slick-carousel/slick/slick-theme.css'; // Optional Theme CSS
 import '../../Lplogobanner.css'; // Import custom CSS for this component
 
-import image1 from '../../images/lplogodraft.png';
-import image2 from '../../images/lplogoamz.png';
-import image3 from '../../images/lplogolulu.png';
+import image1 from '../../images/lplogoamz.png';
+import image2 from '../../images/barnesnoble.png';
+import image3 from '../../images/kobo.png';
 import image4 from '../../images/lplogobam.png';
+import image5 from '../../images/smashwords.png';
+import image6 from '../../images/lplogodraft.png';
+import image7 from '../../images/googleimg.png';
+import image8 from '../../images/lplogolulu.png';
 
 // Slick Carousel settings
 const settings = {
   dots: false,           // Show dots for pagination
-  infinite: false,       // Looping of the slides
+  infinite: true,       // Looping of the slides
   speed: 500,           // Transition speed between slides
   slidesToShow: 4,      // Number of slides to show at once (default for desktop)
-  slidesToScroll: 4,    // Number of slides to scroll at once
+  slidesToScroll: 1,    // Number of slides to scroll at once
   autoplay: true,       // Enable autoplay
-  autoplaySpeed: 3000,  // Autoplay interval (in milliseconds)
+  autoplaySpeed: 300,  // Autoplay interval (in milliseconds)
   arrows: false,         // Show left/right arrows (optional)
 
   // Responsive settings
@@ -26,13 +30,13 @@ const settings = {
       breakpoint: 1024, // Tablet (screen width <= 1024px)
       settings: {
         slidesToShow: 3,  // Show 2 images on tablets
-        slidesToScroll: 3, 
+        slidesToScroll: 1, 
       }
     },
     {
       breakpoint: 768, // Mobile (screen width <= 768px)
       settings: {
-        slidesToShow: 1,  // Show 1 image on mobile
+        slidesToShow: 2,  // Show 1 image on mobile
         slidesToScroll: 1,
       }
     }
@@ -44,7 +48,11 @@ const Lplogobanner = () => {
     image1,
     image2,
     image3,
-    image4
+    image4,
+    image5,
+    image6,
+    image7,
+    image8
   ];
 
   return (

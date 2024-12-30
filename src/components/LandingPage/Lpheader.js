@@ -3,6 +3,7 @@ import '../../TopHead.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../images/amzlplogo.png'
 import PopupForm1 from '../common/PopupForm';
+import { FaPhone, FaComment } from 'react-icons/fa';
 
 const LPHeader = () => {
    const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
@@ -17,7 +18,7 @@ const LPHeader = () => {
   return (
     <header className="lpheader bg-orange">
       <nav className="navbar navbar-expand-lg navbar-light container">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="https://amzbookpublishing.net/book-publishing-services">
           <img src={logo} alt="Logo" className="logo" />
         </a>
         <button
@@ -38,12 +39,16 @@ const LPHeader = () => {
             </li>
             <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
             <li className="nav-item">
-              <a className="nav-link custom-btn live-chat" href="#live-chat">Live Chat</a>
+              <a className="nav-link custom-btn live-chat" href="tel:+17327979165"> 
+                <FaPhone style={{ marginRight: '8px' }} /> 
+                (732) 797-9165 </a>
             </li>
           </ul>
         </div>
       </nav>
+      
     </header>
+    
   );
 }
 
