@@ -662,6 +662,10 @@ textarea.lpbanner-input.lpbanner-textarea {
 
 
 @media only screen and (max-width: 1200px) {
+  .lp-contact-sec {
+    padding: 20px 0;
+    color: white;
+}
 
     .lpbanner-form {
         background: rgb(255 255 255 / 80%);
@@ -701,6 +705,10 @@ textarea.lpbanner-input.lpbanner-textarea {
 
   /* Lp Third Section */
   @media (max-width: 768px) {
+    .lp-contact-sec {
+      padding: 20px 0;
+      color: white;
+  }
     .lpbanner-form {
       background: rgb(255 255 255 / 61%);
       padding: 10px 20px 20px 20px;

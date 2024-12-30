@@ -55,19 +55,21 @@ const LpFooter = () => {
       </div>
 <div></div>
 <div className='footer-bottom text-center py-3 bg-secondary'>
-  
-      <div className="row">
-        <div className='col-6'>
-        <p>&copy; 2025 AMZ Book Publishing. All Rights Reserved.</p>
-        </div>
-        <div className='col-6'>
-        <p>
-  <a href="/privacy-policy" target="_blank">Privacy Policy</a> | 
-  <a href="/terms-condition" target="_blank"> Terms & Conditions</a>
-</p>
+<div className="row">
 
-        </div>
-      </div>
+  <div className='col-md-6 col-12'>
+    <p>&copy; 2025 AMZ Book Publishing. All Rights Reserved.</p>
+  </div>
+  
+
+  <div className='col-md-6 col-12'>
+    <p>
+      <a href="/privacy-policy" target="_blank">Privacy Policy</a> | 
+      <a href="/terms-condition" target="_blank"> Terms & Conditions</a>
+    </p>
+  </div>
+</div>
+
       </div>
     </footer>
   );

@@ -29,7 +29,7 @@ const LPPricingSection = () => {
     alert(`Form submitted for ${modalTitle} with value ${modalValue}`);
   };
 
-  
+
   return (
     <section className="lp-pricing-section">
       <div className="container lp-sec-heading">
@@ -51,65 +51,65 @@ const LPPricingSection = () => {
                 </div>
               </div>
               <div className="pricing-body">
-              <div className="feature-list">
-  <h5>Preparing Your Manuscript</h5>
-  <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 3 Revisions Per Draft</li>
-    </ul>
-<h5>Designing your Cover</h5>
-<ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-  </ul>
+                <div className="feature-list">
+                  <h5>Preparing Your Manuscript</h5>
+                  <ul>
+                    <li>✔ Developmental Editing</li>
+                    <li>✔ Line by Line Editing</li>
+                    <li>✔ Proofreading</li>
+                    <li>✔ Typesetting</li>
+                    <li>✔ Layout Adjustment</li>
+                    <li>✔ Formatting (50+ Platforms)</li>
+                    <li>✔ 3 Revisions Per Draft</li>
+                  </ul>
+                  <h5>Designing your Cover</h5>
+                  <ul>
+                    <li>✔ Graphic OR Illustrated Design</li>
+                    <li>✔ Cover Layout</li>
+                    <li>✔ Cover Formatting</li>
+                    <li>✔ Front, Back & Spine</li>
+                  </ul>
 
-  <h5>Book Publishing</h5>
-  <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-  </ul>
+                  <h5>Book Publishing</h5>
+                  <ul>
+                    <li>✔ Account Creation</li>
+                    <li>✔ Account Verification</li>
+                    <li>✔ Available on Amazon & Kindle</li>
+                    <li>✔ eBook Format</li>
+                    <li>✔ Paperback Format</li>
+                  </ul>
 
-  <h5>Guarantees</h5>
-  <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
-  </ul>
-</div>
+                  <h5>Guarantees</h5>
+                  <ul>
+                    <li>✔ No Royalties Share</li>
+                    <li>✔ 100% Ownership Rights</li>
+                    <li>✔ 100% Satisfaction</li>
+                  </ul>
+                </div>
 
               </div>
               <div className="pricing-footer">
-              <button 
-  name="Start Up Package" 
-  value="$999" 
-  onClick={() => openModal("Start Up Package", "$999")} 
-  className="start-project-btn"
->
-  START PROJECT
-</button>
-<PopupForm1 
-  isOpen={isModalOpen} 
-  closeModal={closeModal} 
-  modalTitle={modalTitle} 
-  modalValue={modalValue} 
-/>
+                <button
+                  name="Start Up Package"
+                  value="$999"
+                  onClick={() => openModal("Start Up Package", "$999")}
+                  className="start-project-btn"
+                >
+                  START PROJECT
+                </button>
+                <PopupForm1
+                  isOpen={isModalOpen}
+                  closeModal={closeModal}
+                  modalTitle={modalTitle}
+                  modalValue={modalValue}
+                />
 
                 <div className="footer-info">
                   <span className="left-footer">
                     Share your idea!
                     <br />
                     <a href="tel:+17327979165">(732) 797-9165</a>
-                    
+
                   </span>
                   <div className="divider"></div>
                   <span className="right-footer">
@@ -133,53 +133,53 @@ const LPPricingSection = () => {
                 </div>
               </div>
               <div className="pricing-body">
-              <div className="feature-list">
-  <h5>Preparing Your Manuscript</h5>
-  <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 3 Revisions Per Draft</li>
-    </ul>
-<h5>Designing your Cover</h5>
-    <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-  </ul>
+                <div className="feature-list">
+                  <h5>Preparing Your Manuscript</h5>
+                  <ul>
+                    <li>✔ Developmental Editing</li>
+                    <li>✔ Line by Line Editing</li>
+                    <li>✔ Proofreading</li>
+                    <li>✔ Typesetting</li>
+                    <li>✔ Layout Adjustment</li>
+                    <li>✔ Formatting (50+ Platforms)</li>
+                    <li>✔ 3 Revisions Per Draft</li>
+                  </ul>
+                  <h5>Designing your Cover</h5>
+                  <ul>
+                    <li>✔ Graphic OR Illustrated Design</li>
+                    <li>✔ Cover Layout</li>
+                    <li>✔ Cover Formatting</li>
+                    <li>✔ Front, Back & Spine</li>
+                  </ul>
 
-  <h5>Book Publishing</h5>
-  <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-  </ul>
+                  <h5>Book Publishing</h5>
+                  <ul>
+                    <li>✔ Account Creation</li>
+                    <li>✔ Account Verification</li>
+                    <li>✔ Available on Amazon & Kindle</li>
+                    <li>✔ eBook Format</li>
+                    <li>✔ Paperback Format</li>
+                  </ul>
 
-  <h5>Guarantees</h5>
-  <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
-  </ul>
-</div>
+                  <h5>Guarantees</h5>
+                  <ul>
+                    <li>✔ No Royalties Share</li>
+                    <li>✔ 100% Ownership Rights</li>
+                    <li>✔ 100% Satisfaction</li>
+                  </ul>
+                </div>
 
               </div>
               <div className="pricing-footer">
-              <button 
-  name="Standard Package" 
-  value="$1499" 
-  onClick={() => openModal("Standard Package", "$1499")} 
-  className="start-project-btn"
->
-  START PROJECT
-</button>
-       
+                <button
+                  name="Standard Package"
+                  value="$1499"
+                  onClick={() => openModal("Standard Package", "$1499")}
+                  className="start-project-btn"
+                >
+                  START PROJECT
+                </button>
+
                 <div className="footer-info">
                   <span className="left-footer">
                     Share your idea!
@@ -213,65 +213,65 @@ const LPPricingSection = () => {
                 />
               </div>
               <div className="pricing-body">
-              <div className="feature-list">
-  <h5>Preparing Your Manuscript</h5>
-  <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
-  </ul>
+                <div className="feature-list">
+                  <h5>Preparing Your Manuscript</h5>
+                  <ul>
+                    <li>✔ Developmental Editing</li>
+                    <li>✔ Line by Line Editing</li>
+                    <li>✔ Proofreading</li>
+                    <li>✔ Typesetting</li>
+                    <li>✔ Layout Adjustment</li>
+                    <li>✔ Formatting (50+ Platforms)</li>
+                    <li>✔ 5 Revisions Per Draft</li>
+                  </ul>
 
-  <h5>Designing your Cover</h5>
-  <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
-  </ul>
+                  <h5>Designing your Cover</h5>
+                  <ul>
+                    <li>✔ Graphic OR Illustrated Design</li>
+                    <li>✔ Cover Layout</li>
+                    <li>✔ Cover Formatting</li>
+                    <li>✔ Front, Back & Spine</li>
+                    <li>✔ ISBN + Barcode (2X)</li>
+                  </ul>
 
-  <h5>Book Publishing</h5>
-  <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
-  </ul>
+                  <h5>Book Publishing</h5>
+                  <ul>
+                    <li>✔ Account Creation</li>
+                    <li>✔ Account Verification</li>
+                    <li>✔ Available on Amazon & Kindle</li>
+                    <li>✔ Available on Barnes and Noble</li>
+                    <li>✔ Available on Google Books</li>
+                    <li>✔ eBook Format</li>
+                    <li>✔ Paperback Format</li>
+                    <li>✔ Hardcover Format</li>
+                  </ul>
 
-  <h5>Online Presence</h5>
-  <ul>
-    <li>✔ 3 - 5 Page Authors Website</li>
-    <li>✔ 1 - Year Domain & Hosting</li>
-    <li>✔ 30 - 60 Seconds Book Trailer</li>
-  </ul>
+                  <h5>Online Presence</h5>
+                  <ul>
+                    <li>✔ 3 - 5 Page Authors Website</li>
+                    <li>✔ 1 - Year Domain & Hosting</li>
+                    <li>✔ 30 - 60 Seconds Book Trailer</li>
+                  </ul>
 
-  <h5>Guarantees</h5>
-  <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
-  </ul>
-</div>
+                  <h5>Guarantees</h5>
+                  <ul>
+                    <li>✔ No Royalties Share</li>
+                    <li>✔ 100% Ownership Rights</li>
+                    <li>✔ 100% Satisfaction</li>
+                  </ul>
+                </div>
 
               </div>
               <div className="pricing-footer">
                 {/* <button className="start-project-btn">START PROJECT</button> */}
-                <button 
-  name="Professional Package " 
-  value="$3449 " 
-  onClick={() => openModal("Professional Package ", "$3449 ")} 
-  className="start-project-btn"
->
-  START PROJECT
-</button>
+                <button
+                  name="Professional Package "
+                  value="$3449 "
+                  onClick={() => openModal("Professional Package ", "$3449 ")}
+                  className="start-project-btn"
+                >
+                  START PROJECT
+                </button>
                 <div className="footer-info">
                   <span className="left-footer">
                     Share your idea!
@@ -302,82 +302,82 @@ const LPPricingSection = () => {
                 </div>
               </div>
               <div className="pricing-body">
-              
-              <div className="feature-list">
-  <h5>Preparing Your Manuscript</h5>
-  <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
-  </ul>
 
-  <h5>Designing your Cover</h5>
-  <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
-  </ul>
+                <div className="feature-list">
+                  <h5>Preparing Your Manuscript</h5>
+                  <ul>
+                    <li>✔ Developmental Editing</li>
+                    <li>✔ Line by Line Editing</li>
+                    <li>✔ Proofreading</li>
+                    <li>✔ Typesetting</li>
+                    <li>✔ Layout Adjustment</li>
+                    <li>✔ Formatting (50+ Platforms)</li>
+                    <li>✔ 5 Revisions Per Draft</li>
+                  </ul>
 
-  <h5>Book Publishing</h5>
-  <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ Available on Smashwords</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
-  </ul>
+                  <h5>Designing your Cover</h5>
+                  <ul>
+                    <li>✔ Graphic OR Illustrated Design</li>
+                    <li>✔ Cover Layout</li>
+                    <li>✔ Cover Formatting</li>
+                    <li>✔ Front, Back & Spine</li>
+                    <li>✔ ISBN + Barcode (2X)</li>
+                  </ul>
 
-  <h5>12 Months Brand Marketing</h5>
-  <ul>
-    <li>✔ Logo Design (Complimentary)</li>
-    <li>✔ 3 - 5 Page Author's Website</li>
-    <li>✔ 1 - Year Domain & Hosting</li>
-    <li>✔ 30 - 60 Seconds Book Trailer</li>
-    <li>✔ Organic Google Marketing</li>
-    <li>✔ Social Media Marketing (Facebook, Instagram & LinkedIn)</li>
-  </ul>
+                  <h5>Book Publishing</h5>
+                  <ul>
+                    <li>✔ Account Creation</li>
+                    <li>✔ Account Verification</li>
+                    <li>✔ Available on Amazon & Kindle</li>
+                    <li>✔ Available on Barnes and Noble</li>
+                    <li>✔ Available on Google Books</li>
+                    <li>✔ Available on Smashwords</li>
+                    <li>✔ eBook Format</li>
+                    <li>✔ Paperback Format</li>
+                    <li>✔ Hardcover Format</li>
+                  </ul>
 
-  <h5>Guarantees</h5>
-  <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
-  </ul>
-</div>
+                  <h5>12 Months Brand Marketing</h5>
+                  <ul>
+                    <li>✔ Logo Design (Complimentary)</li>
+                    <li>✔ 3 - 5 Page Author's Website</li>
+                    <li>✔ 1 - Year Domain & Hosting</li>
+                    <li>✔ 30 - 60 Seconds Book Trailer</li>
+                    <li>✔ Organic Google Marketing</li>
+                    <li>✔ Social Media Marketing (Facebook, Instagram & LinkedIn)</li>
+                  </ul>
+
+                  <h5>Guarantees</h5>
+                  <ul>
+                    <li>✔ No Royalties Share</li>
+                    <li>✔ 100% Ownership Rights</li>
+                    <li>✔ 100% Satisfaction</li>
+                  </ul>
+                </div>
 
 
               </div>
               <div className="pricing-footer">
-                  {/* <!-- EASY PAYMENT PLAN with tooltip --> */}
-  <div className="easy-payment-plan">
-    <h4>EASY PAYMENT PLAN <span className="tooltip-icon">?</span></h4>
-    <div className="tooltip-content">
-      <ul>
-        <li>50% PAYMENT UPFRONT.</li>
-        <li>REMAINING 50% CAN BE PAID IN 2–3 MONTHS INSTALLMENTS OR</li>
-        <li>AFTER THE DELIVERY OF 3 CHAPTERS.</li>
-      </ul>
-    </div>
-  </div>
+                {/* <!-- EASY PAYMENT PLAN with tooltip --> */}
+                <div className="easy-payment-plan">
+                  <h4>EASY PAYMENT PLAN <span className="tooltip-icon">?</span></h4>
+                  <div className="tooltip-content">
+                    <ul>
+                      <li>50% PAYMENT UPFRONT.</li>
+                      <li>REMAINING 50% CAN BE PAID IN 2–3 MONTHS INSTALLMENTS OR</li>
+                      <li>AFTER THE DELIVERY OF 3 CHAPTERS.</li>
+                    </ul>
+                  </div>
+                </div>
                 {/* <button className="start-project-btn">START PROJECT</button> */}
-                <button 
-  name="All-Inclusive  " 
-  value="$7499  " 
-  onClick={() => openModal("All-Inclusive  ", "$7499  ")} 
-  className="start-project-btn"
->
-  START PROJECT
-</button>
+                <button
+                  name="All-Inclusive  "
+                  value="$7499  "
+                  onClick={() => openModal("All-Inclusive  ", "$7499  ")}
+                  className="start-project-btn"
+                >
+                  START PROJECT
+                </button>
                 <div className="footer-info">
                   <span className="left-footer">
                     Share your idea!
@@ -411,86 +411,86 @@ const LPPricingSection = () => {
                 </div>
               </div>
               <div className="pricing-body">
-                
-              <div className="feature-list">
-  <h5>Preparing Your Manuscript</h5>
-  <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
-  </ul>
 
-  <h5>Designing Your Cover</h5>
-  <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
-  </ul>
+                <div className="feature-list">
+                  <h5>Preparing Your Manuscript</h5>
+                  <ul>
+                    <li>✔ Developmental Editing</li>
+                    <li>✔ Line by Line Editing</li>
+                    <li>✔ Proofreading</li>
+                    <li>✔ Typesetting</li>
+                    <li>✔ Layout Adjustment</li>
+                    <li>✔ Formatting (50+ Platforms)</li>
+                    <li>✔ 5 Revisions Per Draft</li>
+                  </ul>
 
-  <h5>Book Publishing</h5>
-  <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ Available on Smashwords</li>
-    <li>✔ Available on Draft2Digital</li>
-    <li>✔ Available on ACX</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
-    <li>✔ Audiobook Format</li>
-  </ul>
+                  <h5>Designing Your Cover</h5>
+                  <ul>
+                    <li>✔ Graphic OR Illustrated Design</li>
+                    <li>✔ Cover Layout</li>
+                    <li>✔ Cover Formatting</li>
+                    <li>✔ Front, Back & Spine</li>
+                    <li>✔ ISBN + Barcode (2X)</li>
+                  </ul>
 
-  <h5>24 Months Brand Marketing</h5>
-  <ul>
-    <li>✔ Logo Design (Complimentary)</li>
-    <li>✔ 3 - 5 Page Author's Website</li>
-    <li>✔ 2 - Year Domain & Hosting</li>
-    <li>✔ 60 - 90 Seconds Video Trailer</li>
-    <li>✔ Organic Google Marketing</li>
-    <li>✔ Blogs & Article Postings</li>
-    <li>✔ Press Releases (150+ Platforms)</li>
-    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
-  </ul>
+                  <h5>Book Publishing</h5>
+                  <ul>
+                    <li>✔ Account Creation</li>
+                    <li>✔ Account Verification</li>
+                    <li>✔ Available on Amazon & Kindle</li>
+                    <li>✔ Available on Barnes and Noble</li>
+                    <li>✔ Available on Google Books</li>
+                    <li>✔ Available on Smashwords</li>
+                    <li>✔ Available on Draft2Digital</li>
+                    <li>✔ Available on ACX</li>
+                    <li>✔ eBook Format</li>
+                    <li>✔ Paperback Format</li>
+                    <li>✔ Hardcover Format</li>
+                    <li>✔ Audiobook Format</li>
+                  </ul>
 
-  <h5>Guarantees</h5>
-  <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
-  </ul>
-</div>
+                  <h5>24 Months Brand Marketing</h5>
+                  <ul>
+                    <li>✔ Logo Design (Complimentary)</li>
+                    <li>✔ 3 - 5 Page Author's Website</li>
+                    <li>✔ 2 - Year Domain & Hosting</li>
+                    <li>✔ 60 - 90 Seconds Video Trailer</li>
+                    <li>✔ Organic Google Marketing</li>
+                    <li>✔ Blogs & Article Postings</li>
+                    <li>✔ Press Releases (150+ Platforms)</li>
+                    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
+                  </ul>
+
+                  <h5>Guarantees</h5>
+                  <ul>
+                    <li>✔ No Royalties Share</li>
+                    <li>✔ 100% Ownership Rights</li>
+                    <li>✔ 100% Satisfaction</li>
+                  </ul>
+                </div>
 
               </div>
               <div className="pricing-footer">
-                  {/* <!-- EASY PAYMENT PLAN with tooltip --> */}
-  <div className="easy-payment-plan">
-    <h4>EASY PAYMENT PLAN <span className="tooltip-icon">?</span></h4>
-    <div className="tooltip-content">
-      <ul>
-        <li>50% PAYMENT UPFRONT.</li>
-        <li>REMAINING 50% CAN BE PAID IN 2–3 MONTHS INSTALLMENTS OR</li>
-        <li>AFTER THE DELIVERY OF 3 CHAPTERS.</li>
-      </ul>
-    </div>
-  </div>
+                {/* <!-- EASY PAYMENT PLAN with tooltip --> */}
+                <div className="easy-payment-plan">
+                  <h4>EASY PAYMENT PLAN <span className="tooltip-icon">?</span></h4>
+                  <div className="tooltip-content">
+                    <ul>
+                      <li>50% PAYMENT UPFRONT.</li>
+                      <li>REMAINING 50% CAN BE PAID IN 2–3 MONTHS INSTALLMENTS OR</li>
+                      <li>AFTER THE DELIVERY OF 3 CHAPTERS.</li>
+                    </ul>
+                  </div>
+                </div>
                 {/* <button className="start-project-btn">START PROJECT</button> */}
-                <button 
-  name="Ultimate Package   " 
-  value="$12499" 
-  onClick={() => openModal("Ultimate Package   ", "$12499")} 
-  className="start-project-btn"
->
-  START PROJECT
-</button>
+                <button
+                  name="Ultimate Package   "
+                  value="$12499"
+                  onClick={() => openModal("Ultimate Package   ", "$12499")}
+                  className="start-project-btn"
+                >
+                  START PROJECT
+                </button>
                 <div className="footer-info">
                   <span className="left-footer">
                     Share your idea!
@@ -516,105 +516,105 @@ const LPPricingSection = () => {
                 <div className="price">
                   <span className="for enterprise">For Enterprise</span>
                 </div>
-               
+
               </div>
               <div className="pricing-body">
-                 
-              <div className="feature-list">
-  <h5>Preparing Your Manuscript</h5>
-  <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
-  </ul>
 
-  <h5>Designing Your Cover</h5>
-  <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
-  </ul>
+                <div className="feature-list">
+                  <h5>Preparing Your Manuscript</h5>
+                  <ul>
+                    <li>✔ Developmental Editing</li>
+                    <li>✔ Line by Line Editing</li>
+                    <li>✔ Proofreading</li>
+                    <li>✔ Typesetting</li>
+                    <li>✔ Layout Adjustment</li>
+                    <li>✔ Formatting (50+ Platforms)</li>
+                    <li>✔ 5 Revisions Per Draft</li>
+                  </ul>
 
-  <h5>Book Publishing</h5>
-  <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ Available on Smashwords</li>
-    <li>✔ Available on Draft2Digital</li>
-    <li>✔ Available on ACX</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
-    <li>✔ Audiobook Format</li>
-  </ul>
+                  <h5>Designing Your Cover</h5>
+                  <ul>
+                    <li>✔ Graphic OR Illustrated Design</li>
+                    <li>✔ Cover Layout</li>
+                    <li>✔ Cover Formatting</li>
+                    <li>✔ Front, Back & Spine</li>
+                    <li>✔ ISBN + Barcode (2X)</li>
+                  </ul>
 
-  <h5>24 Months Brand Marketing</h5>
-  <ul>
-    <li>✔ Logo Design (Complimentary)</li>
-    <li>✔ 3 - 5 Page Author's Website</li>
-    <li>✔ 2 - Year Domain & Hosting</li>
-    <li>✔ 60 - 90 Seconds Video Trailer</li>
-    <li>✔ Organic Google Marketing</li>
-    <li>✔ Blogs & Article Postings</li>
-    <li>✔ Press Releases (150+ Platforms)</li>
-    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
-  </ul>
+                  <h5>Book Publishing</h5>
+                  <ul>
+                    <li>✔ Account Creation</li>
+                    <li>✔ Account Verification</li>
+                    <li>✔ Available on Amazon & Kindle</li>
+                    <li>✔ Available on Barnes and Noble</li>
+                    <li>✔ Available on Google Books</li>
+                    <li>✔ Available on Smashwords</li>
+                    <li>✔ Available on Draft2Digital</li>
+                    <li>✔ Available on ACX</li>
+                    <li>✔ eBook Format</li>
+                    <li>✔ Paperback Format</li>
+                    <li>✔ Hardcover Format</li>
+                    <li>✔ Audiobook Format</li>
+                  </ul>
 
-  <h5>Guarantees</h5>
-  <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
-  </ul>
-</div>
+                  <h5>24 Months Brand Marketing</h5>
+                  <ul>
+                    <li>✔ Logo Design (Complimentary)</li>
+                    <li>✔ 3 - 5 Page Author's Website</li>
+                    <li>✔ 2 - Year Domain & Hosting</li>
+                    <li>✔ 60 - 90 Seconds Video Trailer</li>
+                    <li>✔ Organic Google Marketing</li>
+                    <li>✔ Blogs & Article Postings</li>
+                    <li>✔ Press Releases (150+ Platforms)</li>
+                    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
+                  </ul>
+
+                  <h5>Guarantees</h5>
+                  <ul>
+                    <li>✔ No Royalties Share</li>
+                    <li>✔ 100% Ownership Rights</li>
+                    <li>✔ 100% Satisfaction</li>
+                  </ul>
+                </div>
 
               </div>
-              
-              <div className="pricing-footer">
-                
-  {/* <!-- EASY PAYMENT PLAN with tooltip --> */}
-  <div className="easy-payment-plan">
-    <h4>EASY PAYMENT PLAN <span className="tooltip-icon">?</span></h4>
-    <div className="tooltip-content">
-      <ul>
-        <li>50% PAYMENT UPFRONT.</li>
-        <li>REMAINING 50% CAN BE PAID IN 2–3 MONTHS INSTALLMENTS OR</li>
-        <li>AFTER THE DELIVERY OF 3 CHAPTERS.</li>
-      </ul>
-    </div>
-  </div>
 
-  {/* <button className="start-project-btn">START PROJECT</button> */}
-  <button 
-  name="Ultimate Package   " 
-  value="$12499" 
-  onClick={() => openModal("Custom Package", " ")} 
-  className="start-project-btn"
->
-  START PROJECT
-</button>
-  <div className="footer-info">
-    <span className="left-footer">
-      Share your idea!
-      <br />
-      <a href="tel:+17327979165">(732) 797-9165</a>
-    </span>
-    <div className="divider"></div>
-    <span className="right-footer">
-      Want to discuss?
-      <br />
-      <a href="#">Live Chat Now</a>
-    </span>
-  </div></div>
+              <div className="pricing-footer">
+
+                {/* <!-- EASY PAYMENT PLAN with tooltip --> */}
+                <div className="easy-payment-plan">
+                  <h4>EASY PAYMENT PLAN <span className="tooltip-icon">?</span></h4>
+                  <div className="tooltip-content">
+                    <ul>
+                      <li>50% PAYMENT UPFRONT.</li>
+                      <li>REMAINING 50% CAN BE PAID IN 2–3 MONTHS INSTALLMENTS OR</li>
+                      <li>AFTER THE DELIVERY OF 3 CHAPTERS.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* <button className="start-project-btn">START PROJECT</button> */}
+                <button
+                  name="Ultimate Package   "
+                  value="$12499"
+                  onClick={() => openModal("Custom Package", " ")}
+                  className="start-project-btn"
+                >
+                  START PROJECT
+                </button>
+                <div className="footer-info">
+                  <span className="left-footer">
+                    Share your idea!
+                    <br />
+                    <a href="tel:+17327979165">(732) 797-9165</a>
+                  </span>
+                  <div className="divider"></div>
+                  <span className="right-footer">
+                    Want to discuss?
+                    <br />
+                    <a href="#">Live Chat Now</a>
+                  </span>
+                </div></div>
 
             </div>
           </div>

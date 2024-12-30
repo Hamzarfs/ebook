@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import { FaUser, FaEnvelope, FaPhone, FaCommentAlt, FaTimes } from 'react-icons/fa'; // Font Awesome icons
 import Swal from "sweetalert2";
@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 Modal.setAppElement("#root");
 
-const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue}) => {
-    
+const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
+
     const navigate = useNavigate()
     const [loading, setLoading] = useState(false); // Loading state
     const [formData, setFormData] = useState({
@@ -15,8 +15,13 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue}) => {
         email: "",
         phone: "",
         message: "",
+        title: (modalTitle || modalValue) ? `${modalTitle} - ${modalValue}` : 'Get a Quote'
         // newsletter: false,
     });
+
+    useEffect(() => {
+        setFormData({ ...formData, title: (modalTitle || modalValue) ? `${modalTitle} - ${modalValue}` : 'Get a Quote' })
+    }, [modalTitle, modalValue])
 
     const validateEmailAndPhone = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
@@ -24,7 +29,7 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue}) => {
 
         if (!emailRegex.test(formData.email))
             Swal.fire('Error', 'Invalid email address', 'error')
-        
+
         if (!phoneRegex.test(formData.phone))
             Swal.fire('Error', 'Invalid Phone number. Example: +19876543210', 'error')
 
@@ -53,7 +58,9 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue}) => {
                     Swal.fire('Error', message, 'error')
             })
     }
+
     if (!isOpen) return null;
+
     return (
         <Modal
             isOpen={isOpen}
@@ -66,12 +73,12 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue}) => {
                 <FaTimes />
             </button> {/* <h2>Get a <span style={{ color: '#F76C39' }}>Quote</span></h2> */}
             <form className="popupform1" onSubmit={handleSubmit}>
-               
-            <h4>
-  {modalTitle || modalValue 
-    ? `${modalTitle} - ${modalValue}` 
-    : 'Get a Quote'}
-</h4>
+                <input name="title" value={formData.title} type="hidden" />
+                <h4>
+                    {modalTitle || modalValue
+                        ? `${modalTitle} - ${modalValue}`
+                        : 'Get a Quote'}
+                </h4>
 
                 <div>
                     <label>Name</label>

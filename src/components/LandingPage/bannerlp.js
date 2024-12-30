@@ -20,7 +20,8 @@ const Lpbanner = ({ updatePopupTitle }) => {
         name: '',
         email: '',
         phone: '',
-        message: ''
+        message: '',
+        title: 'Claim Your Discount'
     })
 
     const handleChange = e => {
@@ -40,9 +41,9 @@ const Lpbanner = ({ updatePopupTitle }) => {
             html = "Invalid email address<br />"
 
         if (!phoneRegex.test(formData.phone))
-            html += "Invalid phone number. Example: +19876543210"
+            html += "Invalid phone number. Example: +19876543210<br />"
 
-        if(html.length > 0)
+        if (html.length > 0)
             Swal.fire('Error', html, 'error')
 
         return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
@@ -52,11 +53,11 @@ const Lpbanner = ({ updatePopupTitle }) => {
         e.preventDefault()
 
         // Email & phone validation
-        if(!validateEmailAndPhone())
+        if (!validateEmailAndPhone())
             return
         setLoading(true)
 
-        await fetch(/*'http://localhost:9090'*//*"https://webdesignmania.co.uk/php/index.php"*/"https://webdesignmania.com/php_mailer/index.php", {
+        await fetch(/*'http://localhost:9090'*//*"https://webdesignmania.co.uk/php/index.php"*/"https://amzbookpublishing.net/PHPMailer/popup-email.php", {
             method: 'POST',
             body: JSON.stringify(formData)
         })
@@ -83,7 +84,7 @@ const Lpbanner = ({ updatePopupTitle }) => {
                         <p className="lpbanner-text">#1 Self-Publishing Company</p>
                         <div className="lpbanner-heading-container" style={{ display: 'flex', alignItems: 'center' }}>
                             <h1 className="lpbanner-heading">
-                            Publish Your Book Professionally with Our Book Publishing Services
+                                Publish Your Book Professionally with Our Book Publishing Services
                             </h1>
                         </div>
 
@@ -114,14 +115,15 @@ const Lpbanner = ({ updatePopupTitle }) => {
                         <div className="lpbanner-form"
                         // style={{ backgroundImage: `url(${formbg})` }} 
                         >
-                             <img
-                  src={fiftyoff}
-                  alt="Best Seller"
-                  className="fiftyoff"
-                />
+                            <img
+                                src={fiftyoff}
+                                alt="Best Seller"
+                                className="fiftyoff"
+                            />
                             <h3 className="lpbanner-form-title">Claim Your Discount</h3>
                             <p>Enjoy exclusive savings with this limited-time offer!</p>
                             <form method="POST" onSubmit={handleSubmit} id="bannerForm">
+                                <input type="hidden" name="title" value={formData.title} />
                                 <input type="text" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} className="lpbanner-input" required />
                                 <input type="tel" placeholder="Enter your phone number" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required />
                                 <input type="email" placeholder="Enter your email" name="email" value={formData.email} onChange={handleChange} className="lpbanner-input" required />
@@ -141,7 +143,7 @@ const Lpbanner = ({ updatePopupTitle }) => {
                 </div>
             </div>
         </section>
-      
+
 
 
     );
