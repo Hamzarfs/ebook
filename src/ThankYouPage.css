@@ -1,9 +1,9 @@
 
 .thankyou-page {
+    background-image: linear-gradient(0deg, #F7991C, #fff);
+    color: #fff;
+    padding: 100px 100px 50px;
     text-align: center;
- background-image: linear-gradient(0deg, #E6E6FA, #FB9130);
-    color: white;
-    padding: 100px 100px 50px 100px;
 }
 
 .thankyou-page img {
