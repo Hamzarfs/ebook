@@ -101,7 +101,7 @@ const App = () => {
         <Route path="/privacy-policy" element={<PrivacyPolicy openModal={openModal} />} />
         <Route path="/terms-condition" element={<TermsConditions openModal={openModal} />} />
         <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />
-        <Route path="/lp" element={<Lppage openModal={openModal} />} />
+        <Route path="/book-publishing-services" element={<Lppage openModal={openModal} />} />
         
 
         

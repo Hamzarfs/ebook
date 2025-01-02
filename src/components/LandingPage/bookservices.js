@@ -80,7 +80,7 @@ const Bookservices = ({
      
         <a 
           className="first-button" 
-          href="#pricing-section" 
+          href="https://wa.me/8482369397" 
           style={{ 
             display: 'inline-block', 
             marginLeft: '10px',  // Gap between the buttons

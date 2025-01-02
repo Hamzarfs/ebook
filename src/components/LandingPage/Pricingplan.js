@@ -115,7 +115,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="#">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="#">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -282,7 +282,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="#">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -388,7 +388,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="#">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -501,7 +501,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="#">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -612,7 +612,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="#">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397">Live Chat Now</a>
                   </span>
                 </div></div>
 
