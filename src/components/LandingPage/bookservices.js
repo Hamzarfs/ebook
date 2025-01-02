@@ -61,8 +61,7 @@ const Bookservices = ({
       <div className="lpbanner-buttons mt-0" style={{ textAlign: 'center', padding: '0', margin: '0', display: 'flex', justifyContent: 'center' }}>
         <a 
        onClick={openModal}
-          className="first-button" 
-          href="#pricing-section" 
+          className="first-button"
           style={{ 
             display: 'inline-block', 
             marginRight: '10px',  // Gap between the buttons
@@ -80,7 +79,7 @@ const Bookservices = ({
      
         <a 
           className="first-button" 
-          href="https://wa.me/8482369397" 
+          href="tel:+17327979165"
           style={{ 
             display: 'inline-block', 
             marginLeft: '10px',  // Gap between the buttons

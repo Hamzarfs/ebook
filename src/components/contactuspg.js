@@ -102,13 +102,13 @@ const ContactUsform = () => {
 
                                 <h3>Contact Information</h3>
                                 <p>Say something to start a live chat</p>
-                                <address>
+                                <a href="https://www.google.com/maps/place/41+Winthrop+Rd,+Edison,+NJ+08817,+USA/@40.5219962,-74.3944902,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3c811b06344b9:0x62bc810f06235edb!8m2!3d40.5219922!4d-74.3919153!16s%2Fg%2F11c19p19fk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" className='contactuspg-link'>
                                     <FaMapMarkerAlt /> 41 Winthrop Rd, Edison, NJ 08817<br />
-                                </address>
+                                </a>
                                 <a href="tel:+17327979165" className="contactuspg-link">
                                     <FaPhoneAlt /> +1 (732) 797-9165
                                 </a><br />
-                                <a href="mailto:info@amzbookpublishing.net" className="contactuspg-link">
+                                <a href="mailto:info@amzbookpublishing.net" className="contactuspg-link" >
                                     <FaEnvelope /> info@amzbookpublishing.net
                                 </a>
 
@@ -126,7 +126,7 @@ const ContactUsform = () => {
                         </div>
 
                         {/* Second Column - Form */}
-                        <div className="col-lg-7 contactuspg-form bg-light p-4">
+                        <div className="col-lg-7 contactuspg-form bg-light mb-4">
                             <form method='POST' onSubmit={handleSubmit} className='contactuspg-form'>
                                 <div className="row">
                                     <div className="col-md-6 mb-3">

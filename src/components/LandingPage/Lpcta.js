@@ -53,7 +53,7 @@ const Lpcta = () => {
                onClick={() => openModal("Start Up Package", "$999")} 
               
  className="btn btn-white">Get Started</button>
-              <a  href="https://wa.me/8482369397" className="btn btn-transparent">Let's Talk</a>
+              <a  href="tel:+17327979165"className="btn btn-transparent">Let's Talk</a>
               <PopupForm1 
   isOpen={isModalOpen} 
   closeModal={closeModal} 

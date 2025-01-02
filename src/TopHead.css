@@ -65,22 +65,18 @@
   
   /* Mobile View */
   @media (max-width: 767px) {
-        .lpheader .nav-link {
-        display: block;
-        width: 80%;
-        place-self: center;
-    }
+    .lpheader .nav-link {
+      display: block;
+      width: 50%;
+      text-align: center;
+      place-self: center;
+  }
   
     .lpheader .nav-item {
       width: 100%;
       margin: 5px 0;
     }
   
-    .lpheader .nav-link {
-        display: block;
-        width: 80%;
-        place-self: center;
-    }
   }
   
   /* Ensure Buttons are visible in Desktop View */
@@ -97,6 +93,25 @@
       display: inline-block; /* Ensure nav links are inline */
     }
   }
+
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .lpheader .nav-link {
+      display: block;
+      width: 50%;
+      text-align: center;
+      place-self: center;
+  }
+  
+    .lpheader .nav-item {
+      width: 100%;
+      margin: 5px 0;
+    }
+
+
+    /* Your styles here */
+}
+
   
 
 

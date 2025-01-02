@@ -51,41 +51,43 @@ const LPPricingSection = () => {
                 </div>
               </div>
               <div className="pricing-body">
-                <div className="feature-list">
-                  <h5>Preparing Your Manuscript</h5>
-                  <ul>
-                    <li>✔ Developmental Editing</li>
-                    <li>✔ Line by Line Editing</li>
-                    <li>✔ Proofreading</li>
-                    <li>✔ Typesetting</li>
-                    <li>✔ Layout Adjustment</li>
-                    <li>✔ Formatting (50+ Platforms)</li>
-                    <li>✔ 3 Revisions Per Draft</li>
-                  </ul>
-                  <h5>Designing your Cover</h5>
-                  <ul>
-                    <li>✔ Graphic OR Illustrated Design</li>
-                    <li>✔ Cover Layout</li>
-                    <li>✔ Cover Formatting</li>
-                    <li>✔ Front, Back & Spine</li>
-                  </ul>
+              <div className="feature-list">
+  <h5>Preparing Your Manuscript</h5>
+  <ul>
+    <li>✔ Developmental Editing</li>
+    <li>✔ Line by Line Editing</li>
+    <li>✔ Proofreading</li>
+    <li>✔ Typesetting</li>
+    <li>✔ Layout Adjustment</li>
+    <li>✔ Formatting (50+ Platforms)</li>
+    <li>✔ 3 Revisions Per Draft</li>
+  </ul>
+  
+  <h5>Designing Your Cover</h5>
+  <ul>
+    <li>✔ Graphic OR Illustrated Design</li>
+    <li>✔ Cover Layout</li>
+    <li>✔ Cover Formatting</li>
+    <li>✔ Front, Back & Spine</li>
+  </ul>
+  
+  <h5>Book Publishing</h5>
+  <ul>
+    <li>✔ Account Creation</li>
+    <li>✔ Account Verification</li>
+    <li>✔ Available on Amazon & Kindle</li>
+    <li>✔ eBook Format</li>
+    <li>✔ Paperback Format</li>
+  </ul>
+  
+  <h5>Guarantees</h5>
+  <ul>
+    <li>✔ No Royalties Share</li>
+    <li>✔ 100% Ownership Rights</li>
+    <li>✔ 100% Satisfaction</li>
+  </ul>
+</div>
 
-                  <h5>Book Publishing</h5>
-                  <ul>
-                    <li>✔ Account Creation</li>
-                    <li>✔ Account Verification</li>
-                    <li>✔ Available on Amazon & Kindle</li>
-                    <li>✔ eBook Format</li>
-                    <li>✔ Paperback Format</li>
-                  </ul>
-
-                  <h5>Guarantees</h5>
-                  <ul>
-                    <li>✔ No Royalties Share</li>
-                    <li>✔ 100% Ownership Rights</li>
-                    <li>✔ 100% Satisfaction</li>
-                  </ul>
-                </div>
 
               </div>
               <div className="pricing-footer">
@@ -115,7 +117,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="https://wa.me/8482369397">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397" target="_blank">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -133,41 +135,46 @@ const LPPricingSection = () => {
                 </div>
               </div>
               <div className="pricing-body">
-                <div className="feature-list">
-                  <h5>Preparing Your Manuscript</h5>
-                  <ul>
-                    <li>✔ Developmental Editing</li>
-                    <li>✔ Line by Line Editing</li>
-                    <li>✔ Proofreading</li>
-                    <li>✔ Typesetting</li>
-                    <li>✔ Layout Adjustment</li>
-                    <li>✔ Formatting (50+ Platforms)</li>
-                    <li>✔ 3 Revisions Per Draft</li>
-                  </ul>
-                  <h5>Designing your Cover</h5>
-                  <ul>
-                    <li>✔ Graphic OR Illustrated Design</li>
-                    <li>✔ Cover Layout</li>
-                    <li>✔ Cover Formatting</li>
-                    <li>✔ Front, Back & Spine</li>
-                  </ul>
+              <div className="feature-list">
+  <h5>Preparing Your Manuscript</h5>
+  <ul>
+    <li>✔ Developmental Editing</li>
+    <li>✔ Line by Line Editing</li>
+    <li>✔ Proofreading</li>
+    <li>✔ Typesetting</li>
+    <li>✔ Layout Adjustment</li>
+    <li>✔ Formatting (50+ Platforms)</li>
+    <li>✔ 5 Revisions Per Draft</li>
+  </ul>
+  
+  <h5>Designing Your Cover</h5>
+  <ul>
+    <li>✔ Graphic OR Illustrated Design</li>
+    <li>✔ Cover Layout</li>
+    <li>✔ Cover Formatting</li>
+    <li>✔ Front, Back & Spine</li>
+    <li>✔ ISBN + Barcode (2X)</li>
+  </ul>
+  
+  <h5>Book Publishing</h5>
+  <ul>
+    <li>✔ Account Creation</li>
+    <li>✔ Account Verification</li>
+    <li>✔ Available on Amazon & Kindle</li>
+    <li>✔ Available on Barnes and Noble</li>
+    <li>✔ eBook Format</li>
+    <li>✔ Paperback Format</li>
+    <li>✔ Hardcover Format</li>
+  </ul>
+  
+  <h5>Guarantees</h5>
+  <ul>
+    <li>✔ No Royalties Share</li>
+    <li>✔ 100% Ownership Rights</li>
+    <li>✔ 100% Satisfaction</li>
+  </ul>
+</div>
 
-                  <h5>Book Publishing</h5>
-                  <ul>
-                    <li>✔ Account Creation</li>
-                    <li>✔ Account Verification</li>
-                    <li>✔ Available on Amazon & Kindle</li>
-                    <li>✔ eBook Format</li>
-                    <li>✔ Paperback Format</li>
-                  </ul>
-
-                  <h5>Guarantees</h5>
-                  <ul>
-                    <li>✔ No Royalties Share</li>
-                    <li>✔ 100% Ownership Rights</li>
-                    <li>✔ 100% Satisfaction</li>
-                  </ul>
-                </div>
 
               </div>
               <div className="pricing-footer">
@@ -190,7 +197,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="https://wa.me/8482369397">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397" target="_blank">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -213,53 +220,53 @@ const LPPricingSection = () => {
                 />
               </div>
               <div className="pricing-body">
-                <div className="feature-list">
-                  <h5>Preparing Your Manuscript</h5>
-                  <ul>
-                    <li>✔ Developmental Editing</li>
-                    <li>✔ Line by Line Editing</li>
-                    <li>✔ Proofreading</li>
-                    <li>✔ Typesetting</li>
-                    <li>✔ Layout Adjustment</li>
-                    <li>✔ Formatting (50+ Platforms)</li>
-                    <li>✔ 5 Revisions Per Draft</li>
-                  </ul>
+              <div className="feature-list">
+  <h5>Preparing Your Manuscript</h5>
+  <ul>
+    <li>✔ Developmental Editing</li>
+    <li>✔ Line by Line Editing</li>
+    <li>✔ Proofreading</li>
+    <li>✔ Typesetting</li>
+    <li>✔ Layout Adjustment</li>
+    <li>✔ Formatting (50+ Platforms)</li>
+    <li>✔ 5 Revisions Per Draft</li>
+  </ul>
 
-                  <h5>Designing your Cover</h5>
-                  <ul>
-                    <li>✔ Graphic OR Illustrated Design</li>
-                    <li>✔ Cover Layout</li>
-                    <li>✔ Cover Formatting</li>
-                    <li>✔ Front, Back & Spine</li>
-                    <li>✔ ISBN + Barcode (2X)</li>
-                  </ul>
+  <h5>Designing Your Cover</h5>
+  <ul>
+    <li>✔ Graphic OR Illustrated Design</li>
+    <li>✔ Cover Layout</li>
+    <li>✔ Cover Formatting</li>
+    <li>✔ Front, Back & Spine</li>
+    <li>✔ ISBN + Barcode (2X)</li>
+  </ul>
 
-                  <h5>Book Publishing</h5>
-                  <ul>
-                    <li>✔ Account Creation</li>
-                    <li>✔ Account Verification</li>
-                    <li>✔ Available on Amazon & Kindle</li>
-                    <li>✔ Available on Barnes and Noble</li>
-                    <li>✔ Available on Google Books</li>
-                    <li>✔ eBook Format</li>
-                    <li>✔ Paperback Format</li>
-                    <li>✔ Hardcover Format</li>
-                  </ul>
+  <h5>Book Publishing</h5>
+  <ul>
+    <li>✔ Account Creation</li>
+    <li>✔ Account Verification</li>
+    <li>✔ Available on Amazon & Kindle</li>
+    <li>✔ Available on Barnes and Noble</li>
+    <li>✔ Available on Google Books</li>
+    <li>✔ eBook Format</li>
+    <li>✔ Paperback Format</li>
+    <li>✔ Hardcover Format</li>
+  </ul>
 
-                  <h5>Online Presence</h5>
-                  <ul>
-                    <li>✔ 3 - 5 Page Authors Website</li>
-                    <li>✔ 1 - Year Domain & Hosting</li>
-                    <li>✔ 30 - 60 Seconds Book Trailer</li>
-                  </ul>
+  <h5>Online Presence</h5>
+  <ul>
+    <li>✔ 3 - 5 Page Authors Website</li>
+    <li>✔ 1 - Year Domain & Hosting</li>
+    <li>✔ 30 - 60 Seconds Book Trailer</li>
+  </ul>
 
-                  <h5>Guarantees</h5>
-                  <ul>
-                    <li>✔ No Royalties Share</li>
-                    <li>✔ 100% Ownership Rights</li>
-                    <li>✔ 100% Satisfaction</li>
-                  </ul>
-                </div>
+  <h5>Guarantees</h5>
+  <ul>
+    <li>✔ No Royalties Share</li>
+    <li>✔ 100% Ownership Rights</li>
+    <li>✔ 100% Satisfaction</li>
+  </ul>
+</div>
 
               </div>
               <div className="pricing-footer">
@@ -282,7 +289,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="https://wa.me/8482369397">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397" target="_blank">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -303,57 +310,58 @@ const LPPricingSection = () => {
               </div>
               <div className="pricing-body">
 
-                <div className="feature-list">
-                  <h5>Preparing Your Manuscript</h5>
-                  <ul>
-                    <li>✔ Developmental Editing</li>
-                    <li>✔ Line by Line Editing</li>
-                    <li>✔ Proofreading</li>
-                    <li>✔ Typesetting</li>
-                    <li>✔ Layout Adjustment</li>
-                    <li>✔ Formatting (50+ Platforms)</li>
-                    <li>✔ 5 Revisions Per Draft</li>
-                  </ul>
+              <div className="feature-list">
+  <h5>Preparing Your Manuscript</h5>
+  <ul>
+    <li>✔ Developmental Editing</li>
+    <li>✔ Line by Line Editing</li>
+    <li>✔ Proofreading</li>
+    <li>✔ Typesetting</li>
+    <li>✔ Layout Adjustment</li>
+    <li>✔ Formatting (50+ Platforms)</li>
+    <li>✔ 5 Revisions Per Draft</li>
+  </ul>
 
-                  <h5>Designing your Cover</h5>
-                  <ul>
-                    <li>✔ Graphic OR Illustrated Design</li>
-                    <li>✔ Cover Layout</li>
-                    <li>✔ Cover Formatting</li>
-                    <li>✔ Front, Back & Spine</li>
-                    <li>✔ ISBN + Barcode (2X)</li>
-                  </ul>
+  <h5>Designing Your Cover</h5>
+  <ul>
+    <li>✔ Graphic OR Illustrated Design</li>
+    <li>✔ Cover Layout</li>
+    <li>✔ Cover Formatting</li>
+    <li>✔ Front, Back & Spine</li>
+    <li>✔ ISBN + Barcode (2X)</li>
+  </ul>
 
-                  <h5>Book Publishing</h5>
-                  <ul>
-                    <li>✔ Account Creation</li>
-                    <li>✔ Account Verification</li>
-                    <li>✔ Available on Amazon & Kindle</li>
-                    <li>✔ Available on Barnes and Noble</li>
-                    <li>✔ Available on Google Books</li>
-                    <li>✔ Available on Smashwords</li>
-                    <li>✔ eBook Format</li>
-                    <li>✔ Paperback Format</li>
-                    <li>✔ Hardcover Format</li>
-                  </ul>
+  <h5>Book Publishing</h5>
+  <ul>
+    <li>✔ Account Creation</li>
+    <li>✔ Account Verification</li>
+    <li>✔ Available on Amazon & Kindle</li>
+    <li>✔ Available on Barnes and Noble</li>
+    <li>✔ Available on Google Books</li>
+    <li>✔ Available on Smashwords</li>
+    <li>✔ eBook Format</li>
+    <li>✔ Paperback Format</li>
+    <li>✔ Hardcover Format</li>
+  </ul>
 
-                  <h5>12 Months Brand Marketing</h5>
-                  <ul>
-                    <li>✔ Logo Design (Complimentary)</li>
-                    <li>✔ 3 - 5 Page Author's Website</li>
-                    <li>✔ 1 - Year Domain & Hosting</li>
-                    <li>✔ 30 - 60 Seconds Book Trailer</li>
-                    <li>✔ Organic Google Marketing</li>
-                    <li>✔ Social Media Marketing (Facebook, Instagram & LinkedIn)</li>
-                  </ul>
+  <h5>12 Months Brand Marketing</h5>
+  <ul>
+    <li>✔ Logo Design (Complimentary)</li>
+    <li>✔ 3 - 5 Page Author's Website</li>
+    <li>✔ 1 - Year Domain & Hosting</li>
+    <li>✔ 30 - 60 Seconds Book Trailer</li>
+    <li>✔ Organic Google Marketing</li>
+    <li>✔ Social Media Marketing (Facebook, Instagram & LinkedIn)</li>
+  </ul>
 
-                  <h5>Guarantees</h5>
-                  <ul>
-                    <li>✔ No Royalties Share</li>
-                    <li>✔ 100% Ownership Rights</li>
-                    <li>✔ 100% Satisfaction</li>
-                  </ul>
-                </div>
+  <h5>Guarantees</h5>
+  <ul>
+    <li>✔ No Royalties Share</li>
+    <li>✔ 100% Ownership Rights</li>
+    <li>✔ 100% Satisfaction</li>
+  </ul>
+</div>
+
 
 
               </div>
@@ -388,7 +396,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="https://wa.me/8482369397">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397" target="_blank">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -412,62 +420,63 @@ const LPPricingSection = () => {
               </div>
               <div className="pricing-body">
 
-                <div className="feature-list">
-                  <h5>Preparing Your Manuscript</h5>
-                  <ul>
-                    <li>✔ Developmental Editing</li>
-                    <li>✔ Line by Line Editing</li>
-                    <li>✔ Proofreading</li>
-                    <li>✔ Typesetting</li>
-                    <li>✔ Layout Adjustment</li>
-                    <li>✔ Formatting (50+ Platforms)</li>
-                    <li>✔ 5 Revisions Per Draft</li>
-                  </ul>
+              <div className="feature-list">
+  <h5>Preparing Your Manuscript</h5>
+  <ul>
+    <li>✔ Developmental Editing</li>
+    <li>✔ Line by Line Editing</li>
+    <li>✔ Proofreading</li>
+    <li>✔ Typesetting</li>
+    <li>✔ Layout Adjustment</li>
+    <li>✔ Formatting (50+ Platforms)</li>
+    <li>✔ 5 Revisions Per Draft</li>
+  </ul>
 
-                  <h5>Designing Your Cover</h5>
-                  <ul>
-                    <li>✔ Graphic OR Illustrated Design</li>
-                    <li>✔ Cover Layout</li>
-                    <li>✔ Cover Formatting</li>
-                    <li>✔ Front, Back & Spine</li>
-                    <li>✔ ISBN + Barcode (2X)</li>
-                  </ul>
+  <h5>Designing Your Cover</h5>
+  <ul>
+    <li>✔ Graphic OR Illustrated Design</li>
+    <li>✔ Cover Layout</li>
+    <li>✔ Cover Formatting</li>
+    <li>✔ Front, Back & Spine</li>
+    <li>✔ ISBN + Barcode (2X)</li>
+  </ul>
 
-                  <h5>Book Publishing</h5>
-                  <ul>
-                    <li>✔ Account Creation</li>
-                    <li>✔ Account Verification</li>
-                    <li>✔ Available on Amazon & Kindle</li>
-                    <li>✔ Available on Barnes and Noble</li>
-                    <li>✔ Available on Google Books</li>
-                    <li>✔ Available on Smashwords</li>
-                    <li>✔ Available on Draft2Digital</li>
-                    <li>✔ Available on ACX</li>
-                    <li>✔ eBook Format</li>
-                    <li>✔ Paperback Format</li>
-                    <li>✔ Hardcover Format</li>
-                    <li>✔ Audiobook Format</li>
-                  </ul>
+  <h5>Book Publishing</h5>
+  <ul>
+    <li>✔ Account Creation</li>
+    <li>✔ Account Verification</li>
+    <li>✔ Available on Amazon & Kindle</li>
+    <li>✔ Available on Barnes and Noble</li>
+    <li>✔ Available on Google Books</li>
+    <li>✔ Available on Smashwords</li>
+    <li>✔ Available on Draft2Digital</li>
+    <li>✔ Available on ACX</li>
+    <li>✔ eBook Format</li>
+    <li>✔ Paperback Format</li>
+    <li>✔ Hardcover Format</li>
+    <li>✔ Audiobook Format</li>
+  </ul>
 
-                  <h5>24 Months Brand Marketing</h5>
-                  <ul>
-                    <li>✔ Logo Design (Complimentary)</li>
-                    <li>✔ 3 - 5 Page Author's Website</li>
-                    <li>✔ 2 - Year Domain & Hosting</li>
-                    <li>✔ 60 - 90 Seconds Video Trailer</li>
-                    <li>✔ Organic Google Marketing</li>
-                    <li>✔ Blogs & Article Postings</li>
-                    <li>✔ Press Releases (150+ Platforms)</li>
-                    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
-                  </ul>
+  <h5>24 Months Brand Marketing</h5>
+  <ul>
+    <li>✔ Logo Design (Complimentary)</li>
+    <li>✔ 3 - 5 Page Author's Website</li>
+    <li>✔ 2 - Year Domain & Hosting</li>
+    <li>✔ 60 - 90 Seconds Video Trailer</li>
+    <li>✔ Organic Google Marketing</li>
+    <li>✔ Blogs & Article Postings</li>
+    <li>✔ Press Releases (150+ Platforms)</li>
+    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
+  </ul>
 
-                  <h5>Guarantees</h5>
-                  <ul>
-                    <li>✔ No Royalties Share</li>
-                    <li>✔ 100% Ownership Rights</li>
-                    <li>✔ 100% Satisfaction</li>
-                  </ul>
-                </div>
+  <h5>Guarantees</h5>
+  <ul>
+    <li>✔ No Royalties Share</li>
+    <li>✔ 100% Ownership Rights</li>
+    <li>✔ 100% Satisfaction</li>
+  </ul>
+</div>
+
 
               </div>
               <div className="pricing-footer">
@@ -501,7 +510,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="https://wa.me/8482369397">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397" target="_blank">Live Chat Now</a>
                   </span>
                 </div>
               </div>
@@ -612,7 +621,7 @@ const LPPricingSection = () => {
                   <span className="right-footer">
                     Want to discuss?
                     <br />
-                    <a href="https://wa.me/8482369397">Live Chat Now</a>
+                    <a href="https://wa.me/8482369397" target="_blank">Live Chat Now</a>
                   </span>
                 </div></div>
 

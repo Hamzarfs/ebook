@@ -51,13 +51,13 @@ const Footer = () => {
             </div>
 
             {/* Contact Us Section */}
-            <div className="contact-details p-3" style={{ border: '1px solid rgba(255, 255, 255, 0.5)', borderRadius: '8px' }}>
-              <h2 className="text-light">Contact Us</h2>
+            <div className="contact-details" >
+              <h5 className="text-light">Contact Us</h5>
               <p className="mb-1 text-light">
                 <FaPhoneAlt /> 
                 <a href="tel:+17327979165" className="text-light text-decoration-none"> (732) 797-9165</a>
               </p>
-              <p className="mb-1 text-light">
+              <p className="mb-1">
                 <FaEnvelope /> 
                 <a href="mailto:info@amzbookpublishing.net" className="text-light text-decoration-none"> info@amzbookpublishing.net</a>
               </p>
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom text-center py-3 bg-secondary">
-        <p>&copy;© 2024 AMZ Book Publishing. All Rights Reserved.</p>
+        <p>&copy; 2024 AMZ Book Publishing. All Rights Reserved.</p>
       </div>
     </footer>
   );

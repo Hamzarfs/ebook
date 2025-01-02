@@ -693,8 +693,7 @@ textarea.lpbanner-input.lpbanner-textarea {
         place-items: center;
     }
 .lpbanner {
-    
-    background: #5638DD;
+    /* background: #5638DD; */
     background-size: cover;
     background-position: center;
     padding: 50px 0;
@@ -705,6 +704,23 @@ textarea.lpbanner-input.lpbanner-textarea {
 
   /* Lp Third Section */
   @media (max-width: 768px) {
+    .lp-contact-sec .contact-link {
+      padding-left: 64px;
+      color: inherit;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      transition: color 0.3s ease;
+    }
+    .navbar-brand {
+      padding-left: 21px;}
+
+    img.img-fluid.img-animate {
+      object-fit: contain !important;
+      height: auto !important;
+      width: 450px !important;
+      border-radius: 10px;
+  }
     .lp-contact-sec {
       padding: 20px 0;
       color: white;
