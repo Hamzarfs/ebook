@@ -21,19 +21,19 @@ const TestimonialSection = () => {
             name: 'Amazing Ghostwriting Experience ',
             location: 'Keri'
         },
-    
+
         {
             text: 'Thanks to Brian’s expert guidance, my book achieved bestseller status on Amazon. His marketing strategies were precise, impactful, and perfectly aligned with my goals, ensuring outstanding results that exceeded my expectations.',
             name: 'Comprehensive Marketing Services',
             location: 'Parker'
         },
         {
-name: 'Creative Ebook Writing Team',
-            
+            name: 'Creative Ebook Writing Team',
+
             text: 'Brian helped me in self publishing my book from scratch. The team’s creativity and professionalism made the process enjoyable. Highly recommended!',
             location: 'Amy Carpenter',
         },
-        
+
         {
             text: 'The design team, led by Alan, delivered a book cover that brought my book to life. The attention to detail was amazing! Thank you guys!',
             name: 'Outstanding Book Cover Designs ',
@@ -53,8 +53,9 @@ name: 'Creative Ebook Writing Team',
                         slidesPerView={3}
                         breakpoints={{
                             320: { slidesPerView: 1 },
-                            768: { slidesPerView: 3 },
-                            1200: { slidesPerView: 3}
+                            768: { slidesPerView: 2 },
+                            992: { slidesPerView: 2 },
+                            1200: { slidesPerView: 3 },
                         }}
                         navigation={{
                             nextEl: '.swiper-button-next',

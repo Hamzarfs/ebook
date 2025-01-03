@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TermsAndConditionsSection = () => {
     return (
-        <div className="container simple-section">
+        <div className="container simple-section pb-5">
             <div className="row">
                 <div className="col-lg-12  custom-content-v3 mb-4" style={{ textAlign: 'justify' }}>
                     <h1 className='align-items-center justify-content-center text-center'>Terms & Conditions</h1>
@@ -31,7 +32,7 @@ const TermsAndConditionsSection = () => {
 
                     <p><strong>Refund Policy</strong></p>
                     <p>Please read and understand the following terms carefully to avoid any misunderstanding of the terms regarding the AMZ Book Publishing refund policy. If you still have any confusion regarding the refund policy, you can contact our customer services representative and discuss the policy. We advise you to be sure about the refund terms and conditions if you have any confusion in this regard. We offer refunds only in special cases and specified conditions, detailed as under:</p>
-                    
+
                     <ul>
                         <li><strong>Refunds for Purchases Above $15,000:</strong> If approved, all purchases above $15,000 will be refunded in equal monthly installments of $5,000.</li>
                     </ul>
@@ -55,11 +56,27 @@ const TermsAndConditionsSection = () => {
 
                     <p><strong>Cases Where Refund Will Not Be Issued</strong></p>
                     <ul>
-                    <li>In case of late delivery due to some minor technical errors, such as grammatical, typing, word count, missing references etc., refunds will be processed with mutual agreement, and the company will only settle with a partial refund or discounts reserved for future purchases.</li>
-                    <li>The company will not be responsible for any delay from the client’s end.</li>
-                    <li>No refund will be issued on the basis of low writing.</li>
-                    <li> For book marketing/publishing projects, no refund will be issued if the client is unable to provide access to either their bookstores (Amazon, Barnes & Noble etc.) or their social media channels which help our team to maximize reach, engagement, and sales.</li>
+                        <li>In case of late delivery due to some minor technical errors, such as grammatical, typing, word count, missing references etc., refunds will be processed with mutual agreement, and the company will only settle with a partial refund or discounts reserved for future purchases.</li>
+                        <li>The company will not be responsible for any delay from the client’s end.</li>
+                        <li>No refund will be issued on the basis of low writing.</li>
+                        <li> For book marketing/publishing projects, no refund will be issued if the client is unable to provide access to either their bookstores (Amazon, Barnes & Noble etc.) or their social media channels which help our team to maximize reach, engagement, and sales.</li>
                     </ul>
+                </div>
+
+                <div className='col-12'>
+                    <div className='text-center'>
+                        <Link className='btn btn-primary' to="/book-publishing-services" style={
+                            {
+                                backgroundColor: 'rgb(252, 151, 0)',
+                                color: 'white',
+                                borderRadius: '30px',
+                                boxShadow: 'rgba(252, 151, 0, 0.5) 0px 4px 6px',
+                                border: 'none',
+                                padding: '10px 30px',
+                                fontSize: '20px',
+                            }
+                        }>Back to Homepage</Link>
+                    </div>
                 </div>
             </div>
         </div>
