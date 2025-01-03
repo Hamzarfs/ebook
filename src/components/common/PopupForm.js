@@ -25,16 +25,33 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
 
     const validateEmailAndPhone = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-            phoneRegex = /^\+1\d{10}$/
-
+            phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,5}$/
+        let html = ''
         if (!emailRegex.test(formData.email))
-            Swal.fire('Error', 'Invalid email address', 'error')
-
+            html = "Invalid email address<br/>"
         if (!phoneRegex.test(formData.phone))
-            Swal.fire('Error', 'Invalid Phone number. Example: +19876543210', 'error')
-
+            html += "Invalid phone number. Example: 0207 123 456"
+        if (html.length > 0)
+            Swal.fire('Error', html, 'error')
         return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
     }
+
+
+    // const validateEmailAndPhone = () => {
+    //     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+    //         phoneRegex = /^\+1\d{10}$/
+
+    //     if (!emailRegex.test(formData.email))
+    //         Swal.fire('Error', 'Invalid email address', 'error')
+
+    //     if (!phoneRegex.test(formData.phone))
+    //         Swal.fire('Error', 'Invalid Phone number. Example: +19876543210', 'error')
+
+    //     return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
+    // }
+
+
+
 
     const handleSubmit = async e => {
         e.preventDefault()

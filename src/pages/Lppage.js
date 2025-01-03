@@ -27,6 +27,7 @@ import LpFooter from '../components/LandingPage/lpFooter';
 import LPPricingSection from '../components/LandingPage/Pricingplan';
 
 import React, { useState } from 'react';
+import BookImageBox from '../components/LandingPage/Bookimagebox';
 // ******************************** End FAQ Section ******************************
 
 const lppage = () => {
@@ -117,6 +118,7 @@ const lppage = () => {
                 heading={heading}
                 description={description}
                 steps={steps} />
+                <BookImageBox/>
 
              
          <ImageLeftBanner

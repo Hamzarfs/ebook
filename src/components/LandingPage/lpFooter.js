@@ -13,8 +13,8 @@ const LpFooter = () => {
            
               <img src={ebooklogo} alt="AMZ Book Publishing" className="img-fluid mb-3"/>
           
-            <p className="text-light">
-            AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, e-book writing services, book editing, book cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire digital book publishing process.            </p>
+            <p className="text-light text-justify">
+            AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, e-book writing services, book editing, book cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire digital book publishing process.</p>
           </div>
           <div className="col-md-3 mb-3">
             <h5 className="highlight-orange-text">Get Social</h5>

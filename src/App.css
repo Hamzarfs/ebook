@@ -837,6 +837,17 @@ font-weight: bold;
 font-size: 1rem;
 line-height: 1.5;
 color: #666;
+
+}
+
+
+.text-light p {
+  margin: 0px;
+  padding: 0px;
+}
+
+p.text-light.text-justify {
+  text-align: justify;
 }
 
 .image-text-banner img {

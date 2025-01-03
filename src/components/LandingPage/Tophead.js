@@ -13,7 +13,8 @@ const TopHead = ({ updatePopupTitle }) => {
                             style={{
                                 listStyleType: 'none',
                                 textDecoration:'none',
-                                padding: 0,      // Removed any extra padding
+                                padding: '10px 30px', 
+                                // padding: 0,      
                                 display: 'flex',  // Use flexbox for horizontal layout
                                 justifyContent: 'flex-end',  // Align to the right
                                 alignItems: 'center',  // Vertically center align the items
@@ -29,8 +30,10 @@ const TopHead = ({ updatePopupTitle }) => {
                                         textDecoration:'none',
                                         color: 'orange',
                                         display: 'flex',
-                                        alignItems: 'center'
+                                        alignItems: 'center',
+                                        padding: '10px 30px', 
                                     }}
+                                
                                 >
                                     <FaPhone style={{ marginRight: '8px' }} />
                                     (732) 797-9165
@@ -43,6 +46,7 @@ const TopHead = ({ updatePopupTitle }) => {
                                     className="chat_icon chat"
                                     style={{
                                         textDecoration:'none',
+                                        padding: '10px 50px',
                                         color: 'orange',
                                         display: 'flex',
                                         alignItems: 'center'

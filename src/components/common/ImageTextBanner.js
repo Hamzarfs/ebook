@@ -11,7 +11,7 @@ const ImageTextBanner = ({ title, subtitle, description, contentItems, }) => {
                             {title}<br />
                             <span className="orangegradient-h2">{subtitle}</span>
                         </h2>
-                        <p className="design-process-description">
+                        <p className="design-process-description text-center">
                             {description}
                         </p>
                     </div>

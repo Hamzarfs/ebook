@@ -32,20 +32,33 @@ const Lpbanner = ({ updatePopupTitle }) => {
         });
     };
 
+    // const validateEmailAndPhone = () => {
+    //     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+    //         phoneRegex = /^\+1\d{10}$/
+    //     let html = ''
+
+    //     if (!emailRegex.test(formData.email))
+    //         html = "Invalid email address<br />"
+
+    //     if (!phoneRegex.test(formData.phone))
+    //         html += "Invalid phone number. Example: +19876543210<br />"
+
+    //     if (html.length > 0)
+    //         Swal.fire('Error', html, 'error')
+
+    //     return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
+    // }
+
     const validateEmailAndPhone = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-            phoneRegex = /^\+1\d{10}$/
+            phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,5}$/
         let html = ''
-
         if (!emailRegex.test(formData.email))
             html = "Invalid email address<br />"
-
         if (!phoneRegex.test(formData.phone))
-            html += "Invalid phone number. Example: +19876543210<br />"
-
+            html += "Invalid phone number. Example: 0207 123 456"
         if (html.length > 0)
             Swal.fire('Error', html, 'error')
-
         return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
     }
 
@@ -94,9 +107,9 @@ const Lpbanner = ({ updatePopupTitle }) => {
                                 <a className="first-button" href="tel:+17327979165" >Let’s Talk About Project </a>
                             </div>
                             <div className="lpbanner-badges">
-                                <a href="https://clutch.co/profile/amz-book-publishing "><img src={clutch} alt="Clutch" /></a>
-                                <a href="https://www.trustpilot.com/review/amzbookpublishing.net "> <img src={trustpilot} alt="Trustpilot" /></a>
-                                <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ "><img src={barkicon} alt="Bark" /></a>
+                                <a href="https://clutch.co/profile/amz-book-publishing" target="_blank"><img src={clutch} alt="Clutch" /></a>
+                                <a href="https://www.trustpilot.com/review/amzbookpublishing.net " target="_blank"> <img src={trustpilot} alt="Trustpilot" /></a>
+                                <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ " target="_blank"><img src={barkicon} alt="Bark" /></a>
                             </div>
                         </div>
                     </div>

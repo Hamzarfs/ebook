@@ -83,7 +83,7 @@ const Bookservices = ({
           style={{ 
             display: 'inline-block', 
             marginLeft: '10px',  // Gap between the buttons
-            padding: '10px 20px', 
+            padding: '10px 30px', 
             backgroundColor: '#FC9700',
             color: 'white',
             textDecoration: 'none',
