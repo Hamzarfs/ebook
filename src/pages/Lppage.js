@@ -31,7 +31,7 @@ import BookImageBox from '../components/LandingPage/Bookimagebox';
 // ******************************** End FAQ Section ******************************
 
 const lppage = () => {
-  
+
 
     const heading = {
         title: (
@@ -87,7 +87,7 @@ const lppage = () => {
             <Helmet>
                 <title>Best Book Publisher: AMZ Book Publishing Services Company</title>
                 <meta name="description" content="AMZ Book Publishing company enables self-published authors to publish their dream book on AMZN. We are the best publishers in US. Call Us at (732) 797-9165." />
-                <link rel="canonical" href="https://amzbookpublishing.net/book-publishing-services"/>
+                <link rel="canonical" href="https://amzbookpublishing.net/book-publishing-services" />
             </Helmet>
             {/* <TopHead /> */}
             <LPHeader />
@@ -118,34 +118,34 @@ const lppage = () => {
                 heading={heading}
                 description={description}
                 steps={steps} />
-                <BookImageBox/>
+            <BookImageBox />
 
-             
-         <ImageLeftBanner
-    heading="What Makes Us the Leading Book Publishers in the USA "
-    subHeading=""
-    description={
-      <>
-   Aspiring authors embarking on their first book journey often explore options like self-publishing, a service where we publish your book on Amazon and other platforms with your name prominently displayed. AMZ Book Publishing streamlines the publishing process, handling everything from editing and book cover design to marketing and distribution, including paperback publishing, e-book publishing, and even audiobook production. 
-       <br /><br />
-       This allows you to focus on your writing while we ensure your book reaches its full potential. Whether you're aiming for a traditional hardcover release or a wider reach through publishing book on Amazon, AMZ Book Publishing provides a comprehensive solution for navigating the complexities of the publishing world and achieving your publishing dreams.
-      </>
-  }
-    imageSrc={lpwhychoose}
-    imageHeight=""        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>
-<Portfolio/>
-<LPPricingSection/>
-<OurProcessLp/>
-<AwardsLogo/>
-<TestimonialSection/>
-<Lpcta/>
 
-<LpContactSec/>
-<LpFooter/>
+            <ImageLeftBanner
+                heading="What Makes Us the Leading Book Publishers in the USA "
+                subHeading=""
+                description={
+                    <>
+                        Aspiring authors embarking on their first book journey often explore options like self-publishing, a service where we publish your book on Amazon and other platforms with your name prominently displayed. AMZ Book Publishing streamlines the publishing process, handling everything from editing and book cover design to marketing and distribution, including paperback publishing, e-book publishing, and even audiobook production.
+                        <br /><br />
+                        This allows you to focus on your writing while we ensure your book reaches its full potential. Whether you're aiming for a traditional hardcover release or a wider reach through publishing book on Amazon, AMZ Book Publishing provides a comprehensive solution for navigating the complexities of the publishing world and achieving your publishing dreams.
+                    </>
+                }
+                imageSrc={lpwhychoose}
+                imageHeight=""        // Set height here
+                imageWidth=""          // Set width here
+                objectfit="cover"          // Set object-fit here
+                borderRadius="15px"        // Set border radius here
+            />
+            <Portfolio />
+            <LPPricingSection />
+            <OurProcessLp />
+            <AwardsLogo />
+            <TestimonialSection />
+            <Lpcta />
+
+            <LpContactSec />
+            <LpFooter />
 
 
 

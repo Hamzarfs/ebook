@@ -3,6 +3,7 @@ import Modal from "react-modal";
 import { FaUser, FaEnvelope, FaPhone, FaCommentAlt, FaTimes } from 'react-icons/fa'; // Font Awesome icons
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import { isAlphanumeric, fieldLengthValidator } from '../../utils/validationHelpers'
 
 Modal.setAppElement("#root");
 
@@ -25,15 +26,37 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
 
     const validateEmailAndPhone = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-            phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,5}$/
+            phoneRegex = /^\+?\d{10,15}$/
+            // phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,8}$/
         let html = ''
         if (!emailRegex.test(formData.email))
             html = "Invalid email address<br/>"
         if (!phoneRegex.test(formData.phone))
-            html += "Invalid phone number. Example: 0207 123 456"
+            html += "Invalid phone number.  Phone number must be between 10 & 15 digits."
         if (html.length > 0)
             Swal.fire('Error', html, 'error')
         return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
+    }
+
+    const validateFormFields = () => {
+        let isValid = true, html = ''
+
+        // Name validation
+        if (/*!isAlphabetic(formData.name) || */!isAlphanumeric(formData.name) || !fieldLengthValidator(formData.name, 50)) {
+            html = "Name must be alphabetic or alphanumeric & must not be greater than 50 characters.<br />"
+            isValid = false
+        }
+
+        // Message validation
+        if (!fieldLengthValidator(formData.message, 200)) {
+            html = "Message must not be greater than 200 characters.<br />"
+            isValid = false
+        }
+
+        if (html.length > 0)
+            Swal.fire('Error', html, 'error')
+
+        return isValid
     }
 
 
@@ -58,6 +81,10 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
 
         // Email & phone validation
         if (!validateEmailAndPhone())
+            return
+
+        // Name & message fields validations
+        if (!validateFormFields())
             return
 
         setLoading(true)
@@ -98,7 +125,7 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
                 </h4>
 
                 <div>
-                    <label>Name</label>
+                    <label>Name <span className="text-danger fw-bold">*</span></label>
                     <div className="input-icon">
                         <FaUser className="icon" />
                         <input
@@ -111,7 +138,7 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
                     </div>
                 </div>
                 <div>
-                    <label>Email</label>
+                    <label>Email <span className="text-danger fw-bold">*</span></label>
                     <div className="input-icon">
                         <FaEnvelope className="icon" />
                         <input
@@ -124,7 +151,7 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
                     </div>
                 </div>
                 <div>
-                    <label>Phone Number</label>
+                    <label>Phone Number <span className="text-danger fw-bold">*</span></label>
                     <div className="input-icon">
                         <FaPhone className="icon" />
                         <input
@@ -139,7 +166,7 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
                     </div>
                 </div>
                 <div>
-                    <label>Message</label>
+                    <label>Message <span className="text-danger fw-bold">*</span></label>
                     <div className="input-icon">
                         <FaCommentAlt className="icon" />
                         <textarea

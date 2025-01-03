@@ -10,13 +10,13 @@
     padding: 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     border: 1px solid;
     height: 40vh;
 }
+
 
 
 .testimonial-card:hover {
@@ -48,6 +48,7 @@
 .col-12.arrows {
     justify-items: center;
 }
+
 .swiper-button-prev,
 .swiper-button-next {
     position: relative;
@@ -59,9 +60,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #fff;  /* Optional: For visibility */
+    background-color: #fff;
+    /* Optional: For visibility */
     padding: 10px;
-    border-radius: 50%;  /* Optional: For circular buttons */
+    border-radius: 50%;
+    /* Optional: For circular buttons */
 }
 
 .swiper-button-prev:hover,
@@ -72,16 +75,32 @@
 
 
 
-.swiper-button-prev a, .swiper-button-next a {
+.swiper-button-prev a,
+.swiper-button-next a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-
-@media (max-width: 768px) {
+/* For screen 992px to 1199px */
+@media (max-width: 1199.98px) {
     .testimonial-card {
-        margin-bottom: 20px;
+        height: 39vh;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+    .testimonial-card {
+        height: 47vh;
+    }
+}
+
+/* For screen 576px to 767px */
+@media (max-width: 767.98px) {
+    .testimonial-card {
+        height: 39vh;
     }
 }

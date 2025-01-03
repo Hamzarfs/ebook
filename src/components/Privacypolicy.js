@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PrivacyPolicySection = () => {
     return (
-        <div className="container simple-section">
+        <div className="container simple-section pb-5">
             <div className="row ">
                 <div className="col-lg-12 mt-5 custom-content-v3 mb-4 " style={{ textAlign: 'justify' }}>
                     <h1 className='align-items-center justify-content-center text-center'>Privacy Policy</h1>
                     <p style={{ textAlign: 'justify' }}>
-                At AMZ Book Publishing, we respect your privacy and are committed to safeguarding the personal information you provide when using our website. This policy outlines how we collect, use, and protect your information.
+                        At AMZ Book Publishing, we respect your privacy and are committed to safeguarding the personal information you provide when using our website. This policy outlines how we collect, use, and protect your information.
                     </p>
                     <p><strong>Information Collection</strong></p>
                     <p>We collect information from you when you register on our site, place an order, subscribe to our newsletter, or complete a form. The personal information we may ask you to provide includes your name, email address, mailing address, phone number, and credit card details. However, you are free to visit our site anonymously if you prefer.</p>
@@ -31,8 +32,24 @@ const PrivacyPolicySection = () => {
                     <p><strong>Online Privacy Policy Scope</strong></p>
                     <p>This privacy policy applies solely to information collected through our website and does not cover information collected offline.</p>
                 </div>
+
+                <div className='col-12'>
+                    <div className='text-center'>
+                        <Link className='btn btn-primary' to="/book-publishing-services" style={
+                            {
+                                backgroundColor: 'rgb(252, 151, 0)',
+                                color: 'white',
+                                borderRadius: '30px',
+                                boxShadow: 'rgba(252, 151, 0, 0.5) 0px 4px 6px',
+                                border: 'none',
+                                padding: '10px 30px',
+                                fontSize: '20px',
+                            }
+                        }>Back to Homepage</Link>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 

@@ -11,22 +11,22 @@ import LpFooter from '../components/LandingPage/lpFooter';
 
 const ContactUs = () => {
 
-  return (
-    <div>
-       <Helmet>
-        <title>Privacy Policy - AMZ Book Publishing</title>
-        <meta name="description" content="Read our privacy policy for better understanding regarding our working process." />
-        <link rel="canonical" href="https://amzbookpublishing.net/privacy-policy" />
+    return (
+        <div>
+            <Helmet>
+                <title>Privacy Policy - AMZ Book Publishing</title>
+                <meta name="description" content="Read our privacy policy for better understanding regarding our working process." />
+                <link rel="canonical" href="https://amzbookpublishing.net/privacy-policy" />
 
-      </Helmet>
-      {/* -------------------Start Banner section---------------------- */}
-      {/* <TopHead/> */}
-      <LPHeader/>
-     
-<PrivacyPolicySection/>  
-      <LpFooter/>
-    </div>
-  );
+            </Helmet>
+            {/* -------------------Start Banner section---------------------- */}
+            {/* <TopHead/> */}
+            <LPHeader />
+
+            <PrivacyPolicySection />
+            <LpFooter />
+        </div>
+    );
 };
 export default ContactUs;
 

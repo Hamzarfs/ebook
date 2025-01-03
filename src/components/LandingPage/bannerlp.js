@@ -11,9 +11,10 @@ import fiftyoff from '../../images/fiftyoff.png';
 import '../../LandingPage.css';
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import { isAlphanumeric, fieldLengthValidator } from '../../utils/validationHelpers'
 
 
-const Lpbanner = ({ updatePopupTitle }) => {
+const Lpbanner = () => {
     const navigate = useNavigate()
     const [loading, setLoading] = useState(false); // Loading state
     const [formData, setFormData] = useState({
@@ -51,15 +52,37 @@ const Lpbanner = ({ updatePopupTitle }) => {
 
     const validateEmailAndPhone = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-            phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,5}$/
+            phoneRegex = /^\+?\d{10,15}$/
+            // phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,8}$/
         let html = ''
         if (!emailRegex.test(formData.email))
             html = "Invalid email address<br />"
         if (!phoneRegex.test(formData.phone))
-            html += "Invalid phone number. Example: 0207 123 456"
+            html += "Invalid phone number. Phone number must be between 10 & 15 digits."
         if (html.length > 0)
             Swal.fire('Error', html, 'error')
         return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
+    }
+
+    const validateFormFields = () => {
+        let isValid = true, html = ''
+
+        // Name validation
+        if (/*!isAlphabetic(formData.name) || */!isAlphanumeric(formData.name) || !fieldLengthValidator(formData.name, 50)) {
+            html = "Name must be alphabetic or alphanumeric & must not be greater than 50 characters.<br />"
+            isValid = false
+        }
+
+        // Message validation
+        if (!fieldLengthValidator(formData.message, 200)) {
+            html = "Message must not be greater than 200 characters.<br />"
+            isValid = false
+        }
+
+        if (html.length > 0)
+            Swal.fire('Error', html, 'error')
+
+        return isValid
     }
 
     const handleSubmit = async e => {
@@ -68,6 +91,12 @@ const Lpbanner = ({ updatePopupTitle }) => {
         // Email & phone validation
         if (!validateEmailAndPhone())
             return
+
+        // Name & message fields validations
+        if (!validateFormFields())
+            return
+
+
         setLoading(true)
 
         await fetch(/*'http://localhost:9090'*//*"https://webdesignmania.co.uk/php/index.php"*/"https://amzbookpublishing.net/PHPMailer/popup-email.php", {
@@ -137,17 +166,17 @@ const Lpbanner = ({ updatePopupTitle }) => {
                             <p>Enjoy exclusive savings with this limited-time offer!</p>
                             <form method="POST" onSubmit={handleSubmit} id="bannerForm">
                                 <input type="hidden" name="title" value={formData.title} />
-                                <input type="text" placeholder="Enter your name" name="name" value={formData.name} onChange={handleChange} className="lpbanner-input" required />
-                                <input type="tel" placeholder="Enter your phone number" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required />
-                                <input type="email" placeholder="Enter your email" name="email" value={formData.email} onChange={handleChange} className="lpbanner-input" required />
-                                <textarea placeholder="Message" name="message" className="lpbanner-input lpbanner-textarea" value={formData.message} onChange={handleChange} required ></textarea>
+                                <input type="text" placeholder="Enter your name*" name="name" value={formData.name} onChange={handleChange} className="lpbanner-input" required />
+                                <input type="tel" placeholder="Enter your phone number*" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required />
+                                <input type="email" placeholder="Enter your email*" name="email" value={formData.email} onChange={handleChange} className="lpbanner-input" required />
+                                <textarea placeholder="Message*" name="message" className="lpbanner-input lpbanner-textarea" value={formData.message} onChange={handleChange} required ></textarea>
                                 <button type="submit" className="btn btn-dark lpbanner-submit-btn" disabled={loading}>
                                     {loading ? (
                                         <>
                                             <span className="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
                                             <span role="status">Submitting...</span>
                                         </>
-                                    ) : 'Sign Up'}
+                                    ) : 'Submit'}
                                 </button>
                             </form>
                         </div>
