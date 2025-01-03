@@ -3,11 +3,13 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // updated import
 import 'swiper/css/navigation'; // updated import
+import 'swiper/css/autoplay'; // updated import
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';  // Importing icons
 import { ImQuotesLeft } from "react-icons/im";
 import starsImg from '../../images/stars-5.svg'
 import { FaQuoteLeft } from 'react-icons/fa';
+import { Autoplay, Navigation } from "swiper/modules";
 
 const TestimonialSection = () => {
     const testimonials = [
@@ -33,12 +35,38 @@ const TestimonialSection = () => {
             text: 'Brian helped me in self publishing my book from scratch. The team’s creativity and professionalism made the process enjoyable. Highly recommended!',
             location: 'Amy Carpenter',
         },
-
         {
             text: 'The design team, led by Alan, delivered a book cover that brought my book to life. The attention to detail was amazing! Thank you guys!',
             name: 'Outstanding Book Cover Designs ',
             location: 'David'
-        }
+        },
+        {
+            text: ' I am satisfied with the publication services of AMZ. Alan guided me through every step of publishing my first book. The process was smooth, and the final product exceeded my expectations. Thank you AMZ',
+            name: ' Exceptional Publishing Services',
+            location: 'Victor Erickson'
+        },
+        {
+            text: 'Working with AMZ Book Publishing’s ghostwriting team was an incredible  experience. They skillfully captured my unique voice and transformed my  ideas into a beautifully written story that deeply resonated with my readers,   leaving a lasting impact and exceeding all expectations.',
+            name: 'Amazing Ghostwriting Experience ',
+            location: 'Keri'
+        },
+
+        {
+            text: 'Thanks to Brian’s expert guidance, my book achieved bestseller status on Amazon. His marketing strategies were precise, impactful, and perfectly aligned with my goals, ensuring outstanding results that exceeded my expectations.',
+            name: 'Comprehensive Marketing Services',
+            location: 'Parker'
+        },
+        {
+            name: 'Creative Ebook Writing Team',
+
+            text: 'Brian helped me in self publishing my book from scratch. The team’s creativity and professionalism made the process enjoyable. Highly recommended!',
+            location: 'Amy Carpenter',
+        },
+        {
+            text: 'The design team, led by Alan, delivered a book cover that brought my book to life. The attention to detail was amazing! Thank you guys!',
+            name: 'Outstanding Book Cover Designs ',
+            location: 'David'
+        },
     ];
 
     return (
@@ -49,6 +77,9 @@ const TestimonialSection = () => {
                 </div>
                 <div className='row'>
                     <Swiper
+                        modules={[Autoplay]}
+                        autoplay
+                        loop
                         spaceBetween={20}
                         slidesPerView={3}
                         breakpoints={{
@@ -57,10 +88,11 @@ const TestimonialSection = () => {
                             992: { slidesPerView: 2 },
                             1200: { slidesPerView: 3 },
                         }}
-                        navigation={{
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev',
-                        }}
+                    // navigation
+                    // navigation={{
+                    //     nextEl: '.swiper-button-next',
+                    //     prevEl: '.swiper-button-prev',
+                    // }}
                     >
                         {testimonials.map((testimonial, index) => (
                             <SwiperSlide key={index}>

@@ -6,7 +6,7 @@
   .lpcta-image {
     max-width: 100%;
     height: auto;
-    margin-top: -50px; /* To overlap the background color */
+    /* margin-top: -50px; To overlap the background color */
   }
   
   .lpcta-heading {

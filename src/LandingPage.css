@@ -25,6 +25,13 @@
     align-items: center;
 }
 
+/* For screen 992px to 1199px */
+@media (max-width: 1199.98px) {
+    .lpbanner-heading {
+        font-size: 3rem;
+    }
+}
+
 
 .lpbanner-bracket {
     color: #f39c12;
@@ -109,14 +116,19 @@ textarea.lpbanner-input.lpbanner-textarea {
 }
 
 .lpbanner-badges img {
-    padding-top: 20px;
-    margin-top: 20px;
-    width: 90px;
-    margin-right: 10px;
+    /* padding-top: 20px;
+    margin-top: 20px; */
+    width: 100px;
+    /* height: 50px; */
+    /* margin-right: 10px; */
 }
 
+/* .lpbanner-badges a {
+    height: 60px;
+} */
+
 img.trusticon {
-    width: 120px !important;
+    width: 150px !important;
 }
 
 .lpbanner-form {
@@ -687,9 +699,9 @@ img.trusticon {
         text-align: center;
     }
 
-    .lpbanner-badges img {
+    /* .lpbanner-badges img {
         width: 100px !important;
-    }
+    } */
 
     .col-md-5.lp-right-column {
         padding: 0px !important;
@@ -759,7 +771,7 @@ img.trusticon {
 
 
     .lp-right-column {
-        width: 100%;
+        /* width: 100%; */
         background-image: none !important;
     }
 
@@ -773,7 +785,7 @@ img.trusticon {
 
     .lp-left-column {
         margin-bottom: 20px;
-        width: 100%;
+        /* width: 100%; */
         place-items: center;
     }
 
@@ -820,7 +832,7 @@ img.trusticon {
         border-radius: 10px;
         backdrop-filter: blur(10px);
         color: #fff;
-        width: 346px;
+        /* width: 346px; */
     }
 
     .fiftyoff {

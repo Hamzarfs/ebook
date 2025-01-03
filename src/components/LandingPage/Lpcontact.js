@@ -18,7 +18,7 @@ const LpContactSec = () => {
                     {/* Column 1 - Support Team */}
                     <div className="col-md-4">
                         <a href="https://wa.me/8482369397 " target="_blank" className="contact-link d-flex align-items-center justify-content-center">
-                            <img src={supportIcon} alt="Support Team Icon" className=" me-3" />
+                            <img src={supportIcon} alt="Support Team Icon" className="" />
                             <div>
                                 <p>Our Support Team</p>
                                 <h4>24/7 Online</h4>
@@ -29,7 +29,7 @@ const LpContactSec = () => {
                     {/* Column 2 - Phone Number */}
                     <div className="col-md-4">
                         <a href="tel:+17327979165" className="contact-link d-flex align-items-center my-4 my-md-0 justify-content-center">
-                            <img src={consultIcon} alt="Consult Expert Icon" className=" me-3" />
+                            <img src={consultIcon} alt="Consult Expert Icon" className="" />
                             <div>
                                 <p>Consult Our Expert</p>
                                 <h4> (732) 797-9165</h4>
@@ -40,7 +40,7 @@ const LpContactSec = () => {
                     {/* Column 3 - Live Chat */}
                     <div className="col-md-4">
                         <a href="https://wa.me/8482369397" target="_blank" className="contact-link d-flex align-items-center justify-content-center">
-                            <img src={chatIcon} alt="Live Support Icon" className=" me-3" />
+                            <img src={chatIcon} alt="Live Support Icon" className="" />
                             <div>
                                 <p>Live Support</p>
                                 <h4>Chat Now</h4>

@@ -53,7 +53,7 @@ const Lpbanner = () => {
     const validateEmailAndPhone = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
             phoneRegex = /^\+?\d{10,15}$/
-            // phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,8}$/
+        // phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,8}$/
         let html = ''
         if (!emailRegex.test(formData.email))
             html = "Invalid email address<br />"
@@ -121,7 +121,7 @@ const Lpbanner = () => {
             <div className="container">
                 <div className="row">
                     {/* Left Column */}
-                    <div className="col-md-7 lp-left-column">
+                    <div className="col-lg-7 lp-left-column">
                         {/* <img src={webdesignlogo} alt="Logo" className="lpbanner-logo" /> */}
                         <p className="lpbanner-text">#1 Self-Publishing Company</p>
                         <div className="lpbanner-heading-container" style={{ display: 'flex', alignItems: 'center' }}>
@@ -135,16 +135,36 @@ const Lpbanner = () => {
                             <div className="lpbanner-buttons mt-4">
                                 <a className="first-button" href="tel:+17327979165" >Let’s Talk About Project </a>
                             </div>
-                            <div className="lpbanner-badges">
-                                <a href="https://clutch.co/profile/amz-book-publishing" target="_blank"><img src={clutch} alt="Clutch" /></a>
-                                <a  href="https://www.trustpilot.com/review/amzbookpublishing.net " target="_blank"> <img className="trusticon" src={trustpilot} alt="Trustpilot" /></a>
-                                <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ " target="_blank"><img src={barkicon} alt="Bark" /></a>
+                            <div className="lpbanner-badges d-flex gap-3 align-items-center mt-5 justify-content-center justify-content-lg-start">
+                                <a href="https://clutch.co/profile/amz-book-publishing" target="_blank">
+                                    <img src={clutch} alt="Clutch" className="img-fluid" />
+                                </a>
+                                <a href="https://www.trustpilot.com/review/amzbookpublishing.net " target="_blank">
+                                    <img src={trustpilot} alt="Trustpilot" className="trusticon img-fluid" />
+                                </a>
+                                <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ " target="_blank">
+                                    <img src={barkicon} alt="Bark" className="img-fluid" />
+                                </a>
                             </div>
+
+
+
+                            {/* <div className="lpbanner-badges">
+                                <a href="https://clutch.co/profile/amz-book-publishing" target="_blank">
+                                    <img src={clutch} alt="Clutch" className="img-fluid" />
+                                </a>
+                                <a href="https://www.trustpilot.com/review/amzbookpublishing.net " target="_blank">
+                                    <img src={trustpilot} alt="Trustpilot" className="trusticon img-fluid" />
+                                </a>
+                                <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ " target="_blank">
+                                    <img src={barkicon} alt="Bark" className="img-fluid" />
+                                </a>
+                            </div> */}
                         </div>
                     </div>
 
                     {/* Right Column */}
-                    <div className="col-md-5 lp-right-column"
+                    <div className="col-lg-5 lp-right-column"
                         style={{
                             // backgroundImage: `url(${formbg2})`, // Use your background image here
                             backgroundSize: 'cover', // Cover the entire column
