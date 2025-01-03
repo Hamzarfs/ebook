@@ -1,7 +1,7 @@
 import React from 'react';
 import {  FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';  // Import Link from react-router-dom
-import ebooklogo from '../../images/footerlogo.webp';
+import ebooklogo from '../../images/footerlogo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const LpFooter = () => {

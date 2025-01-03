@@ -33,54 +33,7 @@ import BookImageBox from '../components/LandingPage/Bookimagebox';
 const lppage = () => {
   
 
-    const heading = {
-        title: (
-            <>
-                The Worlds We Write In
-            </>
-        ),
-        // highlight:"Animation Video",
-        // title2: "Production Company in the USA"
-    };
-    const description = "We have helped a broad range of authors publish their books successfully. Our projects include books of different genres, from thrilling suspense novels and heartwarming romances to insightful memoirs and engaging children's books. ";
-    const steps = [
-        {
-            image: book1,
-            alt: "Entertainment",
-            title: "Entertainment",
-            description: "Our animation studio specializes in creating outstanding visual effects, character animations, and motion graphics in film and television. We produce interactive gaming experiences with 3D and other animation options."
-        },
-        {
-            image: book2,
-            alt: "Commercial",
-            title: "Commercial",
-            description: "Our studio is engaged in the production of captivating commercials, explainer videos, or corporate videos that help brands and businesses communicate well."
-        },
-        {
-            image: book3,
-            alt: "Nonprofit",
-            title: "Nonprofit",
-            description: "We create powerful animations to amplify the voices of nonprofits and social causes. Using very strong imagery and engaging storytelling, we create videos that succeed in grabbing audience attention."
-        },
-        {
-            image: book4,
-            alt: "Healthcare",
-            title: "Healthcare",
-            description: "The studio helps create clear and informative medical animations to educate healthcare professional and patients, in addition to developing interactive animations around pharmaceutical concepts."
-        },
-        {
-            image: book5,
-            alt: "Educational",
-            title: "Educational",
-            description: "In creating e-learning materials, we specialize in interactive animations and simulations that animate difficult subjects, thus appealing to their visual sense. "
-        },
-        {
-            image: book6,
-            alt: "Sports",
-            title: "Sports",
-            description: "The studio creates vibrant graphics and animations for sports broadcasts as well as interesting videos promoting sports events and athletes."
-        }
-    ];
+   
 
     return (
         <div>
@@ -114,10 +67,7 @@ const lppage = () => {
                 // updatePopupTitle={handleTitleChange}
                 buttonUrl="https://www.facebook.com/"
             />
-            <Bookservices
-                heading={heading}
-                description={description}
-                steps={steps} />
+          
                 <BookImageBox/>
 
              

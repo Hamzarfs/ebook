@@ -1,6 +1,6 @@
-.bookimage-box {
+/* .bookimage-box {
     padding: 40px 20px;
-  }
+  } */
   
   .book-box {
     border: 2px solid;
@@ -17,7 +17,7 @@
   }
   
   .book-icon {
-    width: 60px;
+    width: 100px;
     height: auto;
     margin-bottom: 15px;
   }

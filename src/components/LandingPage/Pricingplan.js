@@ -223,50 +223,51 @@ const LPPricingSection = () => {
               <div className="feature-list">
   <h5>Preparing Your Manuscript</h5>
   <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
+    <li><span className="check-icon">✔</span> Developmental Editing</li>
+    <li><span className="check-icon">✔</span> Line by Line Editing</li>
+    <li><span className="check-icon">✔</span> Proofreading</li>
+    <li><span className="check-icon">✔</span> Typesetting</li>
+    <li><span className="check-icon">✔</span> Layout Adjustment</li>
+    <li><span className="check-icon">✔</span> Formatting (50+ Platforms)</li>
+    <li><span className="check-icon">✔</span> 5 Revisions Per Draft</li>
   </ul>
 
   <h5>Designing Your Cover</h5>
   <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
+    <li><span className="check-icon">✔</span> Graphic OR Illustrated Design</li>
+    <li><span className="check-icon">✔</span> Cover Layout</li>
+    <li><span className="check-icon">✔</span> Cover Formatting</li>
+    <li><span className="check-icon">✔</span> Front, Back & Spine</li>
+    <li><span className="check-icon">✔</span> ISBN + Barcode (2X)</li>
   </ul>
 
   <h5>Book Publishing</h5>
   <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
+    <li><span className="check-icon">✔</span> Account Creation</li>
+    <li><span className="check-icon">✔</span> Account Verification</li>
+    <li><span className="check-icon">✔</span> Available on Amazon & Kindle</li>
+    <li><span className="check-icon">✔</span> Available on Barnes and Noble</li>
+    <li><span className="check-icon">✔</span> Available on Google Books</li>
+    <li><span className="check-icon">✔</span> eBook Format</li>
+    <li><span className="check-icon">✔</span> Paperback Format</li>
+    <li><span className="check-icon">✔</span> Hardcover Format</li>
   </ul>
 
   <h5>Online Presence</h5>
   <ul>
-    <li>✔ 3 - 5 Page Authors Website</li>
-    <li>✔ 1 - Year Domain & Hosting</li>
-    <li>✔ 30 - 60 Seconds Book Trailer</li>
+    <li><span className="check-icon">✔</span> 3 - 5 Page Authors Website</li>
+    <li><span className="check-icon">✔</span> 1 - Year Domain & Hosting</li>
+    <li><span className="check-icon">✔</span> 30 - 60 Seconds Book Trailer</li>
   </ul>
 
   <h5>Guarantees</h5>
   <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
+    <li><span className="check-icon">✔</span> No Royalties Share</li>
+    <li><span className="check-icon">✔</span> 100% Ownership Rights</li>
+    <li><span className="check-icon">✔</span> 100% Satisfaction</li>
   </ul>
 </div>
+
 
               </div>
               <div className="pricing-footer">
@@ -313,54 +314,55 @@ const LPPricingSection = () => {
               <div className="feature-list">
   <h5>Preparing Your Manuscript</h5>
   <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
+    <li><span className="check-icon">✔</span> Developmental Editing</li>
+    <li><span className="check-icon">✔</span> Line by Line Editing</li>
+    <li><span className="check-icon">✔</span> Proofreading</li>
+    <li><span className="check-icon">✔</span> Typesetting</li>
+    <li><span className="check-icon">✔</span> Layout Adjustment</li>
+    <li><span className="check-icon">✔</span> Formatting (50+ Platforms)</li>
+    <li><span className="check-icon">✔</span> 5 Revisions Per Draft</li>
   </ul>
 
   <h5>Designing Your Cover</h5>
   <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
+    <li><span className="check-icon">✔</span> Graphic OR Illustrated Design</li>
+    <li><span className="check-icon">✔</span> Cover Layout</li>
+    <li><span className="check-icon">✔</span> Cover Formatting</li>
+    <li><span className="check-icon">✔</span> Front, Back & Spine</li>
+    <li><span className="check-icon">✔</span> ISBN + Barcode (2X)</li>
   </ul>
 
   <h5>Book Publishing</h5>
   <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ Available on Smashwords</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
+    <li><span className="check-icon">✔</span> Account Creation</li>
+    <li><span className="check-icon">✔</span> Account Verification</li>
+    <li><span className="check-icon">✔</span> Available on Amazon & Kindle</li>
+    <li><span className="check-icon">✔</span> Available on Barnes and Noble</li>
+    <li><span className="check-icon">✔</span> Available on Google Books</li>
+    <li><span className="check-icon">✔</span> Available on Smashwords</li>
+    <li><span className="check-icon">✔</span> eBook Format</li>
+    <li><span className="check-icon">✔</span> Paperback Format</li>
+    <li><span className="check-icon">✔</span> Hardcover Format</li>
   </ul>
 
   <h5>12 Months Brand Marketing</h5>
   <ul>
-    <li>✔ Logo Design (Complimentary)</li>
-    <li>✔ 3 - 5 Page Author's Website</li>
-    <li>✔ 1 - Year Domain & Hosting</li>
-    <li>✔ 30 - 60 Seconds Book Trailer</li>
-    <li>✔ Organic Google Marketing</li>
-    <li>✔ Social Media Marketing (Facebook, Instagram & LinkedIn)</li>
+    <li><span className="check-icon">✔</span> Logo Design (Complimentary)</li>
+    <li><span className="check-icon">✔</span> 3 - 5 Page Author's Website</li>
+    <li><span className="check-icon">✔</span> 1 - Year Domain & Hosting</li>
+    <li><span className="check-icon">✔</span> 30 - 60 Seconds Book Trailer</li>
+    <li><span className="check-icon">✔</span> Organic Google Marketing</li>
+    <li><span className="check-icon">✔</span> Social Media Marketing (Facebook, Instagram & LinkedIn)</li>
   </ul>
 
   <h5>Guarantees</h5>
   <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
+    <li><span className="check-icon">✔</span> No Royalties Share</li>
+    <li><span className="check-icon">✔</span> 100% Ownership Rights</li>
+    <li><span className="check-icon">✔</span> 100% Satisfaction</li>
   </ul>
 </div>
+
 
 
 
@@ -423,59 +425,60 @@ const LPPricingSection = () => {
               <div className="feature-list">
   <h5>Preparing Your Manuscript</h5>
   <ul>
-    <li>✔ Developmental Editing</li>
-    <li>✔ Line by Line Editing</li>
-    <li>✔ Proofreading</li>
-    <li>✔ Typesetting</li>
-    <li>✔ Layout Adjustment</li>
-    <li>✔ Formatting (50+ Platforms)</li>
-    <li>✔ 5 Revisions Per Draft</li>
+    <li><span className="check-icon">✔</span> Developmental Editing</li>
+    <li><span className="check-icon">✔</span> Line by Line Editing</li>
+    <li><span className="check-icon">✔</span> Proofreading</li>
+    <li><span className="check-icon">✔</span> Typesetting</li>
+    <li><span className="check-icon">✔</span> Layout Adjustment</li>
+    <li><span className="check-icon">✔</span> Formatting (50+ Platforms)</li>
+    <li><span className="check-icon">✔</span> 5 Revisions Per Draft</li>
   </ul>
 
   <h5>Designing Your Cover</h5>
   <ul>
-    <li>✔ Graphic OR Illustrated Design</li>
-    <li>✔ Cover Layout</li>
-    <li>✔ Cover Formatting</li>
-    <li>✔ Front, Back & Spine</li>
-    <li>✔ ISBN + Barcode (2X)</li>
+    <li><span className="check-icon">✔</span> Graphic OR Illustrated Design</li>
+    <li><span className="check-icon">✔</span> Cover Layout</li>
+    <li><span className="check-icon">✔</span> Cover Formatting</li>
+    <li><span className="check-icon">✔</span> Front, Back & Spine</li>
+    <li><span className="check-icon">✔</span> ISBN + Barcode (2X)</li>
   </ul>
 
   <h5>Book Publishing</h5>
   <ul>
-    <li>✔ Account Creation</li>
-    <li>✔ Account Verification</li>
-    <li>✔ Available on Amazon & Kindle</li>
-    <li>✔ Available on Barnes and Noble</li>
-    <li>✔ Available on Google Books</li>
-    <li>✔ Available on Smashwords</li>
-    <li>✔ Available on Draft2Digital</li>
-    <li>✔ Available on ACX</li>
-    <li>✔ eBook Format</li>
-    <li>✔ Paperback Format</li>
-    <li>✔ Hardcover Format</li>
-    <li>✔ Audiobook Format</li>
+    <li><span className="check-icon">✔</span> Account Creation</li>
+    <li><span className="check-icon">✔</span> Account Verification</li>
+    <li><span className="check-icon">✔</span> Available on Amazon & Kindle</li>
+    <li><span className="check-icon">✔</span> Available on Barnes and Noble</li>
+    <li><span className="check-icon">✔</span> Available on Google Books</li>
+    <li><span className="check-icon">✔</span> Available on Smashwords</li>
+    <li><span className="check-icon">✔</span> Available on Draft2Digital</li>
+    <li><span className="check-icon">✔</span> Available on ACX</li>
+    <li><span className="check-icon">✔</span> eBook Format</li>
+    <li><span className="check-icon">✔</span> Paperback Format</li>
+    <li><span className="check-icon">✔</span> Hardcover Format</li>
+    <li><span className="check-icon">✔</span> Audiobook Format</li>
   </ul>
 
   <h5>24 Months Brand Marketing</h5>
   <ul>
-    <li>✔ Logo Design (Complimentary)</li>
-    <li>✔ 3 - 5 Page Author's Website</li>
-    <li>✔ 2 - Year Domain & Hosting</li>
-    <li>✔ 60 - 90 Seconds Video Trailer</li>
-    <li>✔ Organic Google Marketing</li>
-    <li>✔ Blogs & Article Postings</li>
-    <li>✔ Press Releases (150+ Platforms)</li>
-    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
+    <li><span className="check-icon">✔</span> Logo Design (Complimentary)</li>
+    <li><span className="check-icon">✔</span> 3 - 5 Page Author's Website</li>
+    <li><span className="check-icon">✔</span> 2 - Year Domain & Hosting</li>
+    <li><span className="check-icon">✔</span> 60 - 90 Seconds Video Trailer</li>
+    <li><span className="check-icon">✔</span> Organic Google Marketing</li>
+    <li><span className="check-icon">✔</span> Blogs & Article Postings</li>
+    <li><span className="check-icon">✔</span> Press Releases (150+ Platforms)</li>
+    <li><span className="check-icon">✔</span> Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
   </ul>
 
   <h5>Guarantees</h5>
   <ul>
-    <li>✔ No Royalties Share</li>
-    <li>✔ 100% Ownership Rights</li>
-    <li>✔ 100% Satisfaction</li>
+    <li><span className="check-icon">✔ </span> No Royalties Share</li>
+    <li><span className="check-icon">✔</span> 100% Ownership Rights</li>
+    <li><span className="check-icon">✔</span> 100% Satisfaction</li>
   </ul>
 </div>
+
 
 
               </div>
@@ -529,62 +532,63 @@ const LPPricingSection = () => {
               </div>
               <div className="pricing-body">
 
-                <div className="feature-list">
-                  <h5>Preparing Your Manuscript</h5>
-                  <ul>
-                    <li>✔ Developmental Editing</li>
-                    <li>✔ Line by Line Editing</li>
-                    <li>✔ Proofreading</li>
-                    <li>✔ Typesetting</li>
-                    <li>✔ Layout Adjustment</li>
-                    <li>✔ Formatting (50+ Platforms)</li>
-                    <li>✔ 5 Revisions Per Draft</li>
-                  </ul>
+              <div className="feature-list">
+  <h5>Preparing Your Manuscript</h5>
+  <ul>
+    <li><span className="check-icon">✔</span> Developmental Editing</li>
+    <li><span className="check-icon">✔</span> Line by Line Editing</li>
+    <li><span className="check-icon">✔</span> Proofreading</li>
+    <li><span className="check-icon">✔</span> Typesetting</li>
+    <li><span className="check-icon">✔</span> Layout Adjustment</li>
+    <li><span className="check-icon">✔</span> Formatting (50+ Platforms)</li>
+    <li><span className="check-icon">✔</span> 5 Revisions Per Draft</li>
+  </ul>
 
-                  <h5>Designing Your Cover</h5>
-                  <ul>
-                    <li>✔ Graphic OR Illustrated Design</li>
-                    <li>✔ Cover Layout</li>
-                    <li>✔ Cover Formatting</li>
-                    <li>✔ Front, Back & Spine</li>
-                    <li>✔ ISBN + Barcode (2X)</li>
-                  </ul>
+  <h5>Designing Your Cover</h5>
+  <ul>
+    <li><span className="check-icon">✔</span> Graphic OR Illustrated Design</li>
+    <li><span className="check-icon">✔</span> Cover Layout</li>
+    <li><span className="check-icon">✔</span> Cover Formatting</li>
+    <li><span className="check-icon">✔</span> Front, Back & Spine</li>
+    <li><span className="check-icon">✔</span> ISBN + Barcode (2X)</li>
+  </ul>
 
-                  <h5>Book Publishing</h5>
-                  <ul>
-                    <li>✔ Account Creation</li>
-                    <li>✔ Account Verification</li>
-                    <li>✔ Available on Amazon & Kindle</li>
-                    <li>✔ Available on Barnes and Noble</li>
-                    <li>✔ Available on Google Books</li>
-                    <li>✔ Available on Smashwords</li>
-                    <li>✔ Available on Draft2Digital</li>
-                    <li>✔ Available on ACX</li>
-                    <li>✔ eBook Format</li>
-                    <li>✔ Paperback Format</li>
-                    <li>✔ Hardcover Format</li>
-                    <li>✔ Audiobook Format</li>
-                  </ul>
+  <h5>Book Publishing</h5>
+  <ul>
+    <li><span className="check-icon">✔</span> Account Creation</li>
+    <li><span className="check-icon">✔</span> Account Verification</li>
+    <li><span className="check-icon">✔</span> Available on Amazon & Kindle</li>
+    <li><span className="check-icon">✔</span> Available on Barnes and Noble</li>
+    <li><span className="check-icon">✔</span> Available on Google Books</li>
+    <li><span className="check-icon">✔</span> Available on Smashwords</li>
+    <li><span className="check-icon">✔</span> Available on Draft2Digital</li>
+    <li><span className="check-icon">✔</span> Available on ACX</li>
+    <li><span className="check-icon">✔</span> eBook Format</li>
+    <li><span className="check-icon">✔</span> Paperback Format</li>
+    <li><span className="check-icon">✔</span> Hardcover Format</li>
+    <li><span className="check-icon">✔</span> Audiobook Format</li>
+  </ul>
 
-                  <h5>24 Months Brand Marketing</h5>
-                  <ul>
-                    <li>✔ Logo Design (Complimentary)</li>
-                    <li>✔ 3 - 5 Page Author's Website</li>
-                    <li>✔ 2 - Year Domain & Hosting</li>
-                    <li>✔ 60 - 90 Seconds Video Trailer</li>
-                    <li>✔ Organic Google Marketing</li>
-                    <li>✔ Blogs & Article Postings</li>
-                    <li>✔ Press Releases (150+ Platforms)</li>
-                    <li>✔ Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
-                  </ul>
+  <h5>24 Months Brand Marketing</h5>
+  <ul>
+    <li><span className="check-icon">✔</span> Logo Design (Complimentary)</li>
+    <li><span className="check-icon">✔</span> 3 - 5 Page Author's Website</li>
+    <li><span className="check-icon">✔</span> 2 - Year Domain & Hosting</li>
+    <li><span className="check-icon">✔</span> 60 - 90 Seconds Video Trailer</li>
+    <li><span className="check-icon">✔</span> Organic Google Marketing</li>
+    <li><span className="check-icon">✔</span> Blogs & Article Postings</li>
+    <li><span className="check-icon">✔</span> Press Releases (150+ Platforms)</li>
+    <li><span className="check-icon">✔</span> Social Media Marketing (Facebook, Instagram, Twitter, Pinterest, Youtube & LinkedIn)</li>
+  </ul>
 
-                  <h5>Guarantees</h5>
-                  <ul>
-                    <li>✔ No Royalties Share</li>
-                    <li>✔ 100% Ownership Rights</li>
-                    <li>✔ 100% Satisfaction</li>
-                  </ul>
-                </div>
+  <h5>Guarantees</h5>
+  <ul>
+    <li><span className="check-icon">✔</span> No Royalties Share</li>
+    <li><span className="check-icon">✔</span> 100% Ownership Rights</li>
+    <li><span className="check-icon">✔</span> 100% Satisfaction</li>
+  </ul>
+</div>
+
 
               </div>
 

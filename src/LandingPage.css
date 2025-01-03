@@ -41,11 +41,33 @@
     margin-bottom: 0;
 }
 
+img.logo {
+  width: 235px;
+}
+
+
 
 textarea.lpbanner-input.lpbanner-textarea {
  
     height: 80px !important;
 }
+.feature-list ul {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove default padding */
+}
+
+.feature-list li {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Vertically align the icon and text */
+  margin-bottom: 10px; /* Add space between list items */
+}
+
+.feature-list .check-icon {
+  color: green; /* Set checkmark color */
+  margin-right: 10px; /* Space between checkmark and text */
+  font-size: 18px; /* Size of the checkmark */
+}
+
   
   .lpbanner-buttons .lpbanner-btn {
     margin-right: 15px;
@@ -73,9 +95,13 @@ textarea.lpbanner-input.lpbanner-textarea {
 }
   
 .lpbanner-badges img {
+  padding-top: 20px;
     margin-top: 20px;
-    width: 120px;
+    width: 90px;
     margin-right: 10px;
+}
+img.trusticon {
+  width: 120px !important;
 }
   
   .lpbanner-form {

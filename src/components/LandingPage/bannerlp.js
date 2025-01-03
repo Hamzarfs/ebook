@@ -4,7 +4,7 @@ import bgimg from '../../images/lpbg.webp';
 import formbg from '../../images/formbg.png';
 // import formbg2 from '../../images/formbglp2.png';
 // import bracket from '../../images/bracket.png';
-import trustpilot from '../../images/truspiloticon.png';
+import trustpilot from '../../images/truspiloticon.svg';
 import clutch from '../../images/clutchicon.png';
 import barkicon from '../../images/barkicon.png';
 import fiftyoff from '../../images/fiftyoff.png';
@@ -108,7 +108,7 @@ const Lpbanner = ({ updatePopupTitle }) => {
                             </div>
                             <div className="lpbanner-badges">
                                 <a href="https://clutch.co/profile/amz-book-publishing" target="_blank"><img src={clutch} alt="Clutch" /></a>
-                                <a href="https://www.trustpilot.com/review/amzbookpublishing.net " target="_blank"> <img src={trustpilot} alt="Trustpilot" /></a>
+                                <a  href="https://www.trustpilot.com/review/amzbookpublishing.net " target="_blank"> <img className="trusticon" src={trustpilot} alt="Trustpilot" /></a>
                                 <a href="https://www.bark.com/en/us/company/amz-book-publishing/4XdEkg/ " target="_blank"><img src={barkicon} alt="Bark" /></a>
                             </div>
                         </div>

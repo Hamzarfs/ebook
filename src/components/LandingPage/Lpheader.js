@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../../TopHead.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../../images/amzlplogo.png'
+import logo from '../../images/amzlplogo.svg'
 import PopupForm1 from '../common/PopupForm';
 import { FaPhone, FaComment } from 'react-icons/fa';
 
