@@ -6,7 +6,7 @@ import 'swiper/css/navigation'; // updated import
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';  // Importing icons
 import { ImQuotesLeft } from "react-icons/im";
-
+import starsImg from '../../images/stars-5.svg'
 import { FaQuoteLeft } from 'react-icons/fa';
 
 const TestimonialSection = () => {
@@ -69,7 +69,8 @@ const TestimonialSection = () => {
                                     <p className='testimonial-name'>{testimonial.name}</p>
                                     <p className='testimonial-text'>{testimonial.text}</p>
                                     <div className='testimonial-footer'>
-                                        <p className='testimonial-name'>{testimonial.location}</p>
+                                        <p className='testimonial-name fw-bold m-0'>{testimonial.location}</p>
+                                        <img src={starsImg} alt="Trustpilot 5 stars" className="h-25" />
                                     </div>
                                 </div>
                             </SwiperSlide>

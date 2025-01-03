@@ -67,9 +67,11 @@ const lppage = () => {
                 // updatePopupTitle={handleTitleChange}
                 buttonUrl="https://www.facebook.com/"
             />
+            <Portfolio />
+            <LPPricingSection />
+
 
             <BookImageBox />
-
 
             <ImageLeftBanner
                 heading="What Makes Us the Leading Book Publishers in the USA "
@@ -87,8 +89,6 @@ const lppage = () => {
                 objectfit="cover"          // Set object-fit here
                 borderRadius="15px"        // Set border radius here
             />
-            <Portfolio />
-            <LPPricingSection />
             <OurProcessLp />
             <AwardsLogo />
             <TestimonialSection />
