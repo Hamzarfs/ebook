@@ -86,33 +86,64 @@ const Lpbanner = () => {
     }
 
     const handleSubmit = async e => {
-        e.preventDefault()
-
+        e.preventDefault();
+    
         // Email & phone validation
-        if (!validateEmailAndPhone())
-            return
-
+        if (!validateEmailAndPhone()) return;
+    
         // Name & message fields validations
-        if (!validateFormFields())
-            return
+        if (!validateFormFields()) return;
+    
+        setLoading(true);
+    
 
+        // Submit data to HubSpot
+        const hubspotData = {
+            fields: [
+                { name: 'email', value: formData.email },
+                { name: 'firstname', value: formData.name },
+                { name: 'phone', value: formData.phone },
+                { name: 'message', value: formData.message },
+            ],
+            context: {
+                pageUri: window.location.href,
+                pageName: document.title
+            }
+        };
 
-        setLoading(true)
-
-        await fetch(/*'http://localhost:9090'*//*"https://webdesignmania.co.uk/php/index.php"*/"https://amzbookpublishing.net/PHPMailer/popup-email.php", {
-            method: 'POST',
-            body: JSON.stringify(formData)
-        })
-            .then(r => r.json())
-            .then(({ success, message }) => {
-                setLoading(false)
-                if (success)
-                    navigate('/thank-you')
-                else
-                    Swal.fire('Error', message, 'error')
-            })
-    }
-
+         
+        
+       
+        try {
+            const response = await fetch("https://amzbookpublishing.net/PHPMailer/popup-email.php", {
+                method: 'POST',
+                body: JSON.stringify(formData),
+                headers: { 'Content-Type': 'application/json' }
+            });
+    
+            const result = await response.json();
+    
+            if (result.success) {
+                await fetch('https://forms.hubspot.com/uploads/form/v2/47721008/ba6fc021-d762-4fc9-9775-ecdd9e619374', {
+                    method: 'POST',
+                    body: hubspotData,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                });
+              
+    
+                navigate('/thank-you');
+            } else {
+                Swal.fire('Error', result.message, 'error');
+            }
+        } catch (error) {
+            Swal.fire('Error', 'Something went wrong!', 'error');
+        } finally {
+            setLoading(false);
+        }
+    };
+    
     return (
         <section
             className="lpbanner"

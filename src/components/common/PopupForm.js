@@ -77,31 +77,60 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
 
 
     const handleSubmit = async e => {
-        e.preventDefault()
-
+        e.preventDefault();
+    
         // Email & phone validation
-        if (!validateEmailAndPhone())
-            return
-
+        if (!validateEmailAndPhone()) return;
+    
         // Name & message fields validations
-        if (!validateFormFields())
-            return
-
-        setLoading(true)
-
-        await fetch(/*'http://localhost:9090/popup-email.php'*/"https://amzbookpublishing.net/PHPMailer/popup-email.php", {
-            method: 'POST',
-            body: JSON.stringify(formData)
-        })
-            .then(r => r.json())
-            .then(({ success, message }) => {
-                setLoading(false)
-                if (success)
-                    navigate('/thank-you')
-                else
-                    Swal.fire('Error', message, 'error')
-            })
-    }
+        if (!validateFormFields()) return;
+    
+        setLoading(true);
+    
+        try {
+            // Submit form data to your PHP endpoint
+            const response = await fetch("https://amzbookpublishing.net/PHPMailer/popup-email.php", {
+                method: 'POST',
+                body: JSON.stringify(formData),
+                headers: { 'Content-Type': 'application/json' }
+            });
+    
+            const { success, message } = await response.json();
+    
+            if (success) {
+                // Prepare HubSpot data as URL-encoded string
+                const hubspotData = new URLSearchParams({
+                    'email': formData.email,
+                    'firstname': formData.name,
+                    'phone': formData.phone,
+                    'message': formData.message,
+                    'hs_context': JSON.stringify({
+                        pageUri: window.location.href,
+                        pageName: document.title
+                    })
+                }).toString();
+    
+                // Submit data to HubSpot
+                await fetch('https://forms.hubspot.com/uploads/form/v2/47721008/ba6fc021-d762-4fc9-9775-ecdd9e619374', {
+                    method: 'POST',
+                    body: hubspotData,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                });
+    
+                // Navigate to thank-you page on success
+                navigate('/thank-you');
+            } else {
+                Swal.fire('Error', message, 'error');
+            }
+        } catch (error) {
+            Swal.fire('Error', 'Something went wrong!', 'error');
+        } finally {
+            setLoading(false);
+        }
+    };
+    
 
     if (!isOpen) return null;
 
