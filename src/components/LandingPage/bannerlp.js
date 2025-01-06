@@ -169,7 +169,7 @@ const Lpbanner = () => {
                             // backgroundImage: `url(${formbg2})`, // Use your background image here
                             backgroundSize: 'cover', // Cover the entire column
                             backgroundPosition: 'center', // Center the image
-                            padding: '50px', // Add padding for spacing
+                            padding: '20px 20px 20px 20px', // Add padding for spacing
                             borderRadius: '5px', // Optional: rounded corners
                             // height: '600px', // Ensure the height covers the content
                         }}
@@ -187,7 +187,19 @@ const Lpbanner = () => {
                             <form method="POST" onSubmit={handleSubmit} id="bannerForm">
                                 <input type="hidden" name="title" value={formData.title} />
                                 <input type="text" placeholder="Enter your name*" name="name" value={formData.name} onChange={handleChange} className="lpbanner-input" required />
-                                <input type="tel" placeholder="Enter your phone number*" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required />
+                                {/* <input type="tel" placeholder="Enter your phone number*" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required /> */}
+                                <input 
+  type="tel" 
+  placeholder="Enter your phone number*" 
+  name="phone" 
+  value={formData.phone} 
+  onChange={handleChange} 
+  className="lpbanner-input" 
+  required 
+  pattern="^\+?\d{10,15}$" 
+  title="Phone number should be between 10 and 15 digits, with an optional '+' at the start."
+/>
+
                                 <input type="email" placeholder="Enter your email*" name="email" value={formData.email} onChange={handleChange} className="lpbanner-input" required />
                                 <textarea placeholder="Message*" name="message" className="lpbanner-input lpbanner-textarea" value={formData.message} onChange={handleChange} required ></textarea>
                                 <button type="submit" className="btn btn-dark lpbanner-submit-btn" disabled={loading}>

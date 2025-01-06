@@ -101,6 +101,6 @@
 /* For screen 576px to 767px */
 @media (max-width: 767.98px) {
     .testimonial-card {
-        height: 39vh;
+        height: 50vh;
     }
 }
