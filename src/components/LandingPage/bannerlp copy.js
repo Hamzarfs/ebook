@@ -184,83 +184,33 @@ const Lpbanner = () => {
                             />
                             <h3 className="lpbanner-form-title">Claim Your Discount</h3>
                             <p>Enjoy exclusive savings with this limited-time offer!</p>
-                            <form method="POST" onSubmit={handleSubmit} id="bannerForm" noValidate>
-  <input
-    type="text"
-    placeholder="Enter your name*"
-    name="name"
-    value={formData.name}
-    onChange={handleChange}
-    className="lpbanner-input"
-    required
-    pattern="^[a-zA-Z0-9 ]{1,50}$"
-    maxLength="50"
-    title="Please enter a valid name"
-  />
-  {formData.name && !/^[a-zA-Z0-9 ]{1,50}$/.test(formData.name) && (
-    <div className="error-message">Please enter a valid name (only alphanumeric and spaces allowed).</div>
-  )}
+                            <form method="POST" onSubmit={handleSubmit} id="bannerForm">
+                                <input type="hidden" name="title" value={formData.title} />
+                                <input type="text" placeholder="Enter your name*" name="name" value={formData.name} onChange={handleChange} className="lpbanner-input" required />
+                                {/* <input type="tel" placeholder="Enter your phone number*" name="phone" value={formData.phone} onChange={handleChange} className="lpbanner-input" required /> */}
+                                <input 
+  type="tel" 
+  placeholder="Enter your phone number*" 
+  name="phone" 
+  value={formData.phone} 
+  onChange={handleChange} 
+  className="lpbanner-input" 
+  required 
+  pattern="^\+?\d{10,15}$" 
+  title="Phone number should be between 10 and 15 digits, with an optional '+' at the start."
+/>
 
-  <input
-    type="tel"
-    placeholder="Enter your phone number*"
-    name="phone"
-    value={formData.phone}
-    onChange={handleChange}
-    className="lpbanner-input"
-    required
-    pattern="^\+?\d{10,15}$"
-    title="Phone number should be between 10 and 15 digits, with an optional '+' at the start."
-  />
-  {formData.phone && !/^\+?\d{10,15}$/.test(formData.phone) && (
-    <div className="error-message">Please enter a valid phone number (between 10 and 15 digits, optional '+').</div>
-  )}
-
-  <input
-    type="email"
-    placeholder="Enter your email*"
-    name="email"
-    value={formData.email}
-    onChange={handleChange}
-    className="lpbanner-input"
-    required
-    title="Please enter a valid email address."
-  />
-  {formData.email && !/\S+@\S+\.\S+/.test(formData.email) && (
-    <div className="error-message">Please enter a valid email address.</div>
-  )}
-
-  <textarea
-    placeholder="Message*"
-    name="message"
-    className="lpbanner-input lpbanner-textarea"
-    value={formData.message}
-    onChange={handleChange}
-    required
-    maxLength="200"
-    title="Message should not exceed 200 characters."
-  ></textarea>
-  {formData.message && formData.message.length > 200 && (
-    <div className="error-message">Message should not exceed 200 characters.</div>
-  )}
-
-  <button
-    type="submit"
-    className="btn btn-dark lpbanner-submit-btn"
-    disabled={loading}
-  >
-    {loading ? (
-      <>
-        <span className="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
-        <span role="status">Submitting...</span>
-      </>
-    ) : (
-      'Submit'
-    )}
-  </button>
-</form>
-
-
+                                <input type="email" placeholder="Enter your email*" name="email" value={formData.email} onChange={handleChange} className="lpbanner-input" required />
+                                <textarea placeholder="Message*" name="message" className="lpbanner-input lpbanner-textarea" value={formData.message} onChange={handleChange} required ></textarea>
+                                <button type="submit" className="btn btn-dark lpbanner-submit-btn" disabled={loading}>
+                                    {loading ? (
+                                        <>
+                                            <span className="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
+                                            <span role="status">Submitting...</span>
+                                        </>
+                                    ) : 'Submit'}
+                                </button>
+                            </form>
                         </div>
                     </div>
 

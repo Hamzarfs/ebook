@@ -18,16 +18,23 @@
   }
   
   .lplogobanner .slick-slide img {
-    /* width: 150px;  
-    height: auto;   */
-    border-radius: 8px; /* Rounded corners for images */
+     width: 150px;  
+    border-radius: 8px;
   }
+
+
+  
   
   .lplogobanner .slick-track {
     display: flex;  /* Ensures slides are arranged horizontally in a row */
     justify-content: center;  /* Centers the slick track horizontally */
+    align-content: center !important;
+    align-items: center;
+    
   }
-  
+  .lplogobanner .slick-track{
+    align-items: center;
+  }
   .lplogobanner .row {
     display: flex;
     align-items: center;
@@ -47,5 +54,13 @@
       text-align: center;
     }
   }
-  
 
+
+  @media (min-width: 768px) and (max-width: 1022px) {
+    .lplogobanner .slick-slide img {
+      padding-top: 20px;
+      width: 150px;
+      border-radius: 8px;
+    }
+  }
+  

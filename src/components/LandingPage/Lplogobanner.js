@@ -4,14 +4,14 @@ import 'slick-carousel/slick/slick.css'; // Slick Carousel CSS
 import 'slick-carousel/slick/slick-theme.css'; // Optional Theme CSS
 import '../../Lplogobanner.css'; // Import custom CSS for this component
 
-import image1 from '../../images/lplogoamz.png';
-import image2 from '../../images/barnesnoble.png';
-import image3 from '../../images/kobo.png';
-import image4 from '../../images/lplogobam.png';
-import image5 from '../../images/smashwords.png';
-import image6 from '../../images/lplogodraft.png';
-import image7 from '../../images/googleimg.png';
-import image8 from '../../images/lplogolulu.png';
+import image1 from '../../images/lplogoamz.svg';
+import image2 from '../../images/barnesnoble.svg';
+import image3 from '../../images/kobo.svg';
+import image4 from '../../images/lplogobam.svg';
+import image5 from '../../images/smashwords.svg';
+import image6 from '../../images/draft2digital.svg';
+import image7 from '../../images/googleimg.svg';
+// import image8 from '../../images/lulu.svg';
 
 // Slick Carousel settings
 const settings = {
@@ -52,7 +52,7 @@ const Lplogobanner = () => {
     image5,
     image6,
     image7,
-    image8
+    // image8
   ];
 
   return (
@@ -69,7 +69,7 @@ const Lplogobanner = () => {
             <Slider {...settings}> {/* Slick Carousel with settings */}
               {images.map((img, index) => (
                 <div key={index}>
-                  <img src={img} alt={`slider-img-${index}`} className="img-fluid" />
+                  <img src={img} alt={`slider-img-${index}`} className="lplogoslider" />
                 </div>
               ))}
             </Slider>

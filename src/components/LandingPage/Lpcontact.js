@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../LandingPage.css';
-import supportIcon from '../../images/lpcontactsec1.png';  // Replace with the actual path to your icon
-import consultIcon from '../../images/lpcontactsec2.png';  // Replace with the actual path to your icon
-import chatIcon from '../../images/lpcontactsec3.png';     // Replace with the actual path to your icon
+import supportIcon from '../../images/lpcontactsec1.svg';  // Replace with the actual path to your icon
+import consultIcon from '../../images/lpcontactsec2.svg';  // Replace with the actual path to your icon
+import chatIcon from '../../images/lpcontactsec3.svg';     // Replace with the actual path to your icon
 
 const LpContactSec = () => {
     return (

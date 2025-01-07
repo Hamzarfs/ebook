@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "../../BookImageBox.css";
 import book1 from '../../images/memoirs.png'
-import book2 from '../../images/Fiction.png'
-import book3 from '../../images/Non-Fiction.png'
-import book4 from '../../images/romance.png'
-import book5 from '../../images/anthology.png'
-import book6 from '../../images/ChildrensBook.png'
+import book2 from '../../images/fiction.svg'
+import book3 from '../../images/nonfiction.svg'
+import book4 from '../../images/romance.svg'
+import book5 from '../../images/anthology.svg'
+import book6 from '../../images/childrens.svg'
 import PopupForm1 from "../common/PopupForm";
 
 const BookImageBox = () => {

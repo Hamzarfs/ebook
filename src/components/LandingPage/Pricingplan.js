@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../../lpPricingSection.css"; // Create a separate CSS file for this component
-import bestseller from '../../images/bestsellerbadge.png'
+import bestseller from '../../images/bestsellerbadge.svg'
 import PopupForm1 from '../common/PopupForm';
 
 const LPPricingSection = () => {
