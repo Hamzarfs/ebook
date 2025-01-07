@@ -98,20 +98,18 @@ const Lpbanner = () => {
     
 
         // Submit data to HubSpot
-        const hubspotData = {
-            fields: [
-                { name: 'email', value: formData.email },
-                { name: 'firstname', value: formData.name },
-                { name: 'phone', value: formData.phone },
-                { name: 'message', value: formData.message },
-                { name: 'brand', value:'AMZ Book Publishing' },
-            ],
-            context: {
+        const hubspotData = new URLSearchParams({
+            'email': formData.email,
+            'firstname': formData.name,
+            'phone': formData.phone,
+            'message': formData.message,
+            'brand': 'AMZ Book Publishing',
+            'hs_context': JSON.stringify({
                 pageUri: window.location.href,
                 pageName: document.title
-            }
-        };
-
+            })
+        }).toString();
+      
          
         
        
