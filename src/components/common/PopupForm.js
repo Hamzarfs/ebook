@@ -30,9 +30,9 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
             // phoneRegex = /^(\+44\s?|0)\d{3}\s?\d{3}\s?\d{3,8}$/
         let html = ''
         if (!emailRegex.test(formData.email))
-            html = "Invalid email address<br/>"
+            html = "Please enter a valid email address.<br/>"
         if (!phoneRegex.test(formData.phone))
-            html += "Invalid phone number.  Phone number must be between 10 & 15 digits."
+            html += "Please enter a valid phone number"
         if (html.length > 0)
             Swal.fire('Error', html, 'error')
         return phoneRegex.test(formData.phone) && emailRegex.test(formData.email)
@@ -43,13 +43,13 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
 
         // Name validation
         if (/*!isAlphabetic(formData.name) || */!isAlphanumeric(formData.name) || !fieldLengthValidator(formData.name, 50)) {
-            html = "Name must be alphabetic or alphanumeric & must not be greater than 50 characters.<br />"
+            html = "Not allowed more than 50 characters and it must be in alphabet <br />"
             isValid = false
         }
 
         // Message validation
-        if (!fieldLengthValidator(formData.message, 200)) {
-            html = "Message must not be greater than 200 characters.<br />"
+        if (!fieldLengthValidator(formData.message, 2000)) {
+            html = "Not allowed more than 2000 characters in message text field <br />"
             isValid = false
         }
 
@@ -146,7 +146,7 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
             <button className="close-button" onClick={closeModal}>
                 <FaTimes />
             </button> {/* <h2>Get a <span style={{ color: '#F76C39' }}>Quote</span></h2> */}
-            <form className="popupform1" onSubmit={handleSubmit}>
+            {/* <form className="popupform1" onSubmit={handleSubmit}>
                 <input name="title" value={formData.title} type="hidden" />
                 <h4>
                     {modalTitle || modalValue
@@ -216,7 +216,108 @@ const PopupForm1 = ({ isOpen, closeModal, modalTitle, modalValue }) => {
                         </>
                     ) : 'Submit Now'}
                 </button>
-            </form>
+            </form> */}
+
+<form className="popupform1" onSubmit={handleSubmit}>
+    <input name="title" value={formData.title} type="hidden" />
+    <h4>
+        {modalTitle || modalValue
+            ? `${modalTitle} - ${modalValue}`
+            : 'Get a Quote'}
+    </h4>
+
+    <div>
+        <label>Name <span className="text-danger fw-bold">*</span></label>
+        <div className="input-icon">
+            <FaUser className="icon" />
+            <input
+                type="text"
+                name="name"
+                placeholder="e.g. John Doe"
+                value={formData.name}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                required
+                pattern="^[a-zA-Z][a-zA-Z ]{0,49}$"
+                title="Please enter a valid name (only alphabets and max 50 characters)."
+            />
+        </div>
+        {formData.name && !/^[a-zA-Z][a-zA-Z ]{0,49}$/.test(formData.name) && (
+            <div className="error-message">
+                Not allowed more than 50 characters and it must be in alphabet.
+            </div>
+        )}
+    </div>
+
+    <div>
+        <label>Email <span className="text-danger fw-bold">*</span></label>
+        <div className="input-icon">
+            <FaEnvelope className="icon" />
+            <input
+                type="email"
+                name="email"
+                placeholder="e.g. john@example.com"
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                required
+                title="Please enter a valid email address."
+            />
+        </div>
+        {formData.email && !/\S+@\S+\.\S+/.test(formData.email) && (
+            <div className="error-message">Please enter a valid email address.</div>
+        )}
+    </div>
+
+    <div>
+        <label>Phone Number <span className="text-danger fw-bold">*</span></label>
+        <div className="input-icon">
+            <FaPhone className="icon" />
+            <input
+                type="tel"
+                name="phone"
+                placeholder="e.g. 1234567890"
+                value={formData.phone}
+                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                required
+                pattern="^\+?\d{10,15}$"
+                title="Phone number should be between 10 and 15 digits, with an optional '+' at the start."
+            />
+        </div>
+        {formData.phone && !/^\+?\d{10,15}$/.test(formData.phone) && (
+            <div className="error-message">
+                Please enter a valid phone number (between 10 and 15 digits, optional '+').
+            </div>
+        )}
+    </div>
+
+    <div>
+        <label>Message <span className="text-danger fw-bold">*</span></label>
+        <div className="input-icon">
+            <FaCommentAlt className="icon" />
+            <textarea
+                placeholder="Your message here"
+                value={formData.message}
+                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                required
+                maxLength="2002"
+                title="Not allowed more than 2000 characters in message text field"
+                style={{ resize: 'none' }}
+            />
+        </div>
+        {formData.message && formData.message.length > 2000 && (
+            <div className="error-message">Not allowed more than 2000 characters in message text field.</div>
+        )}
+    </div>
+
+    <button type="submit" disabled={loading}>
+        {loading ? (
+            <>
+                <span className="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
+                <span role="status">Submitting...</span>
+            </>
+        ) : 'Submit Now'}
+    </button>
+</form>
+
         </Modal>
     );
 };

@@ -8,8 +8,8 @@ import image1 from '../../images/lplogoamz.svg';
 import image2 from '../../images/barnesnoble.svg';
 import image3 from '../../images/kobo.svg';
 import image4 from '../../images/lplogobam.svg';
-import image5 from '../../images/smashwords.svg';
-import image6 from '../../images/draft2digital.svg';
+// import image5 from '../../images/smashwords.svg';
+// import image6 from '../../images/draft2digital.svg';
 import image7 from '../../images/googleimg.svg';
 // import image8 from '../../images/lulu.svg';
 
@@ -36,7 +36,7 @@ const settings = {
     {
       breakpoint: 768, // Mobile (screen width <= 768px)
       settings: {
-        slidesToShow: 2,  // Show 1 image on mobile
+        slidesToShow: 1,  // Show 1 image on mobile
         slidesToScroll: 1,
       }
     }
@@ -49,8 +49,8 @@ const Lplogobanner = () => {
     image2,
     image3,
     image4,
-    image5,
-    image6,
+    // image5,
+    // image6,
     image7,
     // image8
   ];
