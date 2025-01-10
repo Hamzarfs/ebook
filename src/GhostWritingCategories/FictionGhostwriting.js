@@ -12,7 +12,7 @@ import SecondSection from '../components/home/SecondSection';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
-import FictionImage1 from '../images/fictiongimg1.png';
+import FictionImage1 from '../images/fictionmain.png';
 import fictionwhychoose from '../images/fictionwhychoose.png';
 import ghostWritingImage from '../images/Ghost Writing.png';
 import designingImage from '../images/Designing.png';
@@ -129,12 +129,20 @@ const FictionGhostwriting = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>Affordable Fiction Ghostwriting Services by Ghostwriters</title>
-        <meta name="description" content="Need fiction ghostwriter? We offer professional fiction ghostwriting services on affordable price. Our experinced writers are well trained for all genres." />
-        <link rel="canonical" href="https://amzbookpublishing.net/fiction-ghostwriting" />
-        
-      </Helmet>
+<Helmet>
+	<title>Affordable Fiction Ghostwriting Services by Ghostwriters</title>
+	<meta name="description" content="Need a fiction ghostwriter? We offer professional fiction ghostwriting services at an affordable price. Our experienced writers are well-trained for all genres." />
+	<link rel="canonical" href="https://amzbookpublishing.net/affordable-fiction-ghostwriting-services " />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Affordable Fiction Ghostwriting Services by Ghostwriters" />
+	<meta property="og:description" content="Need a fiction ghostwriter? We offer professional fiction ghostwriting services at an affordable price. Our experienced writers are well-trained for all genres." />
+	<meta property="og:url" content="https://amzbookpublishing.net/affordable-fiction-ghostwriting-services" />
+	<meta property="og:site_name" content="AMZBookPublishing" />
+	<meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+	<meta property="article:modified_time" content="2024-08-20T07:36:14+00:00" />
+</Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
@@ -174,7 +182,7 @@ const FictionGhostwriting = () => {
     description={
         <>
            Writing a fiction book is all about transforming imaginative ideas into captivating stories, whether it is dragons, magic, or mythical creatures. But turning those creative sparks into a well-crafted novel isn’t always easy. While there are plenty of novel writing websites out there, finding the right fit can be a challenge. That is where our fiction ghostwriters for hire step in. <br /><br />
-           We bring your ideas to life in a way that’s fun, imaginative, and engaging, leaving readers spellbound and eager for more. AMZ Book Publishings also offers minimal charges, unlimited revisions, and timely delivery, all while paying close attention to the details that make your story shine!
+           We bring your ideas to life in a way that's fun, imaginative, and engaging, leaving readers spellbound and eager for more. AMZ Book Publishings also offers minimal charges, unlimited revisions, and timely delivery, all while paying close attention to the details that make your story shine!
 
         </>
     }
@@ -243,5 +251,3 @@ const FictionGhostwriting = () => {
   );
 };
 export default FictionGhostwriting;
-
-

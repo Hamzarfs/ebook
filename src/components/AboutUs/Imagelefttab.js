@@ -24,9 +24,9 @@ const ImageLeftTab = ({imageleft,imageHeight, imageWidth, objectfit}) => {
 
           {/* Right Column (Content) */}
           <div className="col-md-6">
-            <h1 className="imagelefttab-heading">
+            <h2 className="imagelefttab-heading">
               Professional <span>E-Book</span> Services
-            </h1>
+            </h2>
             <p className="imagelefttab-description">
               Discover how our innovative solutions can transform your story,
               reduce complexity, and promote high-quality writing.

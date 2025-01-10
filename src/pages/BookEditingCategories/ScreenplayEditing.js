@@ -125,10 +125,18 @@ const ScreenplayEditing = () => {
   return (
     <div>
       <Helmet>
-        <title>Screenplay Editing Services by Experienced Industry Professionals</title>
-        <meta name="description" content="Need Screenplay Editing Services? We offer professional Screenplay Editing services for self-published authors on affordable price. Hire expert for your book." />
-        <link rel="canonical" href="https://amzbookpublishing.net/screenplay-editing" />
-
+          <title>Screenplay Editing Services by Experienced Industry Editors</title>
+          <meta name="description" content="Need Script Editing Services? We offer professional Screenplay Editing services for self-published authors at an affordable price. Hire an expert for your book." />
+          <link rel="canonical" href="https://amzbookpublishing.net/professional-screenplay-editing-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Screenplay Editing Services by Experienced Industry Editors" />
+          <meta property="og:description" content="Need Script Editing Services? We offer professional Screenplay Editing services for self-published authors at an affordable price. Hire an expert for your book." />
+          <meta property="og:url" content="https://amzbookpublishing.net/professional-screenplay-editing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:44:31+00:00" />
       </Helmet>
 
       {/* -------------------Start Banner section---------------------- */}

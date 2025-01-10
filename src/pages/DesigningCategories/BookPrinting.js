@@ -125,12 +125,20 @@ const BookPrinting = () => {
 
   return (
     <div>
-      <Helmet>
+    <Helmet>
         <title>Quality Book Printing Services for Self-Published Authors</title>
-        <meta name="description" content="Need Book Printing services? We offer professional book printing services for authors on affordable price. Contact us to hire expert print on-deman services."/>
-        <link rel="canonical" href="https://amzbookpublishing.net/book-printing" />
-
-      </Helmet>
+        <meta name="description" content="Need Book Printing services? We offer Book Printing Services for Self-Publishers at an affordable price. Contact us to hire expert print on-demand services."/>
+        <link rel="canonical" href="https://amzbookpublishing.net/professional-book-printing-services " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Quality Book Printing Services for Self-Published Authors" />
+        <meta property="og:description" content="Need Book Printing services? We offer Book Printing Services for Self-Publishers at an affordable price. Contact us to hire expert print on-demand services." />
+        <meta property="og:url" content="https://amzbookpublishing.net/professional-book-printing-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:10:35+00:00" />
+    </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

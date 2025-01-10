@@ -130,9 +130,19 @@ const MysteryGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Mystery Ghostwriting Online Services by Mystery Book Writers</title>
-        <meta name="description" content="Need Mystery ghostwriter? We offer professional Mystery ghostwriting services on affordable price. Contact us to hire expert writers remotely for your project." />
-        <link rel="canonical" href="https://amzbookpublishing.net/mystery-ghostwriting" />
+
+      <title>Mystery Ghostwriting Online Services by Mystery Book Writers</title>
+      <meta name="description" content="Need a Mystery ghostwriter? We offer professional Mystery ghostwriting services at an affordable price. Contact us to hire writers remotely for your project." />
+      <link rel="canonical" href="https://amzbookpublishing.net/professional-mystery-ghostwriting-services " />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="Mystery Ghostwriting Online Services by Mystery Book Writers" />
+      <meta property="og:description" content="Need a Mystery ghostwriter? We offer professional Mystery ghostwriting services at an affordable price. Contact us to hire writers remotely for your project." />
+      <meta property="og:url" content="https://amzbookpublishing.net/professional-mystery-ghostwriting-services" />
+      <meta property="og:site_name" content="AMZBookPublishing" />
+      <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+      <meta property="article:modified_time" content="2024-08-23T07:08:16+00:00" />
 
       </Helmet>
       <Header />

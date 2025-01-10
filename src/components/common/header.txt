@@ -40,12 +40,12 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/ghost-writing" className="nav-link">
+                <Link to="/professional-ghostwriting-services" className="nav-link">
                   Ghostwriting
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/designing" className="nav-link">
+                <Link to="/book-designing-services" className="nav-link">
                   Designing
                 </Link>
               </li>

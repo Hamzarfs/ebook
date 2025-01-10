@@ -123,10 +123,18 @@ const BookPublishing = () => {
   return (
     <div>
       <Helmet>
-        <title>Comprehensive Book Publishing Services for Every Author</title>
-        <meta name="description" content="Need Book Publishing Services? We offer professional Book Publishing services for self-published authors on affordable price. Get a free quote now!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-publishing" />
-
+          <title>Comprehensive Book Publishing Services for Every Author</title>
+          <meta name="description" content="Need online book publishing services? We offer expert Amazon book publishing services for self-published authors at affordable prices. Get a free quote now!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/affordable-book-publishing-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Comprehensive Book Publishing Services for Every Author" />
+          <meta property="og:description" content="Need online book publishing services? We offer expert Amazon book publishing services for self-published authors at affordable prices. Get a free quote now!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/affordable-book-publishing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:25:52+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
@@ -154,8 +162,8 @@ Professional book publishing services will make your story come alive on paper. 
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Book  "
-    subHeading="Writing"
+    heading="Book   "
+    subHeading="Publishing"
     description={
         <>
 Being part of AMZ Book Publishings means that publishing becomes more than just producing a book. Its about talking to the world through your story in a way that resonates with your intended audience. Our custom publishing approach will bring your voice and vision to the top of every task we undertake. With this strategy, we are committed to ensuring you meet your potential in this competitive market as you utilise a platform that puts the focus on your unique voice and its intended audience.

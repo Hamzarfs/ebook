@@ -112,10 +112,10 @@ const ContactForm = () => {
             <div className="row">
                 <div className="col-md-5 left-column">
                     <button className="heading-button">Contact Us</button>
-                    <h2>
+                    <h5>
                     Open to Your  <br />
                     Queries <span className="highlight-text"> <br /></span>
-                    </h2>
+                    </h5>
                 </div>
 
                 <div className="col-md-7">

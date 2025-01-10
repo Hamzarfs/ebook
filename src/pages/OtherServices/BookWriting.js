@@ -126,9 +126,19 @@ const BookWriting = () => {
   return (
     <div>
      <Helmet>
-        <title>Professional Book Writing Services to Bring Your Ideas to Life</title>
-        <meta name="description" content="We offer professional book and ebook writing and publishing services to authors. Our book writing experts in company also offers valuable help and assistance." />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-writing" />
+        <title>USA Book Writing Services | Expert Book Writers</title>
+        <meta name="description" content="AMZ Book Publishing is here to assist you with professional book writing services at affordable prices. Sign up now to get our discount offer." />
+        <link rel="canonical" href="https://amzbookpublishing.net/professional-book-writing-services " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="USA Book Writing Services | Expert Book Writers" />
+        <meta property="og:description" content="AMZ Book Publishing is here to assist you with professional book writing services at affordable prices. Sign up now to get our discount offer." />
+        <meta property="og:url" content="https://amzbookpublishing.net/professional-book-writing-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:25:31+00:00" />
+
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}

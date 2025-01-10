@@ -69,11 +69,20 @@ const ContactUs = () => {
 
     return (
         <div>
-            <Helmet>
-                <title>Contact Us - AMZ Book Publishing</title>
-                <meta name="description" content="Contact AMZ Book Publishing for professional book publishing services. From editing to distribution, we help authors bring their stories to life. Reach out today!" />
-                <link rel="canonical" href="https://amzbookpublishing.net/contact-us" />
-            </Helmet>
+    <Helmet>
+        <title>Contact Us - AMZ Book Publishing</title>
+        <meta name="description" content="Contact AMZ Book Publishing for book publishing. From editing to distribution, we help authors bring their stories to life. Reach out today!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/contact-us" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Contact Us - AMZ Book Publishing" />
+        <meta property="og:description" content="Contact AMZ Book Publishing for book publishing. From editing to distribution, we help authors bring their stories to life. Reach out today!" />
+        <meta property="og:url" content="https://amzbookpublishing.net/contact-us" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:38:19+00:00" />
+    </Helmet>
             {/* -------------------Start Banner section---------------------- */}
             <Header />
 

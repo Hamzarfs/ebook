@@ -133,9 +133,19 @@ const ChildrensBook = () => {
   return (
     <div>
       <Helmet>
-        <title>Children Book Ghostwriting Services by Top Ghostwriters</title>
-        <meta name="description" content="Need Children book ghostwriter? We offer professional Children book ghostwriting services on affordable price. Meet well experienced book and ebook writers." />
-        <link rel="canonical" href="https://amzbookpublishing.net/childrens-book-ghostwriting" />
+    <title>Children's Book Ghostwriting Services by Top Ghostwriters</title>
+    <meta name="description" content="Need a Children's book ghostwriter? We offer professional children book writing services at an affordable price. Meet well-experienced book and ebook writers." />
+    <link rel="canonical" href="https://amzbookpublishing.net/childrens-book-ghostwriting-services " />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Children's Book Ghostwriting Services by Top Ghostwriters" />
+    <meta property="og:description" content="Need a Children's book ghostwriter? We offer professional children book writing services at an affordable price. Meet well-experienced book and ebook writers." />
+    <meta property="og:url" content="https://amzbookpublishing.net/childrens-book-ghostwriting-services" />
+    <meta property="og:site_name" content="AMZBookPublishing" />
+    <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+    <meta property="article:modified_time" content="2024-08-20T07:31:49+00:00" />
+
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}

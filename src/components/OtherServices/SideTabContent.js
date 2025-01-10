@@ -134,7 +134,7 @@ Our expert team helps you reach your target audience and really maximize the exp
           {services.map((service, index) => (
             <TabPanel key={index} selected={tabIndex === index}>
               <img src={service.image} alt={service.title} className="img-fluid service-image" />
-              <h2 className="service-title">{service.title}</h2>
+              <h3 className="service-title">{service.title}</h3>
               <p className="service-description">{service.content}</p>
             </TabPanel>
           ))}

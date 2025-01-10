@@ -131,10 +131,18 @@ const EbookWriting = () => {
   return (
     <div>
       <Helmet>
-        <title>Ebook Writing Services by Professional Ebook Ghostwriters</title>
-        <meta name="description" content="Need E-Book writer? We offer professional ebook ghostwriting services services on affordable price. Contact us to hire expert writers remotely for your project." />
-        <link rel="canonical" href="https://amzbookpublishing.net/ebook-writing" />
-
+          <title>Ebook Writing Services by Expert eBook Ghostwriters</title>
+          <meta name="description" content="Need an eBook ghostwriter? We offer professional ebook ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
+          <link rel="canonical" href="https://amzbookpublishing.net/professional-ebook-ghostwriting-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Ebook Writing Services by Expert eBook Ghostwriters" />
+          <meta property="og:description" content="Need an eBook ghostwriter? We offer professional ebook ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
+          <meta property="og:url" content="https://amzbookpublishing.net/professional-ebook-ghostwriting-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:03:51+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

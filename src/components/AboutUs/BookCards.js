@@ -9,8 +9,8 @@ export default function BookCards({ books }) {
     <section className="book-cards">
       {/* Top Row with Heading and Subtext */}
       <div className="book-cards-header container">
-        <h2>Where Stories Come to Life!</h2>
-        <h3 className="highlighted-text">Your Vision, Our Craft – Published Perfectly!</h3>
+    
+        <h3 className="highlighted-text"> <span>Where Stories Come to Life!</span> Your Vision, Our Craft – Published Perfectly!</h3>
         <p>
         Explore our portfolio gallery to witness exceptional book publishing projects. From captivating covers to flawlessly formatted interiors, discover how AMZ Book Publishing transforms ideas into professionally published works of art.
         </p>
@@ -44,7 +44,7 @@ export default function BookCards({ books }) {
               <div className="book-card">
                 <img src={book.image} alt={book.title} />
                 <div className="stars">{book.rating}</div>
-                <h3>{book.category}</h3>
+                <h4>{book.category}</h4>
               </div>
             </SwiperSlide>
           ))}

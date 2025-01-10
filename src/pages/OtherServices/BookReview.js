@@ -133,10 +133,18 @@ const BookReview = () => {
   return (
     <div>
       <Helmet>
-        <title>Book Review Services to Gain Credibility and Exposure</title>
-        <meta name="description" content="Need Book Review Services? We offer professional Book Review services to self-published authors on affordable price. Get a free quote now!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-review" />
-
+          <title>Book Review Services to Gain Credibility and Exposure </title>
+          <meta name="description" content="Need Book Review Services? We offer professional Book Review services to self-published authors at an affordable price. Get a free quote now!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/professional-book-review-services" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Book Review Services to Gain Credibility and Exposure" />
+          <meta property="og:description" content="Need Book Review Services? We offer professional Book Review services to self-published authors at an affordable price. Get a free quote now!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/professional-book-review-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:34:12+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

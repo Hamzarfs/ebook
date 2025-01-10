@@ -44,18 +44,18 @@ const OtherServicesSec = () => {
 
   // Services data with images
   const servicesPage1 = [
-    { number: "01", text: "Book Writing", link: "/other-services/book-writing", image: BookWritingImage },
-    { number: "02", text: "Book Publishing", link: "/other-services/book-publishing", image: BookPublishingImage },
-    { number: "03", text: "Book Marketing", link: "/other-services/book-marketing", image: BookMarketingImage },
-    { number: "04", text: "Video Book", link: "/other-services/video-book-trailers", image: VideoBookImage },
-    { number: "05", text: "Social Media Marketing", link: "/other-services/social-media-marketing", image: SocialMediaMarketingImage },
-    { number: "06", text: "SEO Services", link: "/other-services/seo-services", image: SEOServicesImage },
-    { number: "07", text: "Amazon Marketing", link: "/other-services/amazon-marketing", image: AmazonMarketingImage },
-    { number: "08", text: "Audio Book", link: "/other-services/audiobook", image: AudioBookImage },
+    { number: "01", text: "Book Writing", link: "/professional-book-writing-services", image: BookWritingImage },
+    { number: "02", text: "Book Publishing", link: "/affordable-book-publishing-services", image: BookPublishingImage },
+    { number: "03", text: "Book Marketing", link: "/book-marketing-services", image: BookMarketingImage },
+    { number: "04", text: "Video Book", link: "/book-trailer-services", image: VideoBookImage },
+    { number: "05", text: "Social Media Marketing", link: "/social-media-marketing-services-for-authors", image: SocialMediaMarketingImage },
+    { number: "06", text: "SEO Services", link: "/search-engine-optimization-services", image: SEOServicesImage },
+    { number: "07", text: "Amazon Marketing", link: "/amazon-book-marketing-services-for-authors", image: AmazonMarketingImage },
+    { number: "08", text: "Audio Book", link: "/audiobook-publishing-services", image: AudioBookImage },
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Book Reviews", link: "/other-services/book-review", image: BookReviewsImage },
+    { number: "09", text: "Book Reviews", link: "/professional-book-review-services", image: BookReviewsImage },
   ];
 
   return (

@@ -57,7 +57,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/ghostwriting"
+                  to="/professional-ghostwriting-services"
                   className="nav-link"
                   activeClassName="active-link"
                 >
@@ -66,7 +66,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/designing"
+                  to="/book-designing-services"
                   className="nav-link"
                   activeClassName="active-link"
                 >
@@ -75,7 +75,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/book-editing"
+                  to="/professional-book-editing-services"
                   className="nav-link"
                   activeClassName="active-link"
                 >

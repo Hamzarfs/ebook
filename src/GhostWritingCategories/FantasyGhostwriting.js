@@ -131,10 +131,19 @@ const FantasyGhostwriting = () => {
   return (
     <div>
      <Helmet>
-        <title>Fantasy Ghostwriting Services by Professional Fantasy Writers</title>
-        <meta name="description" content="Need Fantasy ghostwriter? We offer professional Fantasy ghostwriting services on affordable price. Contact us to hire fantasy writers remotely for your project." />
-        <link rel="canonical" href="https://amzbookpublishing.net/fantasy-ghostwriting" />
-        
+      
+      <title>Fantasy Ghostwriting Services by Professional Fantasy Writers</title>
+      <meta name="description" content="Need a Fantasy ghostwriter? We offer Fantasy ghostwriting services at an affordable price. Contact us to hire fantasy writers remotely for your project." />
+      <link rel="canonical" href="https://amzbookpublishing.net/fantasy-ghostwriting-services  " />
+      <meta name="robots" content="index, follow" /><meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="Fantasy Ghostwriting Services by Professional Fantasy Writers" />
+      <meta property="og:description" content="Need a Fantasy ghostwriter? We offer Fantasy ghostwriting services at an affordable price. Contact us to hire fantasy writers remotely for your project." />
+      <meta property="og:url" content="https://amzbookpublishing.net/fantasy-ghostwriting-services" />
+      <meta property="og:site_name" content="AMZBookPublishing" />
+      <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+      <meta property="article:modified_time" content="2024-08-20T07:41:23+00:00" />
+
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}

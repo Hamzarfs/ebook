@@ -126,12 +126,20 @@ const BookIllustrations = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
-      <Helmet>
-        <title>Stunning Book Illustration Services by Talented Artists</title>
-        <meta name="description" content="Need Book Illustration services? We offer professional book illustration services in the USA on affordable price. Contact us to hire expert illustrators." />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-illustrations" />
-
-      </Helmet>
+    <Helmet>
+          <title>Custom Book Illustration Services by Talented Artists</title>
+          <meta name="description" content="Need Book Illustration services? We offer professional book illustration services in the USA at an affordable price. Contact us to hire book illustrators." />
+          <link rel="canonical" href="https://amzbookpublishing.net/book-illustrations-services "/>
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Custom Book Illustration Services by Talented Artists" />
+          <meta property="og:description" content="Need Book Illustration services? We offer professional book illustration services in the USA at an affordable price. Contact us to hire book illustrators." />
+          <meta property="og:url" content="https://amzbookpublishing.net/book-illustrations-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:09:32+00:00" />
+    </Helmet>
       <Header />
       <BreadCrumb
         title="Book Illustrations"

@@ -126,10 +126,18 @@ const BookInteriorFormatting= () => {
   return (
     <div>
       <Helmet>
-        <title>Professional Book Formatting and Interior Formatting Services</title>
-        <meta name="description" content="Need Book Formatting services? We offer professional book interior formatting services for self-published authors on affordable price. Contact us to hire experts." />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-interior-formatting" />
-
+          <title>Professional Book Formatting and Interior Formatting Services</title>
+          <meta name="description" content="Need Book Formatting services? We offer Professional Book Formatting & Interior Design Services at an affordable price. Contact us to hire experts." />
+          <link rel="canonical" href="https://amzbookpublishing.net/interior-book-formatting-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Professional Book Formatting and Interior Formatting Services" />
+          <meta property="og:description" content="Need Book Formatting services? We offer Professional Book Formatting & Interior Design Services at an affordable price. Contact us to hire experts." />
+          <meta property="og:url" content="https://amzbookpublishing.net/interior-book-formatting-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:26:32+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

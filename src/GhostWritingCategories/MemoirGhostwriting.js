@@ -38,7 +38,7 @@ const services = [
   {
     title: "Family Memoirs",
     image: designingImage,
-    description: "Share your family’s rich history by collaborating with AMZ Book Publishings and together, we will weave cherished stories from multiple generations to preserve your legacy for years to come.",
+    description: "Share your family's rich history by collaborating with AMZ Book Publishings and together, we will weave cherished stories from multiple generations to preserve your legacy for years to come.",
     
   },
   {
@@ -138,9 +138,17 @@ const FictionGhostwriting = () => {
     <div>
      <Helmet>
         <title>Memoir Ghostwriting Services by Experienced Memoir Writers</title>
-        <meta name="description" content="Need Memoir ghostwriter? We offer professional Memoir ghostwriting services on affordable price. Meet well experienced biography book and ebook writers." />
-        <link rel="canonical" href="https://amzbookpublishing.net/memoir-ghostwriting" />
-
+        <meta name="description" content="Need a memoir ghostwriter? We offer professional memoir ghostwriting services at an affordable price. Meet well-experienced book and ebook writers." />
+        <link rel="canonical" href="https://amzbookpublishing.net/memoir-ghostwriting-services " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Memoir Ghostwriting Services by Experienced Memoir Writers" />
+        <meta property="og:description" content="Need a memoir ghostwriter? We offer professional memoir ghostwriting services at an affordable price. Meet well-experienced book and ebook writers." />
+        <meta property="og:url" content="https://amzbookpublishing.net/memoir-ghostwriting-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-20T07:33:16+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

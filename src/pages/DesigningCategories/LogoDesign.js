@@ -128,10 +128,18 @@ const LogoDesign = () => {
   return (
     <div>
       <Helmet>
-        <title>Custom Logo Design Services From Top Logo Designers</title>
-        <meta name="description" content="Need a logo designer? We offer professional custom logo design services for book writer's website. Hire expert logo designers for portfolio website." />
-        <link rel="canonical" href="https://amzbookpublishing.net/logo-design" />
-
+          <title>Bespoke Logo Designs | AMZ Book Publishing</title>
+          <meta name="description" content="We create bespoke logo designs for writers. Get our company logo design services for showcasing your books, book sales, reader's email list, and attention." />
+          <link rel="canonical" href="https://amzbookpublishing.net/bespoke-logo-design " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Bespoke Logo Designs | AMZ Book Publishing" />
+          <meta property="og:description" content="We create bespoke logo designs for writers. Get our company logo design services for showcasing your books, book sales, reader's email list, and attention." />
+          <meta property="og:url" content="https://amzbookpublishing.net/bespoke-logo-design" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:20:34+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

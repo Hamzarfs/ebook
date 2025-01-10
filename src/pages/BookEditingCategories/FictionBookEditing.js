@@ -130,9 +130,18 @@ const FictionBookEditing = () => {
   return (
     <div>
       <Helmet>
-        <title>Fiction Book Editing Services for Aspiring Novelists</title>
-        <meta name="description" content="Need Fiction Book Editing Services? We offer professional Fiction Book Editing services for self-published authors on affordable price. Get a free quote now!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/fiction-book-editing" />
+          <title>Fiction Book Editing Services for Aspiring Novelists</title>
+          <meta name="description" content="Need Fiction Book Editing Services? We offer professional Fiction Book Editing services for self-published authors at an affordable price. Get a free quote now!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/fiction-book-editing-services" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Fiction Book Editing Services for Aspiring Novelists" />
+          <meta property="og:description" content="Need Fiction Book Editing Services? We offer professional Fiction Book Editing services for self-published authors at an affordable price. Get a free quote now!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/fiction-book-editing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:03:49+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

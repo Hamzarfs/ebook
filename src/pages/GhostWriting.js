@@ -87,12 +87,22 @@ const GhostWriting = () => {
 
   return (
     <>
-     <Helmet>
-        <title>Affordable Book Ghostwriting Services by Expert Ghostwriters</title>
-        <meta name="description" content="Need a ghostwriter for your book? Get professional ghostwriting services on affordable price. We are the best book ghostwriting agency in USA for best-selling author." />
-        <link rel="canonical" href="https://amzbookpublishing.net/ghostwriting" />
-
-      </Helmet>
+   <Helmet>
+<title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
+<meta
+name="description"
+content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in the US and worldwide. Get your dream book published today!"/>
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://amzbookpublishing.net/professional-ghostwriting-services " />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Affordable Ghostwriting Services | AMZ Book Publishing" />
+<meta property="og:description" content="Need a ghostwriter? Get professional ghostwriting services. Trusted by best-selling authors, USA's top premier ghostwriting agency." />
+<meta property="og:url" content="https://amzbookpublishing.net/professional-ghostwriting-services" />
+<meta property="og:site_name" content="AMZBookPublishing" />
+<meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+<meta property="article:modified_time" content="2024-08-22T06:49:19+00:00" />
+</Helmet>
     
     <div>
       {/* -------------------Start Banner section---------------------- */}

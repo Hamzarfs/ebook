@@ -22,7 +22,7 @@ const OtherServicesSec = () => {
 
   // Services data with links for both pages
   const servicesPage1 = [
-    { number: "01", text: "Book Writing ", link: "/other-services/book-writing" },
+    { number: "01", text: "Book Writing ", link: "/professional-book-writing-services" },
     { number: "02", text: "Book Publishing ", link: "/other-services/book-publishing" },
     { number: "03", text: "Book Marketing", link: "/other-services/book-marketing" },
     { number: "04", text: "Video Book", link: "/other-services/video-book-trailers" },

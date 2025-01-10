@@ -131,12 +131,21 @@ const FictionGhostwriting = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>Science Fiction Ghostwriting Services by Top Ghostwriters</title>
-        <meta name="description" content="Need science fiction ghostwriter? We offer professional science fiction ghostwriting services on affordable price. Meet well experienced book and ebook writers." />
-        <link rel="canonical" href="https://amzbookpublishing.net/fiction-ghostwriting" />
+<Helmet>
+    <title>Science Fiction Ghostwriting Services | AMZ Book Publishing</title>
+    <meta name="description" content="Need a science fiction ghostwriter? We offer Science Fiction Writing Services Online at an affordable price. Meet well-experienced book and ebook writers." />
+    <link rel="canonical" href="https://amzbookpublishing.net/science-fiction-ghostwriting-services " />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Science Fiction Ghostwriting Services | AMZ Book Publishing" />
+    <meta property="og:description" content="Need a science fiction ghostwriter? We offer Science Fiction Writing Services Online at an affordable price. Meet well-experienced book and ebook writers." />
+    <meta property="og:url" content="https://amzbookpublishing.net/science-fiction-ghostwriting-services" />
+    <meta property="og:site_name" content="AMZBookPublishing" />
+    <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+    <meta property="article:modified_time" content="2024-08-20T07:34:29+00:00" />
 
-      </Helmet>
+</Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

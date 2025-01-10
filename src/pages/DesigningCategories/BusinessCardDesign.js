@@ -128,9 +128,19 @@ const BusinessCardDesign = () => {
   return (
     <div>
      <Helmet>
-        <title>Professional Business Card Design Services</title>
-        <meta name="description" content="Need Business Card Design Services? We offer professional Business Card design services for self-published authors on affordable price. Hire expert designers." />
-        <link rel="canonical" href="https://amzbookpublishing.net/business-card-design" />
+          <title>Professional Business Card Design Services</title>
+          <meta name="description" content="Need Business Card Design Services? We offer business cards for your business for self-published authors at affordable prices. Hire expert designers.
+          " />
+          <link rel="canonical" href="https://amzbookpublishing.net/business-card-design-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Professional Business Card Design Services" />
+          <meta property="og:description" content="Need Business Card Design Services? We offer business cards for your business for self-published authors at affordable prices. Hire expert designers." />
+          <meta property="og:url" content="https://amzbookpublishing.net/business-card-design-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:10:21+00:00" />
 
       </Helmet>
 

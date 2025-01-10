@@ -126,10 +126,18 @@ const PoetryEditing = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Professional Poetry Editing Services to Enhance Your Verses</title>
-        <meta name="description" content="Need Poetry Editing Services? We offer professional Poetry Editing services for self-published poets on affordable price. Hire expert editors for your book." />
-        <link rel="canonical" href="https://amzbookpublishing.net/poetry-editing" />
-
+          <title>Professional Poetry Editing Services to Enhance Your Verses</title>
+          <meta name="description" content="Need Poetry Editing Services? We offer affordable poetry editing services for self-published poets at an affordable price. Hire expert editors for your book." />
+          <link rel="canonical" href="https://amzbookpublishing.net/affordable-poetry-editing-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Professional Poetry Editing Services to Enhance Your Verses" />
+          <meta property="og:description" content="Need Poetry Editing Services? We offer affordable poetry editing services for self-published poets at an affordable price. Hire expert editors for your book." />
+          <meta property="og:url" content="https://amzbookpublishing.net/affordable-poetry-editing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:38:30+00:00" />
       </Helmet>
       <Header />
       <BreadCrumb

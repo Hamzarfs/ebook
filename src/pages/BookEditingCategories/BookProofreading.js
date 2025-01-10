@@ -129,9 +129,17 @@ const BookProofreading = () => {
     <div>
       <Helmet>
         <title>Thorough Book Proofreading Services for Error-Free Texts</title>
-        <meta name="description" content="Need Book Proofreading Services? We offer professional Book Proofreading services for self-published authors on affordable price. Get a free quote now!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/bookproof-reading" />
-
+        <meta name="description" content="Need a Book Proofreader? We offer professional book proofreading services for self-published authors at an affordable price. Get a free quote now!" />
+        <link rel="canonical" href="https://amzbookpublishing.net/book-proofreading-services " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Thorough Book Proofreading Services for Error-Free Texts" />
+        <meta property="og:description" content="Need a Book Proofreader? We offer professional book proofreading services for self-published authors at an affordable price. Get a free quote now!" />
+        <meta property="og:url" content="https://amzbookpublishing.net/book-proofreading-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:48:31+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

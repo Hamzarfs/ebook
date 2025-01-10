@@ -129,10 +129,18 @@ const NovelEditing = () => {
   return (
     <div>
       <Helmet>
-        <title>Expert Novel Editing Services for Perfecting Your Story</title>
-        <meta name="description" content="Need Novel Editing Services? We offer professional Novel Editing services for self-published authors on affordable price. Hire expert editors for your Novel." />
-        <link rel="canonical" href="https://amzbookpublishing.net/novel-editing" />
-
+            <title>Expert Novel Editing Services for Perfecting Your Story</title>
+            <meta name="description" content="Need Novel Editing Services? We offer professional Novel Editing services for self-published authors at an affordable price. Hire expert editors for your Novel." />
+            <link rel="canonical" href="https://amzbookpublishing.net/professional-novel-editing-services " />
+            <meta name="robots" content="index, follow" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="Expert Novel Editing Services for Perfecting Your Story" />
+            <meta property="og:description" content="Need Novel Editing Services? We offer professional Novel Editing services for self-published authors at an affordable price. Hire expert editors for your Novel." />
+            <meta property="og:url" content="https://amzbookpublishing.net/professional-novel-editing-services" />
+            <meta property="og:site_name" content="AMZBookPublishing" />
+            <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+            <meta property="article:modified_time" content="2024-08-23T07:36:16+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

@@ -129,10 +129,18 @@ const Audiobook = () => {
   return (
     <div>
      <Helmet>
-        <title>Professional Audio Book Production Services for Your Written Work</title>
-        <meta name="description" content="Need Audiobook Publishing Services? We offer professional amazon audio book publishing services to self-published authors on affordable price. Get a free quote!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/audiobook" />
-
+          <title>AudioBook Production Services Online for Your Written Work</title>
+          <meta name="description" content="Need Audio Book Publisher? We offer professional amazon audiobook publishing services to self-published authors at an affordable price. Get a free quote!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/audiobook-publishing-services" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="AudioBook Production Services Online for Your Written Work" />
+          <meta property="og:description" content="Need Audio Book Publisher? We offer professional amazon audiobook publishing services to self-published authors at an affordable price. Get a free quote!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/audiobook-publishing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:31:19+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

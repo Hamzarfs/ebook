@@ -125,10 +125,18 @@ const NonFictionBookEditing = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Expert Non-Fiction Book Editing for Accuracy and Clarity</title>
-        <meta name="description" content="Need Non-Fiction Book Editing Services? We offer professional Non-Fiction Book Editing services for self-published authors on affordable price. Get a free quote now!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/non-fiction-book-editing" />
-
+          <title>Expert Non-Fiction Book Editing for Accuracy and Clarity</title>
+          <meta name="description" content="Need a Non-Fiction Book Editor? We offer professional non-fiction book editing services for self-published authors at an affordable price. Get a free quote now!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/non-fiction-book-editing-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Expert Non-Fiction Book Editing for Accuracy and Clarity" />
+          <meta property="og:description" content="Need a Non-Fiction Book Editor? We offer professional non-fiction book editing services for self-published authors at an affordable price. Get a free quote now!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/non-fiction-book-editing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:20:32+00:00" />
       </Helmet>
       <Header />
       <BreadCrumb

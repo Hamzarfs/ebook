@@ -96,11 +96,20 @@ const BookEditing = () => {
   return (
     <div>
       {/* -------------------Start Banner section---------------------- */}
-      <Helmet>
-        <title>Book Editing Services for Authors by Professional Editors</title>
-        <meta name="description" content="Need book editing services? We offer professional book editing services for writers. Contact our experienced book editors for your manuscript editing today." />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-editing" />
-      </Helmet>
+<Helmet>
+  <title>Affordable Book Editing Services | AMZ Book Publishing</title>
+  <meta name="description" content="Need book editing services? We offer book editing and formatting services for writers. Contact our expert book editors for your manuscript editing today." />
+  <link rel="canonical" href="https://amzbookpublishing.net/professional-book-editing-services " />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Affordable Book Editing Services | AMZ Book Publishing" />
+  <meta property="og:description" content="Need book editing services? We offer book editing and formatting services for writers. Contact our expert book editors for your manuscript editing today." />
+  <meta property="og:url" content="https://amzbookpublishing.net/professional-book-editing-services" />
+  <meta property="og:site_name" content="AMZBookPublishing" />
+  <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+  <meta property="article:modified_time" content="2024-08-20T07:00:00+00:00" />
+</Helmet>
       <Header />
       <BreadCrumb
         title="Book Editing Services"

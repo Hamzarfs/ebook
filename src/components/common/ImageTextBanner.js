@@ -21,7 +21,7 @@ const ImageTextBanner = ({ title, subtitle, description, contentItems, }) => {
                 {contentItems.map((content, index) => (
                     <div className={`row align-items-center ${content.flexDirection === "reverse" ? "flex-row-reverse" : ""}`} key={index}>
                         <div className="col-md-6">
-                            <h2>{content.heading}</h2>
+                            <h3>{content.heading}</h3>
                             <p>{content.paragraph}</p>
                         </div>
                         <div className="col-md-6">

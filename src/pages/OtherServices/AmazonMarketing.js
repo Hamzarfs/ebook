@@ -128,10 +128,18 @@ const AmazonMarketing = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Expert Amazon Marketing Services for Increased Visibility</title>
-        <meta name="description" content="Need Amazon Marketing? We offer professional Amazon Marketing Services for book promotion and sale to self-published authors on affordable price. Get a free quote now!" />
-        <link rel="canonical" href="https://amzbookpublishing.net/amazon-marketing" />
-
+          <title>Expert Amazon Marketing Services for Increased Visibility</title>
+          <meta name="description" content="Need Amazon Book Marketing? We offer Amazon marketing services for book promotion to self-published authors at an affordable price. Get a free quote now!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/amazon-book-marketing-services-for-authors" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Expert Amazon Marketing Services for Increased Visibility" />
+          <meta property="og:description" content="Need Amazon Book Marketing? We offer Amazon marketing services for book promotion to self-published authors at an affordable price. Get a free quote now!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/amazon-book-marketing-services-for-authors" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:31:43+00:00" />
       </Helmet>
       <Header />
       <BreadCrumb

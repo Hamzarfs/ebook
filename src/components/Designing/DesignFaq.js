@@ -11,7 +11,7 @@ const FAQSection = ({ faqData }) => {
         <div className="container faq-ebook-section py-5">
             <div className="row">
                 <div className="col-12 text-center">
-                    <h2>Frequently Asked Questions</h2>
+                    <h4>Frequently Asked Questions</h4>
                 </div>
             </div>
             <div className="row mt-4">
@@ -19,7 +19,7 @@ const FAQSection = ({ faqData }) => {
                     <div className="accordion" id="faqAccordion">
                         {faqData.map((faq, index) => (
                             <div className="accordion-item" key={index}>
-                                <h2 className="accordion-header" id={`heading${index}`}>
+                                <p className="accordion-header" id={`heading${index}`}>
                                     <button
                                         className={`accordion-button ${openIndex === index ? '' : 'collapsed'}`}
                                         type="button"
@@ -29,7 +29,7 @@ const FAQSection = ({ faqData }) => {
                                     >
                                         {faq.question}
                                     </button>
-                                </h2>
+                                </p>
                                 <div
                                     id={`collapse${index}`}
                                     className={`accordion-collapse ${openIndex === index ? 'show' : 'collapse'}`}

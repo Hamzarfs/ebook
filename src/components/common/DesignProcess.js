@@ -23,7 +23,7 @@ const DesignProcess = ({
           <div className="col-lg-3 col-md-6 mb-4" key={index}>
             <div className="design-process-icon-box">
               <img src={step.image} alt={step.alt} className="img-fluid mb-3 design-process-icon" />
-              <h5 className="design-process-icon-title font-weight-bold">{step.title}</h5>
+              <h3 className="design-process-icon-title font-weight-bold">{step.title}</h3>
               <p className="design-process-icon-text">{step.description}</p>
             </div>
           </div>

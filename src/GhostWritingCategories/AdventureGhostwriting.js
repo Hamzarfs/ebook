@@ -131,10 +131,18 @@ const AdventureGhostwriting = () => {
   return (
     <div>
       <Helmet>
-        <title>Adventure Ghostwriting Services by Professional Book Writers</title>
-        <meta name="description" content="Need Adventure book ghostwriter? We offer professional Adventure ghostwriting services on affordable price. Meet our talented writers who can work on your story." />
-        <link rel="canonical" href="https://amzbookpublishing.net/adventure-ghostwriting" />
-
+    <title>Adventure Ghostwriting Services by Adventure Ghostwriter</title>
+    <meta name="description" content="Need an adventure book ghostwriter? We offer action-adventure writing services at an affordable price. Meet our talented writers who can work on your story." />
+    <link rel="canonical" href="https://amzbookpublishing.net/adventure-ghostwriting-services " />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Adventure Ghostwriting Services by Adventure Ghostwriter" />
+    <meta property="og:description" content="Need an adventure book ghostwriter? We offer action-adventure writing services at an affordable price. Meet our talented writers who can work on your story." />
+    <meta property="og:url" content="https://amzbookpublishing.net/adventure-ghostwriting-services" />
+    <meta property="og:site_name" content="AMZBookPublishing" />
+    <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+    <meta property="article:modified_time" content="2024-08-20T07:37:16+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

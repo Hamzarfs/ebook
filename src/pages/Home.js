@@ -43,11 +43,34 @@ const services = [
 const Home = () => {
     return (
       <>
-       <Helmet>
-        <title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
-        <meta name="description" content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in US and worldwide. Get your dream book published today!" />
-        <link rel="canonical" href="https://amzbookpublishing.net" />
-      </Helmet>
+   <Helmet>
+{/* Primary Title and Meta Description */}
+<title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
+<meta
+name="description"
+content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in the US and worldwide. Get your dream book published today!"/>
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://amzbookpublishing.net" />
+{/* Open Graph / Facebook Metadata */}
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta
+property="og:title"
+content="AMZ Book Publishing: Best Amazon Book Publishing Services"/>
+<meta
+property="og:description"
+content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in the US and worldwide. Get your dream book published today!"/>
+<meta property="og:url" content="https://amzbookpublishing.net/" />
+<meta property="og:site_name" content="AMZ Book Publishing" />
+{/* Facebook Specific Metadata */}
+<meta
+property="article:publisher"
+content="https://www.facebook.com/AmzBookPublishingUS"/>
+<meta
+property="article:modified_time"
+content="2024-08-22T12:09:56+00:00"
+/>
+</Helmet>
  
       
       <div>

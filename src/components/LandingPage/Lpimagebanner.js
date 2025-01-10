@@ -31,7 +31,7 @@ const Lpimagebanner = ({ heading, subHeading, description, imageSrc, imageHeight
                     <div className={`col-12 col-md-6 text-center align-content-center ${reverseOrder ? 'order-md-1' : ''}`} >
                         <img
                             src={imageSrc}
-                            alt="Ghostwriting"
+                            alt="professional ghostwriting services"
                             className="img-fluid img-animate"
                             style={{
                                 objectFit: objectfit,

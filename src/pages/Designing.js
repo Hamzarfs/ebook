@@ -137,10 +137,21 @@ const PageHeading = () => {
   return (
     
     <div>
+
        <Helmet>
-        <title>Book Designing Services for Authors by Top Book Designers</title>
-        <meta name="description" content="Need book designing services? We are expert in ebook and book cover design and book layout design. Our professional designers cover every style and genre."/>
-        <link rel="canonical" href="https://amzbookpublishing.net/designing" />
+<title>Book Designing Services for Authors by Top Book Designers</title>
+<meta name="description" content="Need book designing services? We are experts in ebook and book layout design. Our professional designers cover every style and genre."/>
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://amzbookpublishing.net/book-designing-services " />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Book Designing Services for Authors by Top Book Designers" />
+<meta property="og:description" content="Need book designing services? We are experts in ebook and book layout design. Our professional designers cover every style and genre." />
+<meta property="og:url" content="https://amzbookpublishing.net/book-designing-services" />
+<meta property="og:site_name" content="AMZBookPublishing" />
+<meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+<meta property="article:modified_time" content="2024-08-23T06:56:32+00:00" />
+
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
@@ -149,7 +160,7 @@ const PageHeading = () => {
         title="Book Designing Services"
         desc={
           <>
-            Catch every reader’s eye with custom interior design and professional
+            Catch every reader's eye with custom interior design and professional
         <br />
         typesetting that makes reading a truly enjoyable experience!
           </>

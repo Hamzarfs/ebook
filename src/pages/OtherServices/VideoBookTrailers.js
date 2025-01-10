@@ -128,9 +128,19 @@ const VideoBookTrailers = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Engaging Video Book Trailer Services to Promote Your Book</title>
-        <meta name="description" content="Need Video Book Trailers Services? We offer professional and engaging Video Book Trailers creatives for self-published authors on affordable price." />
-        <link rel="canonical" href="https://amzbookpublishing.net/video-book-trailers" />
+          <title>Book Teaser and Trailer Services | AMZ Book Publishing</title>
+          <meta name="description" content="Need Video Book Trailers Services? We offer professional book teaser and trailer services for self-published authors at an affordable price. Get a quote now!" />
+          <link rel="canonical" href="https://amzbookpublishing.net/book-trailer-services" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Book Teaser and Trailer Services | AMZ Book Publishing" />
+          <meta property="og:description" content="Need Video Book Trailers Services? We offer professional book teaser and trailer services for self-published authors at an affordable price. Get a quote now!" />
+          <meta property="og:url" content="https://amzbookpublishing.net/book-trailer-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:27:30+00:00" />
+
 
       </Helmet>
       <Header />
@@ -157,8 +167,8 @@ Capture the imagination of your readers and captivate their mind with our Video 
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Book "
-    subHeading="Marketing"
+    heading="Video "
+    subHeading="Book Trailers "
     description={
         <>
 Do you have the fear of your book getting drowned in the crowd and, hence, finding it difficult to gain prominence over millions of other books? Or, do you want to grasp more eyeballs for your book and give that added oomph it needs? At AMZ Book Publishings, we realize that tapping into today's trends can make all the difference in creating a video book trailer that stands out. That is why we are here to help you shine with a visually stunning and trendy book trailer.

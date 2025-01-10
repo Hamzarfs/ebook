@@ -126,9 +126,18 @@ const BookMarketing = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Effective Book Marketing Strategies to Boost Your Sales</title>
-        <meta name="description" content="Need Book Marketing Services? We offer professional Book Marketing services for self-published authors on affordable price. Hire expert digital marketer for your book." />
-        <link rel="canonical" href="https://amzbookpublishing.net/book-marketing" />
+          <title>Effective Book Marketing Services to Boost Your Sales</title>
+          <meta name="description" content=": Need book marketing services? We offer professional book marketing services for authors at an affordable price. Hire an expert marketer for your book." />
+          <link rel="canonical" href="https://amzbookpublishing.net/book-marketing-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Effective Book Marketing Services to Boost Your Sales" />
+          <meta property="og:description" content="Need book marketing services? We offer professional book marketing services for authors at an affordable price. Hire an expert marketer for your book." />
+          <meta property="og:url" content="https://amzbookpublishing.net/book-marketing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:27:12+00:00" />
 
       </Helmet>
       <Header />

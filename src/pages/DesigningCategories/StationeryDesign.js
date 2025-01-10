@@ -129,10 +129,18 @@ const StationeryDesign = () => {
   return (
     <div>
       <Helmet>
-        <title>Creative Stationery Design Services for Authors</title>
-        <meta name="description" content="Get our stationery design services on affordable price. Contact us for authors stationery designs including letterheads, envelopes and business card designs." />
-        <link rel="canonical" href="https://amzbookpublishing.net/stationery-design" />
-
+          <title>Creative Stationery Design Services for Authors</title>
+          <meta name="description" content="Get our stationery design services at an affordable price. Contact us for authors' stationery designs including letterheads, envelopes, & business card designs." />
+          <link rel="canonical" href="https://amzbookpublishing.net/stationery-design-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Creative Stationery Design Services for Authors" />
+          <meta property="og:description" content="Get our stationery design services at an affordable price. Contact us for authors' stationery designs including letterheads, envelopes, & business card designs." />
+          <meta property="og:url" content="https://amzbookpublishing.net/stationery-design-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:24:57+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

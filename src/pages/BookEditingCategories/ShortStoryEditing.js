@@ -127,10 +127,18 @@ const ShortStoryEditing = () => {
   return (
     <div>
       <Helmet>
-        <title>Short Story Editing Services to Refine Your Narrative</title>
-        <meta name="description" content="Need Short Story Editing Services? We offer professional Short Story Editing services for self-published authors on affordable price. Hire expert for your book." />
-        <link rel="canonical" href="https://amzbookpublishing.net/shorts-story-editing" />
-
+          <title>Short Story Editing Services to Refine Your Narrative</title>
+          <meta name="description" content="Need a Short Story Editor? We offer professional Short Story Editing services for self-published authors at an affordable price. Hire an expert for your book." />
+          <link rel="canonical" href="https://amzbookpublishing.net/short-story-editing-services " />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Short Story Editing Services to Refine Your Narrative" />
+          <meta property="og:description" content="Need a Short Story Editor? We offer professional Short Story Editing services for self-published authors at an affordable price. Hire an expert for your book." />
+          <meta property="og:url" content="https://amzbookpublishing.net/short-story-editing-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:44:16+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

@@ -21,9 +21,9 @@ const Footer = () => {
           <div className="col-md-2 mb-4">
             <h5 className="highlight-orange-text">Featured Services</h5>
             <ul className="list-unstyled">
-              <li><a href="/ghostwriting" className="text-light">GhostWriting</a></li>
-              <li><a href="/designing" className="text-light">Designing</a></li>
-              <li><a href="/book-editing" className="text-light">Book Editing</a></li>
+              <li><a href="/professional-ghostwriting-services" className="text-light">GhostWriting</a></li>
+              <li><a href="/book-designing-services" className="text-light">Designing</a></li>
+              <li><a href="/professional-book-editing-services" className="text-light">Book Editing</a></li>
               <li><a href="/other-services" className="text-light">Other Services</a></li>
             </ul>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
 
             {/* Contact Us Section */}
             <div className="contact-details" >
-              <h5 className="text-light">Contact Us</h5>
+              <p className="text-light p-cont">Contact Us</p>
               <p className="mb-1 text-light">
                 <FaPhoneAlt /> 
                 <a href="tel:+17327979165" className="text-light text-decoration-none"> (732) 797-9165</a>

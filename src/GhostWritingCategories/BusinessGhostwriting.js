@@ -131,9 +131,17 @@ const BusinessGhostwriting = () => {
     <div>
      <Helmet>
         <title>Business Book Ghostwriting Services by Expert Ghostwriters</title>
-        <meta name="description" content="Need Business book ghostwriter? We offer professional Business book ghostwriting services on affordable price. Meet our talented writers who can work easily." />
-        <link rel="canonical" href="https://amzbookpublishing.net/business-ghostwriting" />
-
+        <meta name="description" content="Need a business book ghostwriter? We offer business book ghostwriting services at an affordable price. Meet our talented writers who can work easily." />
+        <link rel="canonical" href="https://amzbookpublishing.net/business-book-ghostwriting-services  " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Business Book Ghostwriting Services by Expert Ghostwriters" />
+        <meta property="og:description" content="Need a business book ghostwriter? We offer business book ghostwriting services at an affordable price. Meet our talented writers who can work easily." />
+        <meta property="og:url" content="https://amzbookpublishing.net/business-book-ghostwriting-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-20T07:39:16+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

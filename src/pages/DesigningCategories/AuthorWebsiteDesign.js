@@ -131,9 +131,19 @@ const AuthorWebsiteDesign = () => {
   return (
     <div>
       <Helmet>
-        <title>Custom Portfolio Website Design Services for Authors </title>
+
+        <title>Author Website Design Services | AMZ Book Publishing </title>
         <meta name="description" content="We create stunning websites for writers. Get our author website design services for showcasing your books, book sales, readers email list and attention." />
-        <link rel="canonical" href="https://amzbookpublishing.net/author-website-design" />
+        <link rel="canonical" href="https://amzbookpublishing.net/author-website-design-services " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Author Website Design Services | AMZ Book Publishing" />
+        <meta property="og:description" content="We create stunning websites for writers. Get our author website design services for showcasing your books, book sales, readers email list and attention." />
+        <meta property="og:url" content="https://amzbookpublishing.net/author-website-design-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:20:22+00:00" />
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}

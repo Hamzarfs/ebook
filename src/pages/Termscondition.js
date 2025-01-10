@@ -15,10 +15,18 @@ const ContactUs = () => {
     return (
         <div>
             <Helmet>
-                <title>Terms and Conditions - AMZ Book Publishing</title>
-                <meta name="description" content="Read our Terms and Conditions for better understanding regarding our working process." />
-                <link rel="canonical" href="https://amzbookpublishing.net/terms-condition" />
-
+                <title>Terms & Conditions - AMZ Book Publishing</title>
+                <meta name="description" content="Get to know the terms and conditions that you need to follow to purchase copyrights from us." />
+                <link rel="canonical" href="https://amzbookpublishing.net/terms-conditions" />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Terms & Conditions - AMZ Book Publishing" />
+                <meta property="og:description" content="Get to know the terms and conditions that you need to follow to purchase copyrights from us." />
+                <meta property="og:url" content="https://amzbookpublishing.net/terms-conditions" />
+                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="article:modified_time" content="2024-08-23T07:40:58+00:00" />
             </Helmet>
             {/* -------------------Start Banner section---------------------- */}
             {/* <TopHead/> */}

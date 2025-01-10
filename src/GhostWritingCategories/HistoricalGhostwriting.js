@@ -136,10 +136,18 @@ const HistoryGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>Historical Book Ghostwriting Services by History Writers</title>
-        <meta name="description" content="Need History ghostwriter? We offer professional Historical ghostwriting services on affordable price. Contact us to hire History writers remotely for your project." />
-        <link rel="canonical" href="https://amzbookpublishing.net/historical-ghostwriting" />
-
+          <title>Historical Book Ghostwriting Services by History Ghostwriters</title>
+          <meta name="description" content="Need a History ghostwriter? We offer affordable history book writing services at an amazing price. Contact us to hire history writers remotely for your project." />
+          <link rel="canonical" href="https://amzbookpublishing.net/historical-ghostwriting-services "/>
+          <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Historical Book Ghostwriting Services by History Ghostwriters" />
+          <meta property="og:description" content="Need a History ghostwriter? We offer affordable history book writing services at an amazing price. Contact us to hire history writers remotely for your project." />
+          <meta property="og:url" content="https://amzbookpublishing.net/historical-ghostwriting-services" />
+          <meta property="og:site_name" content="AMZBookPublishing" />
+          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+          <meta property="article:modified_time" content="2024-08-23T07:04:22+00:00" />
       </Helmet>
       <Header />
       <BreadCrumb

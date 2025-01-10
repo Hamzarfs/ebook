@@ -126,10 +126,18 @@ const LetterheadEnvelopeDesign= () => {
   return (
     <div>
       <Helmet>
-        <title>Custom Letterhead and Envelope Design Services for Authors</title>
-        <meta name="description" content="Need Letterhead and Envelope Design Services? We offer professional letterhead and envelope design services for self-published authors on affordable price." />
-        <link rel="canonical" href="https://amzbookpublishing.net/letterhead-envelope-design" />
-
+            <title>Custom Letterhead and Envelope Design Services for Authors</title>
+            <meta name="description" content="Need Letterhead and Envelope Design Services? We offer professional letterhead and envelope design services for self-published authors at affordable prices." />
+            <link rel="canonical" href="https://amzbookpublishing.net/letterhead-and-envelope-design-services " />
+            <meta name="robots" content="index, follow" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="Custom Letterhead and Envelope Design Services for Authors" />
+            <meta property="og:description" content="Need Letterhead and Envelope Design Services? We offer professional letterhead and envelope design services for self-published authors at affordable prices." />
+            <meta property="og:url" content="https://amzbookpublishing.net/letterhead-and-envelope-design-services" />
+            <meta property="og:site_name" content="AMZBookPublishing" />
+            <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+            <meta property="article:modified_time" content="2024-08-23T07:32:51+00:00" />
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />

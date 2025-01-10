@@ -50,24 +50,24 @@ const GhostwritingServices = () => {
 
   // Services data with links and images for both pages
   const servicesPage1 = [
-    { number: "01", text: "Fiction Ghostwriting", link: "/ghostwriting/fiction-ghostwriting", image: FictionImage },
-    { number: "02", text: "Non-Fiction Ghostwriting", link: "/ghostwriting/non-fiction-ghostwriting", image: NonFictionImage },
-    { number: "03", text: "Science Fiction Ghostwriting", link: "/ghostwriting/science-fiction-ghostwriting", image: ScienceFictionImage },
-    { number: "04", text: "Memoir Ghostwriting", link: "/ghostwriting/memoir-ghostwriting", image: MemoirImage },
-    { number: "05", text: "Children’s Book Ghostwriting", link: "/ghostwriting/childrens-book-ghostwriting", image: ChildrenBookImage },
-    { number: "06", text: "Cookbook Ghostwriting", link: "/ghostwriting/cookbook-ghostwriting", image: CookbookImage },
-    { number: "07", text: "Adventure Ghostwriting", link: "/ghostwriting/adventure-ghostwriting", image: AdventureImage },
-    { number: "08", text: "Business Ghostwriting", link: "/ghostwriting/business-ghostwriting", image: BusinessImage },
+    { number: "01", text: "Fiction Ghostwriting", link: "/affordable-fiction-ghostwriting-services", image: FictionImage },
+    { number: "02", text: "Non-Fiction Ghostwriting", link: "/affordable-non-fiction-ghostwriting-services", image: NonFictionImage },
+    { number: "03", text: "Science Fiction Ghostwriting", link: "/science-fiction-ghostwriting-services", image: ScienceFictionImage },
+    { number: "04", text: "Memoir Ghostwriting", link: "/memoir-ghostwriting-services", image: MemoirImage },
+    { number: "05", text: "Children's Book Ghostwriting", link: "/childrens-book-ghostwriting-services", image: ChildrenBookImage },
+    { number: "06", text: "Cookbook Ghostwriting", link: "/cookbook-ghostwriting-services", image: CookbookImage },
+    { number: "07", text: "Adventure Ghostwriting", link: "/adventure-ghostwriting-services", image: AdventureImage },
+    { number: "08", text: "Business Ghostwriting", link: "/business-book-ghostwriting-services", image: BusinessImage },
   ];
 
   const servicesPage2 = [
-    { number: "09", text: "Fantasy Ghostwriting", link: "/ghostwriting/fantasy-ghostwriting", image: FantasyImage },
-    { number: "10", text: "Medical Ghostwriting", link: "/ghostwriting/medical-ghostwriting", image: MedicalImage },
-    { number: "11", text: "Historical Ghostwriting", link: "/ghostwriting/historical-ghostwriting", image: HistoricalImage },
-    { number: "12", text: "Short Stories Ghostwriting", link: "/ghostwriting/short-stories-ghostwriting", image: ShortStoriesImage },
-    { number: "13", text: "Mystery Ghostwriting", link: "/ghostwriting/mystery-ghostwriting", image: MysteryImage },
-    { number: "14", text: "Ebook Writing", link: "/ghostwriting/ebook-writing", image: EbookImage },
-    { number: "15", text: "Legal Ghostwriting", link: "/ghostwriting/legal-ghostwriting", image: LegalImage },
+    { number: "09", text: "Fantasy Ghostwriting", link: "/fantasy-ghostwriting-services", image: FantasyImage },
+    { number: "10", text: "Medical Ghostwriting", link: "/professional-medical-ghostwriting-services", image: MedicalImage },
+    { number: "11", text: "Historical Ghostwriting", link: "/historical-ghostwriting-services", image: HistoricalImage },
+    { number: "12", text: "Short Stories Ghostwriting", link: "/short-stories-ghostwriting-services", image: ShortStoriesImage },
+    { number: "13", text: "Mystery Ghostwriting", link: "/professional-mystery-ghostwriting-services", image: MysteryImage },
+    { number: "14", text: "Ebook Writing", link: "/professional-ebook-ghostwriting-services", image: EbookImage },
+    { number: "15", text: "Legal Ghostwriting", link: "/professional-legal-ghostwriting-services", image: LegalImage },
   ];
 
   return (

@@ -96,9 +96,19 @@ const OtherServices = () => {
   return (
     <div>
        <Helmet>
-        <title>Multiple Book Publishing Services - AMZ Book Publishing</title>
-        <meta name="description" content="We provide many valuable services to authors like book marketing, book trailers, seo services and more. Contact us for for more information." />
-        <link rel="canonical" href="https://amzbookpublishing.net/other-services" />
+        <title>Other Services - AMZ Book Publishing</title>
+        <meta name="description" content="We provide many valuable services to authors like book marketing, book trailers, SEO services, and more. Contact us for more information." />
+        <link rel="canonical" href="https://amzbookpublishing.net/other-services " />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Other Services - AMZ Book Publishing" />
+        <meta property="og:description" content="We provide many valuable services to authors like book marketing, book trailers, SEO services, and more. Contact us for more information." />
+        <meta property="og:url" content="https://amzbookpublishing.net/other-services" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:20:46+00:00" />
+
 
       </Helmet>
       {/* -------------------Start Banner section---------------------- */}

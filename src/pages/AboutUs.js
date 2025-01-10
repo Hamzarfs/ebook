@@ -5,6 +5,7 @@ import BreadCrumb from '../components/common/BreadCrumb';
 import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
+//import BtnWa from '../components/common/CommonBtn';
 import Ghostwritingbg from '../images/aboutus.webp'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
@@ -158,8 +159,18 @@ const AboutUs = () => {
       <Header />
       <Helmet>
         <title>About Us - AMZ Book Publishing</title>
-        <meta name="description" content="AMZ Book Publishing offers comprehensive book publishing solutions for authors. Let us guide you through every step of the publishing journey with professionalism and expertise." />
+        <meta name="description" content="We were incorporated in 2014. We provide all the solutions important for successful authors. We believe in quality service." />
         <link rel="canonical" href="https://amzbookpublishing.net/about-us" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="About Us - AMZ Book Publishing" />
+        <meta property="og:description" content="We were incorporated in 2014. We provide all the solutions important for successful authors. We believe in quality service." />
+        <meta property="og:url" content="https://amzbookpublishing.net/about-us" />
+        <meta property="og:site_name" content="AMZBookPublishing" />
+        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+        <meta property="article:modified_time" content="2024-08-23T07:34:40+00:00" />
+
       </Helmet>
       <BreadCrumb
         title="About Us"
@@ -188,9 +199,8 @@ Your Partner in Publishing Success
     // subHeading="Services"
     description={
         <>
-<b>We’re your dedicated partners who believe every story deserves to be told and shared with the world. </b>At AMZ Book Publishing, we are committed to empowering authors with the tools and resources to transform their manuscripts into successful, published books.
+<b>We're your dedicated partners who believe every story deserves to be told and shared with the world. </b>At AMZ Book Publishing, we are committed to empowering authors with the tools and resources to transform their manuscripts into successful, published books.
 <br/><br/> We provide comprehensive services that bring your stories to life, from expert editing and captivating cover design to innovative marketing strategies. Whatever your publishing needs, we’ve got you covered every step of the way!
-
 
 
         </>

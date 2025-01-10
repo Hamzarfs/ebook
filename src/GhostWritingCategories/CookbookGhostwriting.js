@@ -131,12 +131,22 @@ const CookbookGhostwriting = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>Cookbook Ghostwriting Services by Cookbook Ghostwriters</title>
-        <meta name="description" content="Need Cookbook ghostwriter? We offer professional Cookbook ghostwriting services on affordable price. We also offer custom cookbook printing services." />
-        <link rel="canonical" href="https://amzbookpublishing.net/cookbook-ghostwriting" />
+<Helmet>
+  
+    <title>Cookbook Ghostwriting Services by Cookbook Ghostwriters</title>
+    <meta name="description" content="Need a cookbook ghostwriter? We offer professional cookbook ghostwriting services at an affordable price. We also offer custom cookbook printing services." />
+    <link rel="canonical" href="https://amzbookpublishing.net/cookbook-ghostwriting-services " />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cookbook Ghostwriting Services by Cookbook Ghostwriters" />
+    <meta property="og:description" content="Need a cookbook ghostwriter? We offer professional cookbook ghostwriting services at an affordable price. We also offer custom cookbook printing services." />
+    <meta property="og:url" content="https://amzbookpublishing.net/cookbook-ghostwriting-services" />
+    <meta property="og:site_name" content="AMZBookPublishing" />
+    <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+    <meta property="article:modified_time" content="2024-08-20T07:58:47+00:00" />
 
-      </Helmet>
+</Helmet>
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb

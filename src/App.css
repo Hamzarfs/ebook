@@ -17,6 +17,33 @@ body {
   display: block;
   margin-top: 0;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+
 img.navbar-brand {
   width: 220px;
 }
@@ -290,15 +317,20 @@ text-align: left;
     font-weight: bold;
     color: #fc9700;
 }
-.icon-box h2 {
-    font-size: 28px;
-    font-weight: 600;
+.icon-box p {
+  font-weight: 600;
+    font-size:28px;
+    /* text-align: center; */
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: #333333;
   
 }
-.icon-box h4 {
+.icon-box span {
     font-size: 24px;
     font-weight: 700;
     margin-top: -15px;
+    display: block;
 }
 
 
@@ -336,6 +368,14 @@ text-align: left;
     color: #333333;
 }
 
+section.ebook-forth-section.custom-gallery .container.second-section-container h4 {
+  font-weight: 600;
+  font-size: 52px;
+  text-align: center;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #333333;
+}
 
 .custom-gallery img {
     margin: 10px 5px; /* 10px top/bottom, 5px left/right */
@@ -704,7 +744,7 @@ textarea.popupform1-input {
 
 .service-card .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #fffafa !important;
-  border-radius: 20px;
+  border-radius: 20px; margin-bottom: 20px;
   background-color: #ff8b24 !important;
   border-color: var(--bs-nav-tabs-link-active-border-color);
 
@@ -838,7 +878,7 @@ span.service-number {
 padding: 0px 0px 50px 0px;
 }
 
-.image-text-banner h2 {
+.image-text-banner h3 {
 font-size: 2rem;
 font-weight: bold;
 }
@@ -851,7 +891,11 @@ color: #666;
 
 }
 
-
+p.text-light.p-cont {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
 .text-light p {
   margin: 0px;
   padding: 0px;
@@ -890,7 +934,7 @@ text-align: left;
 padding-right: 20px;
 }
 
-.design-cta-sec h2 {
+.design-cta-sec h4 {
 font-size: 2.5rem;
 font-weight: bold;
 margin-bottom: 15px;
@@ -972,11 +1016,11 @@ position: relative;
 
 /* FAQ SECTION */
 
-.faq-ebook-section h2 {
+.faq-ebook-section h4 {
   font-size: 2rem;
   font-weight: bold;
   color: #333;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
 }
 
 .accordion-button {
@@ -1043,7 +1087,7 @@ position: relative;
           padding-right: 30px;
       }
 
-      .ebook-contact-form h2 {
+      .ebook-contact-form h5 {
           font-weight: bold;
           color: black;
           font-size: 2.5rem;
@@ -1466,7 +1510,7 @@ transition: background-color 0.3s ease;
   font-size: 1rem;
 }
 
-.book-card h3 {
+.book-card h4 {
   margin-top: 0.5rem;
   font-size: 1rem;
   color: #333;
@@ -1702,6 +1746,15 @@ transition: background-color 0.3s ease;
   .book-cards-header h2 {
     font-size: 2.5rem;
   }
+
+  .book-cards-header.container h3 span {
+    display: block;
+    font-size: 2.5rem;
+    color: #212529;
+    margin-bottom: 5px;
+    font-weight: bold; 
+}
+
   .book-cards-header .highlighted-text {
     font-size: 2rem;
   }
