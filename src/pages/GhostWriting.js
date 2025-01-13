@@ -133,7 +133,7 @@ content="AMZ Book Publishing is a leading company offering the best Amazon book 
     subtitle="Services" 
     description={
         <>
-            You've got the next bestseller. We’ve got a complete book design solution: custom covers,<br />
+            You've got the next bestseller. We've got a complete book design solution: custom covers,<br />
             interior design, illustration, tools and more.
         </>
     } 

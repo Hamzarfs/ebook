@@ -12,9 +12,9 @@ import SecondSection from '../components/home/SecondSection';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
-import FictionImage1 from '../images/fictiongimg1.png';
-import fictionwhychoose from '../images/fictionwhychoose.png';
 import ghostWritingImage from '../images/Ghost Writing.png';
+import fictionwhychoose from '../images/fictionwhychoose.png';
+import BlogExpert from '../images/blogexpert.jpg';
 import designingImage from '../images/Designing.png';
 import bookEditingImage from '../images/book edit.png';
 import designprocess1 from '../images/design-process-1.png';
@@ -28,17 +28,17 @@ import { Helmet } from 'react-helmet-async';
 
 const services = [
   {
-    title: "Legal Articles & Blogs",
+    title: "Expert Blog Articles & Blogs",
     image: ghostWritingImage, // Update this if you have a specific image
     description: "We will take your complex legal concepts and transform them into clear, engaging articles or blogs that resonate with both experts and everyday readers."
   },
   {
-    title: "Legal Textbooks & Guides",
+    title: "Expert Blog Textbooks & Guides",
     image: designingImage, // Update this if you have a specific image
     description: "Need to publish a comprehensive legal textbook or guide? Our legal ghostwriters have the expertise to craft insightful, well-organized material that hits the mark every time."
   },
   {
-    title: "Document Drafting",
+    title: "Expert Blog Document Drafting",
     image: bookEditingImage, // Update this if you have a specific image
     description: "Let us handle the fine print! We will draft contracts, memos, or other legal documents that are airtight, precise, and tailored to your specific requirements."
   }
@@ -56,7 +56,7 @@ const heading = {
      <br />
     </>
   ),
-  highlight: "Legal Ghostwriting"
+  highlight: "Expert Blog Ghostwriting Services"
 };
 // const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
 
@@ -132,26 +132,27 @@ const LegalGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-            <title>Legal Ghostwriting Services for Lawyers by Legal Ghostwriters</title>
-            <meta name="description" content="Need a Legal ghostwriter? We offer professional Legal ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
-            <link rel="canonical" href="https://amzbookpublishing.net/ " />
+            <title>Expert Blog Ghostwriting Services for Engaging Content</title>
+            <meta name="description" content="Need a Blog ghostwriter? We offer professional Blog ghostwriting services at an affordable price. Contact us to hire expert bloggers remotely for your project." />
+            <link rel="canonical" href="https://amzbookpublishing.net/professional-blog-ghostwriting-services " />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="article" />
-            <meta property="og:title" content="Legal Ghostwriting Services for Lawyers by Legal Ghostwriters" />
-            <meta property="og:description" content="Need a Legal ghostwriter? We offer professional Legal ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
-            <meta property="og:url" content="https://amzbookpublishing.net/" />
+            <meta property="og:title" content="Expert Blog Ghostwriting Services for Engaging Content" />
+            <meta property="og:description" content="Need a Blog ghostwriter? We offer professional Blog ghostwriting services at an affordable price. Contact us to hire expert bloggers remotely for your project." />
+            <meta property="og:url" content="https://amzbookpublishing.net/professional-blog-ghostwriting-services" />
             <meta property="og:site_name" content="AMZBookPublishing" />
             <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-            <meta property="article:modified_time" content="2024-08-23T07:09:16+00:00" />
+            <meta property="article:modified_time" content="2024-08-23T07:24:16+00:00" />
+
+
       </Helmet>
       <Header />
       <BreadCrumb
-        title="Legal Ghostwriting"
+        title="Expert Blog Ghostwriting "
         desc={
           <>
-   Law can feel like a maze and it is easy to feel lost. That is where we come in! As a professional legal ghostwriting service, we are here to lend a hand.
-
+Need a Blog ghostwriter? We offer professional Blog ghostwriting services at an affordable price. Contact us to hire expert bloggers remotely for your project.
           </>
         }
         buttonText="Get a Quote"
@@ -173,16 +174,15 @@ const LegalGhostwriting = () => {
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Legal "
-    subHeading="Ghostwriting"
+    heading="Expert Blog Ghostwriting "
+    subHeading="Services"
     description={
         <>
-Legal writing is a tough balancing act: explaining complex concepts, making persuasive arguments, and ensuring everything is clear and precise. Whether it is influencing courtroom decisions, drafting contracts, or regulations, getting it right is crucial.
-           <br/><br/>
+Need a Blog ghostwriter? We offer professional Blog ghostwriting services at an affordable price. Contact us to hire expert bloggers remotely for your project.           <br/><br/>
            That is where AMZ Book Publishings steps in with our expert legal ghostwriters. We handle the heavy lifting of research and writing while you focus on what you do best, which is practicing law. Our team knows legal jargon, formatting, and structure inside out, so you will always get high-quality, polished work that meets the standards of the legal profession without cutting into your time.
         </>
     }
-    imageSrc={FictionImage1}
+    imageSrc={BlogExpert}
     objectfit="contain"
     imageHeight="400px"  // Set height here
     imageWidth="100%"     // Set width here
@@ -197,10 +197,10 @@ Legal writing is a tough balancing act: explaining complex concepts, making pers
         heading1={ <>
         Top-Notch  </>}
         subHeading={<>
-         Legal   <br/>
+       Blog  <br/>
          Ghostwriting </>}
         heading2="Services"
-        paragraph="Our skilled legal ghostwriters are here to tackle even the most challenging legal topics with ease. We are your go-to team for handling the writing, while you stay focused on practicing law."
+        paragraph="Need a Blog ghostwriter? We offer professional Blog ghostwriting services at an affordable price. Contact us to hire expert bloggers remotely for your project."
         services={services}
       />
       </div>

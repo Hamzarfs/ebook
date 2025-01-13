@@ -30,6 +30,13 @@ import ShortStoriesGhostwriting from './GhostWritingCategories/ShortStoriesGhost
 import MysteryGhostwriting from './GhostWritingCategories/MysteryGhostwriting';
 import EbookWriting from './GhostWritingCategories/EbookWriting';
 import LegalGhostwriting from './GhostWritingCategories/LegalGhostwriting';
+import RapGhostwriting from './GhostWritingCategories/RapGhostwriting';
+import PBGWriting from './GhostWritingCategories/ProfessionalBeautyGhostwriting';
+import Screenplay from './GhostWritingCategories/ScreenplayGhostwriting';
+import HealthFitnes from './GhostWritingCategories/HealthFitnessGhostwriting';
+import BlogExperpage from './GhostWritingCategories/BlogGhostwriting';
+import NovelExperPage from './GhostWritingCategories/ProfessionalNovel ';
+
 
 // *************** Designing Subcategories ****************************
 
@@ -86,6 +93,9 @@ const App = () => {
   };
 
   return (
+
+
+    
     <HelmetProvider>
     
       
@@ -126,6 +136,14 @@ const App = () => {
         <Route path="/professional-mystery-ghostwriting-services" element={<MysteryGhostwriting openModal={openModal} />} />
         <Route path="/professional-ebook-ghostwriting-services" element={<EbookWriting openModal={openModal} />} />
         <Route path="/professional-legal-ghostwriting-services" element={<LegalGhostwriting openModal={openModal} />} />
+        <Route path="/rap-ghostwriting-services" element={<RapGhostwriting openModal={openModal} />} />
+        <Route path="/professional-beauty-ghostwriting-services" element={<PBGWriting openModal={openModal} />} />
+        <Route path="/affordable-screenplay-ghostwriting-services" element={<Screenplay openModal={openModal} />} />
+        <Route path="/health-and-fitness-ghostwriting-services" element={<HealthFitnes openModal={openModal} />} />
+        <Route path="/professional-blog-ghostwriting-services" element={<BlogExperpage openModal={openModal} />} />
+        <Route path="/professional-novel-writing-services" element={<NovelExperPage openModal={openModal} />} />
+       
+      
 
          {/* Sub Categories of Designing */}
 

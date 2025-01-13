@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // Import images for services
-import FictionImage from "../../images/Fiction.png";
+import FictionImage from "../../images/Fictionmain1.png";
 import NonFictionImage from "../../images/Non-Fiction.png";
 import ScienceFictionImage from "../../images/Science-Fiction.png";
 import MemoirImage from "../../images/Memoir.png";
@@ -17,6 +17,13 @@ import ShortStoriesImage from "../../images/Short-Stories.png";
 import MysteryImage from "../../images/Mystery.png";
 import EbookImage from "../../images/Ebook.png";
 import LegalImage from "../../images/Legal.png";
+import RapImage from "../../images/rap.jpg";
+import PBGImage from "../../images/pbg.jpeg";
+import ScreenPlayimg from "../../images/screenplay.jpg"
+import HealthFitnes from "../../images/health-wa.jpg"
+import BlogExpert from "../../images/blogexpert.jpg"
+import NovelExpert from "../../images/NovelExpert.jpg";
+
 
 // ServiceCard Component
 const ServiceCard = ({ number, text, link, backgroundImage }) => {
@@ -68,6 +75,18 @@ const GhostwritingServices = () => {
     { number: "13", text: "Mystery Ghostwriting", link: "/professional-mystery-ghostwriting-services", image: MysteryImage },
     { number: "14", text: "Ebook Writing", link: "/professional-ebook-ghostwriting-services", image: EbookImage },
     { number: "15", text: "Legal Ghostwriting", link: "/professional-legal-ghostwriting-services", image: LegalImage },
+    { number: "16", text: "Rap/Hip Hop Ghostwriting ", link: "/rap-ghostwriting-services", image: RapImage },
+ 
+  ];
+
+  const servicesPage3 = [
+
+    { number: "17", text: "Beauty Ghostwriting Agency ", link: "/professional-beauty-ghostwriting-services", image: PBGImage },
+    { number: "18", text: "Screenplay Ghostwriting ", link: "/affordable-screenplay-ghostwriting-services", image: ScreenPlayimg },
+    { number: "19", text: "Health and Fitness Ghostwriting", link: "/health-and-fitness-ghostwriting-services", image: HealthFitnes},
+    { number: "20", text: "Expert Blog Ghostwriting ", link: "/professional-blog-ghostwriting-services", image: BlogExpert},
+    { number: "21", text: "Professional Novel Writing ", link: "/professional-novel-writing-services", image: NovelExpert},
+    
   ];
 
   return (
@@ -107,6 +126,21 @@ const GhostwritingServices = () => {
               ))}
             </div>
           </div>
+
+          <div className={`tab-pane fade ${activeTab === "page3" ? "show active" : ""}`} id="page3" role="tabpanel">
+            <div className="row">
+              {servicesPage3.map((service) => (
+                <ServiceCard
+                  key={service.number}
+                  number={service.number}
+                  text={service.text}
+                  link={service.link}
+                  backgroundImage={service.image}
+                />
+              ))}
+            </div>
+          </div>
+
         </div>
 
         {/* Tabs Navigation */}
@@ -135,6 +169,19 @@ const GhostwritingServices = () => {
               aria-selected={activeTab === "page2"}
             >
               2
+            </button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button
+              className={`nav-link ${activeTab === "page3" ? "active" : ""}`}
+              id="page3-tab"
+              onClick={() => setActiveTab("page3")}
+              type="button"
+              role="tab"
+              aria-controls="page3"
+              aria-selected={activeTab === "page3"}
+            >
+              3
             </button>
           </li>
         </ul>

@@ -12,7 +12,7 @@ import SecondSection from '../components/home/SecondSection';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
-import FictionImage1 from '../images/fictionmain.png';
+import FictionMain from '../images/Fictionmain1.png';
 import fictionwhychoose from '../images/fictionwhychoose.png';
 import ghostWritingImage from '../images/Ghost Writing.png';
 import designingImage from '../images/Designing.png';
@@ -186,7 +186,7 @@ const FictionGhostwriting = () => {
 
         </>
     }
-    imageSrc={FictionImage1}
+    imageSrc={FictionMain}
     objectfit="contain"
     imageHeight="400px"  // Set height here
     imageWidth="100%"     // Set width here

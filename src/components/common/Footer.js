@@ -9,16 +9,16 @@ const Footer = () => {
     <footer className="footer bg-dark text-light">
       <div className="container py-5">
         <div className="row">
-          <div className="col-md-5 mb-4">
+          <div className="col-lg-5 col-md-12 mb-4">
             <a href="/">
               <img src={ebooklogo} alt="AMZ Book Publishing" className="img-fluid mb-3"/>
             </a>
-            <p className="text-light">
+            <p className="text-light footer-pp">
             AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, e-book writing services, book editing, cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire digital book publishing process.
 
             </p>
           </div>
-          <div className="col-md-2 mb-4">
+          <div className="col-lg-2 col-md-4 mb-4">
             <h5 className="highlight-orange-text">Featured Services</h5>
             <ul className="list-unstyled">
               <li><a href="/professional-ghostwriting-services" className="text-light">GhostWriting</a></li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
 
           {/* Useful Links Section */}
-          <div className="col-md-2 mb-4">
+          <div className="col-lg-2 col-md-4 mb-4">
             <h5 className="highlight-orange-text">Useful Links</h5>
             <ul className="list-unstyled">
               <li><a href="/" className="text-light">Home</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-md-3 mb-4">
+          <div className="col-lg-2 col-md-4 mb-4">
             <h5 className="highlight-orange-text">Follow Us</h5>
             <div className="d-flex gap-3 mb-3">
               <Link to="https://www.facebook.com/AmzBookPublishingUS" target='blank' className="text-light"><FaFacebookF size={25} /></Link>
@@ -53,15 +53,15 @@ const Footer = () => {
             {/* Contact Us Section */}
             <div className="contact-details" >
               <p className="text-light p-cont">Contact Us</p>
-              <p className="mb-1 text-light">
+              <p className="mb-1 text-light icon-tabl">
                 <FaPhoneAlt /> 
                 <a href="tel:+17327979165" className="text-light text-decoration-none"> (732) 797-9165</a>
               </p>
-              <p className="mb-1">
+              <p className="mb-1 icon-tabl">
                 <FaEnvelope /> 
                 <a href="mailto:info@amzbookpublishing.net" className="text-light text-decoration-none"> info@amzbookpublishing.net</a>
               </p>
-              <p className="text-light">
+              <p className="text-light icon-tabl">
                 <FaMapMarkerAlt /> 
                 <a href="https://www.google.com/maps/search/?api=1&query=41+Winthrop+Rd,+Edison,+NJ+08817" target="_blank" rel="noopener noreferrer" className="text-light text-decoration-none"> 41 Winthrop Rd, Edison, NJ 08817</a>
               </p>

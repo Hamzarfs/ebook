@@ -79,6 +79,7 @@ content="2024-08-22T12:09:56+00:00"
         <div>
 <SecondSection 
         buttonLabel="S e r v i c e s"
+      
         heading1={ <>
        Explore What   </>}
         subHeading={<>
@@ -86,6 +87,7 @@ content="2024-08-22T12:09:56+00:00"
         
         paragraph="From concept to publication e-book, paperback or audio book, we have your back every step of the way, turning your ideas into reality. Our expert team will help you reach the right readers through targeted campaigns and promotions, so we can share your book with the world, together!"
         services={services}
+      
       />
       </div>
         <FourthSection/>
