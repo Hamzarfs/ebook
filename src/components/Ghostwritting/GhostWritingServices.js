@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Import images for services
 import FictionImage from "../../images/Fictionmain1.png";
-import NonFictionImage from "../../images/Non-Fiction.png";
+import NonFictionImage from "../../images/nonfictionservice.png";
 import ScienceFictionImage from "../../images/Science-Fiction.png";
 import MemoirImage from "../../images/Memoir.png";
 import ChildrenBookImage from "../../images/ChildrensBook.webp";
