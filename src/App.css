@@ -41,9 +41,6 @@ body {
 
 
 
-
-
-
 img.navbar-brand {
   width: 220px;
 }
@@ -717,6 +714,14 @@ textarea.popupform1-input {
 
 /* End Breadcrumb section */
 
+.service-card:before {
+  position: absolute;
+  content: "";
+  left: 0;top:0;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%; background-color: rgba(0, 0, 0, 0.5);}
+
 
 .service-card-link {
   text-decoration: none;
@@ -802,7 +807,7 @@ textarea.popupform1-input {
   text-align: left; /* Align text to the left */
   line-height: 1.4rem;
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: 0;     z-index: 1;
 }
 
 .service-card:hover {
@@ -2160,6 +2165,7 @@ transition: background-color 0.3s ease;
   .footer ul {
     font-size: 15px; line-height: 20px;
 }
+
 
 p.footer-pp{font-size: 15px;   line-height: 25px;}
 
