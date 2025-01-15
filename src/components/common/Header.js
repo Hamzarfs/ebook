@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import ebooklogo from '../../images/Logo-AMZ-02.png';
-import { NavLink } from 'react-router-dom';  // Change Link to NavLink
+import { NavLink } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // For JS functionality (hamburger)
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import PopupForm1 from '../common/PopupForm';
 
 const Header = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+  const [isModalOpen, setIsModalOpen] = useState(false); 
 
   const openModal = () => {
-    setIsModalOpen(true); // Open the modal
+    setIsModalOpen(true); 
   };
 
   const closeModal = () => {
-    setIsModalOpen(false); // Close the modal
+    setIsModalOpen(false); 
   };
 
   return (
@@ -37,77 +37,149 @@ const Header = () => {
           <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink
-                  to="/"
-                  exact
-                  className="nav-link"
-                  activeClassName="active-link"  // This will add the class "active-link"
-                >
-                  Home
-                </NavLink>
+                <NavLink to="/" exact className="nav-link" activeClassName="active-link">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/about-us"
-                  className="nav-link"
-                  activeClassName="active-link"
-                >
-                  About Us
-                </NavLink>
+                <NavLink to="/about-us" className="nav-link" activeClassName="active-link">About Us</NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item dropdown">
                 <NavLink
                   to="/professional-ghostwriting-services"
-                  className="nav-link"
-                  activeClassName="active-link"
+                  className="nav-link dropdown-toggle"
+                  id="ghostwritingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
                   Ghostwriting
                 </NavLink>
-              </li>
+                <ul className="dropdown-menu" aria-labelledby="ghostwritingDropdown">
+                  <li><NavLink to="/affordable-fiction-ghostwriting-services" className="dropdown-item">Fiction Ghostwriting</NavLink></li>
+                  <li><NavLink to="/affordable-non-fiction-ghostwriting-services" className="dropdown-item">Non-Fiction Ghostwriting</NavLink></li>
+                  <li><NavLink to="/science-fiction-ghostwriting-services" className="dropdown-item">Science Fiction Ghostwriting</NavLink></li>
+                  <li><NavLink to="/memoir-ghostwriting-services" className="dropdown-item">Memoir Ghostwriting</NavLink></li>
+                  <li><NavLink to="/childrens-book-ghostwriting-services" className="dropdown-item">Children's Book Ghostwriting</NavLink></li>
+                  <li><NavLink to="/cookbook-ghostwriting-services" className="dropdown-item">Cookbook Ghostwriting</NavLink></li>
+                  <li><NavLink to="/adventure-ghostwriting-services" className="dropdown-item">Adventure Ghostwriting</NavLink></li>
+                  <li><NavLink to="/business-book-ghostwriting-services" className="dropdown-item">Business Ghostwriting</NavLink></li>
+                  <li><NavLink to="/fantasy-ghostwriting-services" className="dropdown-item">Fantasy Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-medical-ghostwriting-services" className="dropdown-item">Medical Ghostwriting</NavLink></li>
+                  <li><NavLink to="/historical-ghostwriting-services" className="dropdown-item">Historical Ghostwriting</NavLink></li>
+                  <li><NavLink to="/short-stories-ghostwriting-services" className="dropdown-item">Short Stories Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-mystery-ghostwriting-services" className="dropdown-item">Mystery Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-ebook-ghostwriting-services" className="dropdown-item">eBook Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-legal-ghostwriting-services" className="dropdown-item">Legal Ghostwriting</NavLink></li>
+                  <li><NavLink to="/rap-ghostwriting-services" className="dropdown-item">Rap Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-beauty-ghostwriting-services" className="dropdown-item">Beauty Ghostwriting</NavLink></li>
+                  <li><NavLink to="/affordable-screenplay-ghostwriting-services" className="dropdown-item">Screenplay Ghostwriting</NavLink></li>
+                  <li><NavLink to="/health-and-fitness-ghostwriting-services" className="dropdown-item">Health & Fitness Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-blog-ghostwriting-services" className="dropdown-item">Blog Ghostwriting</NavLink></li>
+                  <li><NavLink to="/professional-novel-writing-services" className="dropdown-item">Novel Ghostwriting</NavLink></li>
+                </ul>
+              </li> */}
+              <li className="nav-item dropdown">
+  <NavLink
+    to="/professional-ghostwriting-services"
+    className="nav-link"
+    activeClassName="active-link"
+  >
+    Ghostwriting
+  </NavLink>
+  <ul className="dropdown-menu" aria-labelledby="ghostwritingDropdown">
+    <li><NavLink to="/affordable-fiction-ghostwriting-services" className="dropdown-item">Fiction Ghostwriting</NavLink></li>
+    <li><NavLink to="/affordable-non-fiction-ghostwriting-services" className="dropdown-item">Non-Fiction Ghostwriting</NavLink></li>
+    <li><NavLink to="/science-fiction-ghostwriting-services" className="dropdown-item">Science Fiction Ghostwriting</NavLink></li>
+    <li><NavLink to="/memoir-ghostwriting-services" className="dropdown-item">Memoir Ghostwriting</NavLink></li>
+    <li><NavLink to="/childrens-book-ghostwriting-services" className="dropdown-item">Children's Book Ghostwriting</NavLink></li>
+    <li><NavLink to="/cookbook-ghostwriting-services" className="dropdown-item">Cookbook Ghostwriting</NavLink></li>
+    <li><NavLink to="/adventure-ghostwriting-services" className="dropdown-item">Adventure Ghostwriting</NavLink></li>
+    <li><NavLink to="/business-book-ghostwriting-services" className="dropdown-item">Business Ghostwriting</NavLink></li>
+    <li><NavLink to="/fantasy-ghostwriting-services" className="dropdown-item">Fantasy Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-medical-ghostwriting-services" className="dropdown-item">Medical Ghostwriting</NavLink></li>
+    <li><NavLink to="/historical-ghostwriting-services" className="dropdown-item">Historical Ghostwriting</NavLink></li>
+    <li><NavLink to="/short-stories-ghostwriting-services" className="dropdown-item">Short Stories Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-mystery-ghostwriting-services" className="dropdown-item">Mystery Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-ebook-ghostwriting-services" className="dropdown-item">eBook Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-legal-ghostwriting-services" className="dropdown-item">Legal Ghostwriting</NavLink></li>
+    <li><NavLink to="/rap-ghostwriting-services" className="dropdown-item">Rap Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-beauty-ghostwriting-services" className="dropdown-item">Beauty Ghostwriting</NavLink></li>
+    <li><NavLink to="/affordable-screenplay-ghostwriting-services" className="dropdown-item">Screenplay Ghostwriting</NavLink></li>
+    <li><NavLink to="/health-and-fitness-ghostwriting-services" className="dropdown-item">Health & Fitness Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-blog-ghostwriting-services" className="dropdown-item">Blog Ghostwriting</NavLink></li>
+    <li><NavLink to="/professional-novel-writing-services" className="dropdown-item">Novel Ghostwriting</NavLink></li>
+  </ul>
+</li>
+
+<li className="nav-item dropdown">
+  <NavLink
+    to="/book-designing-services"
+    className="nav-link"
+    activeClassName="active-link"
+  >
+    Designing
+  </NavLink>
+  <ul className="dropdown-menu" aria-labelledby="designingDropdown">
+    <li><NavLink to="/author-website-design-services" className="dropdown-item">Author Website Design</NavLink></li>
+    <li><NavLink to="/bespoke-logo-design" className="dropdown-item">Bespoke Logo Design</NavLink></li>
+    <li><NavLink to="/stationery-design-services" className="dropdown-item">Stationery Design</NavLink></li>
+    <li><NavLink to="/designing/book-teaser" className="dropdown-item">Book Teaser</NavLink></li>
+    <li><NavLink to="/professional-book-printing-services" className="dropdown-item">Book Printing</NavLink></li>
+    <li><NavLink to="/book-illustrations-service" className="dropdown-item">Book Illustrations</NavLink></li>
+    <li><NavLink to="/interior-book-formatting-services" className="dropdown-item">Book Interior Formatting</NavLink></li>
+    <li><NavLink to="/letterhead-and-envelope-design-services" className="dropdown-item">Letterhead & Envelope Design</NavLink></li>
+    <li><NavLink to="/business-card-design-services" className="dropdown-item">Business Card Design</NavLink></li>
+  </ul>
+</li>
+
+<li className="nav-item dropdown">
+  <NavLink
+    to="/professional-book-editing-services"
+    className="nav-link"
+    activeClassName="active-link"
+  >
+    Book Editing
+  </NavLink>
+  <ul className="dropdown-menu" aria-labelledby="bookEditingDropdown">
+    <li><NavLink to="/book-editing/book-editing" className="dropdown-item">Book Editing</NavLink></li>
+    <li><NavLink to="/professional-novel-editing-services" className="dropdown-item">Novel Editing</NavLink></li>
+    <li><NavLink to="/affordable-poetry-editing-services" className="dropdown-item">Poetry Editing</NavLink></li>
+    <li><NavLink to="/professional-screenplay-editing-services" className="dropdown-item">Screenplay Editing</NavLink></li>
+    <li><NavLink to="/short-story-editing-services" className="dropdown-item">Short Story Editing</NavLink></li>
+    <li><NavLink to="/book-proofreading-services" className="dropdown-item">Book Proofreading</NavLink></li>
+    <li><NavLink to="/fiction-book-editing-services" className="dropdown-item">Fiction Book Editing</NavLink></li>
+    <li><NavLink to="/non-fiction-book-editing-services" className="dropdown-item">Non-Fiction Book Editing</NavLink></li>
+    <li><NavLink to="/book-editing/self-editing-fiction-writers" className="dropdown-item">Self Editing for Fiction Writers</NavLink></li>
+  </ul>
+</li>
+
+<li className="nav-item dropdown">
+  <NavLink
+    to="/other-services"
+    className="nav-link"
+    activeClassName="active-link"
+  >
+    Other Services
+  </NavLink>
+  <ul className="dropdown-menu" aria-labelledby="otherServicesDropdown">
+    <li><NavLink to="/professional-book-writing-services" className="dropdown-item">Book Writing</NavLink></li>
+    <li><NavLink to="/affordable-book-publishing-services" className="dropdown-item">Book Publishing</NavLink></li>
+    <li><NavLink to="/book-marketing-services" className="dropdown-item">Book Marketing</NavLink></li>
+    <li><NavLink to="/book-trailer-services" className="dropdown-item">Book Trailers</NavLink></li>
+    <li><NavLink to="/social-media-marketing-services-for-authors" className="dropdown-item">Social Media Marketing</NavLink></li>
+    <li><NavLink to="/amazon-book-marketing-services-for-authors" className="dropdown-item">Amazon Marketing</NavLink></li>
+    <li><NavLink to="/search-engine-optimization-services" className="dropdown-item">SEO Services</NavLink></li>
+    <li><NavLink to="/audiobook-publishing-services" className="dropdown-item">Audiobook Publishing</NavLink></li>
+    <li><NavLink to="/professional-book-review-services" className="dropdown-item">Book Review</NavLink></li>
+  </ul>
+</li>
+
               <li className="nav-item">
-                <NavLink
-                  to="/book-designing-services"
-                  className="nav-link"
-                  activeClassName="active-link"
-                >
-                  Designing
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/professional-book-editing-services"
-                  className="nav-link"
-                  activeClassName="active-link"
-                >
-                  Book Editing
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/other-services"
-                  className="nav-link"
-                  activeClassName="active-link"
-                >
-                  Other Services
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/contact-us"
-                  className="nav-link"
-                  activeClassName="active-link"
-                >
-                  Contact Us
-                </NavLink>
+                <NavLink to="/contact-us" className="nav-link" activeClassName="active-link">Contact Us</NavLink>
               </li>
             </ul>
-
-            {/* Right-aligned button */}
-            <button onClick={openModal} className="header-btn ms-5" style={{ cursor: 'pointer' }}>
-              Get a Quote
-            </button>
-
+            <button onClick={openModal} className="header-btn ms-lg-5 ms-0" style={{ cursor: 'pointer' }}>Get a Quote</button>
             <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+
           </div>
         </div>
       </nav>

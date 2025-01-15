@@ -177,11 +177,11 @@ const Lpbanner = () => {
                                     onChange={handleChange}
                                     className="lpbanner-input"
                                     required
-                                    pattern="^[a-zA-Z][a-zA-Z ]{0,49}$"
-                                    maxLength="50"
+                                    pattern="^[a-zA-Z][a-zA-Z ]{0,55}$"
+                                    maxLength="55"
                                     title="Please enter a valid name"
                                 />
-                                {formData.name && !/^[a-zA-Z][a-zA-Z ]{0,49}$/.test(formData.name) && (
+                                {formData.name && !/^[a-zA-Z][a-zA-Z ]{0,60}$/.test(formData.name) && (
                                     <div className="error-message">Not allowed more than 50 characters and it must be in alphabet</div>
                                 )}
 

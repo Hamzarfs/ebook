@@ -1,6 +1,7 @@
 // src/pages/About.js
 import React,{ useState } from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
+
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
@@ -29,13 +30,12 @@ import bookcard2 from '../images/Bookcard2.png';
 import bookcard3 from '../images/Bookcard3.png';
 
 
-
-
-
 import PopupForm1 from '../components/common/PopupForm';
 import BookCards from '../components/AboutUs/BookCards';
 import ImageLeftTab from '../components/AboutUs/Imagelefttab';
 import { Helmet } from 'react-helmet-async';
+
+
 
 // ******************************** Start SecondSection ******************************
 
@@ -201,6 +201,7 @@ Your Partner in Publishing Success
         <>
 <b>We're your dedicated partners who believe every story deserves to be told and shared with the world. </b>At AMZ Book Publishing, we are committed to empowering authors with the tools and resources to transform their manuscripts into successful, published books.
 <br/><br/> We provide comprehensive services that bring your stories to life, from expert editing and captivating cover design to innovative marketing strategies. Whatever your publishing needs, we’ve got you covered every step of the way!
+
 
 
         </>

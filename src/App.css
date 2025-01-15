@@ -40,6 +40,33 @@ body {
 }
 
 
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.dropdown-item.active, .dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: #FF9720 !important;
+}
+
+
 
 img.navbar-brand {
   width: 220px;
@@ -692,6 +719,49 @@ textarea.popupform1-input {
 /**************************** POPUP FORM ********************************/
 
 
+.combtn {
+  display: flex
+;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.combtn .page-heading {
+  height: auto;
+  display: block;
+}
+.combtn .container.text-center {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0px;
+  margin: 0px;
+}
+.combtn .overlay {
+  position: static;
+  background: transparent;
+}
+.combtn h1 {
+  display: none;
+}
+
+.combtn p {
+  display: none;
+}
+
+.combtn a {
+background-color: #f3a3b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+.combtn a:hover{  background-color: #fd9f33; 
+  color: white;}
+
+
+
 .page-heading p {
   font-size: 1.2rem;
   margin-bottom: 20px;
@@ -709,7 +779,20 @@ textarea.popupform1-input {
 }
 
 .page-heading .btn:hover {
-  background-color: #ff9720;
+  background-color: #f3a3b3 !important;
+}
+
+
+li.nav-item.dropdown:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  background: url('../src/images/dropdown.png');
+  width: 11px;
+  height: 11px;
+  right: -2px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /* End Breadcrumb section */
@@ -929,8 +1012,9 @@ border-radius: 10px;
   padding-bottom: 20px;
   padding-left: 61px;
   position: relative;
-  width: 80%;
+  width: 80%; 
   margin: 0 auto;
+  margin-top: 100px
 }
 
 .design-cta-sec .text-section {
@@ -1628,7 +1712,9 @@ transition: background-color 0.3s ease;
   contactuspg-heading-row{
 
   }
-  
+  .contactuspg-bg .col-lg-7.contactuspg-form.bg-light.mb-4 {
+    padding: 30px;
+}
   .contactuspg-info-box {
     padding: 0px 0px 0px 50px !important;
     background-color: #ff8903;
@@ -2202,10 +2288,49 @@ p.footer-pp{font-size: 15px;   line-height: 25px;}
     margin-top: 20px;
 }
 
-
   }
 
+
+
   @media (min-width: 700px) and (max-width: 1267px) {
+    .design-cta-sec {
+
+      margin-top: 50px;
+  }
+    .contactuspg-info-box {
+  
+      margin-bottom: 40px;
+  }
+    .footer h5 {
+      font-size: 16px;
+      /* margin-bottom: 20px; */
+  }
+    .footer ul li {
+      margin-bottom: 6px;         font-size: 12px;
+  }
+  p.text-light.footer-pp {
+    font-size: 12px;         line-height: 21px;
+}
+    .col-lg-2.col-md-4.mb-4.wa-f-res {
+      padding: 0px;
+  }
+  p.text-light.p-cont {
+    font-size: 15px;
+    margin: 8px 0px;
+}
+    p.icon-tabl svg {
+      margin-right: 6px;
+      font-size: 11px;
+  }
+  p.icon-tabl {
+      display: flex;
+      font-size: 11px;
+  }
+    .wa-res.item.text-center {
+      padding: 10px 0px !important;
+      height: auto;
+      min-height: 275px;
+  }
     form.home-contactus {
       padding-top: 20px;
       padding-bottom: 32px;
@@ -2220,5 +2345,43 @@ p.footer-pp{font-size: 15px;   line-height: 25px;}
     width: 100%;
     height: 390px !important;
 }
+#header .nav-link {
+  padding: 10px 9px;
+  font-size: 12px;
+}
+li.nav-item.dropdown:before {
+  right: -3px;
+  width: 8px;
+  height: 8px;
+}
+  }
 
+  @media (min-width:700px) and (max-width: 1100px) {
+
+    .container.py-5 {
+      /* padding: 0px; */
+      max-width: 100%;
+  }
+
+    }
+
+
+  @media (min-width:320px) and (max-width: 768px) {
+    .design-cta-sec {
+      margin-top: 25px;
+  }
+    div#panelundefined {
+      padding-left: 0px;
+  }
+  p.icon-tabl {
+    justify-content: center;
+}
+#header .navbar-brand {
+  max-width: 195px;
+}
+.navbar-toggler {
+  border-color: #000000;
+  margin-right: 0;
+  border: 2px solid;
+}
   }

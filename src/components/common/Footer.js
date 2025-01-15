@@ -41,7 +41,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col-lg-2 col-md-4 mb-4">
+          <div className="col-lg-2 col-md-4 mb-4 wa-f-res">
             <h5 className="highlight-orange-text">Follow Us</h5>
             <div className="d-flex gap-3 mb-3">
               <Link to="https://www.facebook.com/AmzBookPublishingUS" target='blank' className="text-light"><FaFacebookF size={25} /></Link>
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
 
             {/* Contact Us Section */}
-            <div className="contact-details" >
+            <div className="contact-details " >
               <p className="text-light p-cont">Contact Us</p>
               <p className="mb-1 text-light icon-tabl">
                 <FaPhoneAlt /> 
@@ -71,7 +71,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom text-center py-3 bg-secondary">
-        <p>&copy; 2024 AMZ Book Publishing. All Rights Reserved.</p>
+        <p>&copy; 2025 AMZ Book Publishing. All Rights Reserved.</p>
       </div>
     </footer>
   );

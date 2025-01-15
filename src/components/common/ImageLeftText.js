@@ -1,7 +1,20 @@
-import React from 'react';
+import React,{ useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ComBtn from '../common/CommonBtn';
+import BreadCrumb from '../common/BreadCrumb';
+import PopupForm1 from '../common/PopupForm';
+
 
 const ImageLeftBanner = ({ heading, subHeading, description, imageSrc, objectfit, imageHeight, imageWidth, borderRadius ,  }) => {
+      const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+        
+          const openModal = () => {
+            setIsModalOpen(true); // Open the modal
+          };
+        
+          const closeModal = () => {
+            setIsModalOpen(false); // Close the modal
+          };
     return (
         <section className="image-right-banner">
             <div className="container">
@@ -28,6 +41,17 @@ const ImageLeftBanner = ({ heading, subHeading, description, imageSrc, objectfit
                         </h2>
                         <p className="design-process-description">
                             {description}
+
+                            <div className="combtn">
+<ComBtn/>
+<BreadCrumb
+        buttonText="Get a Quote"
+        onClick={openModal} // Call openModal on button click
+      />
+      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+
+
+</div>
                         </p>
                     </div>
 

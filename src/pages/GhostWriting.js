@@ -88,10 +88,10 @@ const GhostWriting = () => {
   return (
     <>
    <Helmet>
-<title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
+<title>Affordable Ghostwriting Services | AMZ Book Publishing</title>
 <meta
 name="description"
-content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in the US and worldwide. Get your dream book published today!"/>
+content="Need a ghostwriter? Get professional ghostwriting services. Trusted by best-selling authors, USA's top premier ghostwriting agency."/>
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://amzbookpublishing.net/professional-ghostwriting-services " />
 <meta property="og:locale" content="en_US" />

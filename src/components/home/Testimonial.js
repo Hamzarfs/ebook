@@ -53,7 +53,7 @@ const responsive = {
 
 // Generate carousel items from the testimonial data
 const items = testimonials.map((testimonial, index) => (
-    <div className="item text-center" key={index} style={{ padding: '85px 10px 85px 10px' }}>
+    <div className="item text-center wa-res" key={index} style={{ padding: '85px 10px 85px 10px' }}>
         <i className="bi bi-quote quote1"></i>
         <p className="card-text">{testimonial.quote}</p>
         <div className="text-center">
