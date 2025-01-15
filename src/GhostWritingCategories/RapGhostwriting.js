@@ -135,7 +135,8 @@ const LegalGhostwriting = () => {
             <title>Rap/Hip Hop Ghostwriting Services for Musicians</title>
             <meta name="description" content="Need Rap/Hip Hop ghostwriter? We offer professional Rap ghostwriting services at an affordable price. Contact us to hire expert writers for your project." />
             <link rel="canonical" href="https://amzbookpublishing.net/rap-ghostwriting-services " />
-            <meta name="robots" content="index, follow" />
+            <meta name="robots" content="noindex, nofollow" />
+            {/* <meta name="robots" content="index, follow" /> */}
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content="Rap/Hip Hop Ghostwriting Services for Musicians" />

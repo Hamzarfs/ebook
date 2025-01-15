@@ -135,7 +135,7 @@ const LegalGhostwriting = () => {
             <title>Expert Blog Ghostwriting Services for Engaging Content</title>
             <meta name="description" content="Need a Blog ghostwriter? We offer professional Blog ghostwriting services at an affordable price. Contact us to hire expert bloggers remotely for your project." />
             <link rel="canonical" href="https://amzbookpublishing.net/professional-blog-ghostwriting-services " />
-            <meta name="robots" content="index, follow" />
+            <meta name="robots" content="noindex, nofollow" />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content="Expert Blog Ghostwriting Services for Engaging Content" />

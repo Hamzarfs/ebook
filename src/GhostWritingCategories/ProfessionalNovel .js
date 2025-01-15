@@ -135,7 +135,7 @@ const LegalGhostwriting = () => {
                 <title>Professional Novel Writing Services for Aspiring Authors</title>
                 <meta name="description" content="Need a Novel ghostwriter? We offer professional Novel ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
                 <link rel="canonical" href="https://amzbookpublishing.net/professional-novel-writing-services " />
-                <meta name="robots" content="index, follow" />
+                <meta name="robots" content="noindex, nofollow" />
 
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="article" />

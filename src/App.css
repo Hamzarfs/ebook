@@ -722,7 +722,7 @@ textarea.popupform1-input {
 .combtn {
   display: flex
 ;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   height: 100px;
 }
@@ -749,9 +749,10 @@ textarea.popupform1-input {
 }
 
 .combtn a {
-background-color: #f3a3b3;
+  background-color: #FD9F33;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 20px;
+  margin-right: 14px;
   text-decoration: none;
   border-radius: 25px;
   font-size: 1.2rem;
@@ -779,7 +780,7 @@ background-color: #f3a3b3;
 }
 
 .page-heading .btn:hover {
-  background-color: #f3a3b3 !important;
+  background-color: #fd9f33 !important;
 }
 
 
@@ -1797,11 +1798,15 @@ transition: background-color 0.3s ease;
     background-color: #ff8903;
   }
 
+
+
+
   
   
 
 /* Responsive Styling */
 @media (max-width: 768px) {
+
 
   .page-hading {
     height: 400px !important;
@@ -1856,6 +1861,9 @@ transition: background-color 0.3s ease;
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
+  /* Mobile view (below 767px): Image is moved below the text */
+
+
  
   .book-cards-header h2 {
     font-size: 2rem;
@@ -2218,15 +2226,15 @@ transition: background-color 0.3s ease;
     color: black;
     font-size: 1.5rem;
 }
-  .page-heading .btn {
-    background-color: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
-    color: white;
-    padding: 6px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: background-color 0.s;
-  }
+.page-heading .btn {
+  background-color: linear-gradient(180deg, #FB9130 0%, #FFCE86 100%);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 26px;
+  font-size: 1.2rem;
+  transition: background-color 0.s;
+}
 
   .page-heading h1 {
     font-size: 2rem;

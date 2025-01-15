@@ -125,49 +125,67 @@ const ContactForm = () => {
                                 <input
                                     type="text"
                                     name='name'
-                                    className="form-control"
-                                    placeholder="Your full name"
+                                    className={`form-control ${formData.name && (!/^[a-zA-Z ]{1,50}$/.test(formData.name) || /^\s/.test(formData.name)) ? 'is-invalid' : ''}`}
+                                    placeholder="Your full name*"
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
+                                    maxLength="52"
+                                     pattern="^[a-zA-Z ]{1,50}$"
+        title="Please enter your name in alphabets"
                                 />
+                                    {formData.name && (!/^[a-zA-Z ]{1,50}$/.test(formData.name) || /^\s/.test(formData.name)) && (
+        <div className="invalid-feedback">Please enter your name in alphabets</div>
+      )}
                             </div>
                             <div className="col">
                                 <input
                                     type="email"
                                     name='email'
-                                    className="form-control"
-                                    placeholder="E-mail address"
+                                    className={`form-control ${formData.email && !/\S+@\S+\.\S+/.test(formData.email) ? 'is-invalid' : ''}`}
+                                    placeholder="E-mail address*"
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
+                                    pattern="[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}"
+        title="Please enter valid email example@gmail.com"
                                 />
-                                <div className="invalid-feedback">
-                                    Invalid email address
-                                </div>
+                                {formData.email && !/\S+@\S+\.\S+/.test(formData.email) && (
+        <div className="invalid-feedback">Please enter valid email example@gmail.com</div>
+      )}
                             </div>
                         </div>
                         <div className="mb-3">
                             <input
                                 type="text"
                                 name='subject'
-                                className="form-control"
-                                placeholder="Subject"
+                                className={`form-control ${formData.subject && formData.subject.length > 200 ? 'is-invalid' : ''}`}
+                                placeholder="Subject*"
                                 value={formData.subject}
                                 onChange={handleChange}
                                 required
+                                maxLength="202"
+        title="subject not exceed 200 characters"
                             />
+                             {formData.subject && formData.subject.length > 200 && (
+        <div className="invalid-feedback">subject should not exceed 200 characters</div>
+      )}
                         </div>
                         <div className="mb-3">
                             <textarea
-                                className="form-control"
+                                className={`form-control ${formData.message && formData.message.length > 2000 ? 'is-invalid' : ''}`}
                                 name='message'
                                 rows="5"
-                                placeholder="Your message"
+                                placeholder="Your message*"
                                 value={formData.message}
                                 onChange={handleChange}
                                 required
+                                maxLength="2002"
+        title="Message should not exceed 2000 characters"
                             />
+                            {formData.message && formData.message.length > 2000 && (
+        <div className="invalid-feedback">Message should not exceed 2000 characters</div>
+      )}
                         </div>
                         <button type="submit" className="btn btn-submit" disabled={loading}>
                             {loading ?

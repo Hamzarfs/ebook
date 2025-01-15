@@ -40,18 +40,20 @@ const BookServices = () => {
         {/* Right Side Content */}
         <div className="col-md-5 d-flex align-items-center">
           <div>
-          <img src={books2} alt="Vector" className="image-online img-fluid mb-4" />
+          
           <h5 className="heading-online">Developmental Editing</h5>
             <p className="description-online">
             Great research deserves a clear presentation. That is why we have brought together a team of specialists in subject-specific editing. They will ensure your characters are well-developed, your plot is tight, and your manuscript is polished to perfection before giving it their stamp of approval.
             </p>
+            <img src={books2} alt="Vector" className="image-online img-fluid mb-4" />
 
-            <img src={books5} alt="Icon" className="image-online img-fluid mt-4 mb-4" />
+   
             <h5 className="heading-online">Editorial Assessment</h5>
             <p className="description-online">
             Our editors dive deep into your masterpiece, examining every detail and providing you with insightful feedback. You will get a firsthand look at their thoughts and suggestions, helping you refine your work to its fullest potential.
 
             </p>
+            <img src={books5} alt="Icon" className="image-online img-fluid mt-4 mb-4" />
           </div>
         </div>
       </div>
