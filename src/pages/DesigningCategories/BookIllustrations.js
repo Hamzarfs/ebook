@@ -135,7 +135,7 @@ const BookIllustrations = () => {
           <meta property="og:type" content="article" />
           <meta property="og:title" content="Custom Book Illustration Services by Talented Artists" />
           <meta property="og:description" content="Need Book Illustration services? We offer professional book illustration services in the USA at an affordable price. Contact us to hire book illustrators." />
-          <meta property="og:url" content="https://amzbookpublishing.net/book-illustrations-services" />
+          <meta property="og:url" content="https://amzbookpublishing.net/book-illustration-services" />
           <meta property="og:site_name" content="AMZBookPublishing" />
           <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
           <meta property="article:modified_time" content="2024-08-23T07:09:32+00:00" />

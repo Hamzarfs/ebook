@@ -147,14 +147,15 @@ const App = () => {
        
       
 
-         {/* Sub Categories of Designing */}
+         {/* Sub Categories of Designing 
+          <Route path="/designing/book-teaser" element={<BookTeaser openModal={openModal} />} />
+         */}
 
         <Route path="/author-website-design-services" element={<AuthorWebsiteDesign openModal={openModal} />} />
         <Route path="/bespoke-logo-design" element={<LogoDesign openModal={openModal} />} />
         <Route path="/stationery-design-services" element={<StationeryDesign openModal={openModal} />} />
-        <Route path="/designing/book-teaser" element={<BookTeaser openModal={openModal} />} />
         <Route path="/professional-book-printing-services" element={<BookPrinting openModal={openModal} />} />
-        <Route path="/book-illustrations-service" element={<BookIllustrations openModal={openModal} />} />
+        <Route path="/book-illustration-services" element={<BookIllustrations openModal={openModal} />} />
         <Route path="/interior-book-formatting-services" element={<BookInteriorFormatting openModal={openModal} />} />
         <Route path="/letterhead-and-envelope-design-services" element={<LetterheadEnvelopeDesign openModal={openModal} />} />
         <Route path="/business-card-design-services" element={<BusinessCardDesign openModal={openModal} />} />

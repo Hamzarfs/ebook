@@ -90,6 +90,12 @@ const DesigningServices = () => {
       link: "/letterhead-and-envelope-design-services",
       image: LetterheadEnvelopeImage,
     },
+    {
+      number: "09",
+      text: "Letterhead & Envelope Design 1",
+      link: "/letterhead-and-envelope-design-services",
+      image: LetterheadEnvelopeImage,
+    },
   ];
 
   // Uncomment to add more services and tabs

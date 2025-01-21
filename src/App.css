@@ -336,25 +336,27 @@ text-align: left;
 .icon-box .text-content {
     text-align: left;
 }
-.icon-box h3 {
+.icon-box h3 span {
     font-size: 54px;
     font-weight: bold;
     color: #fc9700;
 }
 .icon-box p {
   font-weight: 600;
-    font-size:28px;
-    /* text-align: center; */
+     /*  font-size:28px;
+  text-align: center; */
     line-height: 1.4em;
     margin-bottom: 20px;
     color: #333333;
-  
 }
-.icon-box span {
+
+
+
+.icon-box h3 p span {
     font-size: 24px;
     font-weight: 700;
-    margin-top: -15px;
-    display: block;
+    margin-top: -5px;
+    display: block;  color: #333333;
 }
 
 
@@ -428,7 +430,7 @@ section.ebook-forth-section.custom-gallery .container.second-section-container h
     text-align: center;
 }
 
-h3.gradient-text {
+.gradient-text {
   background: linear-gradient(180deg, #FFCE86 0%, #FB9130 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

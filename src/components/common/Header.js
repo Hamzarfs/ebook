@@ -122,7 +122,6 @@ const Header = () => {
     <li><NavLink to="/author-website-design-services" className="dropdown-item">Author Website Design</NavLink></li>
     <li><NavLink to="/bespoke-logo-design" className="dropdown-item">Bespoke Logo Design</NavLink></li>
     <li><NavLink to="/stationery-design-services" className="dropdown-item">Stationery Design</NavLink></li>
-    <li><NavLink to="/designing/book-teaser" className="dropdown-item">Book Teaser</NavLink></li>
     <li><NavLink to="/professional-book-printing-services" className="dropdown-item">Book Printing</NavLink></li>
     <li><NavLink to="/book-illustrations-service" className="dropdown-item">Book Illustrations</NavLink></li>
     <li><NavLink to="/interior-book-formatting-services" className="dropdown-item">Book Interior Formatting</NavLink></li>
@@ -140,7 +139,7 @@ const Header = () => {
     Book Editing
   </NavLink>
   <ul className="dropdown-menu" aria-labelledby="bookEditingDropdown">
-    <li><NavLink to="/book-editing/book-editing" className="dropdown-item">Book Editing</NavLink></li>
+
     <li><NavLink to="/professional-novel-editing-services" className="dropdown-item">Novel Editing</NavLink></li>
     <li><NavLink to="/affordable-poetry-editing-services" className="dropdown-item">Poetry Editing</NavLink></li>
     <li><NavLink to="/professional-screenplay-editing-services" className="dropdown-item">Screenplay Editing</NavLink></li>
@@ -148,7 +147,7 @@ const Header = () => {
     <li><NavLink to="/book-proofreading-services" className="dropdown-item">Book Proofreading</NavLink></li>
     <li><NavLink to="/fiction-book-editing-services" className="dropdown-item">Fiction Book Editing</NavLink></li>
     <li><NavLink to="/non-fiction-book-editing-services" className="dropdown-item">Non-Fiction Book Editing</NavLink></li>
-    <li><NavLink to="/book-editing/self-editing-fiction-writers" className="dropdown-item">Self Editing for Fiction Writers</NavLink></li>
+    
   </ul>
 </li>
 

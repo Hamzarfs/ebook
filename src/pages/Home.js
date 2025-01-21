@@ -48,7 +48,7 @@ const Home = () => {
 <title>AMZ Book Publishing: Best Amazon Book Publishing Services</title>
 <meta
 name="description"
-content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in the US and worldwide. Get your dream book published today!"/>
+content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services in USA and worldwide. Get your dream book published today!"/>
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://amzbookpublishing.net" />
 {/* Open Graph / Facebook Metadata */}
@@ -57,9 +57,7 @@ content="AMZ Book Publishing is a leading company offering the best Amazon book 
 <meta
 property="og:title"
 content="AMZ Book Publishing: Best Amazon Book Publishing Services"/>
-<meta
-property="og:description"
-content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services to authors in the US and worldwide. Get your dream book published today!"/>
+<meta property="og:description" content="AMZ Book Publishing is a leading company offering the best Amazon book publishing services in USA and worldwide. Get your dream book published today!" />
 <meta property="og:url" content="https://amzbookpublishing.net/" />
 <meta property="og:site_name" content="AMZ Book Publishing" />
 {/* Facebook Specific Metadata */}

@@ -7,7 +7,7 @@ const FourthSection = () => {
       <div className="container text-center">
         <div className="gradient-btn">About Us</div>
         <h2>Why Choose</h2>
-        <h3 className="gradient-text">AMZ Book Publishing?</h3>
+        <h2 className="gradient-text">AMZ Book Publishing?</h2>
         <p>Digital book publishing on Amazon does not have to be a headache. With us, it is smooth sailing! Here is why.</p>
       </div>
 

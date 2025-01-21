@@ -23,11 +23,11 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>04+</h3>
+                    <h3><span>04+</span>
                   <p>
                   <span>Years</span>
                   Over 04 <br />years of experience
-                  </p>
+                  </p> </h3>
              
 
                   </div>
@@ -44,12 +44,12 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>06+</h3>
+                    <h3><span>06+</span>
                   <p>
                   <span>Countries</span>
                   Top-tier <br />editorial team
                   </p>
-                  
+                  </h3>
 
                   </div>
                 </div>
@@ -65,11 +65,11 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>160+</h3>
+                    <h3><span>160+</span>
               <p>
               <span>Clients</span>
               Personalized<br />services
-              </p>
+              </p></h3>
 
                   </div>
                 </div>
@@ -85,12 +85,12 @@ const ThirdSection = () => {
                 </div>
                 <div className="col-9">
                   <div className="text-content">
-                    <h3>200+</h3>
+                    <h3><span>200+</span>
                     <p>
                     <span>Projects</span>
                    Eye-catching<br /> book cover designs
 
-                    </p>
+                    </p> </h3>
              
                   </div>
                 </div>

@@ -6,10 +6,10 @@ import ImageTextBanner from '../components/common/ImageTextBanner';
 import CtaButton from '../components/common/CtaButton';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
-import othersericebg from '../images/othersericebg.png'; // Import the image
-import ghostimage1 from '../images/ghostimage1.png'; // Adjust the path as necessary
-import ghostimage2 from '../images/ghostimage2.png'; // Adjust the path as necessary
-import ghostimage3 from '../images/ghostimage3.png'; // Adjust the path as necessary
+import othersericebg from '../images/othersericebg.png'; 
+import ghostimage1 from '../images/ghostimage1.png'; 
+import ghostimage2 from '../images/ghostimage2.png'; 
+import ghostimage3 from '../images/ghostimage3.png'; 
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
 import PopupForm1 from '../components/common/PopupForm';
@@ -28,7 +28,7 @@ const contentItems = [
   },
   {
     heading: "Make Every Page Perfect With Creative Book Design",
-    paragraph: "We’d never forget about the inside of your book. We’ve curated a team of our expert book designers to bring you custom typesetting and interiors—whether you’ve got a novel, a self-help book, or something extra special.",
+    paragraph: "We'd never forget about the inside of your book. We've curated a team of our expert book designers to bring you custom typesetting and interiors—whether you’ve got a novel, a self-help book, or something extra special.",
     imgSrc: ghostimage2,
     imgAlt: "Book Design",
     flexDirection: "reverse"

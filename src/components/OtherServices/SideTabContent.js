@@ -3,7 +3,17 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { FaChevronRight } from 'react-icons/fa'; // Import Font Awesome for arrow
 import bookwritingtab from '../../images/bookwritingtab.png';
+import BookMarketing from '../../images/BookMarketing.png';
+import VideoBook from '../../images/VideoBook.png';
+import SocialMediaMarketing from '../../images/SocialMediaMarketing.png';
+import AmazonMarketing from '../../images/AmazonMarketing.png';
+import SEOServices from '../../images/SEOServices.png';
+import AudioBook from '../../images/AudioBook.png';
+import BookReviews from '../../images/BookReviews.png';
+
 import frame11 from '../../images/Frame 11.png';
+
+
 // import './YourStyles.css'; // Custom styles for the section
 
 const SideTabContent = () => {
@@ -45,14 +55,14 @@ const SideTabContent = () => {
         </>
       ),
       
-      image: bookwritingtab,
+      image: BookMarketing,
     },
     {
       title: 'Video Book',
       content:( <>
         Our skilled team specialize in making videos that can command audiences and connect with popular themes and styles. This will skyrocket the excitement and buzz around your story. So, contact us to make your book an interesting visual experience resonating deep down in readers' hearts! </> ),
        
-      image: bookwritingtab,
+      image: VideoBook,
     },
     {
       title: 'Social Media Marketing',
@@ -60,7 +70,7 @@ const SideTabContent = () => {
          Social media is a big deal these days in the world of marketing. Millions of users are on various platforms. In this dynamic environment, a social media strategy becomes crucial and assists the author in promoting and reaching out to his readers. AMZ Book Publishings helps you unleash your power in telling your story to your readers.
  <br/><br/>
 Our experienced team comes up with creative strategies to promote your online presence, add value to your community, and increase traffic directed to your book or author page. </> ),
-      image: bookwritingtab,
+      image: SocialMediaMarketing,
     },
     {
       title: 'Amazon Marketing',
@@ -69,7 +79,7 @@ Our experienced team comes up with creative strategies to promote your online pr
         <br/><br/>
 Our expert team helps you reach your target audience and really maximize the exposure of your book on the world's largest online marketplace.
       title: 'Amazon Marketing', </> ),
-      image: bookwritingtab,
+      image: AmazonMarketing,
     },
     {
       title: 'SEO Services',
@@ -78,7 +88,7 @@ Our expert team helps you reach your target audience and really maximize the exp
         <br/><br/>
         As a writer, you should solely focus on the creative aspects of your work to write something truly remarkable. Let our highly skilled SEO team use optimum strategies in optimising your site and content. Hence, your book will reach the target audience and top the searches without any hassle! </> ),
 
-      image: bookwritingtab,
+      image: SEOServices,
     },
     {
       title: 'Audio Book',
@@ -86,7 +96,7 @@ Our expert team helps you reach your target audience and really maximize the exp
        Audiobooks are now the number one favourite of busy readers. You can listen to your recent read while commuting, exercising, or doing housework. We capture your book's heart and make your audiobook a sleek-finished product that fans will appreciate, and new listeners will like. We want your audiobook to be a real treasure in your journey as an author, getting you closer to more people and widening your audience.
         <br/><br/>
         Our expert team at AMZ Book Publishings is dedicated to helping you reach a wider audience by bringing your stories to life with high-quality audio narration. This means making sure that your book will resonate with the book listeners worldwide. Let's join the audiobook revolution and make your book come alive! </> ),
-      image: bookwritingtab,
+      image: AudioBook,
     },
     {
       title: 'Book Reviews',
@@ -95,7 +105,7 @@ Our expert team helps you reach your target audience and really maximize the exp
 
         <br/><br/>
         We understand the importance of quality reviews in today's cutthroat literary marketplace. We will enable you to receive authentic feedback from your target audience, which can elevate the reputation of your book. </> ),
-      image: bookwritingtab,
+      image: BookReviews,
     },
     // Add more tabs as needed
   ];
