@@ -45,12 +45,13 @@ import NovelExperPage from './GhostWritingCategories/ProfessionalNovel ';
 import AuthorWebsiteDesign from './pages/DesigningCategories/AuthorWebsiteDesign';
 import LogoDesign from './pages/DesigningCategories/LogoDesign';
 import StationeryDesign from './pages/DesigningCategories/StationeryDesign';
-import BookTeaser from './pages/DesigningCategories/BookTeaser';
+//import BookTeaser from './pages/DesigningCategories/BookTeaser';
 import BookPrinting from './pages/DesigningCategories/BookPrinting';
 import BookIllustrations from './pages/DesigningCategories/BookIllustrations';
 import BookInteriorFormatting from './pages/DesigningCategories/BookInteriorFormatting';
 import LetterheadEnvelopeDesign from './pages/DesigningCategories/LetterheadEnvelopeDesign';
 import BusinessCardDesign from './pages/DesigningCategories/BusinessCardDesign';
+import BookCover from './pages/DesigningCategories/BookCover';
 
 
 // *************** Book Editing Subcategories ****************************
@@ -159,6 +160,7 @@ const App = () => {
         <Route path="/interior-book-formatting-services" element={<BookInteriorFormatting openModal={openModal} />} />
         <Route path="/letterhead-and-envelope-design-services" element={<LetterheadEnvelopeDesign openModal={openModal} />} />
         <Route path="/business-card-design-services" element={<BusinessCardDesign openModal={openModal} />} />
+        <Route path="/professional-book-cover-design-services" element={<BookCover openModal={openModal} />} />
 
         {/* Sub Categories of Book Editing */}
 

@@ -123,10 +123,12 @@ const Header = () => {
     <li><NavLink to="/bespoke-logo-design" className="dropdown-item">Bespoke Logo Design</NavLink></li>
     <li><NavLink to="/stationery-design-services" className="dropdown-item">Stationery Design</NavLink></li>
     <li><NavLink to="/professional-book-printing-services" className="dropdown-item">Book Printing</NavLink></li>
-    <li><NavLink to="/book-illustrations-service" className="dropdown-item">Book Illustrations</NavLink></li>
+    <li><NavLink to="/book-illustration-services" className="dropdown-item">Book Illustrations</NavLink></li>
     <li><NavLink to="/interior-book-formatting-services" className="dropdown-item">Book Interior Formatting</NavLink></li>
     <li><NavLink to="/letterhead-and-envelope-design-services" className="dropdown-item">Letterhead & Envelope Design</NavLink></li>
     <li><NavLink to="/business-card-design-services" className="dropdown-item">Business Card Design</NavLink></li>
+    <li><NavLink to="/professional-book-cover-design-services" className="dropdown-item">Book Cover Design </NavLink></li>
+
   </ul>
 </li>
 

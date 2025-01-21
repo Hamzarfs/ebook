@@ -18,7 +18,7 @@ const LPHeader = () => {
     return (
         <header className="lpheader bg-orange">
             <nav className="navbar navbar-expand-lg navbar-light container">
-                <a className="navbar-brand" href="https://amzbookpublishing.net/book-publishing-services">
+                <a className="navbar-brand" href="https://amzbookpublishing.net/">
                     <img src={logo} alt="Logo" className="logo" />
                 </a>
                 <button

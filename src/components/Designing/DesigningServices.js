@@ -75,7 +75,7 @@ const DesigningServices = () => {
     {
       number: "06",
       text: "Book Illustration",
-      link: "/book-illustrations-service",
+      link: "/book-illustration-services",
       image: BookIllustrationImage,
     },
     {
@@ -92,8 +92,8 @@ const DesigningServices = () => {
     },
     {
       number: "09",
-      text: "Letterhead & Envelope Design 1",
-      link: "/letterhead-and-envelope-design-services",
+      text: "Book Cover Design",
+      link: "/professional-book-cover-design-services",
       image: LetterheadEnvelopeImage,
     },
   ];
