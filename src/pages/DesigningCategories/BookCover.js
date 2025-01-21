@@ -13,7 +13,7 @@ import DesignProcess from '../../components/common/DesignProcess';
 import ImageRightBanner from '../../components/common/ImageRightText';
 import ImageLeftBanner from '../../components/common/ImageLeftText';
 import FictionImage1 from '../../images/fictiongimg1.png';
-import fictionwhychoose from '../../images/fictionwhychoose.png';
+import BookCoverDesign from '../../images/BookCoverDesign.jpg';
 import ghostWritingImage from '../../images/Ghost Writing.png';
 import designingImage from '../../images/Designing.png';
 import bookEditingImage from '../../images/book edit.png';
@@ -169,7 +169,7 @@ Is your book getting lost in the crowd, struggling to stand out among countless 
 That is why we are here to help you bring your book into the spotlight with a visually stunning and emotionally impactful teaser. Our team of professionals specializes in creating teasers that not only captivate audiences but also build excitement and buzz around your story.
         </>
     }
-    imageSrc={FictionImage1}
+    imageSrc={BookCoverDesign}
     objectfit="contain"
     imageHeight="400px"  // Set height here
     imageWidth="100%"     // Set width here
@@ -209,7 +209,7 @@ We know that a great book deserves an equally captivating introduction. That is 
 Whether it is the suspense, the drama, or the heart of your story, we know how to craft a teaser that hooks viewers and keeps them wanting more. Let us help you showcase your work in a way that leaves a lasting impact. Experience the power of a book cover design with AMZ Book Publishings, and watch as your story comes to life like never before.
       </>
   }
-    imageSrc={fictionwhychoose}
+    imageSrc={BookCoverDesign}
     imageHeight=""        // Set height here
     imageWidth=""          // Set width here
     objectfit="cover"          // Set object-fit here

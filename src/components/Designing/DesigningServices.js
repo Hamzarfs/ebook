@@ -10,6 +10,8 @@ import BookPrintingImage from "../../images/book-printing.png";
 import BookIllustrationImage from "../../images/book-illustration.png";
 import BookInteriorImage from "../../images/book-teaser.png";
 import LetterheadEnvelopeImage from "../../images/letterhead-envelpe.png";
+import BookCoverDesign from "../../images/BookCoverDesign.jpg";
+
 
 // ServiceCard Component
 const ServiceCard = ({ number, text, link, backgroundImage }) => {
@@ -94,7 +96,7 @@ const DesigningServices = () => {
       number: "09",
       text: "Book Cover Design",
       link: "/professional-book-cover-design-services",
-      image: LetterheadEnvelopeImage,
+      image: BookCoverDesign,
     },
   ];
 
