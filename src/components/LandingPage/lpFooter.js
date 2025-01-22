@@ -10,9 +10,9 @@ const LpFooter = () => {
             <div className="container py-5">
                 <div className="row g-4 g-sm-5">
                     <div className="col-md-6 mb-4">
-
+                    <a href="/">
                         <img src={ebooklogo} alt="AMZ Book Publishing" className="img-fluid mb-3" />
-
+</a>
                         <p className="text-light text-justify">
                             AMZ Book Publishing is a full-service book publishing company based in the United States, dedicated to helping authors bring their stories to life. Offering a comprehensive range of services, including ghostwriting, e-book writing services, book editing, book cover design, formatting, and marketing, AMZ Book Publishing supports authors throughout the entire digital book publishing process.</p>
                     </div>
