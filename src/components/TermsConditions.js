@@ -65,7 +65,7 @@ const TermsAndConditionsSection = () => {
 
                 <div className='col-12'>
                     <div className='text-center'>
-                        <Link className='btn btn-primary' to="/book-publishing-services" style={
+                        <Link className='btn btn-primary' to="/" style={
                             {
                                 backgroundColor: 'rgb(252, 151, 0)',
                                 color: 'white',

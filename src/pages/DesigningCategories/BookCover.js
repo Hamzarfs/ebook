@@ -124,7 +124,7 @@ const BookTeaser = () => {
         <title>Custom Book Cover Design Services | AMZ Book Publishing</title>
         <meta name="description" content="Need a book cover designer? We offer professional book cover design services for self-published authors at affordable prices." />
         <link rel="canonical" href="https://amzbookpublishing.net/professional-book-cover-design-services " />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Custom Book Cover Design Services | AMZ Book Publishing" />
