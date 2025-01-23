@@ -215,8 +215,8 @@ At AMZ book publishing, our primary objective is to craft a compelling narrative
       />
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Best Novel Ghostwriting Agency in the USA"
-    subHeading=""
+    heading="Best Novel Ghostwriting  " 
+    subHeading="Agency in the USA"
     description={
       <>
 Crafting a novel requires a distinct fusion of artistic talent, perseverance, and narrative expertise. Our team of seasoned novelists brings this rare combination to the table, empowering us to transform your literary concept into a reality. From refining a gripping storyline to breathing life into memorable characters, we offer all-encompassing guidance. Our specialty lies in weaving immersive tales that transport audiences to diverse realms and periods, while skillfully crafting characters that resonate deeply and bond with readers.

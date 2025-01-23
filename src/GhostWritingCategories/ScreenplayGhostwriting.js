@@ -213,8 +213,8 @@ Our innovative and unconventional thinking sets our ghostwriting services apart 
       />
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Our Screenplay Ghostwriting Agency"
-    subHeading=""
+    heading="Why Choose Our Screenplay "
+    subHeading="Ghostwriting Agency"
     description={
       <>
 Looking to bring your literary vision to life? AMZ Book Publishing is the ideal partner for your book-writing endeavors. We've built an exceptional reputation for delivering high-quality, professional book-writing services.

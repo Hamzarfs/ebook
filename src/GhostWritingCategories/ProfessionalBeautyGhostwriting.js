@@ -171,7 +171,7 @@ At AMZ Book Publishing, we weave comprehensive content encompassing the latest b
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Professional Beauty  "
+    heading="Professional Beauty "
     subHeading=" Ghostwriting Services"
     description={
         <>

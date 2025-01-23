@@ -52,38 +52,38 @@ const services = [
 const heading = {
   title: (
     <>
-    Producing Your Work Of
+  Four Pillars of Excellence 
      <br />
     </>
   ),
-  highlight: "Health and Fitness Ghostwriting"
+  highlight: "at AMZ Book Publishing"
 };
 // const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Outlines for Your Legal Work",
-    title: "Outlines for Your Legal Work",
-    description: "We craft detailed outlines that keep your project on track, guiding you from concept to completion with ease."
+    alt: "Emphasis on Idea Development & Planning: ",
+    title: "Emphasis on Idea Development & Planning: ",
+    description: "The primary focus for writers is on developing and refining ideas before writing, involving extensive research to ensure strong foundational concepts."
   },
   {
     image: designprocess2,
-    alt: "Content that Reflects Your Expertise",
-    title: "Content that Reflects Your Expertise",
-    description: "Our legal ghostwriters work closely with you to ensure your ideas, perspectives, and legal expertise shine through every word."
+    alt: "Fact-Based Approach: ",
+    title: "Fact-Based Approach: ",
+    description: "Unlike many companies that rely on clichés, AMZ book publishing prioritizes factual accuracy and incorporates only relevant and verified information into the content."
   },
   {
     image: designprocess3,
-    alt: "Meticulous Review & Proofreading",
-    title: "Meticulous Review & Proofreading",
-    description: "We do not just write; we perfect. Our editors and proofreaders meticulously review your material, ensuring it is flawless from structure to punctuation."
+    alt: "Commitment to Quality & Deadlines: ",
+    title: "Commitment to Quality & Deadlines: ",
+    description: "Despite tight deadlines, the company strives to deliver high-quality ghostwriting services within the specified timeframe."
   },
   {
     image: designprocess4,
-    alt: "Planning, Organizing & Formatting",
-    title: "Planning, Organizing & Formatting",
-    description: "From planning the structure to formatting the final document, we take care of every detail, ensuring your legal content is professionally polished and publication-ready."
+    alt: "Rigorous Quality Control: ",
+    title: "Rigorous Quality Control: ",
+    description: "All content undergoes both digital and manual checks before publication to ensure accuracy, clarity, and professional presentation."
   }
 ];
 
@@ -214,8 +214,8 @@ At AMZ book publishing, our team of expert writers specializes in crafting high-
       />
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Our Health And Fitness Ghostwriting Services Agency"
-    subHeading=""
+    heading="Why Choose Our Health And Fitness "
+    subHeading="Ghostwriting Services Agency"
     description={
       <>
 Selecting a skilled ghostwriting collaborator is vital to the triumph of your health and fitness publication. Our agency excels in its comprehensive industry knowledge, spanning diverse subjects including nutrition, physical activity, mental wellbeing, and alternative therapies. We employ a meticulous, evidence-based methodology, guaranteeing the precision and trustworthiness of all material through exhaustive investigation and collaboration with specialists. 

@@ -160,7 +160,7 @@ Just as a chef transforms ingredients into a delicious meal, a skilled book cove
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
     heading="Professional Book"
-    subHeading="Cover Design Services"
+    subHeading=" Cover Design Services"
     description={
         <>
 A book cover is not just a visually appealing wrapper, but a gateway for readers to enter the richly detailed world of your book. A professional book cover design service is where artistic and storytelling expertise the heart of your story into a captivating image that grabs attention, sparks interest, and prepares readers for the literary adventure that awaits.

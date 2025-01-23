@@ -214,8 +214,8 @@ Our dedication lies in delivering unparalleled blog writing services, ensuring t
       />
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Our Blog Ghostwriting Agency In The USA"
-    subHeading=""
+    heading="Why Choose Our Blog "
+    subHeading="Ghostwriting Agency In The USA"
     description={
       <>
 Selecting the appropriate blog ghostwriting service in the United States is essential for achieving success online. Our agency specializes in producing top-notch, captivating, and effective content designed specifically for the American audience. Skilled writers on our team possess a deep understanding of the preferences of US readers and create compelling stories that truly connect with them.

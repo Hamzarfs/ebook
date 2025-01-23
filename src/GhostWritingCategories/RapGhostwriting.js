@@ -201,7 +201,7 @@ Our professional rap/hip hop ghostwriter partners with artists to turn fresh con
          Rap/Hip Hop   <br/>
          Ghostwriting </>}
         heading2="Services"
-        paragraph="Our skilled legal ghostwriters are here to tackle even the most challenging legal topics with ease. We are your go-to team for handling the writing, while you stay focused on practicing law."
+        paragraph="Tired of creative blocks and generic lyrics? Our specialized services – The Concept Alchemist, The Verse Architect, and The Hook Maestro – will ignite your artistry and elevate your music."
         services={services}
       />
       </div>
