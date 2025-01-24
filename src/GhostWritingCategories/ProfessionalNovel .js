@@ -28,17 +28,17 @@ import { Helmet } from 'react-helmet-async';
 
 const services = [
   {
-    title: "Personalized Storytelling:",
+    title: "Personalized Storytelling",
     image: ghostWritingImage, // Update this if you have a specific image
     description: "The service emphasizes creating a unique and unforgettable narrative tailored specifically to the client's vision. This suggests a collaborative approach that values individual ideas and preferences."
   },
   {
-    title: "Proven Success and Experience:",
+    title: "Proven Success and Experience",
     image: designingImage, // Update this if you have a specific image
     description: "The content highlights the team's track record of creating successful novels that resonate with readers. This emphasizes their expertise and experience in crafting compelling stories across different genres."
   },
   {
-    title: "Bringing Your Vision to Life: ",
+    title: "Bringing Your Vision to Life",
     image: bookEditingImage, // Update this if you have a specific image
     description: "The service promises to help clients bring their storytelling aspirations to fruition. This suggests that the team will work closely with the client to develop and refine their novel, helping them achieve their literary goals."
   }
@@ -175,8 +175,8 @@ We're dedicated to delivering exceptional results and crafting compelling narrat
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Professional Novel "
-    subHeading="Writing Services"
+    heading="Best Novel Ghostwriting "
+    subHeading="Agency in the USA "
     description={
         <>
 Novels must contain compelling concepts that engage readers. To us, ghostwriting novels involves creating a story of a particular length that portrays the characters' behaviors, dialogue, and inner reflections. We specialize in crafting engaging and original novels that feature exceptional dialogues, captivating characters, and unique        <br/><br/>
@@ -215,8 +215,8 @@ At AMZ book publishing, our primary objective is to craft a compelling narrative
       />
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Best Novel Ghostwriting  " 
-    subHeading="Agency in the USA"
+    heading="Quality Novel Ghostwriting " 
+    subHeading="at Affordable Prices"
     description={
       <>
 Crafting a novel requires a distinct fusion of artistic talent, perseverance, and narrative expertise. Our team of seasoned novelists brings this rare combination to the table, empowering us to transform your literary concept into a reality. From refining a gripping storyline to breathing life into memorable characters, we offer all-encompassing guidance. Our specialty lies in weaving immersive tales that transport audiences to diverse realms and periods, while skillfully crafting characters that resonate deeply and bond with readers.

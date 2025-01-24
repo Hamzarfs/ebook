@@ -28,17 +28,17 @@ import { Helmet } from 'react-helmet-async';
 
 const services = [
   {
-    title: "Focus on Factual Accuracy:",
+    title: "Focus on Factual Accuracy",
     image: ghostWritingImage, // Update this if you have a specific image
     description: "At AMZ book publishing, a commitment to verifiable information and precision drives the creation of health and fitness content, setting them apart from competitors who often resort to generic and unoriginal material."
   },
   {
-    title: "Commitment to Quality and Affordability:",
+    title: "Commitment to Quality and Affordability",
     image: designingImage, // Update this if you have a specific image
     description: "Dedication to providing top-notch work at reasonable prices remains unwavering, even amidst strict timelines. They ensure that all content, whether verified digitally or manually, meets high standards."
   },
   {
-    title: "Proven Success:",
+    title: "Proven Success",
     image: bookEditingImage, // Update this if you have a specific image
     description: "Established Credibility with a history of achievement, they have authored multiple top-selling books that have resonated with audiences in the health and wellness industry."
   }
@@ -63,26 +63,26 @@ const heading = {
 const steps = [
   {
     image: designprocess1,
-    alt: "Emphasis on Idea Development & Planning: ",
-    title: "Emphasis on Idea Development & Planning: ",
+    alt: "Emphasis on Idea Development & Planning",
+    title: "Emphasis on Idea Development & Planning",
     description: "The primary focus for writers is on developing and refining ideas before writing, involving extensive research to ensure strong foundational concepts."
   },
   {
     image: designprocess2,
-    alt: "Fact-Based Approach: ",
-    title: "Fact-Based Approach: ",
+    alt: "Fact-Based Approach",
+    title: "Fact-Based Approach",
     description: "Unlike many companies that rely on clichés, AMZ book publishing prioritizes factual accuracy and incorporates only relevant and verified information into the content."
   },
   {
     image: designprocess3,
-    alt: "Commitment to Quality & Deadlines: ",
-    title: "Commitment to Quality & Deadlines: ",
+    alt: "Commitment to Quality & Deadlines",
+    title: "Commitment to Quality & Deadlines",
     description: "Despite tight deadlines, the company strives to deliver high-quality ghostwriting services within the specified timeframe."
   },
   {
     image: designprocess4,
-    alt: "Rigorous Quality Control: ",
-    title: "Rigorous Quality Control: ",
+    alt: "Rigorous Quality Control",
+    title: "Rigorous Quality Control",
     description: "All content undergoes both digital and manual checks before publication to ensure accuracy, clarity, and professional presentation."
   }
 ];
@@ -195,9 +195,9 @@ At AMZ book publishing, our team of expert writers specializes in crafting high-
 <SecondSection 
         buttonLabel="S e r v i c e s"
         heading1={ <>
-        Top-Notch  </>}
+      Health and    </>}
         subHeading={<>
-       Health and Fitness <br/>
+    Wellness <br/>
          Ghostwriting </>}
         heading2="Services"
         paragraph="A unique approach to health and fitness ghostwriting, Blending Rigorous Research with Creative Storytelling to Deliver Engaging and Informative Content."

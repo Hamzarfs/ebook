@@ -63,14 +63,14 @@ const heading = {
 const steps = [
   {
     image: designprocess1,
-    alt: "Guidelines for Examining and Creating Drafts:",
-    title: "Guidelines for Examining and Creating Drafts:",
+    alt: "Guidelines for Examining and Creating Drafts",
+    title: "Guidelines for Examining and Creating Drafts",
     description: "Here at AMZ Book Publishing, we specialize in crafting detailed outlines to assist you in the examination and drafting process of your book."
   },
   {
     image: designprocess2,
-    alt: "Authentic Content Reflecting Your Perspective:",
-    title: "Authentic Content Reflecting Your Perspective:",
+    alt: "Authentic Content Reflecting Your Perspective",
+    title: "Authentic Content Reflecting Your Perspective",
     description: "Our team of skilled ghostwriters at a top-tier ghostwriting firm works closely with clients to capture their viewpoints, concepts, and thoughts in their writing."
   },
   {
@@ -81,8 +81,8 @@ const steps = [
   },
   {
     image: designprocess4,
-    alt: "Organizing, Setting up, and Inputting:",
-    title: "Organizing, Setting up, and Inputting:",
+    alt: "Organizing, Setting up, and Inputting",
+    title: "Organizing, Setting up, and Inputting",
     description: "AMZ Book Publishing is a proficient ghostwriting service that excels in creativity. Our team of professional ghostwriters, cover designers, editors, and typesetters is dedicated to serving our clients."
   }
 ];

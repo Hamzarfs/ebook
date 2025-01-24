@@ -63,26 +63,26 @@ Our Beauty
 const steps = [
   {
     image: designprocess1,
-    alt: "Consultation & Discovery: ",
-    title: "Consultation & Discovery: ",
+    alt: "Consultation & Discovery ",
+    title: "Consultation & Discovery ",
     description: "The process starts with a consultation to understand the client's needs, goals, brand, target audience, and content requirements."
   },
   {
     image: designprocess2,
-    alt: "Research & Planning: ",
-    title: "Research & Planning: ",
+    alt: "Research & Planning ",
+    title: "Research & Planning",
     description: "The ghostwriter researches trends, audiences, and competitors, then develops a content strategy and style guide for consistency."
   },
   {
     image: designprocess3,
-    alt: "Content Creation & Refinement: ",
-    title: "Content Creation & Refinement: ",
+    alt: "Content Creation & Refinement",
+    title: "Content Creation & Refinement",
     description: "The ghostwriter drafts content based on the strategy and style guide, incorporating client feedback in multiple revision rounds until approval."
   },
   {
     image: designprocess4,
-    alt: "Delivery & Support: ",
-    title: "Delivery & Support: ",
+    alt: "Delivery & Support",
+    title: "Delivery & Support",
     description: "Final content is delivered, with ongoing support available for editing, proofreading, or additional writing as needed."
   }
 ];

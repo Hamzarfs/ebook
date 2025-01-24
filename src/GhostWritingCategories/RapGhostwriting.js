@@ -28,17 +28,17 @@ import { Helmet } from 'react-helmet-async';
 
 const services = [
   {
-    title: "The Concept Alchemist:",
+    title: "The Concept Alchemist",
     image: ghostWritingImage, // Update this if you have a specific image
     description: "Unleash your creative potential with The Concept Alchemist. We develop core concepts, craft compelling narratives, and provide a detailed project roadmap to guide your musical journey."
   },
   {
-    title: "The Verse Architect:",
+    title: "The Verse Architect",
     image: designingImage, // Update this if you have a specific image
     description: "Do you need powerful verses? The Verse Architect delivers high-quality lyrics tailored to your specific needs and style, elevating your artistic expression."
   },
   {
-    title: "The Hook Maestro:",
+    title: "The Hook Maestro",
     image: bookEditingImage, // Update this if you have a specific image
     description: "Craft irresistible hooks using The Hook Maestro. Our team specializes in creating catchy and unforgettable choruses that will have your audience singing along and craving more."
   }
@@ -52,37 +52,37 @@ const services = [
 const heading = {
   title: (
     <>
-   Our Rap Ghostwriting Process
+   Our Rap 
      <br />
     </>
   ),
-  highlight: "Hip Hop or Rap Ghostwriting"
+  highlight: "Ghostwriting Process"
 };
 // const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Initial Discovery: ",
-    title: "Initial Discovery: ",
+    alt: "Initial Discovery ",
+    title: "Initial Discovery ",
     description: "We begin by gaining a deep understanding of you, and the message of your audience through a comprehensive discovery process. "
   },
   {
     image: designprocess2,
-    alt: "Creative Writing: ",
-    title: "Creative Writing: ",
+    alt: "Creative Writing ",
+    title: "Creative Writing ",
     description: "Our skilled writers create engaging, high-quality lyrics that blend memorable melodies, impactful verses, and a smooth rhythm tailored to your distinct sound. "
   },
   {
     image: designprocess3,
-    alt: "Revision & Feedback: ",
-    title: "Revision & Feedback: ",
+    alt: "Revision & Feedback ",
+    title: "Revision & Feedback ",
     description: "Collaboration is essential to us. We offer multiple revision cycles, incorporating your input to guarantee a final product that meets and exceeds your creative vision. "
   },
   {
     image: designprocess4,
-    alt: "Final Delivery: ",
-    title: "Final Delivery: ",
+    alt: "Final Delivery",
+    title: "Final Delivery ",
     description: "You'll receive professionally crafted, studio-ready, giving you the freedom to focus on bringing your music to life and achieving your artistic aspirations."
   }
 ];
