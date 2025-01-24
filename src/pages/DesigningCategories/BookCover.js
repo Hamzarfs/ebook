@@ -184,7 +184,7 @@ As a professional book cover design agency, we view our book cover design servic
        The Impact Of Custom   </>}
         subHeading={<>
           Book    <br/>
-          Cover   </>}
+          Cover Design </>}
         heading2="Services"
         paragraph="A well-designed book cover is more than just an image; it's a powerful marketing tool with the ability to significantly impact a reader's journey."
         services={services}
