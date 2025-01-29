@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Home from './pages/Home';
 import Designing from './pages/Designing';
+import BlogPage from './pages/Blog';
 import BookEditing from './pages/BookEditing';
 import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
@@ -115,7 +116,7 @@ const App = () => {
         <Route path="/about-us" element={<AboutUs openModal={openModal} />} />
         <Route path="/contact-us" element={<ContactUs openModal={openModal} />} />
         <Route path="/Blog" element={<Blog openModal={openModal} />} />
-        <Route path="blogs/:slug" element={<BlogPage />} />
+        <Route path="/:slug" element={<BlogPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy openModal={openModal} />} />
         <Route path="/terms-conditions" element={<TermsConditions openModal={openModal} />} />
         <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />

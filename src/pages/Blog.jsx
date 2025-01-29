@@ -6,8 +6,12 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { API_URL, BRAND } from '../utils/api';
 import { Link } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
+import DOMPurify from 'dompurify'
+import parse from 'html-react-parser'
+
 
 const BlogPage = () => {
     const { slug } = useParams()
@@ -33,17 +37,7 @@ const BlogPage = () => {
     return (
         <div className="blog-page">
             <Helmet>
-                <title>Blog - AMZ Book Publishing</title>
-                <link rel="canonical" href="https://amzbookpublishing.net/blogs" />
-                <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="article" />
-                <meta property="og:title" content="Blogs - AMZ Book Publishing" />              
-                <meta property="og:description" content="Explore content creation tips for agencies, SEO best practices, and guides for freelance writers." />
-                <meta property="og:url" content="https://amzbookpublishing.net/blogs" />
-                <meta property="og:site_name" content="AMZBookPublishing" />
-                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-                <meta property="article:modified_time" content="2024-08-20T07:39:16+00:00" />
+            {parse(blog?.meta_tags ?? '')}
             </Helmet>
 
             <Header />
@@ -66,7 +60,7 @@ const BlogPage = () => {
                                 <h6 className="gray-font fw-bold m-0">Tag(s):</h6>
                                 <div>
                                     <div className="d-flex flex-wrap gap-2 align-items-center ">
-                                        {blog?.tags?.map((tag, index) => (
+                                    {blog?.tags?.map((tag, index) => (
                                             <div className="badge rounded-pill bg-green px-3 py-2" key={index}>{tag.name}</div>
                                         ))}
                                     </div>
@@ -75,7 +69,9 @@ const BlogPage = () => {
                         </div>
                     </div>
 
-                    <p className="gray-font fw-light">{blog?.content}</p>
+                    <div className="gray-font">
+                        {parse(DOMPurify.sanitize(blog.content))}
+                    </div>
                 </div>
             </section>
 

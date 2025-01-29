@@ -106,7 +106,7 @@ const BlogsPage = () => {
                     <div className="row mt-5">
                         <div className="col-12">
                             <div className="blog-container mb-4">
-                                <Link to={featuredBlogs[0]?.slug}>
+                                <Link to={`/${featuredBlogs[0]?.slug}`}>
                                     <div className="row">
                                         <div className="col-md-12 col-lg-auto">
                                             <img src={featuredBlogs[0]?.image_url} alt={featuredBlogs[0]?.title} className="img-fluid" />
@@ -126,7 +126,7 @@ const BlogsPage = () => {
 
                         <div className="col-lg-6">
                             <div className="blog-container blog-container-2 h-100 mb-4 mb-lg-0">
-                                <Link to={featuredBlogs[1]?.slug}>
+                                <Link to={`/${featuredBlogs[1]?.slug}`}>
                                     <img src={featuredBlogs[1]?.image_url} alt={featuredBlogs[1]?.title} className="img-fluid" />
                                     <h3 className="gray-font fw-semibold text-uppercase mt-3">{featuredBlogs[1]?.title}</h3>
                                     <p className="gray-font fw-light">{featuredBlogs[1]?.content.slice(0, 250)}</p>
@@ -135,7 +135,7 @@ const BlogsPage = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="blog-container blog-container-3 h-100">
-                                <Link to={featuredBlogs[2]?.slug}>
+                                <Link to={`/${featuredBlogs[2]?.slug}`}>
                                     <img src={featuredBlogs[2]?.image_url} alt={featuredBlogs[2]?.title} className="img-fluid" />
                                     <h3 className="gray-font fw-semibold text-uppercase mt-3">{featuredBlogs[2]?.title}</h3>
                                     <p className="gray-font fw-light">{featuredBlogs[2]?.content.slice(0, 250)}</p>
@@ -155,7 +155,7 @@ const BlogsPage = () => {
                         {blogs.map((blog) => (
                             <div className="col-lg-6 col-xl-4" key={blog.id}>
                                 <div className="article-container">
-                                    <Link to={blog.slug}>
+                                    <Link to={`/${blog.slug}`}>
                                         <img src={blog.image_url} alt={blog.title} className="img-fluid" />
                                         <h3 className="gray-font fw-semibold text-uppercase mt-3">{blog.title}</h3>
                                         <p className="gray-font fw-light">{blog.content.slice(0, 100)}</p>

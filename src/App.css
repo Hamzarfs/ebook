@@ -58,6 +58,9 @@ body {
   }
 }
 
+.bg-green {
+  background-color: #00A69C;
+}
 
 
 .dropdown-item.active, .dropdown-item:active {
