@@ -7,6 +7,7 @@ import BookEditing from './pages/BookEditing';
 import GhostWriting from './pages/GhostWriting';
 import OtherServices from './pages/OtherServices';
 import AboutUs from './pages/AboutUs';
+import Blog from './pages/Blogs';
 import ContactUs from './pages/ContactUs';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Lppage from './pages/Lppage';
@@ -113,6 +114,8 @@ const App = () => {
         <Route path="/professional-book-editing-services" element={<BookEditing openModal={openModal} />} />
         <Route path="/about-us" element={<AboutUs openModal={openModal} />} />
         <Route path="/contact-us" element={<ContactUs openModal={openModal} />} />
+        <Route path="/Blog" element={<Blog openModal={openModal} />} />
+        <Route path="blogs/:slug" element={<BlogPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy openModal={openModal} />} />
         <Route path="/terms-conditions" element={<TermsConditions openModal={openModal} />} />
         <Route path="/thank-you" element={<ThankYouPage openModal={openModal} />} />

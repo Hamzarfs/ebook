@@ -2313,7 +2313,7 @@ p.footer-pp{font-size: 15px;   line-height: 25px;}
   }
     .footer h5 {
       font-size: 16px;
-      /* margin-bottom: 20px; */
+ 
   }
     .footer ul li {
       margin-bottom: 6px;         font-size: 12px;
@@ -2395,3 +2395,120 @@ li.nav-item.dropdown:before {
   border: 2px solid;
 }
   }
+  button.btn.custom-btn-primary.text-uppercase {
+    background: linear-gradient(to bottom, rgb(248, 203, 106), #fc9700);
+    padding: 12px 40px;
+    color: white;
+    display: inline-block;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: inherit !important;
+    text-transform: uppercase;
+}
+
+.article-container h3 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #333333;
+}
+.text-uppercase {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #333333;
+}
+p.gray-font.fw-light{  color: #666666;
+  margin-bottom: 20px;}
+
+
+.article-container p {
+  color: #666666;
+  margin-bottom: 20px;
+}
+.section-p {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #838383;
+  text-align: justify;
+}
+
+  /* blog css*/
+
+
+  .blog-page {
+    .blog-section {
+        
+    }
+
+}
+
+
+.blogs-page {
+  .hero-section {
+      h1 {
+          font-size: 32px;
+      }
+
+      .blog-container {
+          box-shadow: 0 3.84px 31.18px 10px rgba(0, 0, 0, .05);
+          border-radius: 20px;
+          padding: 16px 22px;
+
+          a {
+              text-decoration: none !important;
+          }
+
+          img {
+              border-radius: 20px;
+          }
+      }
+  }
+
+  .latest-article-section {
+    background-color: #f8fafa;
+
+      .article-container {
+          padding: 20px;
+          background-color: white;
+          border-radius: 10px;
+          height: 100%;
+
+          a {
+              text-decoration: none;
+          }
+
+          img {
+              border-radius: 10px;
+              /*height: 200px;*/
+          }
+      }
+
+      .custom-btn-primary {
+          &:hover {
+              background-color: #DBF0EF;
+          }
+      }
+  }
+}
+
+
+/* For screen 768px to 991px */
+@media (max-width: 991.98px) {
+  .blogs-page {
+      .hero-section {
+
+          .blog-container-2,
+          .blog-container-3 {
+              height: auto !important;
+          }
+      }
+  }
+}
