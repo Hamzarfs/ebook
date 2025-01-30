@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import CtaButton from '../components/common/CtaButton';
+import DOMPurify from 'dompurify'
+import parse from 'html-react-parser'
 
 
 
@@ -115,7 +117,11 @@ const BlogsPage = () => {
                                             <div className="d-flex h-100 align-items-center">
                                                 <div>
                                                     <h3 className="gray-font fw-semibold text-uppercase mt-3">{featuredBlogs[0]?.title}</h3>
-                                                    <p className="gray-font fw-light">{featuredBlogs[0]?.content.slice(0, 500)}</p>
+                                                    {/* <p className="gray-font fw-light">{featuredBlogs[0]?.content.slice(0, 500)}</p> */}
+
+                                                    <div className="gray-font">
+                        {parse(DOMPurify.sanitize(featuredBlogs[0]?.content.slice(0, 500)+'...'))}
+                    </div>
                                                 </div>
                                             </div>
                                         </div>

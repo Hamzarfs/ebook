@@ -57,10 +57,13 @@ body {
     opacity: 1;
   }
 }
-
-.bg-green {
-  background-color: #00A69C;
+.gray-font p {
+  color: #000;
 }
+.bg-green {
+  background-color: #fd9f33;
+}
+
 
 
 .dropdown-item.active, .dropdown-item:active {
