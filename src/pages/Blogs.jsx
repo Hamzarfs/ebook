@@ -78,16 +78,17 @@ const BlogsPage = () => {
         <div className="blogs-page">
             <Helmet>
                 <title>Blogs - AMZ Book Publishing</title>
-                <meta name="description" content="Explore content creation tips for agencies, SEO best practices, and guides for freelance writers." />
-                <link rel="canonical" href="https://amzbookpublishing.net/blogs" />
+                <meta name="description" content="Discover expert tips on self-publishing, book marketing, and author success with the AMZ Book Publishing blog. Stay informed and elevate your writing journey!" />
+                <link rel="canonical" href="https://amzbookpublishing.net/blog"  data-rh="true"/>
+ 
                 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="article" />
                 <meta property="og:title" content="Blogs - AMZ Book Publishing" />
-                <meta property="og:description" content="Explore content creation tips for agencies, SEO best practices, and guides for freelance writers." />
-                <meta property="og:url" content="https://amzbookpublishing.net/blogs" />
-                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="og:description" content="Discover expert tips on self-publishing, book marketing, and author success with the AMZ Book Publishing blog. Stay informed and elevate your writing journey!" data-rh="true" />                
+                 <meta property="og:site_name" content="AMZBookPublishing" />
                 <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="og:url" content="https://amzbookpublishing.net/blog" data-rh="true"></meta>
                 <meta property="article:modified_time" content="2024-08-20T07:39:16+00:00" />
             </Helmet>
 
@@ -98,10 +99,10 @@ const BlogsPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5">
-                            <h1 className="gray-font fw-semibold text-uppercase">Mastering Content Writing: Strategies for Success</h1>
+                            <h1 className="gray-font fw-semibold text-uppercase">AMZ Book Publishing Blog</h1>
                         </div>
                         <div className="col-lg-7">
-                            <p className="gray-font fw-light">Nibh enim habitant dictum interdum egestas nostra ornare aliquam ultrices curae imperdiet. A pretium etiam pulvinar nascetur dapibus. Nibh enim habitant dictum interdum egestas nostra ornare aliquam ultrices curae imperdiet.</p>
+                            <p className="gray-font fw-light">Welcome to the AMZ Book Publishing Blog! Stay updated with expert tips on self-publishing, book marketing, and author success stories. Whether you're a new writer or a seasoned author, our insights will help you navigate the publishing world with ease. Explore our latest articles and start your publishing journey today!</p>
                         </div>
                     </div>
 
@@ -110,8 +111,8 @@ const BlogsPage = () => {
                             <div className="blog-container mb-4">
                                 <Link to={`/${featuredBlogs[0]?.slug}`}>
                                     <div className="row">
-                                        <div className="col-md-12 col-lg-auto">
-                                            <img src={featuredBlogs[0]?.image_url} alt={featuredBlogs[0]?.title} className="img-fluid" />
+                                        <div className="col-12 ">
+                                            <img src={featuredBlogs[0]?.image_url} alt={featuredBlogs[0]?.title} className="img-fluid w-100" />
                                         </div>
                                         <div className="col-md-12 col-lg">
                                             <div className="d-flex h-100 align-items-center">
@@ -120,7 +121,7 @@ const BlogsPage = () => {
                                                     {/* <p className="gray-font fw-light">{featuredBlogs[0]?.content.slice(0, 500)}</p> */}
 
                                                     <div className="gray-font">
-                        {parse(DOMPurify.sanitize(featuredBlogs[0]?.content.slice(0, 500)+'...'))}
+                        {/* {parse(DOMPurify.sanitize(featuredBlogs[0]?.content.slice(0, 500)+'...'))} */}
                     </div>
                                                 </div>
                                             </div>
@@ -135,7 +136,7 @@ const BlogsPage = () => {
                                 <Link to={`/${featuredBlogs[1]?.slug}`}>
                                     <img src={featuredBlogs[1]?.image_url} alt={featuredBlogs[1]?.title} className="img-fluid" />
                                     <h3 className="gray-font fw-semibold text-uppercase mt-3">{featuredBlogs[1]?.title}</h3>
-                                    <p className="gray-font fw-light">{featuredBlogs[1]?.content.slice(0, 250)}</p>
+                                    {/* <p className="gray-font fw-light">{featuredBlogs[1]?.content.slice(0, 250)}</p> */}
                                 </Link>
                             </div>
                         </div>
@@ -144,7 +145,7 @@ const BlogsPage = () => {
                                 <Link to={`/${featuredBlogs[2]?.slug}`}>
                                     <img src={featuredBlogs[2]?.image_url} alt={featuredBlogs[2]?.title} className="img-fluid" />
                                     <h3 className="gray-font fw-semibold text-uppercase mt-3">{featuredBlogs[2]?.title}</h3>
-                                    <p className="gray-font fw-light">{featuredBlogs[2]?.content.slice(0, 250)}</p>
+                                    {/* <p className="gray-font fw-light">{featuredBlogs[2]?.content.slice(0, 250)}</p> */}
                                 </Link>
                             </div>
                         </div>
@@ -164,7 +165,7 @@ const BlogsPage = () => {
                                     <Link to={`/${blog.slug}`}>
                                         <img src={blog.image_url} alt={blog.title} className="img-fluid" />
                                         <h3 className="gray-font fw-semibold text-uppercase mt-3">{blog.title}</h3>
-                                        <p className="gray-font fw-light">{blog.content.slice(0, 100)}</p>
+                                        {/* <p className="gray-font fw-light">{blog.content.slice(0, 100)}</p> */}
                                     </Link>
                                 </div>
                             </div>
