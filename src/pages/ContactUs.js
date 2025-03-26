@@ -70,7 +70,7 @@ const ContactUs = () => {
     return (
         <div>
     <Helmet>
-        <title>Contact Us - AMZ Book Publishing</title>
+        <title>Contact Us | AMZ Book Publishing</title>
         <meta name="description" content="Contact AMZ Book Publishing for book publishing. From editing to distribution, we help authors bring their stories to life. Reach out today!" />
         <link rel="canonical" href="https://amzbookpublishing.net/contact-us" />
         <meta name="robots" content="index, follow" />

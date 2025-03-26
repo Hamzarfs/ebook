@@ -15,7 +15,7 @@ const ContactUs = () => {
         <div>
             <Helmet>
                 
-                <title>Privacy Policy - AMZ Book Publishing</title>
+                <title>Privacy Policy | AMZ Book Publishing</title>
                 <meta name="description" content="AMZ Book Publishing respects and honors the privacy of each of our book publishing clients. Please review our policy and contact us with any questions." />
                 <link rel="canonical" href="https://amzbookpublishing.net/privacy-policy" />
                 <meta name="robots" content="index, follow" />

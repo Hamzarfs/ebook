@@ -132,8 +132,8 @@ const LegalGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-            <title>Screenplay Ghostwriting Services by Expert Screenwriters</title>
-            <meta name="description" content="Need Screenplay ghostwriter? We offer professional Screenplay ghostwriting services at an affordable price. Contact us to hire expert writers for your project." />
+            <title>Affordable Screenplay Ghostwriting Services | AMZ Book Publishing</title>
+            <meta name="description" content="Bring your story to the big screen with our Affordable Screenplay Ghostwriting Services—expertly crafted scripts at a price you can afford." />
             <link rel="canonical" href="https://amzbookpublishing.net/affordable-screenplay-ghostwriting-services" />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />

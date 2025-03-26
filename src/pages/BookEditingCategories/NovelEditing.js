@@ -129,8 +129,8 @@ const NovelEditing = () => {
   return (
     <div>
       <Helmet>
-            <title>Expert Novel Editing Services for Perfecting Your Story</title>
-            <meta name="description" content="Need Novel Editing Services? We offer professional Novel Editing services for self-published authors at an affordable price. Hire expert editors for your Novel." />
+            <title>Professional Novel Editing Services | AMZ Book Publishing</title>
+            <meta name="description" content="Let our Professional Novel Editing Services turn your manuscript into a polished, professionally edited novel that keeps readers hooked." />
             <link rel="canonical" href="https://amzbookpublishing.net/professional-novel-editing-services " />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />

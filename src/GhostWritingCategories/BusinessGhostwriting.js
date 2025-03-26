@@ -130,8 +130,8 @@ const BusinessGhostwriting = () => {
   return (
     <div>
      <Helmet>
-        <title>Business Book Ghostwriting Services by Expert Ghostwriters</title>
-        <meta name="description" content="Need a business book ghostwriter? We offer business book ghostwriting services at an affordable price. Meet our talented writers who can work easily." />
+        <title>Business Book Ghostwriting Services | AMZ Book Publishing</title>
+        <meta name="description" content="Our Business Book Ghostwriting Services help you turn your knowledge into a powerful, well-structured book that inspires success." />
         <link rel="canonical" href="https://amzbookpublishing.net/business-book-ghostwriting-services  " />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

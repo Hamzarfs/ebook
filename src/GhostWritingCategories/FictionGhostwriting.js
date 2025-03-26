@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/common/CtaButton';
@@ -27,26 +27,26 @@ import { Helmet } from 'react-helmet-async';
 // ******************************** Start SecondSection ******************************
 
 const services = [
-  {
-    title: "Novel Writing",
-    image: ghostWritingImage,
-    description: "Novel writing is all about crafting stories that captivate readers from start to finish. Our team weaves together compelling plots and unforgettable characters, and with the expertise of a skilled fiction editor, every element is refined to create a polished, engaging novel that keeps readers hooked.",
-    // link: "https://www.facebook.com/",
-    // buttonPadding :"10px 25px",
-    // learnmore:"Click Here",
-  },
-  {
-    title: "Short Stories",
-    image: designingImage,
-    description: "Our talented team of writers excels in all forms of writing, including short stories. They know exactly how to take your ideas and turn them into bestsellers. Dedicated and passionate, our experts make it easy to bring your vision to life, ensuring a smooth and stress-free experience for you.",
-    
-  },
-  {
-    title: "Series Writing",
-    image: bookEditingImage,
-    description: "Our series writers are incredibly passionate about transforming your ideas into engaging stories, sometimes even more than you might expect! When you hire a fiction ghostwriter from our team, you can trust that your vision will be brought to life with creativity and precision, resulting in a series that captivates readers from start to finish.",
-    
-  }
+    {
+        title: "Initial Consultation & Project Setup",
+        image: ghostWritingImage,
+        description: "The procedure commences with completing a basic form describing the concept and vision for their book. Our project managers will contact you to gather all the details needed to start your book. We'll then provide a personalized quote and discuss the project timeline.",
+        // link: "https://www.facebook.com/",
+        // buttonPadding :"10px 25px",
+        // learnmore:"Click Here",
+    },
+    {
+        title: "Fiction Writing & Revisions",
+        image: designingImage,
+        description: "Once the project is confirmed, we assign a skilled fiction ghostwriter to bring your story to life. They will begin writing the chapters and send them to you for feedback. You can request revisions and provide input as we go along, ensuring the story aligns with your expectations.",
+
+    },
+    {
+        title: "Final Approval & Publishing",
+        image: bookEditingImage,
+        description: "After the book is completed and you approve the final manuscript, we will proceed with the formatting and other steps needed for publishing. Custom marketing and promotional strategies specific to your work are also provided to maximize your exposure.",
+
+    }
 ];
 
 // ******************************** End SecondSection ******************************
@@ -54,40 +54,40 @@ const services = [
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: (
-    <>
-     Expert Fiction Book Writing Services<br />
-    </>
-  ),
-  highlight: " Across All Genres"
+    title: (
+        <>
+            Bringing Stories to Life in Every Genre: <br />
+        </>
+    ),
+    highlight: "Expert Fiction Ghostwriting Services"
 };
-const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
+const description = "Our fiction ghostwriters are passionate about delivering compelling narratives that resonate with readers.";
 
 const steps = [
-  {
-    image: designprocess1,
-    alt: "Showcase Talent",
-    title: "Showcase Talent",
-    description: "Secure your spot by completing a quick and easy form, and you will be warmly greeted by one of our friendly project managers. They will eagerly gather all the details you want to share about your book!"
-  },
-  {
-    image: designprocess2,
-    alt: "Pay A Fee",
-    title: "Pay A Fee",
-    description: "We will whip up a personalized quote just for you based on our services, and when you are ready, you can easily make your payment through our secure system!"
-  },
-  {
-    image: designprocess3,
-    alt: "Fiction Writer",
-    title: "Fiction Writer",
-    description: "Your assigned writer will send you a chapter for your approval. Once you give the thumbs up, they will wait for your go-ahead. Plus, you can request changes along the way without affecting the entire project each time a revision is made!"
-  },
-  {
-    image: designprocess4,
-    alt: "Final Approval",
-    title: "Final Approval",
-    description: "Once you have given the final manuscript the green light for publishing, we will get your book out there in your preferred format. Moreover, we will roll out a tailored marketing and promotional strategy just for you!"
-  }
+    {
+        image: designprocess1,
+        alt: "Drama",
+        title: "Drama",
+        description: "A well-articulated drama touches the reader’s heart, and many people prefer reading drama to fantasy or fiction. What can be better than fulfilling their appetite by writing a good drama that keeps them hooked? Come in partnership with us today, and let us help you publish your drama book. Don’t forget to make use of our exceptional story-writing services."
+    },
+    {
+        image: designprocess2,
+        alt: "Historical Fiction",
+        title: "Historical Fiction",
+        description: "Developing historical fiction calls for elaborate research and meticulous attention to detail. Our fiction ghostwriting services in NJ and around the country possess the unique skill of intricately blending precise historical facts into astonishing narratives that place the readers in a different world while simultaneously providing an intriguing experience. If you wish to resurrect history, we are your partners."
+    },
+    {
+        image: designprocess3,
+        alt: "Action Fiction",
+        title: "Action Fiction",
+        description: "Our action fiction ghostwriting service is ideal for those needing a heart-pounding adventure. From world-ending warfare to white-knuckle pursuits, our authors specialize in writing captivating action novels that sustain readers’ attention. Access the realm of exhilarating fierce action stories, and let us assist you in rendering an indelible impression for your audiences."
+    },
+    {
+        image: designprocess4,
+        alt: "Fantasy",
+        title: "Fantasy",
+        description: "From epic quests to magical creatures, our fantasy fiction ghostwriting services will turn your wildest dreams into reality. In mesmerizing worlds that will captivate readers, we work to develop intricate plots and complex characters. If you have a captivating fantasy story, we are devoted to bringing it to life."
+    }
 ];
 
 
@@ -95,78 +95,92 @@ const steps = [
 
 // ******************************** Start FAQ Section ******************************
 const faqData = [
-  {
-    question: "I have a fantastic idea for a novel, but writing is not my strong suit. Can you help?",
-    answer: "Absolutely! Our talented team of fiction ghostwriters is here to turn your ideas into something amazing. Just share your story concepts with us, and we will weave them into captivating prose. Before you know it, people will be binge-reading your book in just a few sittings!"
-  },
-  {
-    question: "Can you help me become a published author?",
-    answer: "Absolutely! Our fiction book ghostwriting services are designed to help you create an engaging story that is ready to pitch to top publishing platforms and literary agents. With a professional ghostwriter on your side, someone who has helped numerous authors achieve their publishing dreams, you will significantly boost your chances of success."
-  },
-  {
-    question: "Are your services confidential?",
-    answer: "Absolutely! We understand the importance of confidentiality. Unlike unprofessional ghostwriters who might share project details to attract new clients, we keep everything you share with us strictly private. Your ideas and manuscripts are safe with us!"
-  },
-  {
-    question: "What if I don't like the final draft?",
-    answer: "No worries at all! If you are not completely satisfied with the draft, just let us know what you would like to change. We offer free revisions because your satisfaction is our priority. Your feedback helps us understand your vision better, and we are here to work with you until you are thrilled with the final product!"
-  }
+    {
+        question: "What is fiction ghostwriting?",
+        answer: "Fiction ghostwriting is to create a story or novel on behalf of someone else. The client provides ideas and guidance, and the writer brings them to life, maintaining the client's voice and style."
+    },
+    {
+        question: "How do I hire a fiction ghostwriter from AMZ Book Publishing?",
+        answer: "Simply fill out the form on our website, and one of our project managers will contact you to gather details about your book and provide a personalized quote."
+    },
+    {
+        question: "Can I make revisions during the writing process?",
+        answer: "Yes, we offer unlimited revisions throughout the process. You'll be sent chapters for your approval, and you can request changes along the way to ensure the story aligns with your vision."
+    },
+    {
+        question: "How long does it take to complete a fiction book?",
+        answer: "The timeline varies depending on the length and complexity of the project. Once we understand your needs, we’ll provide an estimated timeline, but we aim to deliver high-quality content on time."
+    },
+    {
+        question: "Do I own the rights to the book after it’s completed?",
+        answer: "Yes, once the project is completed and you give final approval, you will own all the rights to the book. We ensure that all work is original and fully transferred to you."
+    }
 ];
 
 // ******************************** End FAQ Section ******************************
 
 const FictionGhostwriting = () => {
 
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+    const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
-  const openModal = () => {
-    setIsModalOpen(true); // Open the modal
-  };
+    const openModal = () => {
+        setIsModalOpen(true); // Open the modal
+    };
 
-  const closeModal = () => {
-    setIsModalOpen(false); // Close the modal
-  };
+    const closeModal = () => {
+        setIsModalOpen(false); // Close the modal
+    };
 
-  return (
-    <div>
-<Helmet>
-	<title>Affordable Fiction Ghostwriting Services by Ghostwriters</title>
-	<meta name="description" content="Need a fiction ghostwriter? We offer professional fiction ghostwriting services at an affordable price. Our experienced writers are well-trained for all genres." />
-	<link rel="canonical" href="https://amzbookpublishing.net/affordable-fiction-ghostwriting-services " />
-	<meta name="robots" content="index, follow" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Affordable Fiction Ghostwriting Services by Ghostwriters" />
-	<meta property="og:description" content="Need a fiction ghostwriter? We offer professional fiction ghostwriting services at an affordable price. Our experienced writers are well-trained for all genres." />
-	<meta property="og:url" content="https://amzbookpublishing.net/affordable-fiction-ghostwriting-services" />
-	<meta property="og:site_name" content="AMZBookPublishing" />
-	<meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-	<meta property="article:modified_time" content="2024-08-20T07:36:14+00:00" />
-</Helmet>
-      {/* -------------------Start Banner section---------------------- */}
-      <Header />
-      <BreadCrumb
-        title="Fiction Ghostwriting"
-        desc={
-          <>
-            With our fiction ghostwriting services, we bring your stories to life with captivating plots,
-            {/* <br/>  */}
-            unforgettable characters, and a creative spark that keeps readers hooked.
+    return (
+        <div>
+            <Helmet>
+                <title>Fiction Ghostwriting Services | AMZ Book Publishing</title>
+                <meta name="description" content="Get top-quality fiction ghostwriting services with AMZ Book Publishing. We craft compelling stories that captivate readers and bring your ideas to life!" />
+                <link rel="canonical" href="https://amzbookpublishing.net/affordable-fiction-ghostwriting-services " />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Affordable Fiction Ghostwriting Services by Ghostwriters" />
+                <meta property="og:description" content="Need a fiction ghostwriter? We offer professional fiction ghostwriting services at an affordable price. Our experienced writers are well-trained for all genres." />
+                <meta property="og:url" content="https://amzbookpublishing.net/affordable-fiction-ghostwriting-services" />
+                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="article:modified_time" content="2024-08-20T07:36:14+00:00" />
+            </Helmet>
+            {/* -------------------Start Banner section---------------------- */}
+            <Header />
+            {/* <BreadCrumb
+                title="Turning Your Ideas into Meaningful Stories with Professional Fiction Ghostwriting Services "
+                desc={
+                    <>
+                        Our professional fiction ghostwriting services will make your plots captivating with our unforgettable characters and creative writing. Our fiction ghostwriters will work with you whether you are seeking a thrilling adventure, dramatic tale, magical fantasy, or anything else. Ensure that your narrative stands out and resonates with the readers.
+                    </>
+                }
+                buttonText="Get a Quote"
+                onClick={openModal} // Call openModal on button click
+                backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+            /> */}
+            <BreadCrumb
+                className="responsive-height"
+                title="Turning Your Ideas into Meaningful Stories with Professional Fiction Ghostwriting Services"
+                desc={
+                    <>
+                        Our professional fiction ghostwriting services will make your plots captivating with our unforgettable characters and creative writing. Our fiction ghostwriters will work with you whether you are seeking a thrilling adventure, dramatic tale, magical fantasy, or anything else. Ensure that your narrative stands out and resonates with the readers.
+                    </>
+                }
+                buttonText="Get a Quote"
+                onClick={openModal} // Call openModal on button click
+                backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+            />
 
-          </>
-        }
-        buttonText="Get a Quote"
-        onClick={openModal} // Call openModal on button click
-        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-      />
 
-      {/* Popup Form */}
-      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
-    
-   
-{/* -------------------End Banner section---------------------- */}
+            {/* Popup Form */}
+            <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
 
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+
+            {/* -------------------End Banner section---------------------- */}
+
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <ImageTextBanner 
   
     
@@ -175,79 +189,82 @@ const FictionGhostwriting = () => {
 </div> */}
 
 
-<div style={{ padding: '40px 0px 100px 0px' }}>
-<ImageRightBanner
-    heading="Fiction "
-    subHeading="Ghostwriting"
-    description={
-        <>
-           Writing a fiction book is all about transforming imaginative ideas into captivating stories, whether it is dragons, magic, or mythical creatures. But turning those creative sparks into a well-crafted novel isn’t always easy. While there are plenty of novel writing websites out there, finding the right fit can be a challenge. That is where our fiction ghostwriters for hire step in. <br /><br />
-           We bring your ideas to life in a way that's fun, imaginative, and engaging, leaving readers spellbound and eager for more. AMZ Book Publishings also offers minimal charges, unlimited revisions, and timely delivery, all while paying close attention to the details that make your story shine!
-
-        </>
-    }
-    imageSrc={FictionMain}
-    objectfit="contain"
-    imageHeight="400px"  // Set height here
-    imageWidth="100%"     // Set width here
-    borderRadius="30px"
-/>
-</div>
-
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Distinguished  </>}
-        subHeading={<>
-        Fictional<br/>
-         Ghostwriting </>}
-        heading2="Services"
-        paragraph="Whether you are envisioning a thrilling adventure or an emotional journey, our affordable fiction ghostwriting services can help transform your ideas into compelling narratives. From the first idea to the final draft, we pour our dedication into crafting a story that truly stands out."
-        services={services}
-      />
-      </div>
+            <div style={{ padding: '40px 0px 100px 0px' }}>
+                <ImageRightBanner
+                    heading="Hire a Fiction Ghostwriter From Our Team and"
+                    subHeading=" Watch Your Story Come to Life"
+                    description={
+                        <>
+                            Transforming story ideas into fiction books is an intricate process, whether about dragons, magic, or mythical creatures. Turning creative ideas into a well-written novel can be challenging. At our affordable ghostwriting agency, you will get quality fiction writing at the lowest price. There are a variety of novel writing websites, but competing for the right one is tricky. Our expert fiction ghostwriters will help you out.
+                            Providing spellbinding services and capturing imaginations along the way is what we excel at as a ghostwriting agency. As an affordable fictional ghostwriting agency, we offer lower fees, unlimited revisions, punctual delivery, and careful attention to detail that will guarantee your story shines.
 
 
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+                        </>
+                    }
+                    imageSrc={FictionMain}
+                    objectfit="contain"
+                    imageHeight="400px"  // Set height here
+                    imageWidth="100%"     // Set width here
+                    borderRadius="30px"
+                />
+            </div>
+
+            <div>
+                <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Our </>}
+                    subHeading={<>
+                        Fiction <br />
+                        Writing </>}
+                    heading2="Process"
+                    paragraph="Crafting compelling stories through a streamlined process
+                     We follow a streamlined, 3-step process to ensure your vision is brought to life smoothly and efficiently:"
+                    services={services}
+                />
+            </div>
+
+
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 
 
-<DesignProcess 
-        heading={heading}
-        description={description}
-        steps={steps}
-      />
+            <DesignProcess
+                heading={heading}
+                description={description}
+                steps={steps}
+            />
 
-<div style={{ padding: '0px 0px 50px 0px' }}>
-<ImageLeftBanner
-    heading="Why Choose Us"
-    subHeading=""
-    description={
-        <>
-            Looking to hire a fiction ghostwriter? Our team at AMZ Book Publishing is trained to craft the best fiction books. No matter the genre you choose within the fiction realm, our writers are here to make your job easier. You can expect creative, engaging, and high-quality content from us. <br /><br />
-            We understand that structuring a novel can be challenging, especially when you have so many ideas swirling around. That is where our skilled fiction ghostwriters come in: they will help turn your thoughts into an exciting novel. In addition, our ghostwriting services are not just budget-friendly; they are so well-written that readers will be hooked until the very last page!
+            <div style={{ padding: '0px 0px 50px 0px' }}>
+                <ImageLeftBanner
+                className="Top-gap"
+                    heading="Why Choose Our Affordable Fiction Ghostwriting Services?"
+                    subHeading=""
+                    description={
+                        <>
+                            Fiction ghostwriting is our specialty! We create captivating stories for our clients at AMZ Book Publishing. It does not matter what subgenre of fiction you choose; our writers are ready to assist you every step of the way. Having partnered with us, you can rest assured that the content delivered will be creative, engaging, and of top-tier quality.
+                            We know how hard it is to assemble the outline when so many ideas are fighting for your attention. Our talented ghostwriters skilled in fiction are here to help you make an exciting novel from your notes. Besides, our ghostwriting for fiction novels is so affordable that your budget won’t feel the strain and so good that readers will be glued to your story until the final page!
 
-        </>
-    }
-    imageSrc={fictionwhychoose}
-    imageHeight=""        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>  
-</div>
-<CtaButton/>
-         
-          <div>
-      <FAQSection faqData={faqData} />
-    </div>
-         <ContactForm/>
+                        </>
+                    }
+                    imageSrc={fictionwhychoose}
+                    imageHeight=""        // Set height here
+                    imageWidth=""          // Set width here
+                    objectfit="cover"          // Set object-fit here
+                    borderRadius="15px"        // Set border radius here
+                />
+            </div>
+            <CtaButton />
 
-      <Footer/>
-    </div>
-    
-  );
+            <div>
+                <FAQSection faqData={faqData} />
+            </div>
+            <ContactForm />
+
+            <Footer />
+        </div>
+
+    );
 };
 export default FictionGhostwriting;

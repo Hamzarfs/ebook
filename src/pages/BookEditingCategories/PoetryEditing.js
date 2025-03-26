@@ -126,8 +126,8 @@ const PoetryEditing = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-          <title>Professional Poetry Editing Services to Enhance Your Verses</title>
-          <meta name="description" content="Need Poetry Editing Services? We offer affordable poetry editing services for self-published poets at an affordable price. Hire expert editors for your book." />
+          <title>Affordable Poetry Editing Services | AMZ Book Publishing</title>
+          <meta name="description" content="Let our Affordable Poetry Editing Services bring out the best in your poetry—refining rhythm, tone, and clarity at an affordable price." />
           <link rel="canonical" href="https://amzbookpublishing.net/affordable-poetry-editing-services " />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

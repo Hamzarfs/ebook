@@ -77,8 +77,8 @@ const BlogsPage = () => {
     return (
         <div className="blogs-page">
             <Helmet>
-                <title>Blogs - AMZ Book Publishing</title>
-                <meta name="description" content="Discover expert tips on self-publishing, book marketing, and author success with the AMZ Book Publishing blog. Stay informed and elevate your writing journey!" />
+                <title>Our Blogs | AMZ Book Publishing</title>
+                <meta name="description" content="Explore Our Blogs at AMZ Book Publishing for the latest trends, expert insights, and essential tips on writing, publishing, and book promotion." />
                 <link rel="canonical" href="https://amzbookpublishing.net/blog"  data-rh="true"/>
  
                 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />

@@ -158,8 +158,8 @@ const AboutUs = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <Helmet>
-        <title>About Us - AMZ Book Publishing</title>
-        <meta name="description" content="We were incorporated in 2014. We provide all the solutions important for successful authors. We believe in quality service." />
+        <title>About Us | AMZ Book Publishing</title>
+        <meta name="description" content="At AMZ Book Publishing, we are committed to empowering authors with the tools and resources to transform their manuscripts into successful, published books." />
         <link rel="canonical" href="https://amzbookpublishing.net/about-us" />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

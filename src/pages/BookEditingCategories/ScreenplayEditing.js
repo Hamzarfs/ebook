@@ -125,8 +125,8 @@ const ScreenplayEditing = () => {
   return (
     <div>
       <Helmet>
-          <title>Screenplay Editing Services by Experienced Industry Editors</title>
-          <meta name="description" content="Need Script Editing Services? We offer professional Screenplay Editing services for self-published authors at an affordable price. Hire an expert for your book." />
+          <title>Professional Screenplay Editing Services | AMZ Book Publishing</title>
+          <meta name="description" content="AMZ Book Publishing’s Professional Screenplay Editing Services polish your script while maintaining its unique voice and cinematic appeal." />
           <link rel="canonical" href="https://amzbookpublishing.net/professional-screenplay-editing-services " />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

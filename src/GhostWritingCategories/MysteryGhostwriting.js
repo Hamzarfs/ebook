@@ -131,8 +131,8 @@ const MysteryGhostwriting = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
 
-      <title>Mystery Ghostwriting Online Services by Mystery Book Writers</title>
-      <meta name="description" content="Need a Mystery ghostwriter? We offer professional Mystery ghostwriting services at an affordable price. Contact us to hire writers remotely for your project." />
+      <title>Professional Mystery Ghostwriting Services | AMZ Book Publishing</title>
+      <meta name="description" content="AMZ Book Publishing specializes in Professional Mystery Ghostwriting, crafting suspenseful, expertly written stories tailored to your vision." />
       <link rel="canonical" href="https://amzbookpublishing.net/professional-mystery-ghostwriting-services " />
       <meta name="robots" content="index, follow" />
       <meta property="og:locale" content="en_US" />

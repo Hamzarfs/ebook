@@ -123,8 +123,8 @@ const BookPublishing = () => {
   return (
     <div>
       <Helmet>
-          <title>Comprehensive Book Publishing Services for Every Author</title>
-          <meta name="description" content="Need online book publishing services? We offer expert Amazon book publishing services for self-published authors at affordable prices. Get a free quote now!" />
+          <title>Affordable Book Publishing Services | AMZ Book Publishing</title>
+          <meta name="description" content="Publish affordably with AMZ Book Publishing, offering comprehensive services to transform your manuscript into a professionally published book." />
           <link rel="canonical" href="https://amzbookpublishing.net/affordable-book-publishing-services " />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

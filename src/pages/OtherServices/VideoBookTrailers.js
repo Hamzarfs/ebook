@@ -128,8 +128,8 @@ const VideoBookTrailers = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-          <title>Book Teaser and Trailer Services | AMZ Book Publishing</title>
-          <meta name="description" content="Need Video Book Trailers Services? We offer professional book teaser and trailer services for self-published authors at an affordable price. Get a quote now!" />
+          <title>Book Trailer Services | AMZ Book Publishing</title>
+          <meta name="description" content="Boost your book's appeal with AMZ's Book Trailer Services, delivering professional trailers that attract and captivate your target audience." />
           <link rel="canonical" href="https://amzbookpublishing.net/book-trailer-services" />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

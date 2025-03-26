@@ -15,8 +15,8 @@ const ContactUs = () => {
     return (
         <div>
             <Helmet>
-                <title>Terms & Conditions - AMZ Book Publishing</title>
-                <meta name="description" content="Get to know the terms and conditions that you need to follow to purchase copyrights from us." />
+                <title>Terms & Conditions | AMZ Book Publishing</title>
+                <meta name="description" content="Review the terms and conditions required to purchase copyrights from us. Understand the guidelines to ensure a smooth and legal transaction" />
                 <link rel="canonical" href="https://amzbookpublishing.net/terms-conditions" />
                 <meta name="robots" content="index, follow" />
                 <meta property="og:locale" content="en_US" />

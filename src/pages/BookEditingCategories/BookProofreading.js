@@ -128,8 +128,8 @@ const BookProofreading = () => {
   return (
     <div>
       <Helmet>
-        <title>Thorough Book Proofreading Services for Error-Free Texts</title>
-        <meta name="description" content="Need a Book Proofreader? We offer professional book proofreading services for self-published authors at an affordable price. Get a free quote now!" />
+        <title>Book Proofreading Services | AMZ Book Publishing</title>
+        <meta name="description" content="AMZ Book Publishing's Book Proofreading Services offer comprehensive reviews, correcting errors and improving readability for a polished final product." />
         <link rel="canonical" href="https://amzbookpublishing.net/book-proofreading-services " />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

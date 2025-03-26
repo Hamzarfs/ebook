@@ -126,8 +126,8 @@ const SeoServices = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-        <title>SEO Services for Authors to Enhance Online Discoverability</title>
-        <meta name="description" content="Need SEO Services? We offer professional SEO content marketing services to self-published authors to gain visibility at an affordable price. Get a free quote!" />
+        <title>Search Engine Optimization Services | AMZ Book Publishing</title>
+        <meta name="description" content="Boost your book's discoverability with AMZ's Search Engine Optimization Services, optimizing keywords and metadata for higher Amazon search rankings." />
         <link rel="canonical" href="https://amzbookpublishing.net/search-engine-optimization-services" />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

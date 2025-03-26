@@ -126,8 +126,8 @@ const BookPrinting = () => {
   return (
     <div>
     <Helmet>
-        <title>Quality Book Printing Services for Self-Published Authors</title>
-        <meta name="description" content="Need Book Printing services? We offer Book Printing Services for Self-Publishers at an affordable price. Contact us to hire expert print on-demand services."/>
+        <title>Professional Book Printing Services | AMZ Book Publishing </title>
+        <meta name="description" content="Need Book Printing services? We offer professional book printing services in the USA at an affordable price. Contact us to hire a book printing service."/>
         <link rel="canonical" href="https://amzbookpublishing.net/professional-book-printing-services " />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

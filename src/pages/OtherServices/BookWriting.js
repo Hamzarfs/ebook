@@ -126,8 +126,8 @@ const BookWriting = () => {
   return (
     <div>
      <Helmet>
-        <title>USA Book Writing Services | Expert Book Writers</title>
-        <meta name="description" content="AMZ Book Publishing is here to assist you with professional book writing services at affordable prices. Sign up now to get our discount offer." />
+        <title>Professional Book Writing Services | Expert Book Writers</title>
+        <meta name="description" content="AMZ Book Publishing's comprehensive book writing services support authors in creating impactful manuscripts, ready for successful publishing." />
         <link rel="canonical" href="https://amzbookpublishing.net/professional-book-writing-services " />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

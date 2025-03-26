@@ -139,8 +139,8 @@ const PageHeading = () => {
     <div>
 
        <Helmet>
-<title>Book Designing Services for Authors by Top Book Designers</title>
-<meta name="description" content="Need book designing services? We are experts in ebook and book layout design. Our professional designers cover every style and genre."/>
+<title>Book Designing Services | AMZ Book Publishing</title>
+<meta name="description" content="Let AMZ Book Publishing bring your book to life! Our Book Designing Services provide high-quality cover and interior design for any genre"/>
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://amzbookpublishing.net/book-designing-services " />
 <meta property="og:locale" content="en_US" />

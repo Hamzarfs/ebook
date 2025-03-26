@@ -7,8 +7,8 @@ const FourthSection = () => {
       <div className="container text-center">
         <div className="gradient-btn">About Us</div>
         <h2>Why Choose</h2>
-        <h2 className="gradient-text">AMZ Book Publishing?</h2>
-        <p>Digital book publishing on Amazon does not have to be a headache. With us, it is smooth sailing! Here is why.</p>
+        <h2 className="gradient-text">AMZ Book Publishing company?</h2>
+        <p>Publishing book on Amazon does not have to be a headache. With us, it's smooth sailing! Here's why:</p>
       </div>
 
       <div className="container">
@@ -24,7 +24,7 @@ const FourthSection = () => {
                 <div className="number-container">
                   <img src={number1} alt="Number 1" />
                   <h3>Bestselling Writers and Editors</h3>
-                  <p>Work with our team of New York Times-bestselling ghostwriters and Big-5 acquisitions editors, bringing you unmatched talent and professionalism at every step.</p>
+                  <p>Collaborate with our team of ghostwriters featured on the Bestseller List, and editors from Big Five publishing houses, ensuring unparalleled skill and care at every stage.</p>
                 </div>
               </div>
             </div>
@@ -33,8 +33,7 @@ const FourthSection = () => {
                 <div className="number-container">
                   <img src={number2} alt="Number 2" />
                   <h3>Professional Book Publishers</h3>
-                  <p>Our Senior and Executive Editors are the masterminds behind numerous #1 New York Times bestsellers, having served as acquisitions editors and editorial directors at 
-                  Big-5 publishing houses. With their expertise, your book is in the hands of true industry leaders.</p>
+                  <p>Having worked as acquisitions editors and editorial directors for large publishing companies, our Senior and Executive Editors have helped shape many companies. Rest assured, with their expertise, your book will be in the hands of true publishing industry leaders.</p>
                 </div>
               </div>
             </div>
@@ -42,8 +41,8 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number3} alt="Number 3" />
-                  <h3>Assistance At Every Step</h3>
-                  <p>We have a team of seasoned pros ready to support you at every turn, whether you are looking for expert ghostwriting, self-publishing guidance, or eye-catching illustrations.</p>
+                  <h3>Assistance at Every Step in Publishing a Book on Amazon</h3>
+                  <p>Whether you require expert-level ghostwriting, assistance in self-publishing, or stunning illustrations, we have a team of seasoned professionals prepared to help you every step of the way.</p>
                 </div>
               </div>
             </div>
@@ -63,9 +62,8 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number4} alt="Number 4" />
-                  <h3>Commitment To Your Dreams</h3>
-                  <p>Wherever you are in your book journey, we will be right there with you, making the process smooth and stress-free. 
-                  We strive to bring your ideas to life through books, both ebooks and paperbacks.</p>
+                  <h3>Commitment to Your Dreams</h3>
+                  <p>No matter the stage of your book project, we are here to ensure the entire process is seamless. We aim to transform your concepts into reality through digital and physical books.</p>
                 </div>
               </div>
             </div>
@@ -74,8 +72,7 @@ const FourthSection = () => {
                 <div className="number-container">
                   <img src={number5} alt="Number 5" />
                   <h3>Personalized Approach</h3>
-                  <p>Just like every book has its own story, every writer has unique needs. That is why we customize our services just for you. 
-                  Whether you need a captivating title or stunning visuals, we have your back!</p>
+                  <p>Just like every book has its own story, every writer has unique needs. That is why we have customized services just for you. Whether you need a captivating title or stunning visuals, we have your back!</p>
                 </div>
               </div>
             </div>
@@ -83,9 +80,8 @@ const FourthSection = () => {
               <div className="col">
                 <div className="number-container">
                   <img src={number6} alt="Number 6" />
-                  <h3>Proven And Methodical Process  </h3>
-                  <p>We have had the privilege of guiding countless writers on their journey to success, and we would love to do the same for you. 
-                  Let’s turn your vision into something extraordinary together!</p>
+                  <h3>Proven and Methodical Process</h3>
+                  <p>From our end, it has been a pleasure assisting many writers as they climb the success ladders, and we would be keen to do the same for you too. Together, let us bring your ideas to life in a remarkable way!</p>
                 </div>
               </div>
             </div>

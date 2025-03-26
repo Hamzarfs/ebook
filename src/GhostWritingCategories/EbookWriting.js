@@ -131,8 +131,8 @@ const EbookWriting = () => {
   return (
     <div>
       <Helmet>
-          <title>Ebook Writing Services by Expert eBook Ghostwriters</title>
-          <meta name="description" content="Need an eBook ghostwriter? We offer professional ebook ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
+          <title>Professional Ebook Ghostwriting Services | AMZ Book Publishing</title>
+          <meta name="description" content="Get top-quality Professional Ebook Ghostwriting Services at AMZ Book Publishing—expertly written, polished ebooks ready for publication" />
           <link rel="canonical" href="https://amzbookpublishing.net/professional-ebook-ghostwriting-services " />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

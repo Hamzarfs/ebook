@@ -48,9 +48,11 @@ const BannerSection = () => {
 
       {/* Content */}
       <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-        <h1><span className="orange-text">AMZ</span> Book Publishing <br />Best <span className="orange-text">Amazon</span><br /> Book Publishing <span className="orange-text">Services</span></h1>
-        <p>Turn your dream of becoming an author into reality. Let’s<br />
-        bring your story to life and share it with the world.</p>
+        {/* <h1><span className="orange-text">AMZ</span> Book Publishing <br />Best <span className="orange-text">Amazon</span><br /> Book Publishing <span className="orange-text">Services</span></h1> */}
+        <h1><span className="orange-text">Best</span> Amazon Book <br /> Publishing <span className="orange-text">Services</span></h1>
+        <p>Bring your imagination to life by becoming an author today.<br />
+        Get in touch with us and we will help you in turning your<br />
+        story into a publication.</p>
         <Link to="/other-services" className="first-button">Discover More</Link>
       </div>
 

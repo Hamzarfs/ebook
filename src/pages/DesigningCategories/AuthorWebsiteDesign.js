@@ -132,8 +132,8 @@ const AuthorWebsiteDesign = () => {
     <div>
       <Helmet>
 
-        <title>Author Website Design Services | AMZ Book Publishing </title>
-        <meta name="description" content="We create stunning websites for writers. Get our author website design services for showcasing your books, book sales, readers email list and attention." />
+        <title>Author Website Design Services | AMZ Book Publishing</title>
+        <meta name="description" content="Our Author Website Design Services help you establish a strong online presence with a beautifully crafted website tailored to your brand." />
         <link rel="canonical" href="https://amzbookpublishing.net/author-website-design-services " />
         <meta name="robots" content="index, follow" />
         <meta property="og:locale" content="en_US" />

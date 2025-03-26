@@ -28,23 +28,23 @@ import { Helmet } from 'react-helmet-async';
 
 const services = [
   {
-    title: "History and Politics",
+    title: "Initial Consultation & Project Setup",
     image: ghostWritingImage,
-    description: "AMZ Book Publishings offers expert ghostwriting in history and politics, combining thorough research with engaging storytelling. We help you illuminate significant events and figures, providing fresh perspectives that resonate with readers.",
+    description: "Gather details during an early consultation and note the project's goals, vision, and timelines. Afterward, provide customized quotes and project schedules.",
     // link: "https://www.facebook.com/",
     // buttonPadding :"10px 25px",
     // learnmore:"Click Here",
   },
   {
-    title: "Self-Help",
+    title: "Nonfiction Writing & Revisions",
     image: designingImage,
-    description: "Our Self-Help non-fiction ghostwriting services inspire personal growth by turning your insights into relatable stories and actionable strategies. We help articulate your unique experiences, guiding readers on their journeys toward positive change.",
+    description: "Post project confirmations, assign a dedicated non-fiction ghostwriter, and begin outlining the book. Send completed chapter drafts to collect feedback to ensure revisions are made.",
     
   },
   {
-    title: "Religion and Spirituality",
+    title: "Final Approval & Publishing",
     image: bookEditingImage,
-    description: "In religion and spirituality, we help articulate your beliefs and experiences with clarity. Our nonfiction writers for hire can create thoughtful narratives that foster connection and understanding for readers seeking inspiration and guidance on their spiritual paths.",
+    description: "With the manuscript finalized and approved, we format, design the cover, and prepare the book for publication. The book will be proofread by focused marketing strategies",
     
   }
 ];
@@ -56,38 +56,42 @@ const services = [
 const heading = {
   title: (
     <>
-     Our Creative Process For 
+     Types of Nonfiction 
      <br />
     </>
   ),
-  highlight: "Non-Fiction Ghostwriting"
+  highlight: "We Specialize In"
 };
-// const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
+const desc = "Our non-fiction ghostwriting services in NJ provide skilled ghostwriting services for different nonfiction genres. Each book is carefully crafted to ensure quality and accuracy. Here are some of the services we offer:";
+
+
+
+
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Drafting Outlines",
-    title: "Drafting Outlines",
-    description: "With our expert nonfiction ghostwriting services, we craft detailed outlines that will be your roadmap throughout the writing journey!"
+    alt: "Memoirs",
+    title: "Memoirs",
+    description: "We capture the turning points of one's life and personal growth to craft a compelling memoir."
   },
   {
     image: designprocess2,
-    alt: "Examining Content",
-    title: "Examining Content",
-    description: "Our talented team of professional ghostwriters works closely with you to capture your unique perspectives, ideas, and opinions, ensuring your voice shines through in every word!"
+    alt: "Biographies",
+    title: "Biographies",
+    description: "Our professional writers prepare engaging biographies that accurately tell someone's life story while supporting thorough research."
   },
   {
     image: designprocess3,
-    alt: "Proofreading and Editing",
-    title: "Proofreading and Editing",
-    description: "We take pride in meticulously reviewing every piece of material. Our editorial and proofreading team checks everything from structure to punctuation, ensuring that every detail is just right!"
+    alt: "Self-Help Books",
+    title: "Self-Help Books",
+    description: "Do you have expertise in personal development, productivity, or motivation? We can transform your knowledge into a self-help book that inspires your readers."
   },
   {
     image: designprocess4,
-    alt: "Ready For You",
-    title: "Ready For You",
-    description: "At AMZ Book Publishings, we are here to help you navigate the world of publishing, whether you are aiming for traditional publishing, exploring hybrid options. "
+    alt: "Business Books",
+    title: "Business Books",
+    description: "As a nonfiction ghostwriting agency, we help entrepreneurs and business leaders articulate and document their expertise through books."
   }
 ];
 
@@ -97,24 +101,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "What are narrative and creative nonfiction?",
-    answer: "Narrative nonfiction is like telling a true story in a captivating way. Imagine the elements of a gripping novel, which is all based on real events. The author weaves together factual details to create a compelling narrative that keeps readers hooked. On the other hand, creative nonfiction takes that storytelling a step further, using fiction-like techniques to revamp the structure and presentation of the facts."
+    question: "What is nonfiction ghostwriting?",
+    answer: "It’s the process of hiring a professional writer to create a nonfiction book on your behalf while maintaining your voice and ideas."
   },
   {
-    question: "What are some popular genres of nonfiction?",
-    answer: "The beauty of nonfiction is that it covers a wide array of genres! While true crime, travel, health, psychology, philosophy, and politics are popular, it also includes self-help and personal development books."
+    question: "How do I hire a nonfiction ghostwriter?",
+    answer: "Contact us through our website, and a project manager will reach out to discuss your book and provide a customized quote."
   },
   {
-    question: "Can you help me become a published author?",
-    answer: "Absolutely! Our nonfiction ghostwriting services are here to help you craft an engaging narrative that you can present to top publishing platforms and literary agents."
+    question: "Can I collaborate with the ghostwriter throughout the process?",
+    answer: "Yes, we encourage collaboration. You’ll review chapters, provide feedback, and request revisions as needed."
   },
   {
-    question: "Do nonfiction book writers receive royalties?",
-    answer: "Typically, no. Nonfiction ghostwriters usually work on a work-for-hire basis, which means they receive payment as the project progresses rather than earning royalties from book sales."
+    question: "What types of nonfiction books do you specialize in?",
+    answer: "We specialize in memoirs, biographies, self-help, business, health, true crime, and travel books."
   },
   {
-    question: "What is the importance of nonfiction in education and personal growth?",
-    answer: "Nonfiction plays a crucial role in education by delivering factual and educational content that broadens students' knowledge. It encourages analytical and critical thinking, fostering curiosity and promoting lifelong learning. Through nonfiction, readers gain the insights they need to make informed decisions in both their personal and professional lives."
+    question: "How much involvement do I need in the writing process?",
+    answer: "Your involvement is entirely up to you. Whether you want to be hands-on or let us handle most of the work, we adapt to your preferences."
   }
 ];
 
@@ -136,7 +140,7 @@ const FictionGhostwriting = () => {
     <div>
      <Helmet>
       <title>Non-Fiction Ghostwriting Services | AMZ Book Publishing</title>
-      <meta name="description" content="Need a non-fiction ghostwriter? We offer non-fiction ghostwriting services in NJ at an affordable price. Our experienced writers are well-trained for all genres." />
+      <meta name="description" content="Get expert non-fiction ghostwriting with AMZ Book Publishing. We create engaging, well-researched books that inform, inspire, and captivate readers!" />
       <link rel="canonical" href="https://amzbookpublishing.net/affordable-non-fiction-ghostwriting-services " />
       <meta name="robots" content="index, follow" />
       <meta property="og:locale" content="en_US" />
@@ -152,12 +156,11 @@ const FictionGhostwriting = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Non Fiction Ghostwriting"
+      className="responsive-height"
+        title="Professional Nonfiction Ghostwriting Services"
         desc={
           <>
-           Our non-fiction ghostwriting services are exceptional, and we confidently stand by that. With our 
-            {/* <br/>  */}
-            skilled nonfiction ghostwriters, we will transform your idea into a publishable book. 
+           At our non-fiction ghostwriting agency, we offer services to assist you in turning your concepts, life events, or knowledge into refined, professional-grade nonfiction literature. Our proficient non-fiction ghostwriters collaborate with you to compose attention-grabbing memoirs, self-help books, business documents, and even autobiographies seamlessly integrated with your unique voice and perspective. We guarantee to capture your intent and focus on the overall message of the nonfiction book while evidencing its efficiency, clarity, and engagement for a deeper audience-level connection.
           </>
         }
         buttonText="Get a Quote"
@@ -182,13 +185,11 @@ const FictionGhostwriting = () => {
 
 <div style={{ padding: '40px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Non Fiction "
-    subHeading="Ghostwriting"
+    heading="Expert Nonfiction Ghostwriting: Transform Your Insights into a "
+    subHeading="Masterpiece"
     description={
         <>
-           Writing nonfiction goes beyond just time and creativity: it is about crafting a deep human connection. From original narratives to accurate descriptions, figurative language, and concrete imagery, nonfiction writing brings stories to life. Add a touch of poetic elements like rhyme and rhythm to keep readers hooked.
-           <br /><br />
-           Writing a book can be daunting, but with a nonfiction writing coach by your side, it becomes an exciting journey. Whether you are sharing your memories, experiences, or knowledge, we are here to guide you. Looking for nonfiction writers for hire? Let’s help you get started on your book today!
+           Crafting a powerful, captivating nonfiction book based on your insights and experience does not have to break the bank. With our affordable nonfiction ghostwriting services, we guarantee masterpieces crafted with meticulous attention to detail. We help carve out strong manuscripts ranging from personal memoirs and business guides to health books. Our team of nonfiction ghostwriting services offers unlimited revisions, and deadlines to your needs, and casts above and beyond basic requirements for attention to detail.
 
         </>
     }
@@ -205,12 +206,12 @@ const FictionGhostwriting = () => {
 <SecondSection 
         buttonLabel="S e r v i c e s"
         heading1={ <>
-        Expert  </>}
+        Our </>}
         subHeading={<>
-        Non-Fiction<br/>
-        Ghostwriting </>}
-        heading2="Services"
-        paragraph="Our team excels in active listening, detailed note-taking, and an impressive writing style, ensuring a smooth and enjoyable experience for you. You will find that our services are perfect for."
+         Nonfiction<br/>
+         Writing </>}
+        heading2="Process"
+        paragraph="Creating your nonfiction book is easy with our 3-step process:"
         services={services}
       />
       </div>
@@ -223,25 +224,37 @@ const FictionGhostwriting = () => {
 
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }        
+
         steps={steps}
       />
 
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Us"
+    heading="Why Choose Our Affordable Nonfiction Ghostwriting Services?"
     subHeading=""
     description={
         <>
+        These are the reasons clients utilize our ghostwriting services:
             <ul>
                 <li>
-                    <b>Fast Turnaround Time:</b> At AMZ Book Publishings, we pride ourselves on delivering projects right when you need them. Our dedicated experts oversee every detail, ensuring your content is processed quickly and flawlessly.
+                    <b>Leading Experts:</b>Our ghostwriters have vast experience across different writing genres. This guarantees that your book is structured accurately.
                 </li>
                 <li>
-                    <strong>Unlimited Revisions:</strong> Your satisfaction is our priority! We offer unlimited revisions to guarantee that your vision is fully realized. Whether it is editing or fine-tuning, we will work closely with you to meet your needs.
+                    <strong>Reasonable Pricing:</strong> Our rates are one of the lowest in the industry. For these charges, clients receive the best value mutilated in quality.
                 </li>
                 <li>
-                    <strong>Secure and Reliable Services:</strong> When you work with us, you can trust that your content and credentials are safe. At AMZ Book Publishing, we are committed to providing secure and dependable writing services, so you can focus on what really matters.
+                    <strong>Individual Booking:</strong> We partner with you and guide you through every step of the way to guarantee that your book meets your expectations.
+                </li>
+                <li>
+                    <strong>No Charge for Revisions:</strong> There is no limit on how many times you can revise the manuscript. The final form has to be what you desire; it has to be perfect.
+                </li>
+                <li>
+                    <strong>Deadline Completion:</strong> We meet the milestone dates submitted. This allows us to keep the project on track.
                 </li>
             </ul>
         </>

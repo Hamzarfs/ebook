@@ -130,8 +130,8 @@ const FictionBookEditing = () => {
   return (
     <div>
       <Helmet>
-          <title>Fiction Book Editing Services for Aspiring Novelists</title>
-          <meta name="description" content="Need Fiction Book Editing Services? We offer professional Fiction Book Editing services for self-published authors at an affordable price. Get a free quote now!" />
+          <title>Fiction Book Editing Services | AMZ Book Publishing</title>
+          <meta name="description" content="AMZ Book Publishing's Fiction Book Editing Services provide comprehensive editing to elevate your storytelling." />
           <link rel="canonical" href="https://amzbookpublishing.net/fiction-book-editing-services" />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

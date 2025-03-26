@@ -132,8 +132,8 @@ const FantasyGhostwriting = () => {
     <div>
      <Helmet>
       
-      <title>Fantasy Ghostwriting Services by Professional Fantasy Writers</title>
-      <meta name="description" content="Need a Fantasy ghostwriter? We offer Fantasy ghostwriting services at an affordable price. Contact us to hire fantasy writers remotely for your project." />
+      <title>Fantasy Ghostwriting Services | AMZ Book Publishing</title>
+      <meta name="description" content="Transform your fantasy ideas into a captivating book! AMZ Book Publishing’s expert ghostwriters craft magical, high-quality stories with ease." />
       <link rel="canonical" href="https://amzbookpublishing.net/fantasy-ghostwriting-services  " />
       <meta name="robots" content="index, follow" /><meta property="og:locale" content="en_US" />
       <meta property="og:type" content="article" />

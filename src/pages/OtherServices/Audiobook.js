@@ -129,8 +129,8 @@ const Audiobook = () => {
   return (
     <div>
      <Helmet>
-          <title>AudioBook Production Services Online for Your Written Work</title>
-          <meta name="description" content="Need Audio Book Publisher? We offer professional amazon audiobook publishing services to self-published authors at an affordable price. Get a free quote!" />
+          <title>Audiobook Publishing Services | AMZ Book Publishing</title>
+          <meta name="description" content="Expand your book's reach with AMZ's Audiobook Publishing Services, offering professional narration and distribution on major audio platforms." />
           <link rel="canonical" href="https://amzbookpublishing.net/audiobook-publishing-services" />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

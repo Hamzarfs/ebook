@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/common/CtaButton';
@@ -27,26 +27,26 @@ import { Helmet } from 'react-helmet-async';
 // ******************************** Start SecondSection ******************************
 
 const services = [
-  {
-    title: "Personal Memoirs",
-    image: ghostWritingImage,
-    description: "Capture your unique journey with a skilled memoir ghostwriter who will help transform your life experiences into an engaging narrative that resonates with readers.",
-    // link: "https://www.facebook.com/",
-    // buttonPadding :"10px 25px",
-    // learnmore:"Click Here",
-  },
-  {
-    title: "Family Memoirs",
-    image: designingImage,
-    description: "Share your family's rich history by collaborating with AMZ Book Publishings and together, we will weave cherished stories from multiple generations to preserve your legacy for years to come.",
-    
-  },
-  {
-    title: "Professional Memoirs",
-    image: bookEditingImage,
-    description: "Showcase your career journey with the expertise of a memoir writing coach who can articulate your professional milestones and lessons learned, creating a compelling narrative that highlights your growth and achievements.",
-    
-  }
+    {
+        title: "Initial Consultation & Project Setup",
+        image: ghostWritingImage,
+        description: "The initial part of the process begins with a project setup consultation. We start by discussing every event from your life and the key message points with your selected content material. The project managers from our company will contact you to obtain essential information. During project specifications, we produce exact costs along with settlement timelines.",
+        // link: "https://www.facebook.com/",
+        // buttonPadding :"10px 25px",
+        // learnmore:"Click Here",
+    },
+    {
+        title: "Memoir Writing & Revisions",
+        image: designingImage,
+        description: "The project confirmation lets us connect your memoir to an experienced ghostwriter who will create your book. The memoir ghostwriter transforms your experiences into an authentic, natural flowing tale. We will provide drafts and chapters with measurement points for your input during development. You can ask for further changes and contribute ideas to maintain your writing style during the writing process. ",
+
+    },
+    {
+        title: "Final Approval & Publishing",
+        image: bookEditingImage,
+        description: "After completing the manuscript, we'll send it to you for final approval. Once approved, we proceed with editing, formatting, and preparing the manuscript for publication. We'll also help you with strategies for marketing and launching your memoir, ensuring that your story reaches the right audience.",
+
+    }
 ];
 
 // ******************************** End SecondSection ******************************
@@ -54,42 +54,42 @@ const services = [
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: (
-    <>
-     What Our Process Looks Like
+    title: (
+        <>
+            Creating Masterpieces in Every Memoir Genre
 
-     <br />
-    </>
-  ),
- 
+            <br />
+        </>
+    ),
+
 };
-// const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
+const desc = "Our memoir ghostwriters specialize in a variety of memoir genres, ensuring that your story is crafted to resonate with the readers who will most appreciate it:";
 
 const steps = [
-  {
-    image: designprocess1,
-    alt: "Preparing And Researching",
-    title: "Preparing And Researching",
-    description: "Let’s dive into your memoir together! Through friendly phone calls and helpful questionnaires, we will explore your life, audience, and the marketplace. Plus, we will sift through any drafts, notes, or outlines you have on hand to gather all the juicy details and ensure we are on the right track!"
-  },
-  {
-    image: designprocess2,
-    alt: "Strategizing And Outlining",
-    title: "Strategizing And Outlining",
-    description: "Get ready to roll up your sleeves and dive deep into your memoir! You will meet with your dedicated book-writing team, whether in person or over video chat, for engaging strategy sessions. Together, we will brainstorm, plan, and lay down the groundwork for your story."
-  },
-  {
-    image: designprocess3,
-    alt: "Writing",
-    title: "Writing",
-    description: "It is time to kick off your memoir! When you hire a memoir writer, we make sure your book truly reflects who you are. Through engaging interviews and thoughtful editing, we will capture your unique voice, ensuring every idea and word resonates with your distinct style."
-  },
-  {
-    image: designprocess4,
-    alt: "Showcasing Your Masterpiece",
-    title: "Showcasing Your Masterpiece",
-    description: "We will not only help you with your ghostwritten memoir but stand by you throughout the publishing journey. We will connect you with industry professionals for cover design, formatting, and distribution and make sure your book stands out in the crowded marketplace."
-  }
+    {
+        image: designprocess1,
+        alt: "Personal Memoirs",
+        title: "Personal Memoirs",
+        description: "Your personal story can be powerful, whether about your childhood, family life, or the lessons you've learned. Our team excels in capturing deeply personal moments, making them relatable and inspiring to readers."
+    },
+    {
+        image: designprocess2,
+        alt: "Overcoming Adversity Memoirs",
+        title: "Overcoming Adversity Memoirs",
+        description: "Suppose your memoir is focused on overcoming hardships such as illness, trauma, or personal struggles. In that case, we will help you craft a narrative highlighting your resilience and strength, creating an emotional connection with readers."
+    },
+    {
+        image: designprocess3,
+        alt: "Celebrity & Professional Memoirs",
+        title: "Celebrity & Professional Memoirs",
+        description: "Suppose you've had a notable career or public life. In that case, our memoir writers for hire specialize in turning your professional milestones into a compelling narrative that speaks to both your personal and professional achievements."
+    },
+    {
+        image: designprocess4,
+        alt: "Historical Memoirs",
+        title: "Historical Memoirs",
+        description: "For those documenting experiences from a historical perspective, we combine vivid storytelling with accurate historical details to bring your experiences to life in a way that educates and entertains readers."
+    }
 ];
 
 
@@ -97,26 +97,26 @@ const steps = [
 
 // ******************************** Start FAQ Section ******************************
 const faqData = [
-  {
-    question: "Is there enough in my life to write about?",
-    answer: "Absolutely! Our talented ghostwriters are expert interviewers who will help you uncover intriguing anecdotes and moments from your life. Contrary to popular belief, no one's life is 'too boring'; everyone has unique stories and insights just waiting to be shared."
-  },
-  {
-    question: "Do you have any samples?",
-    answer: "Definitely! We can provide a few writing samples, with the permission of our clients, so you can see the quality of our work."
-  },
-  {
-    question: "Will my memoir sound like it was written in my voice?",
-    answer: "You bet! Our interviews go beyond just gathering information; they are designed to capture your essence. This way, your ghostwriter can craft your memoir in a way that truly reflects your voice and the tone you want."
-  },
-  {
-    question: "Who will be credited as the author of my book?",
-    answer: "You will! We do not take any credit as authors or co-authors, nor do we receive royalties. This is your story, and you deserve to own it."
-  },
-  {
-    question: "What if I don’t know what I want to say?",
-    answer: "No worries at all! You do not need to have everything figured out; just knowing you have something to share is a great start. Our friendly and approachable ghostwriters are here to ask the right questions to help you uncover and shape your narrative."
-  }
+    {
+        question: "What is memoir ghostwriting?",
+        answer: "Memoir ghostwriting is when a professional writer creates a memoir on behalf of someone else, capturing their personal experiences, voice, and style."
+    },
+    {
+        question: "How do I hire a memoir writer?",
+        answer: "To hire a memoir writer, contact us for an initial consultation. We'll discuss your story and goals and provide a custom quote based on your project needs."
+    },
+    {
+        question: "Can I make revisions during the writing process?",
+        answer: "Yes! We offer unlimited revisions. As we write your memoir, you can review drafts and provide feedback, ensuring that your story aligns with your vision."
+    },
+    {
+        question: "How long does it take to complete a memoir?",
+        answer: "The time it takes to complete a memoir depends on its length and complexity. After our initial consultation, we'll provide you with an estimated timeline."
+    },
+    {
+        question: "Do I own the rights to the memoir after it's completed?",
+        answer: "Yes, once the memoir is completed and you've approved the final manuscript, you will own all rights to the book. We ensure all work is original and fully transferred to you."
+    }
 ];
 
 
@@ -124,56 +124,54 @@ const faqData = [
 // ******************************** End FAQ Section ******************************
 
 const FictionGhostwriting = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+    const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
-  const openModal = () => {
-    setIsModalOpen(true); // Open the modal
-  };
+    const openModal = () => {
+        setIsModalOpen(true); // Open the modal
+    };
 
-  const closeModal = () => {
-    setIsModalOpen(false); // Close the modal
-  };
+    const closeModal = () => {
+        setIsModalOpen(false); // Close the modal
+    };
 
-  return (
-    <div>
-     <Helmet>
-        <title>Memoir Ghostwriting Services by Experienced Memoir Writers</title>
-        <meta name="description" content="Need a memoir ghostwriter? We offer professional memoir ghostwriting services at an affordable price. Meet well-experienced book and ebook writers." />
-        <link rel="canonical" href="https://amzbookpublishing.net/memoir-ghostwriting-services " />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Memoir Ghostwriting Services by Experienced Memoir Writers" />
-        <meta property="og:description" content="Need a memoir ghostwriter? We offer professional memoir ghostwriting services at an affordable price. Meet well-experienced book and ebook writers." />
-        <meta property="og:url" content="https://amzbookpublishing.net/memoir-ghostwriting-services" />
-        <meta property="og:site_name" content="AMZBookPublishing" />
-        <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-        <meta property="article:modified_time" content="2024-08-20T07:33:16+00:00" />
-      </Helmet>
-      {/* -------------------Start Banner section---------------------- */}
-      <Header />
-      <BreadCrumb
-        title="Memoir Ghostwriting"
-        desc={
-          <>
-        Think of our memoir ghostwriting services as finding a creative partner who helps you navigate tough questions and uncover feelings
-            {/* <br/>  */}
-            you may have never addressed before, ensuring your unique narrative shines through!
+    return (
+        <div>
+            <Helmet>
+                <title>Memoir Ghostwriting Services | AMZ Book Publishing</title>
+                <meta name="description" content="AMZ Book Publishing offers Memoir Ghostwriting Services to bring your personal journey to life with authenticity and emotion." />
+                <link rel="canonical" href="https://amzbookpublishing.net/memoir-ghostwriting-services " />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Memoir Ghostwriting Services by Experienced Memoir Writers" />
+                <meta property="og:description" content="Need a memoir ghostwriter? We offer professional memoir ghostwriting services at an affordable price. Meet well-experienced book and ebook writers." />
+                <meta property="og:url" content="https://amzbookpublishing.net/memoir-ghostwriting-services" />
+                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="article:modified_time" content="2024-08-20T07:33:16+00:00" />
+            </Helmet>
+            {/* -------------------Start Banner section---------------------- */}
+            <Header />
+            <BreadCrumb
+                className="responsive-height"
+                title="Memoir Ghostwriting Services"
+                desc={
+                    <>
+                        Everyone has a story that he wants to tell, and your memoir deserves to be written with authenticity and care. Whether you're reflecting on your career, overcoming adversity, or sharing transformative experiences, our professional memoir writers are here to help. We offer expert memoir ghostwriting services that capture your voice and tell your unique story with precision and emotional depth. We're here to make that process swift if you're looking to hire a memoir ghostwriter.
+                    </>
+                }
+                buttonText="Get a Quote"
+                onClick={openModal} // Call openModal on button click
+                backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+            />
 
-          </>
-        }
-        buttonText="Get a Quote"
-        onClick={openModal} // Call openModal on button click
-        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-      />
+            {/* Popup Form */}
+            <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
 
-      {/* Popup Form */}
-      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
-    
-   
-{/* -------------------End Banner section---------------------- */}
 
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+            {/* -------------------End Banner section---------------------- */}
+
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <ImageTextBanner 
   
     
@@ -182,85 +180,100 @@ const FictionGhostwriting = () => {
 </div> */}
 
 
-<div style={{ padding: '40px 0px 100px 0px' }}>
-<ImageRightBanner
-    heading="Memoir "
-    subHeading="Ghostwriting"
-    description={
-        <>
-         Your life story is a tapestry woven from countless experiences, and every day adds another thread. While we gain wisdom from our own journeys, there is a treasure trove of lessons to learn from the stories of those around us, like the tales we hear from our parents and grandparents, who in turn learned from their ancestors. This beautiful cycle of storytelling connects us all! So, why not capture your unique insights and life lessons? 
-           <br /><br />
-           Working with a ghostwriter for memoir is a fantastic way to preserve your legacy and share your experiences with the world and future generations. Let’s turn your story into something unforgettable!
-        </>
-    }
-    imageSrc={FictionImage1}
-    objectfit="contain"
-    imageHeight="400px"  // Set height here
-    imageWidth="100%"     // Set width here
-    borderRadius="30px"
-/>
-</div>
+            <div style={{ padding: '40px 0px 100px 0px' }}>
+                <ImageRightBanner
+                    heading="Professional Memoir Writers for Hire:"
+                    subHeading=" Let Us Bring Your Story to Life"
+                    description={
+                        <>
+                            Creating a memoir demands both talent and precise attention to all its elements. It becomes challenging to transform memoir ideas into a well-written story regardless of whether you describe personal adversities or professional successes. Our professional memoir ghostwriting service carries competitive fees while presenting top-notch products to its clients. The agencies promise fantastic output, but our organization guarantees you obtain excellent worth from your financial investment. Professional memoir writers at our agency maintain first-rate standards when creating your life narrative. Our company affirms its dedication to producing impactful tales that captivate your target audience.
+                        </>
+                    }
+                    imageSrc={FictionImage1}
+                    objectfit="contain"
+                    imageHeight="400px"  // Set height here
+                    imageWidth="100%"     // Set width here
+                    borderRadius="30px"
+                />
+            </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Expert  </>}
-        subHeading={<>
-         Memoir <br/>
-        Ghostwriters </>}
-        heading2="Services"
-        paragraph="Our team of highly skilled and capable professionals will weave your stories into words and produce a masterpiece of your life that is worth sharing with the world!"
-        services={services}
-      />
-      </div>
+            {/*****************  SERVICE Section *****************/}
+            <div>
+                <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Our   </>}
+                    subHeading={<>
+                        Memoir <br />
+                        Writing </>}
+                    heading2="Process "
+                    paragraph="You can complete your memoir through three straightforward procedures to guide the writing toward your concept and smooth the process."
+                    services={services}
+                />
+            </div>
 
 
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 
 
-<DesignProcess 
-        heading={heading}
-        // description={description}
-        steps={steps}
-      />
+            <DesignProcess
+                heading={heading}
+                description={
+                    <div className="custom-description">
+                        {desc}
+                    </div>
+                }
+                steps={steps}
+            />
 
-<div style={{ padding: '0px 0px 50px 0px' }}>
-<ImageLeftBanner
-    heading="Why Choose Us"
-    subHeading=""
-    description={
-      <>
-       Writing and publishing your memoir is one of the best ways to share the unique story of your life with the world. At AMZ Book Publishings, we are all about bringing your vision to life and telling your story just the way you’ve always imagined. Our memoir ghostwriting services focus on crafting a personalized narrative that not only meets but exceeds your expectations, making sure that your book finds its rightful place on the shelf.
+            <div style={{ padding: '0px 0px 50px 0px' }}>
+                <ImageLeftBanner
+                    heading="Why Choose Our Affordable Memoir Ghostwriting Services?"
+                    subHeading=""
+                    description={
+                        <>
+                            When you hire a professional memoir ghostwriter with us, you choose a team committed to capturing the essence of your life story while offering an affordable and efficient service. Here's why you should choose us:
+                            <ul>
+                                <li>
+                                    <b>Experienced Professionals</b>Our team of professional memoir writers has years of experience in helping individuals tell their stories. We are skilled in capturing your voice and experiences in a compelling and heartfelt way.
+                                </li>
+                                <li>
+                                    <strong>Collaborative Process:</strong>We work closely with you throughout the writing process. Your feedback is essential, and we ensure that your memoir stays true to your vision. Whether you want to be hands-on or leave the writing to us, you remain at the center of the writing process.
+                                </li>
+                                <li>
+                                    <strong>Unlimited Revisions:</strong> We offer unlimited revisions to ensure your memoir is exactly as you envision it. If you're unsatisfied, we'll work with you to refine the manuscript until it's perfect.
+                                </li>
+                                <li>
+                                    <strong>Affordable Rates:</strong>Our services are not only top-notch but also affordable. You can hire a memoir ghostwriter at a reasonable price while receiving high-quality results.
+                                </li>
+                                <li>
+                                    <strong>Punctual Delivery:</strong> We understand the importance of deadlines and work diligently to deliver your completed memoir on time without compromising quality.
+                                </li>
+                            </ul>
+                        </>
+                    }
+                    imageSrc={fictionwhychoose}
+                    imageHeight=""        // Set height here
+                    imageWidth=""          // Set width here
+                    objectfit="cover"          // Set object-fit here
+                    borderRadius="15px"        // Set border radius here
+                />
 
-       <br /><br />
-       We pride ourselves on offering affordable and reliable services tailored just for you. So, why wait? Reach out today, and let’s embark on your journey to becoming a published author together!
 
-      </>
-  }
-    imageSrc={fictionwhychoose}
-    imageHeight=""        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>
+            </div>
+            <CtaButton />
 
+            <div>
+                <FAQSection faqData={faqData} />
+            </div>
+            <ContactForm />
 
-</div>
-<CtaButton/>
-         
-          <div>
-      <FAQSection faqData={faqData} />
-    </div>
-         <ContactForm/>
+            <Footer />
+        </div>
 
-      <Footer/>
-    </div>
-    
-  );
+    );
 };
 export default FictionGhostwriting;
 

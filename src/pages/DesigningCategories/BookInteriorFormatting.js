@@ -126,7 +126,7 @@ const BookInteriorFormatting= () => {
   return (
     <div>
       <Helmet>
-          <title>Professional Book Formatting and Interior Formatting Services</title>
+          <title>Interior Book Formatting Services | AMZ Book Publishing</title>
           <meta name="description" content="Need Book Formatting services? We offer Professional Book Formatting & Interior Design Services at an affordable price. Contact us to hire experts." />
           <link rel="canonical" href="https://amzbookpublishing.net/interior-book-formatting-services " />
           <meta name="robots" content="index, follow" />

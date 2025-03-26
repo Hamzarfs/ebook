@@ -126,8 +126,8 @@ const LetterheadEnvelopeDesign= () => {
   return (
     <div>
       <Helmet>
-            <title>Custom Letterhead and Envelope Design Services for Authors</title>
-            <meta name="description" content="Need Letterhead and Envelope Design Services? We offer professional letterhead and envelope design services for self-published authors at affordable prices." />
+            <title>Letterhead and Envelope Design Services | AMZ Book Publishing</title>
+            <meta name="description" content="Elevate your business with our Letterhead and Envelope Design Services—professionally designed stationery for a cohesive, polished look." />
             <link rel="canonical" href="https://amzbookpublishing.net/letterhead-and-envelope-design-services " />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />

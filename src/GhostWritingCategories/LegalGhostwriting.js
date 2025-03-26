@@ -132,8 +132,8 @@ const LegalGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-            <title>Legal Ghostwriting Services for Lawyers by Legal Ghostwriters</title>
-            <meta name="description" content="Need a Legal ghostwriter? We offer professional Legal ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
+            <title>Professional Legal Ghostwriting Services | AMZ Book Publishing</title>
+            <meta name="description" content="AMZ Book Publishing offers Professional Legal Ghostwriting Services, crafting high-quality legal content with precision, clarity, and expertise." />
             <link rel="canonical" href="https://amzbookpublishing.net/professional-legal-ghostwriting-services " />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />

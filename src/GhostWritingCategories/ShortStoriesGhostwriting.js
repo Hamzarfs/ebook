@@ -136,8 +136,8 @@ const ShortStoriesGhostwriting = () => {
     <div>
 <Helmet>
 
-      <title>Short Stories Ghostwriting Services by Top Storytellers</title>
-      <meta name="description" content="Need Short Stories ghostwriter? We offer professional Short Stories ghostwriting services. Contact us to hire expert writers remotely for your project." />
+      <title>Short Stories Ghostwriting Services | AMZ Book Publishing</title>
+      <meta name="description" content="Need a powerful short story? AMZ Book Publishing’s expert ghostwriters deliver engaging, high-quality storytelling tailored to your needs." />
       <link rel="canonical" href="https://amzbookpublishing.net/short-stories-ghostwriting-services " />
       <meta name="robots" content="index, follow" />
       <meta property="og:locale" content="en_US" />

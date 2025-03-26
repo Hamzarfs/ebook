@@ -135,8 +135,8 @@ const MedicalGhostwriting = () => {
       {/* -------------------Start Banner section---------------------- */}
 <Helmet>
 
-    <title>Medical Ghostwriting Services by Experienced Medical Writers</title>
-    <meta name="description" content="Need a Medical ghostwriter? We offer professional Medical ghostwriting services at an affordable price. Contact us to hire writers remotely for your project." />
+    <title>Professional Medical Ghostwriting Services | AMZ Book Publishing </title>
+    <meta name="description" content="Trust AMZ Book Publishing for professional medical ghostwriting—accurate, well-researched, and expertly crafted content for the healthcare industry." />
     <link rel="canonical" href="https://amzbookpublishing.net/professional-medical-ghostwriting-services " />
     <meta name="robots" content="index, follow" />
     <meta property="og:locale" content="en_US" />

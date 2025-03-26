@@ -127,8 +127,8 @@ const BookIllustrations = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
     <Helmet>
-          <title>Custom Book Illustration Services by Talented Artists</title>
-          <meta name="description" content="Need Book Illustration services? We offer professional book illustration services in the USA at an affordable price. Contact us to hire book illustrators." />
+          <title>Book Illustration Services | AMZ Book Publishing</title>
+          <meta name="description" content="Make your book visually unforgettable with our Book Illustration Services—expertly crafted illustrations tailored to your story’s style." />
           <link rel="canonical" href="https://amzbookpublishing.net/book-illustration-services "/>
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

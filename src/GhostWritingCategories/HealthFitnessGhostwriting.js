@@ -132,8 +132,8 @@ const LegalGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-            <title>Health and Fitness Ghostwriting Services by Book Writers</title>
-            <meta name="description" content="Need a health and fitness ghostwriter? We offer professional health and fitness ghostwriting services at an affordable price. Contact us to hire writers remotely." />
+            <title>Health and Fitness Ghostwriting Services | AMZ Book Publishing</title>
+            <meta name="description" content="Whether you need a fitness guide or a wellness book, our Health and Fitness Ghostwriting Services deliver polished, professional content." />
             <link rel="canonical" href="https://amzbookpublishing.net/health-and-fitness-ghostwriting-services " />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />

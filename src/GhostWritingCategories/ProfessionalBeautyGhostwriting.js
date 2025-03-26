@@ -132,8 +132,8 @@ const LegalGhostwriting = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
       <Helmet>
-            <title>Beauty Ghostwriting Agency with Top-Notch Writing Services</title>
-            <meta name="description" content="Need a Beauty ghostwriter? We offer professional Beauty ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
+            <title>Professional Beauty Ghostwriting Services | AMZ Book Publishing</title>
+            <meta name="description" content="Our Professional Beauty Ghostwriting Services help beauty experts, influencers, and brands create high-quality, engaging content that sells." />
             <link rel="canonical" href="https://amzbookpublishing.net/professional-beauty-ghostwriting-services " />
             <meta name="robots" content="index, follow" />
             <meta property="og:locale" content="en_US" />

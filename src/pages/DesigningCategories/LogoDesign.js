@@ -128,8 +128,8 @@ const LogoDesign = () => {
   return (
     <div>
       <Helmet>
-          <title>Bespoke Logo Designs | AMZ Book Publishing</title>
-          <meta name="description" content="We create bespoke logo designs for writers. Get our company logo design services for showcasing your books, book sales, reader's email list, and attention." />
+          <title>Bespoke Logo Design | AMZ Book Publishing</title>
+          <meta name="description" content="Get a custom-designed logo with AMZ Book Publishing’s Bespoke Logo Design—tailored, high-quality visuals that represent your brand perfectly." />
           <link rel="canonical" href="https://amzbookpublishing.net/bespoke-logo-design " />
           <meta name="robots" content="index, follow" />
           <meta property="og:locale" content="en_US" />

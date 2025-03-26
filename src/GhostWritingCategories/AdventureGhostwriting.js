@@ -131,8 +131,8 @@ const AdventureGhostwriting = () => {
   return (
     <div>
       <Helmet>
-    <title>Adventure Ghostwriting Services by Adventure Ghostwriter</title>
-    <meta name="description" content="Need an adventure book ghostwriter? We offer action-adventure writing services at an affordable price. Meet our talented writers who can work on your story." />
+    <title>Adventure Ghostwriting Services | AMZ Book Publishing</title>
+    <meta name="description" content="Our Adventure Ghostwriting Services craft thrilling stories filled with excitement, mystery, and unforgettable journeys." />
     <link rel="canonical" href="https://amzbookpublishing.net/adventure-ghostwriting-services " />
     <meta name="robots" content="index, follow" />
     <meta property="og:locale" content="en_US" />

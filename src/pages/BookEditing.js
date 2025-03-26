@@ -97,7 +97,7 @@ const BookEditing = () => {
     <div>
       {/* -------------------Start Banner section---------------------- */}
 <Helmet>
-  <title>Affordable Book Editing Services | AMZ Book Publishing</title>
+  <title>Professional Book Editing Services | AMZ Book Publishing </title>
   <meta name="description" content="Need book editing services? We offer book editing and formatting services for writers. Contact our expert book editors for your manuscript editing today." />
   <link rel="canonical" href="https://amzbookpublishing.net/professional-book-editing-services " />
   <meta name="robots" content="index, follow" />
