@@ -23,46 +23,59 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Initial Consultation & Project Setup",
+    title: "Memoirs",
     image: ghostWritingImage,
-    description: "Gather details during an early consultation and note the project's goals, vision, and timelines. Afterward, provide customized quotes and project schedules.",
+    description: "We capture the turning points of one's life and personal growth to craft a compelling memoir.",
     // link: "https://www.facebook.com/",
     // buttonPadding :"10px 25px",
     // learnmore:"Click Here",
   },
   {
-    title: "Nonfiction Writing & Revisions",
+    title: "Biographies",
     image: designingImage,
-    description: "Post project confirmations, assign a dedicated non-fiction ghostwriter, and begin outlining the book. Send completed chapter drafts to collect feedback to ensure revisions are made.",
+    description: "Our professional writers prepare engaging biographies that accurately tell someone's life story while supporting thorough research.",
     
   },
   {
-    title: "Final Approval & Publishing",
+    title: "Self-Help Books",
     image: bookEditingImage,
-    description: "With the manuscript finalized and approved, we format, design the cover, and prepare the book for publication. The book will be proofread by focused marketing strategies",
+    description: "Do you have expertise in personal development, productivity, or motivation? We can transform your knowledge into a self-help book that inspires your readers.",
     
   }
 ];
 
 // ******************************** End SecondSection ******************************
 
+const heading1 = {
+    title: (
+        <>
+            Start Your Nonfiction
+            <br />
+        </>
+    ),
+    highlight: " Journey Today"
+};
+const descs = "Do you want to present your expertise to the world? Our organization's nonfiction ghostwriters will develop a compelling book that informs and captivates readers. Contact us today for a complimentary consultation, marking your first step toward writing a nonfiction book.";
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
   title: (
     <>
-     Types of Nonfiction 
+     Our Nonfiction
      <br />
     </>
   ),
-  highlight: "We Specialize In"
+  highlight: " Writing Process"
 };
-const desc = "Our non-fiction ghostwriting services in NJ provide skilled ghostwriting services for different nonfiction genres. Each book is carefully crafted to ensure quality and accuracy. Here are some of the services we offer:";
+const desc = "Creating your nonfiction book is easy with our 3-step process:";
 
 
 
@@ -71,27 +84,27 @@ const desc = "Our non-fiction ghostwriting services in NJ provide skilled ghostw
 const steps = [
   {
     image: designprocess1,
-    alt: "Memoirs",
-    title: "Memoirs",
-    description: "We capture the turning points of one's life and personal growth to craft a compelling memoir."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "Gather details during an early consultation and note the project's goals, vision, and timelines. Afterward, provide customized quotes and project schedules."
   },
   {
     image: designprocess2,
-    alt: "Biographies",
-    title: "Biographies",
-    description: "Our professional writers prepare engaging biographies that accurately tell someone's life story while supporting thorough research."
+    alt: "Nonfiction Writing & Revisions",
+    title: "Nonfiction Writing & Revisions",
+    description: "Post project confirmations, assign a dedicated non-fiction ghostwriter, and begin outlining the book. Send completed chapter drafts to collect feedback to ensure revisions are made."
   },
   {
     image: designprocess3,
-    alt: "Self-Help Books",
-    title: "Self-Help Books",
-    description: "Do you have expertise in personal development, productivity, or motivation? We can transform your knowledge into a self-help book that inspires your readers."
+    alt: "Final Approval & Publishing",
+    title: "Final Approval & Publishing",
+    description: "With the manuscript finalized and approved, we format, design the cover, and prepare the book for publication. The book will be proofread by focused marketing strategies."
   },
   {
     image: designprocess4,
-    alt: "Business Books",
-    title: "Business Books",
-    description: "As a nonfiction ghostwriting agency, we help entrepreneurs and business leaders articulate and document their expertise through books."
+    alt: "Launch & Marketing Support",
+    title: "Launch & Marketing Support",
+    description: "After the completion of production for your non-fiction book, we will supply marketing tools that include full launch support to optimize successful releases. At our organization, we help you establish powerful reader connections, and then we help steer your book to suitable audiences."
   }
 ];
 
@@ -183,7 +196,7 @@ const FictionGhostwriting = () => {
 </div> */}
 
 
-<div style={{ padding: '40px 0px 100px 0px' }}>
+<div style={{ padding: '40px 0px 0px 0px' }}>
 <ImageRightBanner
     heading="Expert Nonfiction Ghostwriting: Transform Your Insights into a "
     subHeading="Masterpiece"
@@ -201,20 +214,7 @@ const FictionGhostwriting = () => {
 />
 </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Our </>}
-        subHeading={<>
-         Nonfiction<br/>
-         Writing </>}
-        heading2="Process"
-        paragraph="Creating your nonfiction book is easy with our 3-step process:"
-        services={services}
-      />
-      </div>
+
 
 
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
@@ -232,6 +232,22 @@ const FictionGhostwriting = () => {
 
         steps={steps}
       />
+
+
+{/*****************  SERVICE Section *****************/}
+<div>
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Types of Specialize In</>}
+        subHeading={<>
+         Nonfiction <br/>
+         We </>}
+        heading2="Specialize In"
+        paragraph="Our non-fiction ghostwriting services in NJ provide skilled ghostwriting services for different nonfiction genres. Each book is carefully crafted to ensure quality and accuracy. Here are some of the services we offer:"
+        services={services}
+      />
+      </div>
 
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
@@ -273,6 +289,15 @@ const FictionGhostwriting = () => {
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
          <ContactForm/>
 
       <Footer/>

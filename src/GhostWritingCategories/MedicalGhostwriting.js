@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/common/CtaButton';
@@ -23,25 +23,26 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
-  {
-    title: "Clinical Research Papers",
-    image: ghostWritingImage,
-    description: "Need help turning your data into a polished research paper? Our team of medical ghostwriters specializes in creating clear and impactful clinical research papers that get your findings published."
-  },
-  {
-    title: "Medical Textbooks and Guides",
-    image: designingImage,
-    description: "Whether you are an expert looking to share your knowledge or a professor building educational materials, we help create well-structured, easy-to-understand medical textbooks and guides."
-  },
-  {
-    title: "Journal Articles and Reviews",
-    image: bookEditingImage,
-    description: "As your trusted medical ghostwriter, we craft professional journal articles and reviews that reflect your expertise and elevate your contributions in the medical field."
-  }
+    {
+        title: "Medical Research & Healthcare Innovations:",
+        image: ghostWritingImage,
+        description: "Our medical ghostwriting service directs medical authors toward creating authoritative books that display their findings and contributions to healthcare innovation. The books effectively explain advanced scientific topics to expert medical professionals and lay audience members."
+    },
+    {
+        title: "Medical Memoirs & Biographies:",
+        image: designingImage,
+        description: "Through their medical memoirs and biographies, healthcare providers, including doctors and surgeons, create opportunities to present their professional medical journeys, successes, and medical setbacks. Our authors receive assistance in developing compelling medical stories that merge their personal and professional stories."
+    },
+    {
+        title: "Clinical Guides & Textbooks:",
+        image: bookEditingImage,
+        description: "Medical book ghostwriting services from our team deliver practical educational and clinical guides and textbooks for medical audiences. Our healthcare professionals work together to generate simplified medical content that provides step-by-step guidance to students, medical professionals, and specialists across their fields."
+    }
 ];
 
 // ******************************** End SecondSection ******************************
@@ -49,69 +50,82 @@ const services = [
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: (
-    <>
-     Your Journey to
-     {/* <br /> */}
-    </>
-  ),
-  highlight: "Medical Publishing"
+    title: (
+        <>
+            Our Medical Book
+            {/* <br /> */}
+        </>
+    ),
+    highlight: " Writing Process"
 };
-const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "We follow a well-organized process to ensure your medical book is created with precision, clarity, and authority:";
 
 const steps = [
-  {
-    image: designprocess1,
-    alt: "Study Design & Concept",
-    title: "Study Design & Concept",
-    description: "We assist with creating medical and scientific research studies, formulating hypotheses, developing a strong theoretical background, conducting statistical evaluations, and presenting results in text or presentation form."
-  },
-  {
-    image: designprocess2,
-    alt: "Statistical Evaluation",
-    title: "Statistical Evaluation",
-    description: "We handle all aspects of data gathering and interpretation, providing clear analyses and professional presentations to back up your findings."
-  },
-  {
-    image: designprocess3,
-    alt: "Manuscript Creation",
-    title: "Manuscript Creation",
-    description: "Whether it’s for publication or lecturing, we specialize in subject-specific research, literature reviews, abstracts, and crafting manuscripts that are polished and ready for your audience."
-  },
-  {
-    image: designprocess4,
-    alt: "Article Editing & Proofreading",
-    title: "Article Editing & Proofreading",
-    description: "We refine your medical articles, improving language, grammar, and clarity while ensuring your work meets international publishing standards and the quality expected of native-English speakers."
-  }
+    {
+        image: designprocess1,
+        alt: "Initial Consultation & Project Setup",
+        title: "Initial Consultation & Project Setup",
+        description: "We start by conducting an extensive examination to know about your medical qualifications and identify who your book readers will be and what objectives you seek to reach. Our project managers obtain essential details before creating individual proposals that present pricing structures, project definitions, and completion durations."
+    },
+    {
+        image: designprocess2,
+        alt: "Medical Book Writing & Revisions",
+        title: "Medical Book Writing & Revisions",
+        description: "Your approval of the project determines our assignment of a medical expert writer to your case. Your writers will draft the book pages by applying your instructed direction while offering periodic feedback updates. The book will undergo necessary revisions to match your precise specifications."
+    },
+    {
+        image: designprocess3,
+        alt: "Final Approval & Publishing",
+        title: "Final Approval & Publishing",
+        description: "Our team refines the final manuscript to establish flawless language, perfect formatting, and high content quality. After we receive your approval, we transform the manuscript into print and digital versions to make it available for distribution."
+    },
+    {
+        image: designprocess4,
+        alt: "Launch & Marketing Support",
+        title: "Launch & Marketing Support",
+        description: "When your medical book is ready for release, we offer marketing and promotional strategies to help you reach your target audience. Whether you choose to self-publish or partner with traditional publishers, we assist with launch plans and promotion to ensure your book gets the attention it deserves."
+    }
 ];
 
 
 
 // ******************************** End Design Process Props ******************************
 
+
+const heading1 = {
+    title: (
+        <>
+            Start Your Medical 
+            <br />
+        </>
+    ),
+    highlight: "Book Journey Today"
+};
+const descs = "Ready to share your medical expertise with the world? Our professional medical ghostwriting company is here to help you turn your ideas and knowledge into a published book. Whether you're a doctor, researcher, or healthcare professional, we have the experience and expertise to bring your vision to life. Contact us today for a free consultation and take the first step toward publishing your medical book!";
+
+
 // ******************************** Start FAQ Section ******************************
 const faqData = [
-  {
-    question: "What exactly is ghostwriting in pharmacology?",
-    answer: "When you think of ghostwriting, celebrity memoirs might come to mind, but it is also widely used in the pharmaceutical world. In pharmacology, ghostwriting involves researchers or their consultants drafting research papers, articles, and other key documents for pharmaceutical professionals, ensuring the right expertise is applied without the need for direct authorship."
-  },
-  {
-    question: "What if I am not happy with the final draft?",
-    answer: "If you are not completely satisfied with the final draft, just let us know. We offer unlimited revisions because we value your input and want to make sure everything meets your expectations. Simply share your concerns, and once we understand your needs, we will revise the draft and make it right. We are with you every step of the way to ensure you love the final outcome."
-  },
-  {
-    question: "Is your medical ghostwriting service confidential?",
-    answer: "Absolutely! We understand how important confidentiality is. Unlike some unprofessional ghostwriters who might use your project details for promotion, we keep everything strictly confidential. Your work remains entirely yours, and we follow professional editing and publishing standards, so no excerpts are shared without your permission. Your trust is our priority."
-  },
-  {
-    question: "How do I know if medical ghostwriting is right for my project?",
-    answer: "If you are a busy healthcare professional, researcher, or pharmaceutical expert looking to publish but don't have the time to dedicate to writing, medical ghostwriting might be the perfect solution. Our experienced medical ghostwriters can help bring your ideas and research to life, ensuring your work is presented clearly and professionally without compromising quality."
-  },
-  {
-    question: "Can I be credited as the author of a ghostwritten medical paper?",
-    answer: "Yes, absolutely! Medical ghostwriting allows you to maintain full ownership of your work, meaning you can be credited as the sole or primary author of the paper. Our role is to assist in crafting the content while you retain complete authorship and control over the final product."
-  }
+    {
+        question: "What are medical book ghostwriting services?",
+        answer: "Medical book ghostwriting services involve hiring a professional writer to help you craft a book based on your medical expertise. The ghostwriter will work closely with you to ensure the book reflects your knowledge and resonates with your intended audience."
+    },
+    {
+        question: "How do I hire a ghostwriter for a medical book?",
+        answer: "To hire a medical ghostwriter, reach out for an initial consultation. We'll discuss your book's concept, target audience, and specific goals. Then, we'll provide a custom quote and timeline for your project."
+    },
+    {
+        question: "Can I make revisions during the writing process?",
+        answer: "Yes! We offer unlimited revisions to ensure your book aligns with your vision. Throughout the process, you will have the opportunity to review drafts and provide feedback."
+    },
+    {
+        question: "How long does it take to complete a medical book?",
+        answer: "The timeline for completing a medical book depends on the complexity and length of the manuscript. After the initial consultation, we'll provide an estimated timeline based on your project's requirements."
+    },
+    {
+        question: "Do I have the right to my medical book after completion?",
+        answer: "Yes! Once the manuscript is finalized and approved, you will own all rights to your medical book. We ensure all work is original and fully transferred to you upon completion."
+    }
 ];
 
 
@@ -120,130 +134,160 @@ const faqData = [
 // ******************************** End FAQ Section ******************************
 
 const MedicalGhostwriting = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+    const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
-  const openModal = () => {
-    setIsModalOpen(true); // Open the modal
-  };
+    const openModal = () => {
+        setIsModalOpen(true); // Open the modal
+    };
 
-  const closeModal = () => {
-    setIsModalOpen(false); // Close the modal
-  };
+    const closeModal = () => {
+        setIsModalOpen(false); // Close the modal
+    };
 
-  return (
-    <div>
-      {/* -------------------Start Banner section---------------------- */}
-<Helmet>
+    return (
+        <div>
+            {/* -------------------Start Banner section---------------------- */}
+            <Helmet>
 
-    <title>Professional Medical Ghostwriting Services | AMZ Book Publishing </title>
-    <meta name="description" content="Trust AMZ Book Publishing for professional medical ghostwriting—accurate, well-researched, and expertly crafted content for the healthcare industry." />
-    <link rel="canonical" href="https://amzbookpublishing.net/professional-medical-ghostwriting-services " />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Medical Ghostwriting Services by Experienced Medical Writers" />
-    <meta property="og:description" content="Need a Medical ghostwriter? We offer professional Medical ghostwriting services at an affordable price. Contact us to hire writers remotely for your project." />
-    <meta property="og:url" content="https://amzbookpublishing.net/professional-medical-ghostwriting-services" />
-    <meta property="og:site_name" content="AMZBookPublishing" />
-    <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-    <meta property="article:modified_time" content="2024-08-23T07:03:25+00:00" />
-    
-</Helmet>
-      <Header />
-      <BreadCrumb
-        title="Medical Ghostwriting"
-        desc={
-          <>
-          Let us help you showcase your expertise with our medical ghostwriting services and make a lasting impact in the academic world! Whether you are looking to publish groundbreaking studies or craft insightful articles, we have got you covered.
+                <title>Professional Medical Ghostwriting Services | AMZ Book Publishing </title>
+                <meta name="description" content="Trust AMZ Book Publishing for professional medical ghostwriting—accurate, well-researched, and expertly crafted content for the healthcare industry." />
+                <link rel="canonical" href="https://amzbookpublishing.net/professional-medical-ghostwriting-services " />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Medical Ghostwriting Services by Experienced Medical Writers" />
+                <meta property="og:description" content="Need a Medical ghostwriter? We offer professional Medical ghostwriting services at an affordable price. Contact us to hire writers remotely for your project." />
+                <meta property="og:url" content="https://amzbookpublishing.net/professional-medical-ghostwriting-services" />
+                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="article:modified_time" content="2024-08-23T07:03:25+00:00" />
 
-          </>
-        }
-        buttonText="Get a Quote"
-        onClick={openModal} // Call openModal on button click
-        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-      />
+            </Helmet>
+            <Header />
+            <BreadCrumb
+                className="responsive-height"
+                title="Medical Ghostwriting Services: Transforming Medical Expertise into Published Works"
+                desc={
+                    <>
+                       Your medical expertise requires professional transformation into a published book that requires expert medical writer assistance. Our company's medical ghostwriting service serves healthcare professionals, doctors, and researchers who need assistance presenting their expertise through medical books. Medical experts experienced physicians, and researchers can get help from our medical ghostwriting agency in town to produce a book showcasing their area of specialization.
 
-      {/* Popup Form */}
-      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
-    
-   
-{/* -------------------End Banner section---------------------- */}
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+                    </>
+                }
+                buttonText="Get a Quote"
+                onClick={openModal} // Call openModal on button click
+                backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+            />
+
+            {/* Popup Form */}
+            <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+
+
+            {/* -------------------End Banner section---------------------- */}
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <ImageTextBanner 
     contentItems={contentItems} 
 />
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
-<ImageRightBanner
-    heading="Medical "
-    subHeading="Ghostwriting"
-    description={
-        <>
-        Many physicians, surgeons, and medical experts face the challenge of staying updated on the latest medical advancements while juggling patient care and research responsibilities. Keeping up with the demands of medical studies and publishing can be overwhelming.
-           <br/><br/>
-           That is where our medical ghostwriting services come in. We help bridge the gap by creating high-quality, scientifically accurate articles that reflect the newest medical research. From groundbreaking studies to diverse medical topics, we ensure your content is ethical, plagiarism-free, and aligned with the latest advancements in the field.
-        </>
-    }
-    imageSrc={FictionImage1}
-    objectfit="contain"
-    imageHeight="400px"  // Set height here
-    imageWidth="100%"     // Set width here
-    borderRadius="30px"
-/>
-</div>
+            <div style={{ padding: '30px 0px 0px 0px' }}>
+                <ImageRightBanner
+                    heading="Transforming Medical Expertise"
+                    subHeading=" into Published Works"
+                    description={
+                        <>
+                           A medical book succeeds beyond its capability to represent data and research findings. Medical book creation demands precise explanation, compelling storytelling, and faithful adherence to scientific data. Our Professional Medical Ghostwriters for Hire will customize their work method to convert your book into educational content that keeps readers actively interested. Our expert medical writers at the company take research and transform it through their expertise into readable medical books that serve professionals alongside lay readers.
+                        </>
+                    }
+                    imageSrc={FictionImage1}
+                    objectfit="contain"
+                    imageHeight="400px"  // Set height here
+                    imageWidth="100%"     // Set width here
+                    borderRadius="30px"
+                />
+            </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Expert  </>}
-        subHeading={<>
-         Medical  <br/>
-         Writing </>}
-        heading2="Services"
-        paragraph="Partner with our skilled medical ghostwriters, including experienced MDs, NDs, and scientific writers, to craft high-quality, well-researched papers that make an impact. We will help you get your ideas published with precision and professionalism!"
-        services={services}
-      />
-      </div>
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+          
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
-<DesignProcess 
-        heading={heading}
-        description={description}
-        steps={steps}
-      />
-<div style={{ padding: '0px 0px 50px 0px' }}>
-<ImageLeftBanner
-    heading="Why Choose Us"
-    subHeading=""
-    description={
-      <>
-      Our medical ghostwriting team is composed of seasoned professionals and specialists across various medical fields. They understand the responsibility and precision your work demands because they hold the same high standards. 
-         <br/><br/>
-         We ensure that every manuscript is crafted by an expert in the relevant field, guaranteeing original, high-quality content. In addition, we not only offer top-notch but affordable ghostwriting services, so you can access professional support without breaking the bank.
-      </>
-  }
-    imageSrc={fictionwhychoose}
-    imageHeight=""        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>
-</div>
-<CtaButton/>
-         
-          <div>
-      <FAQSection faqData={faqData} />
-    </div>
-         <ContactForm/>
+            <DesignProcess
+                heading={heading}
+                description={
+                    <div className="custom-description">
+                        {desc}
+                    </div>
+                }
+                steps={steps}
+            />
 
-      <Footer/>
-    </div>
-  );
+  {/*****************  SERVICE Section *****************/}
+  <div>
+                <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Medical </>}
+                    subHeading={<>
+                        Books for <br />
+                        Every</>}
+                    heading2=" Specialty"
+                    paragraph="The medical ghostwriting agency in our town extends its services to all medical specialties. We support every author who wants to publish a book that demonstrates their professional expertise while attracting a general readership."
+                    services={services}
+                />
+            </div>
+
+            <div style={{ padding: '0px 0px 50px 0px' }}>
+                <ImageLeftBanner
+                    heading="Why Choose Our Professional Medical Ghostwriting Services?"
+                    subHeading=""
+                    description={
+                        <>
+                           Our medical ghostwriting services near me offer a professional approach, ensuring you receive a high-quality, well-crafted manuscript:
+                            <ul>
+                                <li>
+                                    <b>Experienced Medical Writers:</b> The team comprises medical writers with years of experience helping healthcare professionals with their writing needs, including clinical practice research and healthcare. The team uses exact terminology to deliver medical writing services that remain scientifically accurate.
+                                </li>
+                                <li>
+                                    <strong>Collaborative Process: </strong>We continuously collaborate with you from the start to the end of manuscript creation because we want your professional voice to appear in all written material. Your feedback plays a crucial role during our collaborative work process, and we are committed to this collaborative approach. 
+                                </li>
+                                <li>
+                                    <strong>Unlimited Revisions: </strong> Our medical ghostwriting process includes unlimited free corrections so you can achieve your desired manuscript outcomes. Our team will work on the draft indefinitely until you accept the completed work.
+                                </li>
+                                <li>
+                                    <strong>Affordable Rates: </strong>Our expert medical ghostwriting organization delivers premium medical book ghostwriting operations to all professions at reasonable prices to make exceptional services available to all medical professionals.
+                                </li>
+                                <li>
+                                    <strong>On-Time Delivery: </strong>Our medical book delivery timeline matches your essential deadline needs while we maintain both high precision and punctuality when finishing your project.
+                                </li>
+                            </ul>
+                        </>
+                    }
+                    imageSrc={fictionwhychoose}
+                    imageHeight=""        // Set height here
+                    imageWidth=""          // Set width here
+                    objectfit="cover"          // Set object-fit here
+                    borderRadius="15px"        // Set border radius here
+                />
+            </div>
+            <CtaButton />
+
+            <div>
+                <FAQSection faqData={faqData} />
+            </div>
+            <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
+            <ContactForm />
+
+            <Footer />
+        </div>
+    );
 };
 export default MedicalGhostwriting;
 

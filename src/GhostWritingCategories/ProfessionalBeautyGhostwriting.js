@@ -23,29 +23,45 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Fashion Trends",
+    title: "Beauty Blogs & Articles: ",
     image: ghostWritingImage, // Update this if you have a specific image
-    description: "Beauty is considered incomplete without incorporating the latest fashion trends. At AMZ Book Publishing, our expert beauty ghostwriters possess a deep understanding of contemporary fashion trends."
+    description: "Our beauty ghostwriting agency in the USA includes developing beauty blogs and articles incorporating different issues, tutorials, and expert recommendations that are captivating and SEO-friendly to help draw your audience and traffic to your website."
   },
   {
-    title: "Organic Beauty Tips",
+    title: "Product Descriptions & Reviews: ",
     image: designingImage, // Update this if you have a specific image
-    description: "As an affordable beauty ghostwriting service, AMZ Book Publishing boasts a team of experts who offer valuable insights into organic beauty. Our ghostwriters possess extensive knowledge of organic products that contribute to enhanced beauty."
+    description: "Our writers craft compelling product beauty descriptions that are persuasive and emphasize the products to help increase sales."
   },
   {
-    title: "Makeup Tips",
+    title: "Beauty eBooks & Guides: ",
     image: bookEditingImage, // Update this if you have a specific image
-    description: "As an affordable beauty ghostwriting agency, we also employ ghostwriters with in-depth knowledge of the latest makeup trends and tips. Makeup enjoys immense popularity among women of all ages."
+    description: "We assist beauty professionals and brands in developing comprehensive eBooks and guides to enable them to offer educational value to their audience."
   }
 ];
 
 
 // ******************************** End SecondSection ******************************
+
+
+const heading1 = {
+    title: (
+        <>
+           Start Your Beauty 
+            <br />
+        </>
+    ),
+    highlight: "Ghostwriting Journey Today"
+};
+const descs = "Ready to hire a beauty ghostwriter and bring your content vision to life? AMZ Book Publishing offers professional beauty ghostwriting services to help you create compelling content for your beauty brand or blog. Contact us today for a free consultation, and let’s start crafting content that shines.";
+
+
+
 
 // ******************************** Start Design Process Props ******************************
 
@@ -58,32 +74,32 @@ Our Beauty
   ),
   highlight: "Ghostwriting Process "
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "Bringing your beauty book to life is easy with our 3-step process, designed to ensure that every detail is taken care of:";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Consultation & Discovery ",
-    title: "Consultation & Discovery ",
-    description: "The process starts with a consultation to understand the client's needs, goals, brand, target audience, and content requirements."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "Gather details during an early consultation and note the project's goals, vision, and timelines. Afterward, provide customized quotes and project schedules."
   },
   {
     image: designprocess2,
-    alt: "Research & Planning ",
-    title: "Research & Planning",
-    description: "The ghostwriter researches trends, audiences, and competitors, then develops a content strategy and style guide for consistency."
+    alt: "Content Creation & Revisions",
+    title: "Content Creation & Revisions",
+    description: "The beautician ghostwriters prepare the content after we understand your expectations of your brand. The content can range from product descriptions to beauty marketing brochures and blogs. "
   },
   {
     image: designprocess3,
-    alt: "Content Creation & Refinement",
-    title: "Content Creation & Refinement",
-    description: "The ghostwriter drafts content based on the strategy and style guide, incorporating client feedback in multiple revision rounds until approval."
+    alt: "Final Approval & Publishing",
+    title: "Final Approval & Publishing",
+    description: "We final check your book for clarity. After you approve the final draft we publish it for print as well as for eBook distribution."
   },
   {
     image: designprocess4,
-    alt: "Delivery & Support",
-    title: "Delivery & Support",
-    description: "Final content is delivered, with ongoing support available for editing, proofreading, or additional writing as needed."
+    alt: "Launch & Marketing Support",
+    title: "Launch & Marketing Support",
+    description: "We have advertising plans to ensure that you reach your intended audience when unveiling your eBook. With our help, your book will get the attention it deserves, from promotion to launch."
   }
 ];
 
@@ -94,24 +110,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "Can you find me a ghostwriter who has specific experience/knows about law?",
-    answer: "Absolutely! At AMZ Book Publishings, we make sure to pair you with a legal ghostwriter who has the expertise and background in law that fits your project. Whether it’s contracts, legal briefs, or academic legal writing, we have a team of professionals who know their way around legal jargon and concepts."
+    question: "What is beauty ghostwriting?",
+    answer: "Beauty ghostwriting involves hiring a professional writer to create beauty-related content on your behalf. The content is crafted to align with your brand voice and vision, but you receive the credit for the final product."
   },
   {
-    question: "If I invest in your services, can you ensure my legal ghostwriting piece is authentic?",
-    answer: "Yes, authenticity is key. Our legal ghostwriters work closely with you to ensure your unique voice and ideas shine through while still adhering to all the legal details. We take the time to understand your needs so that the final piece is 100% original, personalized, and tailored to your specific goals."
+    question: "How do I hire a beauty ghostwriter?",
+    answer: "To hire a beauty ghostwriter, contact us for an initial consultation. We'll discuss your goals, content needs, and deliverables and then provide a custom quote for your project."
   },
   {
-    question: "Are your ghostwriting services confidential?",
-    answer: "Absolutely! Confidentiality is a top priority for us. We treat every project with the utmost discretion, so your documents, ideas, and personal information are completely secure. Your privacy is just as important to us as delivering quality work."
+    question: "Can I make revisions during the writing process?",
+    answer: "Yes! We offer unlimited revisions to ensure the content matches your expectations. You’ll have the opportunity to review drafts and suggest changes."
   },
   {
-    question: "What kind of legal documents can I hire a ghostwriter for?",
-    answer: "You can hire us for a wide range of legal documents, including contracts, legal memos, case summaries, briefs, research papers, and even full legal textbooks. Whatever you need, our skilled team can handle it!"
+    question: "How long does it take to complete beauty content?",
+    answer: "The timeline varies depending on the type and complexity of the content. After our consultation, we’ll provide an estimated completion time based on your needs."
   },
   {
-    question: "Is ghostwriting ethical?",
-    answer: "Yes, ghostwriting is completely ethical. It is a collaborative process where you provide the direction, and the ghostwriter provides the expertise. You are still the mastermind behind the project and our job is to help you bring it to life in a professional and polished way."
+    question: "Do I own the rights to my beauty content?",
+    answer: "Yes! You will own all its rights once the content is finalized and approved. We guarantee original work and complete ownership transfer."
   }
 ];
 
@@ -150,7 +166,8 @@ const LegalGhostwriting = () => {
         title="Beauty Ghostwriting Services"
         desc={
           <>
-At AMZ Book Publishing, we weave comprehensive content encompassing the latest beauty and fashion developments. Our team stays ahead of the curve, keeping pace with global style trends and emerging beauty products to deliver informed and authoritative writing.          </>
+          The intersection of innovation, consumer behavior, and authentic storytelling fuels success in beauty and Cosmetics ghostwriting. In a marketplace full of great ideas, remarkable content still requires specialized skills to create. At AMZ Book Publishing, we offer Beauty Ghostwriting Services in New Jersey that allow beauty professionals, social media influencers, and brands to craft written content that seamlessly resonates with their image and target audience.
+</>
         }
         buttonText="Get a Quote"
         onClick={openModal} // Call openModal on button click
@@ -169,15 +186,13 @@ At AMZ Book Publishing, we weave comprehensive content encompassing the latest b
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
+<div style={{ padding: '30px 0px 0px 0px' }}>
 <ImageRightBanner
     heading="Professional Beauty "
-    subHeading=" Ghostwriting Services"
+    subHeading=" Ghostwriters for Hire"
     description={
         <>
-The concept of beauty is multifaceted and spans numerous areas of interest. At AMZ Book Publishing, our beauty experts possess in-depth knowledge and hands-on experience with various beauty products, enabling them to guide individuals seeking advice.
-           <br/><br/>
-           Our team of skilled beauty ghostwriters is well-versed in conducting thorough research and meeting the specific requirements when writing about beauty topics. We provide engaging and well-researched content to our readers, relying on factual data and ensuring accuracy through thorough review before publication. Our writers stay updated on beauty trends, understand referencing and ghostwriting practices, and are committed to providing beauty ghostwriting services in New Jersey.
+Professional beauty ghostwriters at AMZ Book Publishing possess the experience to develop high-quality content targeted at the beauty industry. Our skilled beauty writers can transform your concepts into engaging content that respects your brand identity for blog posts, product descriptions, eBooks, and brand narratives.
         </>
     }
     imageSrc={FictionImage1}
@@ -190,35 +205,55 @@ The concept of beauty is multifaceted and spans numerous areas of interest. At A
 
 {/*****************  SERVICE Section *****************/}
 <div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-       Expert Beauty and   </>}
-        subHeading={<>
-      Cosmetics Ghostwriting   <br/>
-          </>}
-        heading2="Services"
-        paragraph="For beauty brands seeking to connect with their audience through compelling content, AMZ book publishing offers a team of skilled writers with expertise in fashion, organic beauty, and makeup trends."
-        services={services}
-      />
-      </div>
+
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }
         steps={steps}
       />
+
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+       Types of </>}
+        subHeading={<>
+      Beauty Content We  <br/>
+          </>}
+        heading2="Specialize In"
+        paragraph="We provide content services for all types of businesses within the beauty and cosmetics industry. Below are some of the categories that we focus on:"
+        services={services}
+      />
+      </div>
+
+
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Affordable Beauty Ghostwriting"
-    subHeading=" Agency In The USA"
+    heading="Why You Should Choose "
+    subHeading="Our Beauty Ghostwriting Services"
     description={
-      <>
-Select AMZ book publishing to fulfill aspirations, where we are distinguished by our outstanding reputation and dedication to delivering top-notch work. Our proficient team, comprising writers and project leaders with more than a decade of experience in writing books, guarantees superior service. With writers based in the USA, we provide custom affordable beauty ghostwriting services designed to meet your specific requirements.
-         <br/><br/>
-         We guarantee the opportunity to review and refine your manuscript until it perfectly captures your creative vision. Furthermore, we maintain complete confidentiality you have complete confidence that your work will remain private and protected every step of the way.
+        <>
+        When you select AMZ Book Publishing you benefit from partnering with a team that understands beauty writing and branding intricacies.
+          <ul>
+              <li>
+                  <b>Experienced Professionals: </b> Our professional beauty ghostwriters are seasoned professionals in the beauty sector, so you can be guaranteed that the beauty content will be crafted appropriately and audience-friendly.
+              </li>
+              <li>
+                  <strong>Collaborative Process: </strong> We work with you at every step to ensure the content reflects your voice, message, and goals. Your feedback is integral to the process.
+              </li>
+              <li>
+                  <strong>Unlimited Revisions: </strong> We allow you to alter the content to make every piece suit you perfectly. If you find anything that is not right, we will assist you in adjusting it.
+              </li>
+              <li>
+                  <strong>	Affordable Rates: </strong> We provide affordable beauty ghostwriting services for beauty ghostwriting, allowing you to purchase the beauty content at a reasonable price.
+              </li>
+          </ul>
       </>
   }
     imageSrc={fictionwhychoose}
@@ -233,6 +268,15 @@ Select AMZ book publishing to fulfill aspirations, where we are distinguished by
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
          <ContactForm/>
 
       <Footer/>

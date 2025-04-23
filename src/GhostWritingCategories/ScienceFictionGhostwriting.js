@@ -23,70 +23,87 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
     {
-        title: "Initial Consultation & Project Setup",
+        title: "Space Opera",
         image: ghostWritingImage,
-        description: "We collect the relevant information regarding your project to achieve your goals, timelines, and ideas. Then, we create a customized quote with a schedule so everything is completed promptly.",
+        description: "We create grand, sweeping tales of space exploration, intergalactic battles, and complex alien civilizations.",
         // link: "https://www.facebook.com/",
         // buttonPadding :"10px 25px",
         // learnmore:"Click Here",
     },
     {
-        title: "Science Fiction Writing & Revisions",
+        title: "Time Travel",
         image: designingImage,
-        description: "After the project is confirmed, we assign a sci-fi ghostwriter to the project to start writing your story. We give you parts of the drafts and chapters for your feedback and incorporate the revisions based on your input so the tale tells your story.",
+        description: "Our team expertly piles complicated time-travel plots that explore paradoxes, alternate timelines, and the consequences of changing history.",
 
     },
     {
-        title: "Final Approval & Publishing",
+        title: "Dystopian & Post-Apocalyptic",
         image: bookEditingImage,
-        description: "For the rest of the steps, the client is to approve the final manuscript, after which we edit the book cover, interior, and other items required for publishing. Our team sets prerequisites for the book's launch by proofreading it and formulating marketing strategies.",
+        description: "We craft gripping dystopian futures and post-apocalyptic narratives that immerse readers in a world on the brink of collapse.",
 
     }
 ];
 
 // ******************************** End SecondSection ******************************
 
+
+
+const heading1 = {
+    title: (
+        <>
+           Begin Your Science 
+            <br />
+        </>
+    ),
+    highlight: "Fiction Writing Adventure Now"
+};
+const descs = "Your upcoming book will enable you to discover strange worlds and develop fantastical technological discoveries with thrilling excitement. Our science fiction ghostwriting service writers will build a novel that takes your readers on adventures into the unknown. Contact us now for a cost-free initial meeting to start creating your science fiction tale.";
+
+
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
     title: (
         <>
-            Types of Science Fiction
+            Our Science Fiction
             <br />
         </>
     ),
-    highlight: " We Specialize In"
+    highlight: " Writing Process"
 };
-const desc = "Our science fiction ghostwriting services online cover a variety of sub-genres. Every story is meticulously crafted to ensure the highest quality and engagement. Here are some of the types of sci-fi we specialize in:";
+const desc = "Bringing your sci-fi vision to life is easy with our three-step process:";
 const steps = [
     {
         image: designprocess1,
-        alt: "Space Opera",
-        title: "Space Opera",
-        description: "We create grand, sweeping tales of space exploration, intergalactic battles, and complex alien civilizations."
+        alt: "Initial Consultation & Project Setup",
+        title: "Initial Consultation & Project Setup",
+        description: "We collect the relevant information regarding your project to achieve your goals, timelines, and ideas. Then, we create a customized quote with a schedule so everything is completed promptly."
     },
     {
         image: designprocess2,
-        alt: "Time Travel",
-        title: "Time Travel",
-        description: "Our team expertly piles complicated time-travel plots that explore paradoxes, alternate timelines, and the consequences of changing history."
+        alt: "Science Fiction Writing & Revisions",
+        title: "Science Fiction Writing & Revisions",
+        description: "After the project is confirmed, we assign a sci-fi ghostwriter to the project to start writing your story. We give you parts of the drafts and chapters for your feedback and incorporate the revisions based on your input so the tale tells your story."
     },
     {
         image: designprocess3,
-        alt: "Dystopian & Post-Apocalyptic",
-        title: "Dystopian & Post-Apocalyptic",
-        description: "We craft gripping dystopian futures and post-apocalyptic narratives that immerse readers in a world on the brink of collapse."
+        alt: "Final Approval & Publishing",
+        title: "Final Approval & Publishing",
+        description: "For the rest of the steps, the client is to approve the final manuscript, after which we edit the book cover, interior, and other items required for publishing. Our team sets prerequisites for the book's launch by proofreading it and formulating marketing strategies."
     },
     {
         image: designprocess4,
-        alt: "Alien Encounters",
-        title: "Alien Encounters",
-        description: "From first contact to full-scale invasions, our writers excel at creating thrilling stories of alien life and interplanetary conflict."
+        alt: "Launch & Marketing Support",
+        title: "Launch & Marketing Support",
+        description: "After the completion of production for your science fiction book, we will supply marketing tools that include full launch support to optimize successful releases. At our organization, we help you establish powerful reader connections, and then we help steer your book to suitable audiences."
     }
 ];
 
@@ -152,7 +169,7 @@ const FictionGhostwriting = () => {
             {/* -------------------Start Banner section---------------------- */}
             <Header />
             <BreadCrumb
-             className="responsive-height"
+                className="responsive-height"
                 title="Professional Sci-Fi Ghostwriting Services"
                 desc={
                     <>
@@ -179,7 +196,7 @@ const FictionGhostwriting = () => {
 </div> */}
 
 
-            <div style={{ padding: '40px 0px 100px 0px' }}>
+            <div style={{ padding: '40px 0px 0px 0px' }}>
                 <ImageRightBanner
                     heading="Science Fiction Ghostwriting "
                     subHeading="Services That Impact"
@@ -203,34 +220,37 @@ const FictionGhostwriting = () => {
 
             {/*****************  SERVICE Section *****************/}
             <div>
-                <SecondSection
-                    buttonLabel="S e r v i c e s"
-                    heading1={<>
-                        Our Science </>}
-                    subHeading={<>
-                         Fiction <br />
-                         Writing </>}
-                    heading2="Process"
-                    paragraph="Bringing your sci-fi vision to life is easy with our three-step process:"
-                    services={services}
-                />
-            </div>
 
 
-            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
+
+                {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 
 
-            <DesignProcess
-                heading={heading}
-                description={
-                    <div className="custom-description">
-                        {desc}
-                    </div>
-                } 
-                steps={steps}
-            />
+                <DesignProcess
+                    heading={heading}
+                    description={
+                        <div className="custom-description">
+                            {desc}
+                        </div>
+                    }
+                    steps={steps}
+                />
+
+
+                <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Types of </>}
+                    subHeading={<>
+                        Science <br />
+                        Fiction We</>}
+                    heading2=" Specialize In"
+                    paragraph="Our science fiction ghostwriting services online cover a variety of sub-genres. Every story is meticulously crafted to ensure the highest quality and engagement. Here are some of the types of sci-fi we specialize in:"
+                    services={services}
+                />
+            </div>
 
             <div style={{ padding: '0px 0px 50px 0px' }}>
                 <ImageLeftBanner
@@ -238,7 +258,7 @@ const FictionGhostwriting = () => {
                     subHeading=""
                     description={
                         <>
-                        Here's why clients trust us with their science fiction projects:
+                            Here's why clients trust us with their science fiction projects:
                             <ul>
                                 <li>
                                     <b>Experienced Experts:</b>Our ghostwriters have extensive experience in science fiction, ensuring your story is crafted with precision, originality, and genre-specific detail.
@@ -272,6 +292,15 @@ const FictionGhostwriting = () => {
             <div>
                 <FAQSection faqData={faqData} />
             </div>
+            <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
             <ContactForm />
 
             <Footer />

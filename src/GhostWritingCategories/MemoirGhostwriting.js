@@ -23,72 +23,85 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
     {
-        title: "Initial Consultation & Project Setup",
+        title: "Personal Memoirs",
         image: ghostWritingImage,
-        description: "The initial part of the process begins with a project setup consultation. We start by discussing every event from your life and the key message points with your selected content material. The project managers from our company will contact you to obtain essential information. During project specifications, we produce exact costs along with settlement timelines.",
+        description: "Your personal story can be powerful, whether about your childhood, family life, or the lessons you've learned. Our team excels in capturing deeply personal moments, making them relatable and inspiring to readers.",
         // link: "https://www.facebook.com/",
         // buttonPadding :"10px 25px",
         // learnmore:"Click Here",
     },
     {
-        title: "Memoir Writing & Revisions",
+        title: "Overcoming Adversity Memoirs",
         image: designingImage,
-        description: "The project confirmation lets us connect your memoir to an experienced ghostwriter who will create your book. The memoir ghostwriter transforms your experiences into an authentic, natural flowing tale. We will provide drafts and chapters with measurement points for your input during development. You can ask for further changes and contribute ideas to maintain your writing style during the writing process. ",
+        description: "Suppose your memoir is focused on overcoming hardships such as illness, trauma, or personal struggles. In that case, we will help you craft a narrative highlighting your resilience and strength, creating an emotional connection with readers.",
 
     },
     {
-        title: "Final Approval & Publishing",
+        title: "Celebrity & Professional Memoirs",
         image: bookEditingImage,
-        description: "After completing the manuscript, we'll send it to you for final approval. Once approved, we proceed with editing, formatting, and preparing the manuscript for publication. We'll also help you with strategies for marketing and launching your memoir, ensuring that your story reaches the right audience.",
+        description: "Suppose you've had a notable career or public life. In that case, our memoir writers for hire specialize in turning your professional milestones into a compelling narrative that speaks to both your personal and professional achievements.",
 
     }
 ];
 
 // ******************************** End SecondSection ******************************
 
+const heading1 = {
+    title: (
+        <>
+            Start Your Memoir
+            <br />
+        </>
+    ),
+    highlight: " Journey Today"
+};
+const descs = "Ready to hire a memoir ghostwriter and bring your story to life? Our team of memoir writers for hire is here to help you craft a memoir that's as unique and compelling as your life. Contact us today for a free consultation and take the first step in sharing your unforgettable journey with the world.";
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
     title: (
         <>
-            Creating Masterpieces in Every Memoir Genre
+            Our Memoir Writing Process
 
             <br />
         </>
     ),
 
 };
-const desc = "Our memoir ghostwriters specialize in a variety of memoir genres, ensuring that your story is crafted to resonate with the readers who will most appreciate it:";
+const desc = "You can complete your memoir through three straightforward procedures to guide the writing toward your concept and smooth the process.";
 
 const steps = [
     {
         image: designprocess1,
-        alt: "Personal Memoirs",
-        title: "Personal Memoirs",
-        description: "Your personal story can be powerful, whether about your childhood, family life, or the lessons you've learned. Our team excels in capturing deeply personal moments, making them relatable and inspiring to readers."
+        alt: "Initial Consultation & Project Setup",
+        title: "Initial Consultation & Project Setup",
+        description: "The initial part of the process begins with a project setup consultation. We start by discussing every event from your life and the key message points with your selected content material. The project managers from our company will contact you to obtain essential information. During project specifications, we produce exact costs along with settlement timelines."
     },
     {
         image: designprocess2,
-        alt: "Overcoming Adversity Memoirs",
-        title: "Overcoming Adversity Memoirs",
-        description: "Suppose your memoir is focused on overcoming hardships such as illness, trauma, or personal struggles. In that case, we will help you craft a narrative highlighting your resilience and strength, creating an emotional connection with readers."
+        alt: "Memoir Writing & Revisions",
+        title: "Memoir Writing & Revisions",
+        description: "The project confirmation lets us connect your memoir to an experienced ghostwriter who will create your book. The memoir ghostwriter transforms your experiences into an authentic, natural flowing tale. We will provide drafts and chapters with measurement points for your input during development. You can ask for further changes and contribute ideas to maintain your writing style during the writing process. "
     },
     {
         image: designprocess3,
-        alt: "Celebrity & Professional Memoirs",
-        title: "Celebrity & Professional Memoirs",
-        description: "Suppose you've had a notable career or public life. In that case, our memoir writers for hire specialize in turning your professional milestones into a compelling narrative that speaks to both your personal and professional achievements."
+        alt: "Final Approval & Publishing",
+        title: "Final Approval & Publishing",
+        description: "After completing the manuscript, we'll send it to you for final approval. Once approved, we proceed with editing, formatting, and preparing the manuscript for publication. We'll also help you with strategies for marketing and launching your memoir, ensuring that your story reaches the right audience."
     },
     {
         image: designprocess4,
-        alt: "Historical Memoirs",
-        title: "Historical Memoirs",
-        description: "For those documenting experiences from a historical perspective, we combine vivid storytelling with accurate historical details to bring your experiences to life in a way that educates and entertains readers."
+        alt: "Launch & Marketing Support",
+        title: "Launch & Marketing Support",
+        description: "After the completion of production for your memoir ghostwriting, we will supply marketing tools that include full launch support to optimize successful releases. At our organization, we help you establish powerful reader connections, and then we help steer your book to suitable audiences."
     }
 ];
 
@@ -180,7 +193,7 @@ const FictionGhostwriting = () => {
 </div> */}
 
 
-            <div style={{ padding: '40px 0px 100px 0px' }}>
+            <div style={{ padding: '40px 0px 0px 0px' }}>
                 <ImageRightBanner
                     heading="Professional Memoir Writers for Hire:"
                     subHeading=" Let Us Bring Your Story to Life"
@@ -197,20 +210,7 @@ const FictionGhostwriting = () => {
                 />
             </div>
 
-            {/*****************  SERVICE Section *****************/}
-            <div>
-                <SecondSection
-                    buttonLabel="S e r v i c e s"
-                    heading1={<>
-                        Our   </>}
-                    subHeading={<>
-                        Memoir <br />
-                        Writing </>}
-                    heading2="Process "
-                    paragraph="You can complete your memoir through three straightforward procedures to guide the writing toward your concept and smooth the process."
-                    services={services}
-                />
-            </div>
+
 
 
             {/* <div style={{ padding: '0px 0px 30px 0px' }}>
@@ -227,6 +227,22 @@ const FictionGhostwriting = () => {
                 }
                 steps={steps}
             />
+
+
+                        {/*****************  SERVICE Section *****************/}
+                        <div>
+                <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Creating </>}
+                    subHeading={<>
+                        Masterpieces<br />
+                        in Every</>}
+                    heading2=" Memoir Genre"
+                    paragraph="Our memoir ghostwriters specialize in a variety of memoir genres, ensuring that your story is crafted to resonate with the readers who will most appreciate it:"
+                    services={services}
+                />
+            </div>
 
             <div style={{ padding: '0px 0px 50px 0px' }}>
                 <ImageLeftBanner
@@ -268,6 +284,15 @@ const FictionGhostwriting = () => {
             <div>
                 <FAQSection faqData={faqData} />
             </div>
+            <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
             <ContactForm />
 
             <Footer />

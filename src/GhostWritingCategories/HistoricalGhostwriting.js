@@ -23,24 +23,25 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Biographical Ghostwriting",
+    title: "Historical Non-Fiction",
     image: ghostWritingImage,
-    description: "Let our skilled historical ghostwriters bring the stories of remarkable individuals to life. We craft engaging biographies that not only highlight achievements but also reveal the personal journeys behind the historical figures you admire."
+    description: "From biographies to factual accounts of significant events, we help you write non-fiction books that are both informative and compelling."
   },
   {
-    title: "Historical Fiction Ghostwriting",
+    title: "Historical Fiction",
     image: designingImage,
-    description: "Dive into the past with our historical fiction ghostwriting services! Our talented writers blend factual research with imaginative storytelling to create captivating novels that transport readers to different eras and immerse them in rich, vivid narratives."
+    description: "The writers at our firm excel at creating historical fiction, which combines historical events with imaginative storytelling to create a compelling narrative. Our writing service guides you in developing endearing personality-driven figures in environments derived from genuine historical occurrences."
   },
   {
-    title: "Academic Historical Writing",
+    title: "Memoirs and Biographies",
     image: bookEditingImage,
-    description: "Elevate your scholarly work with our academic historical writing services. Our experienced historical ghostwriters collaborate with you to produce well-researched articles and books that meet the highest academic standards."
+    description: "Whether you’re documenting the life of a historical figure or recounting your own personal history, our team ensures your story is told with authenticity and emotional depth."
   }
 ];
 
@@ -52,38 +53,38 @@ const services = [
 const heading = {
   title: (
     <>
-     Our Historical Ghostwriters
+     Our Historical 
      {/* <br /> */}
     </>
   ),
-  highlight: "Are At Your Service"
+  highlight: "Book Writing Process"
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "We follow a thorough and collaborative process to ensure your historical book is written with precision, clarity, and authenticity:";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Making Your Mark",
-    title: "Making Your Mark",
-    description: "At AMZ Book Publishings, we believe your historical narrative deserves to be told in a way that captivates and resonates with readers. Our commitment is to help you bring your story to life, ensuring it makes a lasting impact in the literary world."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "We discuss your historical concept and relate themes and readers through an initial meeting to discover your book vision. The project managers at our company will acquire every vital detail about your ideas, your writing style choices, and the desired deadline."
   },
   {
     image: designprocess2,
-    alt: "Expert Guidance",
-    title: "Expert Guidance",
-    description: "Whether you are aiming to highlight significant events or share personal anecdotes from the past, our team of expert historical ghostwriters is here to support your vision. We have the knowledge and resources to transform your ideas into a compelling narrative."
+    alt: "Historical Book Writing & Revisions",
+    title: "Historical Book Writing & Revisions",
+    description: "The project moves forward after your approval, and we will proceed to select an accomplished historical ghostwriter for book creation. Our system provides multiple drafts for review and redesign if you want. "
   },
   {
     image: designprocess3,
-    alt: "Refining Your Manuscript",
-    title: "Refining Your Manuscript",
-    description: "We will meticulously refine your manuscript, enhancing clarity and flow while preserving your unique voice. Our goal is to create a polished piece that not only educates but also inspires, allowing your historical narrative to shine."
+    alt: "Final Approval & Publishing",
+    title: "Final Approval & Publishing",
+    description: "We perform final checks during this stage to produce a streamlined book along with clarity. After you approve the final draft we publish it for print as well as for eBook distribution."
   },
   {
     image: designprocess4,
-    alt: "Expanding Your Reach",
-    title: "Expanding Your Reach",
-    description: "With our guidance, we will help you expand your audience reach and ensure your work achieves the recognition it deserves. Together, we will make sure your historical narrative captivates readers and stands out in the competitive literary landscape!"
+    alt: "Launch & Marketing Support",
+    title: "Launch & Marketing Support",
+    description: "We have advertising plans to ensure that you reach your intended audience when unveiling your historical book. With our help, your book will get the attention it deserves, from promotion to launch."
   }
 ];
 
@@ -91,27 +92,40 @@ const steps = [
 
 // ******************************** End Design Process Props ******************************
 
+
+const heading1 = {
+    title: (
+        <>
+            Start Your Historical 
+            <br />
+        </>
+    ),
+    highlight: "Book Journey Today"
+};
+const descs = "Are you ready to bring your historical story to life? Whether you’re writing about a significant event, historical figures, or an entire era, our team of professional historical ghostwriters is here to help. Contact us today for a free consultation and begin your journey toward publishing a captivating historical book!";
+
+
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "What is the purpose of writing a history memoir?",
-    answer: "The goal of writing a history memoir is to uncover and explore the significance behind historical events or a series of moments from the past. It's all about making sense of what happened and why it matters."
+    question: "What is historical book ghostwriting?",
+    answer: "Historical book ghostwriting involves hiring a professional writer to craft a manuscript based on your historical ideas or stories. The ghostwriter will work under your direction, ensuring the book reflects your voice and vision while accurately depicting historical events."
   },
   {
-    question: "What exactly is a history memoir?",
-    answer: "A history memoir tells the story of how an author experienced and observed the past. It is a blend of personal narrative and historical context that brings history to life through individual perspectives."
+    question: "How do I hire a ghostwriter for a historical book?",
+    answer: "To hire a historical ghostwriter, contact us for an initial consultation. We will discuss your vision, subject matter, target audience, and goals for the project. From there, we provide a custom quote and timeline for your project."
   },
   {
-    question: "Can you hire someone to write your history book?",
-    answer: "Absolutely! Many people turn to history writing services for a variety of reasons. Some might not know what key elements to include, while others may feel they lack the writing expertise to create a compelling history memoir. Hiring a professional can really help bring their vision to fruition!"
+    question: "Can I make revisions during the writing process?",
+    answer: "Yes! We offer unlimited revisions to ensure your historical book is exactly as you envision it. You’ll have the opportunity to review drafts and provide feedback at every stage."
   },
   {
-    question: "What is the concept of ghostwriting?",
-    answer: "At its heart, ghostwriting is all about writing for someone else who gets credited as the author. Ghostwriters use their literary talents to turn ideas, stories, and concepts into engaging narratives while working behind the scenes to make their clients shine."
+    question: "How long does it take to complete a historical book?",
+    answer: "The timeline for completing a historical book depends on the complexity and length of the manuscript. After our consultation, we will provide a more accurate estimate based on your specific needs."
   },
   {
-    question: "What is your design process like?",
-    answer: "Once the manuscript is polished and our client is happy with the final draft, our talented team jumps into action. We will format, design, and typeset your manuscript to meet the publishing platform’s guidelines, ensuring it looks fantastic and is ready for readers!"
+    question: "Do I own the rights to my historical book after completion?",
+    answer: "Yes! Once the book is completed and you approve the final manuscript, you will retain all rights to the book. We ensure that all work is original and custom-tailored to your vision."
   }
 ];
 
@@ -151,10 +165,11 @@ const HistoryGhostwriting = () => {
       </Helmet>
       <Header />
       <BreadCrumb
-        title="Historical Ghostwriting"
+       className="responsive-height"
+        title="Historical Book Ghostwriting Services: Bringing the Past to Life"
         desc={
           <>
-         Finding the time to dive into history book writing can feel like a monumental task, especially if you are starting from scratch. This is where our exceptional historical ghostwriting services come in to save the day! We are here to help you weave compelling narratives that bring history to life, leaving you free to focus on your other passions.
+         AMZ transforms historical concepts alongside stories from characters and events into written materials that present alive historical elements. Ghostwriters under our company develop captivating manuscripts that cover every type of historical content, including events alongside biographies and historical fiction compositions.
 
           </>
         }
@@ -177,13 +192,11 @@ const HistoryGhostwriting = () => {
 
 <div style={{ padding: '30px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Historical "
-    subHeading="Ghostwriting"
+    heading="Professional Historical "
+    subHeading="Ghostwriters for Hire"
     description={
         <>
-        Writing a history book can feel overwhelming, especially if you are just starting out on this journey. But why stress about it when you can have skilled history writers take the reins for you? At AMZ Book Publishing, we specialize in professional historical ghostwriting services for anyone aspiring to be a successful history author. 
-           <br/><br/>
-           We offer our clients access to incredible resources for crafting compelling history narratives. Our talented team of historians enhances the factual richness of your book, ensuring it accurately captures the past while making it engaging and accessible for readers. 
+       Authors must blend historical facts with excellent storytelling ability beyond simple event retelling to write a compelling historical book. Historical ghostwriters at our organization prove expertise in research and storytelling while maintaining the accuracy of facts. Ghostwriters enable you to develop books that blend historical accuracy with compelling storytelling elements between historical facts and compelling plots with interesting characters. Historical ghostwriters will help tell past stories through deep analysis and emotional storytelling that appeals to current readers.
         </>
     }
     imageSrc={FictionImage1}
@@ -194,39 +207,59 @@ const HistoryGhostwriting = () => {
 />
 </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Expert  </>}
-        subHeading={<>
-         Historical  <br/>
-         Writing </>}
-        heading2="Services"
-        paragraph="At AMZ Book Publishings, we have professional history book writers ready to bring your vision to life! Our skilled history ghostwriters take care of every step of the writing process, ensuring your book is packed with facts and covers all the essential aspects of history."
-        services={services}
-      />
-      </div>
+
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }
         steps={steps}
       />
+      {/*****************  SERVICE Section *****************/}
+<div>
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Creating Historical </>}
+        subHeading={<>
+         Books for <br/>
+         Every</>}
+        heading2=" Genre"
+        paragraph="Our historical ghostwriting agency specializes in a variety of genres, ensuring your historical book fits perfectly within the framework you desire. Whether you're a historian, novelist, or aspiring writer, we can help you craft the perfect historical manuscript:"
+        services={services}
+      />
+      </div>
+
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Us"
+    heading="Why Choose Our Affordable Historical Ghostwriting Company?"
     subHeading=""
     description={
-      <>
-    We believe your book deserves to shine and leave a lasting impression on readers. That is why we are dedicated to helping you unlock its full potential and stand out in the competitive literary landscape. 
-
-         <br/><br/>
-         Whether you want to make a powerful impact or grow your readership, our team of seasoned professionals is here to support your literary dreams. We will refine your manuscript, broaden your audience, and maximize your profits; everything you need to turn your book into a resounding success!
-      </>
+        <>
+        At AMZ Book Publishing, we offer high-quality historical ghostwriting services that are affordable without compromising on excellence. Here’s why clients choose us for their historical book projects:
+         <ul>
+             <li>
+                 <b>Experienced Historical Writers: </b> Our team consists of skilled writers with a deep understanding of history, ensuring your book is both factual and engaging.
+             </li>
+             <li>
+                 <strong>Collaborative Process: </strong>We work closely with clients to ensure their vision is realized. Your feedback is key, and we ensure your ideas, tone, and historical accuracy are reflected throughout the manuscript.
+             </li>
+             <li>
+                 <strong>Unlimited Revisions: </strong>We offer unlimited revisions during the writing process to ensure that the final manuscript meets your expectations.
+             </li>
+             <li>
+                 <strong>Affordable Rates: </strong>Our affordable history book writing services make it possible for all aspiring authors to share their historical knowledge and stories with the world.
+             </li>
+             <li>
+                 <strong>On-Time Delivery: </strong>We respect deadlines and work diligently to ensure timely delivery without sacrificing the quality of the work.
+             </li>
+         </ul>
+     </>
   }
     imageSrc={fictionwhychoose}
     imageHeight=""        // Set height here
@@ -240,6 +273,15 @@ const HistoryGhostwriting = () => {
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
          <ContactForm/>
 
       <Footer/>

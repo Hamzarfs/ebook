@@ -23,22 +23,23 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Initial Consultation & Project Setup",
+    title: "Picture Books",
     image: ghostWritingImage, // add the appropriate image variable
-    description: "Beginning the process involves familiarizing yourself with all your concepts. The consultation begins by discussing the theme, tone, characters, and target audience of your children's book. Through collaboration with project managers, they will obtain all vital information to grasp your desired concept. Project initiation follows meetings that develop a custom price estimate and schedule the project delivery."
+    description: "Our team excels at creating delightful and educational picture books for younger children. These books combine simple yet engaging text with vibrant illustrations that make the story come to life."
   },
   {
-    title: "Children's Book Writing & Revisions",
+    title: "Early Chapter Books",
     image: designingImage, // add the appropriate image variable
-    description: "After confirming the project, we assign a children's book ghostwriter to begin creating the story. Our writer will author the story's chapters and transmit them to you for review. During the revision process, you can ask for adjustments in the text while maintaining your intended writing tone across all sections."
+    description: "For kids starting to read independently, we write early chapter books that are both accessible and captivating. These books are designed to keep young readers engaged while helping them develop reading skills."
   },
   {
-    title: "Final Approval & Publishing",
+    title: "Middle-Grade Novels",
     image: bookEditingImage, // add the appropriate image variable
     description: "Once the manuscript is completed and you've approved the final version, we handle all the final steps: editing, formatting, and preparing your book for publication. We also provide marketing and promotional strategies to help you successfully launch your children's book and ensure it reaches your desired audience."
   }
@@ -51,42 +52,54 @@ const services = [
 const heading = {
   title: (
     <>
-     Creating Masterpieces in Every <br/>
-      Children's Book Genre
+     Our Children Book <br/>
+     Writing Services Process
     </>
   ),
  
 };
-const desc = "Our children's ghostwriters specialize in various genres, ensuring your book resonates with its intended audience. Here are some of the genres we focus on:";
+
+
+const desc = "Bringing your children's book to life is easy with our 3-step process, designed to ensure that every detail is taken care of:";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Picture Books",
-    title: "Picture Books",
-    description: "Our team excels at creating delightful and educational picture books for younger children. These books combine simple yet engaging text with vibrant illustrations that make the story come to life."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "Beginning the process involves familiarizing yourself with all your concepts. The consultation begins by discussing the theme, tone, characters, and target audience of your children's book. Through collaboration with project managers, they will obtain all vital information to grasp your desired concept. Project initiation follows meetings that develop a custom price estimate and schedule the project delivery."
   },
   {
     image: designprocess2,
-    alt: "Early Chapter Books",
-    title: "Early Chapter Books",
-    description: "For kids starting to read independently, we write early chapter books that are both accessible and captivating. These books are designed to keep young readers engaged while helping them develop reading skills."
+    alt: "Children's Book Writing & Revisions",
+    title: "Children's Book Writing & Revisions",
+    description: "After confirming the project, we assign a children's book ghostwriter to begin creating the story. Our writer will author the story's chapters and transmit them to you for review. During the revision process, you can ask for adjustments in the text while maintaining your intended writing tone across all sections.sa"
   },
   {
     image: designprocess3,
-    alt: "Middle-Grade Novels",
-    title: "Middle-Grade Novels",
-    description: "Our children's book ghostwriters craft engaging middle-grade novels that appeal to children aged 8-12. These books often explore themes of friendship, adventure, and self-discovery, ensuring young readers stay involved from start to finish."
+    alt: "Final Approval & Publishing",
+    title: "Final Approval & Publishing",
+    description: "Once the manuscript is completed and you've approved the final version, we handle all the final steps: editing, formatting, and preparing your book for publication. We also provide marketing and promotional strategies to help you successfully launch your children's book and ensure it reaches your desired audience."
   },
   {
     image: designprocess4,
-    alt: "Young Adult (YA) Fiction",
-    title: "Young Adult (YA) Fiction",
-    description: "We write compelling young adult fiction for older children and teenagers that address more mature themes such as personal growth, relationships, and overcoming challenges."
+    alt: "Launch & Marketing Support",
+    title: "Launch & Marketing Support",
+    description: "After the completion of production for your children’s book, we will supply marketing tools that include full launch support to optimize successful releases. At our organization, we help you establish powerful reader connections, and then we help steer your book to suitable audiences."
   }
 ];
 
 
+  const heading1 = {
+    title: (
+      <>
+       Start Your Children's
+       <br />
+      </>
+    ),
+    highlight: "Book Journey Today"
+  };
+  const descs = "Ready to hire a children's book ghostwriter and bring your story to life? Our children's book ghostwriters team is here to help you create a story that young readers will love. Contact us today for a free consultation, and let's start crafting the perfect children's book together!";
 
 // ******************************** End Design Process Props ******************************
 
@@ -194,20 +207,7 @@ const ChildrensBook = () => {
 />
 </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Our Children </>}
-        subHeading={<>
-         Book<br/>
-        Writing Services </>}
-        heading2="Process"
-        paragraph="Bringing your children's book to life is easy with our 3-step process, designed to ensure that every detail is taken care of:"
-        services={services}
-      />
-      </div>
+
 
 
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
@@ -224,6 +224,23 @@ const ChildrensBook = () => {
         }
         steps={steps}
       />
+
+
+{/*****************  SERVICE Section *****************/}
+<div>
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Creating Masterpieces in <br/></>}
+        subHeading={<>
+         Every Children's
+         Book</>}
+        heading2=" Genre"
+        paragraph="Our children's ghostwriters specialize in various genres, ensuring your book resonates with its intended audience. Here are some of the genres we focus on:"
+        services={services}
+      />
+      </div>
+
 
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
@@ -266,6 +283,15 @@ const ChildrensBook = () => {
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+        heading={heading1}
+        description={
+            <div className="custom-description">
+                {descs}
+            </div>
+        }
+        steps={steps}
+      />
          <ContactForm/>
 
       <Footer/>

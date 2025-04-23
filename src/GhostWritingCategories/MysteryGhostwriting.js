@@ -23,24 +23,25 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Cozy Mystery Ghostwriting",
+    title: "Detective Stories:",
     image: ghostWritingImage,
-    description: "If you are looking to charm your readers with a delightful whodunit, our cozy mystery ghostwriting services are just what you need! We will help you create lovable characters and captivating plots that weave humor and intrigue into every page."
+    description: "Be it a private investigator or an amateur detective, a protagonist always has to solve the mystery. We develop stories with cases with clever detective work, and thrilling ends."
   },
   {
-    title: "Psychological Thriller Ghostwriting",
+    title: "Thrillers & Suspense: ",
     image: designingImage,
-    description: "Ready to delve into the depths of the human mind? Our psychological thriller mystery ghostwriting will keep your readers on their toes with intense plots and unexpected twists that make them question everything."
+    description: " Our engaging thrillers are always a page-turner. With tension-building plots, hair-raising twists, and surprises, our audience in the thriller and suspense genre is always captivated."
   },
   {
-    title: "Noir Mystery Ghostwriting",
+    title: "Crime Fiction: ",
     image: bookEditingImage,
-    description: "If you are aiming for that gritty, edge-of-your-seat feel, our noir mystery ghostwriting services are the perfect match. We will develop dark, complex narratives that draw readers into a world of suspense and moral ambiguity, which is ideal for fans of thrilling mysteries and intricate storytelling."
+    description: "For those who wish to tell a story around a crime, hire our ghostwriter for writing mystery books who efficiently fabricate masterful criminal plots, from thefts to blood-curdling murders. We weave tales with spine-chilling crime scenes and immaculate investigations."
   }
 ];
 
@@ -48,43 +49,59 @@ const services = [
 
 // ******************************** End SecondSection ******************************
 
+
+const heading1 = {
+    title: (
+        <>
+           Start Your 
+            <br />
+        </>
+    ),
+    highlight: "Mystery Journey Today"
+};
+const descs = "Ready to hire a mystery ghostwriter and bring your story to life? Our team of mystery writers for hire is here to help you craft a mystery that's as unique and compelling as your life. Contact us today for a free consultation and take the first step in sharing your unforgettable journey with the world.";
+
+
+
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
   title: (
     <>
-    The Process Our Mystery Ghostwriters
+    Our Mystery 
      <br />
     </>
   ),
-  highlight: "Follow For You"
+  highlight: "Ghostwriting Process"
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "Our process ensures that your mystery book is written with precision, creativity, and professionalism.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Research",
-    title: "Research",
-    description: "Once you join forces with us, our talented mystery ghostwriters roll up their sleeves and dive into research! They will thoroughly analyze your target audience and have in-depth conversations with you to pinpoint exactly what thrilling tale you want to tell."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "We discuss your mystical concept and relate themes and readers through an initial meeting to discover your book vision. The project managers at our company will get every detail about your ideas."
   },
   {
     image: designprocess2,
-    alt: "Plot Development",
-    title: "Plot Development",
-    description: "With all that research in the bag, our ghostwriting team will craft a captivating plot designed just for you. They will seamlessly weave your story's theme into a well-structured outline that acts as a roadmap, ensuring that every twist keeps readers on the edge of their seats and craving more."
+    alt: "Book Writing & Revisions",
+    title: "Book Writing & Revisions",
+    description: "The project moves forward after your approval, and we will proceed to select an accomplished mystery ghostwriter for book creation. Our system provides multiple drafts for review and redesign if you want. "
   },
   {
     image: designprocess3,
-    alt: "Character Sculpting",
-    title: "Character Sculpting",
-    description: "Next, we will focus on character sculpting! Our writers will breathe life into your characters, shaping their traits, personalities, and roles within your mystery. You can expect characters so vivid and relatable that your readers will either cheer them on or be desperate to see them get their comeuppance!"
+    alt: "Final Approval & Publishing",
+    title: "Final Approval & Publishing",
+    description: "We perform final checks during this stage to produce a streamlined book along with clarity. After you approve the final draft we publish it for print as well as for eBook distribution."
   },
   {
     image: designprocess4,
-    alt: "Composition and Delivery",
-    title: "Composition and Delivery",
-    description: "Finally, it’s time to bring your story to life! Our skilled writers will create draft manuscripts that flow beautifully, polishing your prose to perfection. Once we have crafted a draft you will love, we'll ensure it’s ready for the next steps."
+    alt: "Launch & Marketing Support",
+    title: "Launch & Marketing Support",
+    description: "We have advertising plans to ensure that you reach your intended audience when unveiling your mystery book. With our help, your book will get the attention from promotion to launch."
   }
 ];
 
@@ -93,24 +110,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "Do ghostwriters proofread their work?",
-    answer: "Absolutely! Once the writing is done, our ghostwriters carefully proofread and edit everything to make sure there are no mistakes. It’s all about delivering a polished and flawless story."
+    question: "What is mystery ghostwriting?",
+    answer: "Mystery ghostwriting involves hiring a professional writer to craft a mystery or crime novel based on your ideas. The ghostwriter will create the manuscript while ensuring your voice and creative direction are reflected in the final product."
   },
   {
-    question: "How can I hire a short story ghostwriter?",
-    answer: "It’s super easy! Just fill out the info on our website, and we will take it from there. One of our team members will get in touch with you shortly to get things rolling."
+    question: "How do I hire a mystery ghostwriter?",
+    answer: "To hire a mystery ghostwriter, simply reach out to us for an initial consultation. We’ll discuss your concept, goals, and timeline, and provide you with a custom quote for the project."
   },
   {
-    question: "What are the important things for a short story?",
-    answer: "A great short story needs a gripping theme, a solid plot, and well-paced writing. Add in a vivid setting and a satisfying ending, and you have a story that leaves a lasting impression on readers."
+    question: "Can I make revisions during the writing process?",
+    answer: "Yes! We offer unlimited revisions to ensure that your mystery novel aligns perfectly with your vision. You’ll have the opportunity to review drafts and suggest changes at every stage."
   },
   {
-    question: "How long does it take to write a short story?",
-    answer: "The timeline for writing a short story depends on its complexity and the details you want to include. Typically, our short story ghostwriters can craft a well-developed story in a few weeks, ensuring every aspect is polished and captivating."
+    question: "How long does it take to complete a mystery book?",
+    answer: "The timeline depends on the length and complexity of your mystery story. After our initial consultation, we’ll provide a personalized estimate for the completion of your project."
   },
   {
-    question: "Can I provide input during the writing process?",
-    answer: "Absolutely! We encourage collaboration. You can share your ideas, feedback, or any specific direction at any stage. Our short story ghostwriters will work closely with you to make sure your vision comes to life exactly as you imagine it."
+    question: "Do I own the rights to my mystery book?",
+    answer: "Yes! Once your mystery book is completed and you approve the final manuscript, you will own all rights to the work. We ensure all content is original and fully transferred to you."
   }
 ];
 // ******************************** End FAQ Section ******************************
@@ -147,10 +164,11 @@ const MysteryGhostwriting = () => {
       </Helmet>
       <Header />
       <BreadCrumb
-        title="Mystery Ghostwriting"
+      className="responsive-height"
+        title="Mystery Ghostwriting Services"
         desc={
           <>
-         At AMZ Book Publishings, our seasoned short story ghostwriters are like your creative partners-in-crime, ready to take your ideas and spin them into gripping narratives.
+         All notable mysteries start through their compelling central concept. Creating fascinating mystery books from ideas poses significant challenges to numerous individuals. We assist authors who possess remarkable mystery concepts yet need professional assistance to find appropriate words through our expert ghostwriter team.
 
           </>
         }
@@ -171,15 +189,13 @@ const MysteryGhostwriting = () => {
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
+<div style={{ padding: '30px 0px 0px 0px' }}>
 <ImageRightBanner
-    heading="Mystery "
-    subHeading="Ghostwriting"
+    heading="Professional Mystery "
+    subHeading="Ghostwriters for Hire"
     description={
         <>
- Creating a chilling mystery or a heart-pounding thriller is about more than just having a fantastic idea; it is about weaving that idea into a compelling story that grips your readers from the first page. At AMZ Book Publishings, our mystery ghostwriting service is here to help you do just that. Think of our talented ghostwriters as your creative partners, ready to turn your visions into a gripping narrative.
-           <br/><br/>
-           We will collaborate with you to develop an intriguing plot filled with unexpected twists that keep readers guessing at every turn. Moreover, our writers excel at crafting memorable characters with depth and complexity, adding layers to your story that will resonate with your audience.
+ The experienced mystery storytellers at our company serve as professional ghostwriters because they excel at creating suspenseful stories for reader engagement. Collaborating together we create a specific story outline distinct personality profiles and surprising plot points to guarantee your mystery novel becomes precisely what you had in mind.
         </>
     }
     imageSrc={FictionImage1}
@@ -190,40 +206,58 @@ const MysteryGhostwriting = () => {
 />
 </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Quality  </>}
-        subHeading={<>
-        Mystery  <br/>
-         Ghostwriting </>}
-        heading2="Services"
-        paragraph="From unexpected twists to memorable characters, we will turn your vision into a page-turner that keeps readers hooked until the very end. Let’s bring your story to life together!"
-        services={services}
-      />
-      </div>
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }
         steps={steps}
       />
+
+
+{/*****************  SERVICE Section *****************/}
+<div>
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Types of </>}
+        subHeading={<>
+        Mystery <br/>
+        Stories</>}
+        heading2=" We Specialize In"
+        paragraph="Our professional mystery ghostwriting services cover a wide range of subgenres. Here are some examples of the types of mystery stories we create:"
+        services={services}
+      />
+      </div>
+
+
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Us"
+    heading="Why you should choose our Mystery Ghostwriting Services?"
     subHeading=""
     description={
-      <>
-We specialize in crafting intricate plots packed with jaw-dropping twists that will keep readers guessing until the very last page. Our talented team knows how to breathe life into complex characters, each hiding their own secrets, making your story a thrilling ride from start to finish.
-         <br/><br/>
-         We understand that a great mystery is built on a solid foundation, which is why we dive deep into meticulous research. 
-         <br/><br/>
-         Whether it is police procedures, forensic science, or historical nuances, we leave no stone unturned; no plot hole will slip through our fingers. Our thorough review process sharpens every detail, ensuring your concept transforms into a polished masterpiece that sends chills down the spines of all your readers.
-      </>
+        <>
+       When you hire a mystery ghostwriter from our agency, you choose high-quality books that engage and thrill readers. 
+         <ul>
+             <li>
+                 <b>Experienced Professionals:</b> Our team of professional mystery ghostwriters has years of experience in helping individuals tell their stories.
+             </li>
+             <li>
+                 <strong>Collaborative Process: </strong> We work closely with you in the whole writing process. Your feedback is important.
+             </li>
+             <li>
+                 <strong>Unlimited Revisions: </strong> We offer unlimited revisions. If you're unsatisfied, we'll work with you to refine the manuscript until it's perfect.
+             </li>
+             <li>
+                 <strong>Affordable Rates: </strong>Our services are not only top-notch but also affordable.
+             </li>
+         </ul>
+     </>
   }
     imageSrc={fictionwhychoose}
     imageHeight=""        // Set height here
@@ -237,6 +271,15 @@ We specialize in crafting intricate plots packed with jaw-dropping twists that w
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
          <ContactForm/>
 
       <Footer/>

@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import BreadCrumb from '../../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../../components/common/CtaButton';
@@ -23,66 +23,87 @@ import designprocess3 from '../../images/design-process-3.png';
 import designprocess4 from '../../images/design-process-4.png';
 import PopupForm1 from '../../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../../components/common/Queries';
+
+
+
+
 
 // ******************************** Start SecondSection ******************************
 const services = [
-  {
-    title: "Personalized Pen Designs",
-    image: ghostWritingImage, // Update this if you have a specific image
-    description: "Pens are essential stationery items that can effectively showcase your brand. Adding your brand name to high-quality pens is a clever and cost-effective marketing strategy. When people use your pens, they will see your brand name, keeping it fresh in their minds."
-  },
-  {
-    title: "Impactful Notebook Designs",
-    image: designingImage, // Update this if you have a specific image
-    description: "Notepads are a powerful stationery item for boosting brand awareness. By creating beautifully designed notepads, you can connect with clients and consumers while enhancing your brand identity."
-  },
-  {
-    title: "Budget Friendly Designs",
-    image: bookEditingImage, // Update this if you have a specific image
-    description: "Save both time and money with our affordable stationery design services. We offer customizable packages that start at budget-friendly prices, ensuring there is an option for every business, no matter the size."
-  }
+    {
+        title: "Stationery Design Services for Authors",
+        image: ghostWritingImage, // Update this if you have a specific image
+        description: "Our stationery services are not only confined to the literary field but also offer authors a variety of options to make their brand stand out throughout the process, such as book signings and media/press kits. One of the benefits of custom-designed bookmarks, letterheads, and thank-you notes is that they help your literary brand be easily recognized and stand out while keeping your brand consistent."
+    },
+    {
+        title: "Professional Stationery Design Services",
+        image: designingImage, // Update this if you have a specific image
+        description: "Across industries, we have come up with premium stationery sets that can cater to the needs of professionals. The set has become a tool for branding, presenting, and corresponding by featuring innovative and creative business cards. During the negotiations, presentations, and correspondence, you can capture a handy card, write a thank-you note on a professional-looking branded letterhead, or drop your message in a distinctive envelope. "
+    },
+    {
+        title: "Affordable Stationery Design Services",
+        image: bookEditingImage, // Update this if you have a specific image
+        description: "Startups, freelancers, and small businesses are the right recipients who are exclusively served without quality or professionalism being undermined by us with direction, commitment, and provision. Picture your project running much faster and more efficiently by making our creative team your loyal assistant, literally taking this role."
+    }
 ];
 
 // ******************************** End SecondSection ******************************
 
+
+const heading1 = {
+    title: (
+        <>
+          Find Your Stationery
+            <br />
+        </>
+    ),
+    highlight: " Design Route Now"
+};
+const descs = "Are you interested in updating your writer's brand with professional, visually appealing stationery? AMZ Book Publishing has the right solution – the best stationery designs that can make your brand more recognizable. Let the AMZ Book Publishing team give you a free guide to your perfect stationery.";
+
+
+
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: (
-    <>
-    How We Design 
-    
-    </>
-  ),
-  highlight: "Your Stationery"
+    title: (
+        <>
+            Our Stationery
+
+        </>
+    ),
+    highlight: " Design Process"
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "Our process, represented in a simplified form below, was developed with the brand and its connection with the audience in mind.";
 
 const steps = [
-  {
-    image: designprocess1,
-    alt: "Initial Consultation",
-    title: "Initial Consultation",
-    description: "We start by diving deep into your brand’s identity, understanding its values, target audience, and the type of stationery you need. Whether it is business cards, letterheads, or envelopes, we make sure every element reflects your brand’s personality and purpose."
-  },
-  {
-    image: designprocess2,
-    alt: "Concept Creation",
-    title: "Concept Creation",
-    description: "Based on our consultation, our designers brainstorm and develop multiple stationery design concepts. Each piece is crafted with your brand in mind, ensuring consistency across all materials, from logo placement to font choice."
-  },
-  {
-    image: designprocess3,
-    alt: "Design Refinement",
-    title: "Design Refinement",
-    description: "After presenting the initial concepts, we welcome your feedback and work closely with you to make any necessary adjustments. Whether it is tweaking the layout or fine-tuning color schemes, we ensure every detail is aligned with your vision."
-  },
-  {
-    image: designprocess4,
-    alt: "Approval & Delivery",
-    title: "Approval & Delivery",
-    description: "Once you are fully satisfied with the designs, we finalize and deliver them in high-quality formats, ready for both print and digital use. You will have professional, polished stationery that enhances your brand image in every interaction."
-  }
+    {
+        image: designprocess1,
+        alt: "Initial Consultation & Project Setup",
+        title: "Initial Consultation & Project Setup",
+        description: "We will start the project with a discussion on what you consider most relevant to your brand. The scope of this step also comprises the clarification of your public and the tone of your message, as well as the drawing of the characteristics that your branding will have. Once we have the details of your requirements, we give you an individual rate for the project and an accurate timetable for its realization."
+    },
+    {
+        image: designprocess2,
+        alt: "Design Creation & Revisions",
+        title: "Design Creation & Revisions",
+        description: "Our team of creative designers provides the first sketches of your stationery, which uniquely show your brand. You can comment on further samples and make your remarks. Together, we will go through the stages of revision, making the designs more straightforward regarding the writer's personality and the brand."
+    },
+    {
+        image: designprocess3,
+        alt: "Final Approval & Delivery",
+        title: "Final Approval & Delivery",
+        description: "As soon as the corrections are wrapped up and the art is signed off, we provide the deliverables as final stationery files in various options suitable for print or electronic use. In use-ready formats, you will receive letterheads, envelopes, bookmarks, and author cards."
+    },
+    {
+        image: designprocess4,
+        alt: "Launch & Marketing Support",
+        title: "Launch & Marketing Support",
+        description: "With your stationery all set, we run the extra mile to support you in marketing and brand collateral. Our marketing support is the best vehicle to achieve any destination. They play an essential role in brand visibility."
+    }
 ];
 
 
@@ -91,154 +112,181 @@ const steps = [
 
 // ******************************** Start FAQ Section ******************************
 const faqData = [
-  {
-    question: "What is a stationery design service?",
-    answer: "A stationery design service involves a professional team creating unique and eye-catching designs for a brand's stationery items. With online stationery design services, clients and designers collaborate remotely, making it easy to communicate and share ideas. There are plenty of options out there, so just find one that suits your needs, and you are all set!"
-  },
-  {
-    question: "What is branded stationery?",
-    answer: "Branded stationery includes items featuring your brand's logo, colors, and slogans, helping to establish a strong brand identity. Businesses create custom stationery to enhance recognition and often use it as promotional giveaways to attract potential customers."
-  },
-  {
-    question: "Why is brand stationery important?",
-    answer: "Stationery is a common necessity for businesses, and it serves as a fantastic way to showcase professionalism. If you want engaging stationery that truly represents your brand, reach out to AMZ Book Publishings. We are here to help you get it right!"
-  },
-  {
-    question: "How do I get a stationery design from AMZ Book Publishings?",
-    answer: "It is simple! Launch your project, set your budget, and provide direct feedback to our talented designers around the world to ensure you receive a stationery design that both you and your customers will love."
-  },
-  {
-    question: "Does my business need a custom stationery design?",
-    answer: "Absolutely! Beautiful, custom stationery is an effective way to connect with your customers and strengthen your brand's presence."
-  }
+    {
+        question: "What are stationery design services?",
+        answer: "Stationery design services revolve around creating hard-copy items like letterhead, business cards, envelopes, etc. The goal is to ensure the brand's image and professionalism are well-represented throughout the printed materials."
+    },
+    {
+        question: "Can my author brand be represented by a custom stationery design?",
+        answer: "Absolutely. Our strength lies in creating unique and interesting designs that perfectly fit your genre and brand."
+    },
+    {
+        question: "How many revisions are included in the process?",
+        answer: "We give you all the time in the world to demand changes. Our primary concern is your happiness, so we are here to facilitate the process so that it is perfect for you."
+    },
+    {
+        question: "How long does the stationery design process take?",
+        answer: "If we are not overwhelmed, the project can usually be finished within a week or a week and a half. Of course, this doesn't include the consultation time, which could take up to ten more days."
+    },
+    {
+        question: "Do I get to keep the designs after you finish the project?",
+        answer: "For sure. Once you hit the approve button, you own the designs with no restrictions."
+    }
 ];
 
 // ******************************** End FAQ Section ******************************
 
 const StationeryDesign = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+    const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
-  const openModal = () => {
-    setIsModalOpen(true); // Open the modal
-  };
+    const openModal = () => {
+        setIsModalOpen(true); // Open the modal
+    };
 
-  const closeModal = () => {
-    setIsModalOpen(false); // Close the modal
-  };
+    const closeModal = () => {
+        setIsModalOpen(false); // Close the modal
+    };
 
-  return (
-    <div>
-      <Helmet>
-          <title>Stationery Design Services | AMZ Book Publishing</title>
-          <meta name="description" content="Our Stationery Design Services provide premium, eye-catching designs that make your brand’s business cards, envelopes, and letterheads stand out." />
-          <link rel="canonical" href="https://amzbookpublishing.net/stationery-design-services " />
-          <meta name="robots" content="index, follow" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
-          <meta property="og:title" content="Creative Stationery Design Services for Authors" />
-          <meta property="og:description" content="Get our stationery design services at an affordable price. Contact us for authors' stationery designs including letterheads, envelopes, & business card designs." />
-          <meta property="og:url" content="https://amzbookpublishing.net/stationery-design-services" />
-          <meta property="og:site_name" content="AMZBookPublishing" />
-          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-          <meta property="article:modified_time" content="2024-08-23T07:24:57+00:00" />
-      </Helmet>
-      {/* -------------------Start Banner section---------------------- */}
-      <Header />
-      <BreadCrumb
-        title="Stationery Design"
-        desc={
-          <>
-Capture your customer's attention with a stunning, well-crafted stationery design kit that leaves a lasting impression.
+    return (
+        <div>
+            <Helmet>
+                <title>Stationery Design Services | AMZ Book Publishing</title>
+                <meta name="description" content="Our Stationery Design Services provide premium, eye-catching designs that make your brand’s business cards, envelopes, and letterheads stand out." />
+                <link rel="canonical" href="https://amzbookpublishing.net/stationery-design-services " />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Creative Stationery Design Services for Authors" />
+                <meta property="og:description" content="Get our stationery design services at an affordable price. Contact us for authors' stationery designs including letterheads, envelopes, & business card designs." />
+                <meta property="og:url" content="https://amzbookpublishing.net/stationery-design-services" />
+                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="article:modified_time" content="2024-08-23T07:24:57+00:00" />
+            </Helmet>
+            {/* -------------------Start Banner section---------------------- */}
+            <Header />
+            <BreadCrumb
+                className="responsive-height"
+                title="Professional Stationery Design Services for Authors"
+                desc={
+                    <>
+                        AMZ Book Publishing provides stationery design services that come with a personal touch, and it is the author's brand in the most elegant and well-matched way.
 
-          </>
-        }
-        buttonText="Get a Quote"
-        onClick={openModal} // Call openModal on button click
-        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-      />
+                    </>
+                }
+                buttonText="Get a Quote"
+                onClick={openModal} // Call openModal on button click
+                backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+            />
 
-      {/* Popup Form */}
-      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
-    
-   
-{/* -------------------End Banner section---------------------- */}
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+            {/* Popup Form */}
+            <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
+
+
+            {/* -------------------End Banner section---------------------- */}
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <ImageTextBanner 
     contentItems={contentItems} 
 />
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
-<ImageRightBanner
-    heading="Stationery "
-    subHeading="Design"
-    description={
-        <>
-Using custom stationery design can play a big role in growing your business. With unique, creative, and professional designs, your brand gets the boost it needs, both through direct and indirect marketing.  
-           <br/><br/>
-           Every time someone interacts with your stationery, whether it is a business card, letterhead, or envelope, they are left with a lasting impression of your brand’s professionalism and attention to detail. These little touches can go a long way in building recognition and trust, helping your business expand and reach new heights.
-        </>
-    }
-    imageSrc={FictionImage1}
-    objectfit="contain"
-    imageHeight="400px"  // Set height here
-    imageWidth="100%"     // Set width here
-    borderRadius="30px"
-/>
-</div>
+            <div style={{ padding: '30px 0px 0px 0px' }}>
+                <ImageRightBanner
+                    heading="Stationery design"
+                    subHeading=" services for authors"
+                    description={
+                        <>
+                            The artists who design our stationery are professionals. They create a consistent and good-looking set of personalized designs that will reflect your image as an author to the highest degree. If you use a business card or notepad, we made it in such a way that showcases your brand’s voice. We create outstanding designs with creativity and memory. We are a professional agency specializing in stationery design and offering unique products.
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-       Transform Your </>}
-        subHeading={<>
-         Business With  <br/>
-          A Striking </>}
-        heading2="Stationery Design"
-        paragraph="Revamp your business with a captivating stationery design that makes a lasting impression!"
-        services={services}
-      />
-      </div>
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+                            Our designs will help your creations get noticed and be in line with your brand and message. The designs are carefully crafted so that they will remain memorable in your clients' minds long after they have been presented to them.
+
+                        </>
+                    }
+                    imageSrc={FictionImage1}
+                    objectfit="contain"
+                    imageHeight="400px"  // Set height here
+                    imageWidth="100%"     // Set width here
+                    borderRadius="30px"
+                />
+            </div>
+
+            {/*****************  SERVICE Section *****************/}
+            <div>
+               
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
-<DesignProcess 
-        heading={heading}
-        // description={description}
-        steps={steps}
-      />
-<div style={{ padding: '0px 0px 50px 0px' }}>
-<ImageLeftBanner
-    heading="Why Choose Us"
-    subHeading=""
-    description={
-      <>
-At AMZ Book Publishings, we are dedicated to making your brand stand out, whether it is through a simple brochure or an unforgettable stationery design. We understand that every detail matters, from captivating taglines to the perfect color palette that resonates with your audience. Our goal is to design custom stationery that not only looks stunning but also reflects your brand’s core values.
-         <br/><br/>
+            <DesignProcess
+                heading={heading}
+                description={
+                    <div className="custom-description">
+                        {desc}
+                    </div>
+                }
+                steps={steps}
+            />
+             <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Types of </>}
+                    subHeading={<>
+                        Stationery Design<br />
+                        Services</>}
+                    heading2=" We Specialize In"
+                    paragraph="AMZ Book Publishing stands as a provider of a substantial number of stationery design services that are adapted to various professional needs in a very competitive way:"
+                    services={services}
+                />
+            </div>
+            <div style={{ padding: '0px 0px 50px 0px' }}>
+                <ImageLeftBanner
+                    heading="Why Choose "
+                    subHeading="Our Stationery Design Company?"
+                    description={
+                        <>
+                        When you choose AMZ Book Publishing for your stationery design needs, you are collaborating with a highly innovative professional team who only have your best interests in mind and who will stay with you until your brand assets are personalized and impactful:
+                          <ul>
+                              <li>
+                                  <b>Experienced Designers: </b> Allow our experts to bring their understanding of your style to their creative process, ensuring that each piece reflects your standard and brand.
+                              </li>
+                              <li>
+                                  <strong>Bespoke Design: </strong>Each design will be uniquely developed from the start. We consider your contributions so that together, we can achieve the most suitable tone and image for each asset.
+                              </li>
+                              <li>
+                                  <strong>Unlimited Revisions: </strong> Your complete peace of mind is our happiness. We won't start printing your stationery set until you give us your green light.
+                              </li>
+                              <li>
+                                  <strong>Affordable Pricing: </strong>Whether you are an author, professional, or small business, you can now enjoy the best quality at the best prices. The packages are highly flexible and have been made explicitly for your categories.
+                              </li>
+                          </ul>
+                      </>
+                    }
+                    imageSrc={fictionwhychoose}
+                    imageHeight=""        // Set height here
+                    imageWidth=""          // Set width here
+                    objectfit="cover"          // Set object-fit here
+                    borderRadius="15px"        // Set border radius here
+                />
+            </div>
+            <CtaButton />
 
-         We take the time to get to know your brand, ensuring that every element we create aligns with your vision and leaves a lasting impression. If you are looking for stationery that will make your brand truly memorable, give us a try. We are confident that you will be impressed with the results because your success is our success. Let us help you make your brand famous—you will not be disappointed.
-      </>
-  }
-    imageSrc={fictionwhychoose}
-    imageHeight=""        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>
-</div>
-<CtaButton/>
-         
-          <div>
-      <FAQSection faqData={faqData} />
-    </div>
-         <ContactForm/>
+            <div>
+                <FAQSection faqData={faqData} />
+            </div>
+            <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
+            <ContactForm />
 
-      <Footer/>
-    </div>
-  );
+            <Footer />
+        </div>
+    );
 };
 export default StationeryDesign;
 

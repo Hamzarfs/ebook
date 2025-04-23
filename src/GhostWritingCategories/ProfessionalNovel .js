@@ -23,67 +23,90 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
+
+
+
+
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Personalized Storytelling",
+    title: "Fiction Novels",
     image: ghostWritingImage, // Update this if you have a specific image
-    description: "The service emphasizes creating a unique and unforgettable narrative tailored specifically to the client's vision. This suggests a collaborative approach that values individual ideas and preferences."
+    description: "From science fiction to romance, thriller, fantasy, and literary fiction, we craft captivating stories that keep readers hooked from start to finish."
   },
   {
-    title: "Proven Success and Experience",
+    title: "Non-fiction Novels: ",
     image: designingImage, // Update this if you have a specific image
-    description: "The content highlights the team's track record of creating successful novels that resonate with readers. This emphasizes their expertise and experience in crafting compelling stories across different genres."
+    description: "For authors looking to tell real stories, we help create non-fiction novels that are informative, inspiring, and impactful."
   },
   {
-    title: "Bringing Your Vision to Life",
+    title: "Historical Novels: ",
     image: bookEditingImage, // Update this if you have a specific image
-    description: "The service promises to help clients bring their storytelling aspirations to fruition. This suggests that the team will work closely with the client to develop and refine their novel, helping them achieve their literary goals."
+    description: "We specialize in writing historical novels that are both accurate and engaging, bringing past events and characters to life."
   }
 ];
 
 
 // ******************************** End SecondSection ******************************
 
+
+
+const heading1 = {
+    title: (
+        <>
+           Start Your Novel 
+            <br />
+        </>
+    ),
+    highlight: "Ghostwriting Journey Today"
+};
+const descs = "Ready to bring your novel to life with the help of a Professional Novel Ghostwriting Service? AMZ Book Publishing offers expert Novel Ghostwriting Services to help you turn your ideas into a captivating, well-written manuscript. Whether you're just starting or need assistance finishing your book, our team is here to support you. Contact us today for a free consultation and start your journey toward becoming a published author.";
+
+
+
+
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
   title: (
     <>
-    Why Should You Choose Our Novel 
+    Our Novel 
      <br />
     </>
   ),
-  highlight: "Ghostwriting Services?"
+  highlight: "Ghostwriting Process"
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "Our process ensures that your novel is written with precision, creativity, and professionalism. ";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Client Focus & Expertise",
-    title: "Client Focus & Expertise",
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
     description: "Our main priority is delivering superior work to our clients, and our team of professional novel ghostwriters is always brainstorming the most effective approach."
   },
   {
     image: designprocess2,
-    alt: "Timeliness & Efficiency",
-    title: "Timeliness & Efficiency",
-    description: "We guarantee punctual delivery by leveraging our team's proficiency, efficiency, and readiness. Our commitment to meeting deadlines ensures that we consistently deliver ahead of schedule."
+    alt: "Writing & Revisions",
+    title: "Writing & Revisions",
+    description: "Novel Writer working at AMZ with experience in novel writing translating your approved concept into professional publications. Your story gets multiple analyses during ghostwriting because you can offer suggestions that improve the outcome throughout the development process."
   },
   {
     image: designprocess3,
-    alt: "Quality & Satisfaction",
-    title: "Quality & Satisfaction",
-    description: "Bring your writing vision to life with our professional novel writing services. We stand behind the quality of every book we create, ensuring your complete satisfaction."
+    alt: "Final Approval & Delivery",
+    title: "Final Approval & Delivery",
+    description: "Our team thoroughly checks the story for smooth reading while you assess its content until you approve it. Your approval of the last draft allows us to deliver the finished content, which can be used for publication or as an asset for personal purposes."
   },
   {
     image: designprocess4,
-    alt: "Ownership & Control",
-    title: "Ownership & Control",
-    description: "We give you complete and exclusive ownership of all the written material, including copyright, so you have full control over its publication and distribution."
+    alt: "Ongoing Support & Publishing Guidance",
+    title: "Ongoing Support & Publishing Guidance",
+    description: "When your novel is ready to go, we help with marketing so you can start generating buzz and reaching your audience. We also assist with promotion strategies so you can get your book to the right target market and allow it to leave a lasting impression."
   }
 ];
 
@@ -94,24 +117,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "Can you find me a ghostwriter who has specific experience/knows about law?",
-    answer: "Absolutely! At AMZ Book Publishings, we make sure to pair you with a legal ghostwriter who has the expertise and background in law that fits your project. Whether it’s contracts, legal briefs, or academic legal writing, we have a team of professionals who know their way around legal jargon and concepts."
+    question: "What are Novel Ghostwriting Services?",
+    answer: "Novel ghostwriting services involve hiring a professional writer to create a novel on your behalf. The content is written in your style, and you receive credit for the final product."
   },
   {
-    question: "If I invest in your services, can you ensure my legal ghostwriting piece is authentic?",
-    answer: "Yes, authenticity is key. Our legal ghostwriters work closely with you to ensure your unique voice and ideas shine through while still adhering to all the legal details. We take the time to understand your needs so that the final piece is 100% original, personalized, and tailored to your specific goals."
+    question: "How do I hire a Novel Ghostwriter?",
+    answer: "To hire a Novel Ghostwriter, contact us for an initial consultation. We will discuss your vision, genre, and goals for the novel, and provide a custom quote and timeline for your project."
   },
   {
-    question: "Are your ghostwriting services confidential?",
-    answer: "Absolutely! Confidentiality is a top priority for us. We treat every project with the utmost discretion, so your documents, ideas, and personal information are completely secure. Your privacy is just as important to us as delivering quality work."
+    question: "Can I make revisions during the writing process?",
+    answer: "Yes! We offer unlimited revisions throughout the process, allowing you to provide feedback and ensure the novel reflects your vision every step of the way."
   },
   {
-    question: "What kind of legal documents can I hire a ghostwriter for?",
-    answer: "You can hire us for a wide range of legal documents, including contracts, legal memos, case summaries, briefs, research papers, and even full legal textbooks. Whatever you need, our skilled team can handle it!"
+    question: "How long does it take to complete a novel?",
+    answer: "The timeline depends on the length and complexity of your novel. After our initial consultation, we will provide an estimated timeline based on the details of your project."
   },
   {
-    question: "Is ghostwriting ethical?",
-    answer: "Yes, ghostwriting is completely ethical. It is a collaborative process where you provide the direction, and the ghostwriter provides the expertise. You are still the mastermind behind the project and our job is to help you bring it to life in a professional and polished way."
+    question: "Do I own the rights to my novel?",
+    answer: "Yes! You will own all rights to your novel once it is completed and approved. We guarantee original work and full ownership transfer upon final approval."
   }
 ];
 
@@ -150,10 +173,11 @@ const LegalGhostwriting = () => {
       </Helmet>
       <Header />
       <BreadCrumb
-        title="Professional Novel Ghostwriting Services "
+      className="responsive-height"
+        title="Professional Novel Writing Services"
         desc={
           <>
-We're dedicated to delivering exceptional results and crafting compelling narratives that captivate readers. Our skilled novel ghostwriters have a talent for elevating everyday tales into unforgettable literary masterpieces.
+It’s no small thing to write a novel, and creating a compelling, well-paced story that engages readers’ imaginations takes an expert hand. AMZ Book Publishing professional Novel writing Services provides help for authors, publishers, and literary agents to help write their stories.
           </>
         }
         buttonText="Get a Quote"
@@ -173,14 +197,13 @@ We're dedicated to delivering exceptional results and crafting compelling narrat
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
+<div style={{ padding: '30px 0px 0px 0px' }}>
 <ImageRightBanner
-    heading="Best Novel Ghostwriting "
-    subHeading="Agency in the USA "
+    heading="Novel Ghostwriters"
+    subHeading=" for Hire"
     description={
         <>
-Novels must contain compelling concepts that engage readers. To us, ghostwriting novels involves creating a story of a particular length that portrays the characters' behaviors, dialogue, and inner reflections. We specialize in crafting engaging and original novels that feature exceptional dialogues, captivating characters, and unique        <br/><br/>
-At AMZ book publishing, our primary objective is to craft a compelling narrative that captivates the reader. To achieve this, we collaborate with the author to understand their vision and the core message they aim to convey. With a clear understanding of their requirements, we create original content that meets their unique needs. This process involves meticulous attention to detail and a significant investment of time, ensuring that the final product exceeds the author's expectations.
+Novel Ghostwriters from our team maintain professional skills that allow them to write stories that reach deep within readers' emotions. Each story receives personalized approach development from AMZ Book Publishing because the company recognizes the unique attributes of each narrative.
         </>
     }
     imageSrc={NovelExpert}
@@ -193,35 +216,58 @@ At AMZ book publishing, our primary objective is to craft a compelling narrative
 
 {/*****************  SERVICE Section *****************/}
 <div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Top-Notch  </>}
-        subHeading={<>
-       Professional Novel  <br/>
-         Ghostwriting </>}
-        heading2="Services"
-        paragraph=" Our group of talented fiction authors is prepared to work together with you to craft a compelling piece of literature that will make a lasting impression."
-        services={services}
-      />
-      </div>
+
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }
         steps={steps}
       />
+
+
+
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Types of </>}
+        subHeading={<>
+       Novel <br/>
+       Content We </>}
+        heading2="Specialize In"
+        paragraph="At AMZ Book Publishing, we offer a range of novel writing services, including:"
+        services={services}
+      />
+      </div>
+
+
+
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Quality Novel Ghostwriting " 
-    subHeading="at Affordable Prices"
+    heading="Why Choose Our Novel" 
+    subHeading=" Ghostwriting Agency in the USA?"
     description={
-      <>
-Crafting a novel requires a distinct fusion of artistic talent, perseverance, and narrative expertise. Our team of seasoned novelists brings this rare combination to the table, empowering us to transform your literary concept into a reality. From refining a gripping storyline to breathing life into memorable characters, we offer all-encompassing guidance. Our specialty lies in weaving immersive tales that transport audiences to diverse realms and periods, while skillfully crafting characters that resonate deeply and bond with readers.
-         <br/><br/>
-         We are an affordable novel ghostwriting company that values making our services easily accessible while still maintaining high standards dedicated to delving into a wide range of topics and styles to make your novel unique. You can rely on our skilled writers to turn your concepts into a captivating and well-crafted novel that connects with your intended readers. Reach out to us now for a complimentary consultation and let's start this thrilling literary venture together.
+        <>
+        When you choose AMZ Book Publishing for your Professional Novel Ghostwriting Services, you partner with an experienced team that understands the intricacies of novel writing:
+          <ul>
+              <li>
+                  <b>Expert Writers: </b> Our Novel Ghostwriters have extensive experience in writing and story development, ensuring your novel is both captivating and professionally crafted.
+              </li>
+              <li>
+                  <strong>Collaborative Approach: </strong>We work closely with you every step of the way, ensuring your vision is at the forefront of the writing process. Your input and feedback are invaluable.
+              </li>
+              <li>
+                  <strong>Unlimited Revisions: </strong> We offer unlimited revisions to ensure the final manuscript aligns with your expectations. We are committed to perfecting your novel to your satisfaction.
+              </li>
+              <li>
+                  <strong>Affordable Pricing: </strong>We are an Affordable Novel Ghostwriting Company, providing high-quality novel writing services at competitive rates without sacrificing quality.
+              </li>
+          </ul>
       </>
   }
     imageSrc={fictionwhychoose}
@@ -236,6 +282,15 @@ Crafting a novel requires a distinct fusion of artistic talent, perseverance, an
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
          <ContactForm/>
 
       <Footer/>

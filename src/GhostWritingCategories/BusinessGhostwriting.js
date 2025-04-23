@@ -23,24 +23,25 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Thought Leadership Articles",
+    title: "Leadership & Management Books",
     image: ghostWritingImage,
-    description: "At AMZ Book Publishings, our ghostwriters craft thought-provoking articles that position you as an industry leader, helping you share your expertise in a clear and impactful way."
+    description: "We provide opportunities to leaders and managers who wish to distribute their knowledge regarding leadership development together with team construction and business expansion. The writers at our company will assist you in developing a business book containing practical leadership strategies."
   },
   {
-    title: "Corporate Biographies",
+    title: "Entrepreneurship & Startups",
     image: designingImage,
-    description: "Our business book ghostwriters specialize in turning your professional journey into a captivating story, highlighting your successes and the lessons that shaped your company."
+    description: "Through collaboration, our team assists experienced entrepreneurs in creating books about their business experiences, along with lessons they acquired and valuable tips for startup owners. With your startup history, you will motivate people who want to build their own businesses."
   },
   {
-    title: "White Papers & Case Studies",
+    title: "Business Strategy & Consulting",
     image: bookEditingImage,
-    description: "We create in-depth white papers and case studies that not only demonstrate your business solutions but also connect with your target audience through compelling narratives and data-backed insights."
+    description: "The writers at our company understand how to develop books that reflect the techniques and strategies of business consultants and strategists. We will assist you in explaining your business approaches along with consulting methods in ways that draw in customers while showcasing your expertise to the market."
   }
 ];
 
@@ -51,65 +52,79 @@ const services = [
 const heading = {
   title: (
     <>
-     Our Business Ghostwriting Process
+     Our Business Book Writing Process
      <br />
     </>
   ),
   // highlight: "Ghostwriting Masterpiece"
 };
-// const description = "We follow a proper book cover designing process to ensure the best final product for our clients.";
+const desc = "We follow a process that ensures your business book is written with clarity and authority:";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Initial Consultation & Research",
-    title: "Initial Consultation & Research",
-    description: "We start with a detailed consultation to understand your business, goals, and target audience. Our business book ghostwriters dive deep into your industry, gathering relevant data and insights to shape the project."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "First, we do a starting consultation to learn your business ideas, audience, and vision for your book. Our project managers will collect all the required information about your skills and the book's objective. We then send a custom proposal with transparent pricing and timeframes for your project."
   },
   {
     image: designprocess2,
-    alt: "Strategizing & Outlining",
-    title: "Strategizing & Outlining",
-    description: "We work with you to create a clear and structured outline that lays the foundation for your business book. This step ensures your ideas are organized and aligned with your vision."
+    alt: "Business Book Writing & Revisions",
+    title: "Business Book Writing & Revisions",
+    description: "After you approve the project, we'll match you with one of our skilled business ghostwriters, ready to bring your ideas to life. You will review drafts and provide feedback, ensuring that the book is exactly the same as you are expecting. "
   },
   {
     image: designprocess3,
-    alt: "Writing & Revisions",
-    title: "Writing & Revisions",
-    description: "Our business ghostwriting services help you craft the manuscript while regularly consulting with you to capture your voice and vision. Revisions are made along the way to ensure the content is perfect."
+    alt: "Final Approval & Publishing",
+    title: "Final Approval & Publishing",
+    description: "After completion, the manuscript receives additional modifications to achieve maximum refinement before it reaches publication status. Our team will conclude all editing procedures while preparing the manuscript for both traditional and electronic publication formats."
   },
   {
     image: designprocess4,
-    alt: "Final Edits & Publishing Support",
-    title: "Final Edits & Publishing Support",
-    description: "After refining the manuscript, we provide professional editing, formatting, and guidance through the publishing process, helping you take your business book to market."
+    alt: "Launch & Marketing Support",
+    title: "Launch & Marketing Support",
+    description: "When your business book is ready to go, we help with marketing so you can start generating buzz and reaching your audience. We also assist with promotion strategies so you can get your book to the right target market and allow it to leave a lasting impression."
   }
 ];
 
 
 // ******************************** End Design Process Props ******************************
 
+
+
+const heading1 = {
+    title: (
+      <>
+       Start Your Business
+       <br />
+      </>
+    ),
+    highlight: "Book Journey Today"
+  };
+  const descs = "Ready to share your business expertise with the world? Our team of professional ghostwriters is here to help you craft a business book that positions you as a leader in your field. Contact us today for a free consultation and take the first step toward publishing your business book!";
+
+
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "How do I know if I need a business ghostwriter?",
-    answer: "If you are an expert in your field but do not have the time or writing skills to put your thoughts into a compelling business book, that is where we come in. Our business book ghostwriters for hire are here to help you turn your ideas into professional manuscripts while you stay focused on running your business."
+    question: "What is business book ghostwriting?",
+    answer: "Business book ghostwriting services involves hiring a professional writer to help you create a business book based on your ideas, experiences, and knowledge. The ghostwriter will craft a book that reflects your business expertise and resonates with your audience."
   },
   {
-    question: "Will the book still feel like it was written by me?",
-    answer: "Absolutely! We take the time to understand your voice, style, and vision through detailed interviews and brainstorming sessions. Our best business ghostwriters ensure that your book not only reflects your expertise but also sounds authentically you."
+    question: "How do I hire a ghostwriter for a business book?",
+    answer: "To hire a business ghostwriter, contact us for an initial consultation. We will discuss your book's concept, target audience, and goals, then provide a custom quote and timeline."
   },
   {
-    question: "What is the process like for business ghostwriting?",
-    answer: "It is a collaborative journey. We start with understanding your goals and audience, then move on to outlining, writing, and revising until we have a polished manuscript. You are involved every step of the way to make sure the final product meets your expectations."
+    question: "Can I make revisions during the writing process?",
+    answer: "Yes! We offer unlimited revisions to ensure your business book meets your vision. You can review drafts, provide feedback, and suggest changes as needed."
   },
   {
-    question: "Can you help me get my business book published?",
-    answer: "Yes! We do not just write the book; we guide you through the publishing process as well. Whether you are looking for traditional publishing or self-publishing, we provide support with everything from editing to cover design to marketing strategies."
+    question: "How long does it take to complete a business book?",
+    answer: "The timeline for completing a business book depends on its complexity and length. After our initial consultation, we will provide a tailored estimate based on your project requirements."
   },
   {
-    question: "How long does it take to write a business book?",
-    answer: "It depends on the complexity of the project, but typically, it takes a few months to complete a full manuscript. Our business book ghostwriters for hire work with you to establish a timeline that fits your schedule while maintaining quality at every stage."
+    question: "Do I have the right to the business book after completion?",
+    answer: "Yes! Once the business book is finished and you've approved the final manuscript, you will own all rights to the book. We ensure all work is original and fully transferred to you."
   }
 ];
 
@@ -146,10 +161,11 @@ const BusinessGhostwriting = () => {
       {/* -------------------Start Banner section---------------------- */}
       <Header />
       <BreadCrumb
-        title="Business Ghostwriting"
+      className="responsive-height"
+        title="Business Ghostwriting Services"
         desc={
           <>
-           Unlock your entrepreneurial potential with our business ghostwriting services, where our skilled business ghostwriters bring your ideas to life with professionalism and flair.
+           To turn your business concepts and expertise into an impactful, professional book, you need an experienced ghostwriter for business books. At AMZ Book Publishing, we specialize in helping entrepreneurs, CEOs, and industry leaders develop their business stories, strategies, and insights into authoritative business books. 
           </>
         }
         buttonText="Get a Quote"
@@ -174,13 +190,11 @@ const BusinessGhostwriting = () => {
 
 <div style={{ padding: '40px 0px 100px 0px' }}>
 <ImageRightBanner
-    heading="Business "
-    subHeading="Ghostwriting"
+    heading="Professional Business "
+    subHeading="Ghostwriters for Hire"
     description={
         <>
-         At AMZ Book Publishings, we understand that in the fast-paced world of business, effective communication is key to success. Our business ghostwriting services are designed to help you articulate your ideas, strategies, and insights in a polished and engaging manner. Whether you are looking to publish a book, craft compelling articles, or develop thought leadership content, our experienced business ghostwriters are here to transform your vision into captivating narratives that resonate with your audience 
-           <br/><br/>
-           What sets us apart is our commitment to understanding your unique voice and objectives. Our team collaborates closely with you, conducting thorough research and discussions to ensure that every piece we produce aligns with your brand and message.
+         A business book's success requires aspects above fact sharing and strategic delivery. To succeed in business writing a book needs to merge stories with solutions while building emotional relationships with readers. Your business book ghostwriters can assist you in crafting a book that demonstrates your field knowledge and leadership position.
         </>
     }
     imageSrc={FictionImage1}
@@ -191,40 +205,61 @@ const BusinessGhostwriting = () => {
 />
 </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Tap Into Expert  </>}
-        subHeading={<>
-        Business<br/>
-        Ghostwriting </>}
-        heading2="Services"
-        paragraph="Unlock the power of your ideas with our expert business ghostwriting services, designed to elevate your brand and connect with your audience!"
-        services={services}
-      />
-      </div>
+
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }
         steps={steps}
       />
+
+{/*****************  SERVICE Section *****************/}
+<div>
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Creating Business </>}
+        subHeading={<>
+        Books<br/>
+        for Every </>}
+        heading2="Industry"
+        paragraph="Our business ghostwriting agency in the USA specializes in a wide range of business genres. Whether you're an entrepreneur, executive, or industry expert, our writers can help you craft the perfect business book to share your expertise:"
+        services={services}
+      />
+      </div>
+
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Us"
+    heading="Why Choose Our Affordable Business Ghostwriting Company?"
     subHeading=""
     description={
-      <>
-       We pride ourselves on being the best business ghostwriters, offering a personalized approach to every project. Our team of business book ghostwriters for hire works closely with you to ensure that your vision is captured perfectly from concept to final manuscript.  
+        <>
+        AMZ Book Publishing ghostwriting services for you. Affordable business book ghostwriters help clients receive high-quality written business books for an affordable price.
+        <ul>
+    <li>
+        <b>Experienced Business Writers: </b> Our professional business book ghostwriting services comprise experienced qualitative authors with experience in personal business and entrepreneurship
+    </li>
+    <li>
+        <strong>Collaborative Process: </strong>We work with clients during the writing process. Your feedback is invaluable, and we fully guarantee your voice, ethos, and expertise will be reflected in every chapter of your book. 
+    </li>
+    <li>
+        <strong>Unlimited Revisions: </strong>We allow clients unlimited revisions to their first draft. We want your business book to be what you envision.
+    </li>
+    <li>
+        <strong>Affordable Rates: </strong> We ensure our services are affordable to encourage affordable business books for everyone. Any client can afford to share their knowledge and experiences.
+    </li>
+    <li>
+        <strong>On-Time Delivery: </strong>We understand respecting deadlines is essential, and we work diligently to help ensure timely completion and delivery without sacrificing quality. 
+    </li>
+</ul>
 
-       <br /><br />
-       We do not just write; we craft engaging, professional content that reflects your expertise and captivates your target audience. With a commitment to meeting deadlines and providing expert support throughout the entire process, we ensure a smooth, enjoyable, and rewarding experience as we bring your business ideas to life.
-
-      </>
+        </>
 
     }
     imageSrc={fictionwhychoose}
@@ -241,6 +276,14 @@ const BusinessGhostwriting = () => {
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries 
+        heading={heading1}
+        description={
+            <div className="custom-description">
+                {descs}
+            </div>
+        }
+      />
          <ContactForm/>
 
       <Footer/>
