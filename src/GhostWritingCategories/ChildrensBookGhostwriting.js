@@ -41,7 +41,7 @@ const services = [
   {
     title: "Middle-Grade Novels",
     image: bookEditingImage, // add the appropriate image variable
-    description: "Once the manuscript is completed and you've approved the final version, we handle all the final steps: editing, formatting, and preparing your book for publication. We also provide marketing and promotional strategies to help you successfully launch your children's book and ensure it reaches your desired audience."
+    description: "Our children's book ghostwriters craft engaging middle-grade novels that appeal to children aged 8-12. These books often explore themes of friendship, adventure, and self-discovery, ensuring young readers stay involved from start to finish."
   }
 ];
 
@@ -60,7 +60,7 @@ const heading = {
 };
 
 
-const desc = "Bringing your children's book to life is easy with our 3-step process, designed to ensure that every detail is taken care of:";
+const desc = "Bringing your children's book to life is easy with our 4-step process, designed to ensure that every detail is taken care of:";
 
 const steps = [
   {
@@ -73,7 +73,7 @@ const steps = [
     image: designprocess2,
     alt: "Children's Book Writing & Revisions",
     title: "Children's Book Writing & Revisions",
-    description: "After confirming the project, we assign a children's book ghostwriter to begin creating the story. Our writer will author the story's chapters and transmit them to you for review. During the revision process, you can ask for adjustments in the text while maintaining your intended writing tone across all sections.sa"
+    description: "After confirming the project, we assign a children's book ghostwriter to begin creating the story. Our writer will author the story's chapters and transmit them to you for review. During the revision process, you can ask for adjustments in the text while maintaining your intended writing tone across all sections."
   },
   {
     image: designprocess3,

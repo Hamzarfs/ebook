@@ -8,7 +8,7 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -24,6 +24,7 @@ import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
 import Queries from '../components/common/Queries';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 
 // ******************************** Start SecondSection ******************************
 
@@ -46,6 +47,12 @@ const services = [
     title: "Self-Help Books",
     image: bookEditingImage,
     description: "Do you have expertise in personal development, productivity, or motivation? We can transform your knowledge into a self-help book that inspires your readers.",
+    
+  },
+  {
+    title: "Business Books",
+    image: officedeskkeyboarddocuments,
+    description: "As a nonfiction ghostwriting agency, we help entrepreneurs and business leaders articulate and document their expertise through books.",
     
   }
 ];
@@ -75,7 +82,7 @@ const heading = {
   ),
   highlight: " Writing Process"
 };
-const desc = "Creating your nonfiction book is easy with our 3-step process:";
+const desc = "Creating your nonfiction book is easy with our 4-step process:";
 
 
 
@@ -239,7 +246,7 @@ const FictionGhostwriting = () => {
 <SecondSection 
         buttonLabel="S e r v i c e s"
         heading1={ <>
-        Types of Specialize In</>}
+        Types of </>}
         subHeading={<>
          Nonfiction <br/>
          We </>}

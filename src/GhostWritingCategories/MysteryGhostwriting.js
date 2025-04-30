@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -42,6 +43,11 @@ const services = [
     title: "Crime Fiction: ",
     image: bookEditingImage,
     description: "For those who wish to tell a story around a crime, hire our ghostwriter for writing mystery books who efficiently fabricate masterful criminal plots, from thefts to blood-curdling murders. We weave tales with spine-chilling crime scenes and immaculate investigations."
+  },
+  {
+    title: "Cozy Mysteries: ",
+    image: officedeskkeyboarddocuments,
+    description: "For cartoonish, lighthearted mysteries, our cozy ghostwriters create extraordinary stories featuring captivating characters, beautiful locations, and unsolvable yet fascinating mysteries devoid of dark, heavy themes."
   }
 ];
 

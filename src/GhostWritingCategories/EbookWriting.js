@@ -1,5 +1,5 @@
 // src/pages/About.js
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import BreadCrumb from '../components/common/BreadCrumb';
 // import DesigningServices from '../components/Designing/DesigningServices';
 import CtaButton from '../components/common/CtaButton';
@@ -23,92 +23,108 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
-  {
-    title: "Fiction Ebook Ghostwriting",
-    image: ghostWritingImage,
-    description: "Dive into captivating narratives with our fiction ebook ghostwriting services! Our talented ebook ghostwriters will help you craft unforgettable characters and thrilling plots that keep readers hooked from the first page to the last."
-  },
-  {
-    title: "Non-Fiction Ebook Ghostwriting",
-    image: designingImage,
-    description: "Share your expertise and insights with the world through our non-fiction ebook ghostwriting services. Our skilled professionals will transform your ideas into engaging, well-researched content that informs and inspires your audience."
-  },
-  {
-    title: "Business Ebook Ghostwriting",
-    image: bookEditingImage,
-    description: "Elevate your brand and establish your authority with our services. Our expert ebook ghostwriters will create compelling ebooks that not only share your knowledge but also resonate with your target audience, helping you stand out in a competitive market."
-  }
+    {
+        title: "Fiction Novels: ",
+        image: ghostWritingImage,
+        description: "Our accomplished writers craft fictional novels that include romance, fantasy, and even historical fiction. They capture heroic characters and stir plots into words."
+    },
+    {
+        title: "Self-Help & Personal Development: ",
+        image: designingImage,
+        description: "Our writers produce motivational books designed to help readers in their personal development journeys, areas where self-help and personal development lie."
+    },
+    {
+        title: "Business & Marketing eBooks: ",
+        image: bookEditingImage,
+        description: "If you happen to be an entrepreneur or business professional, we create eBooks to inform and teach the reader as well as capture the individual’s knowledge and business expertise."
+    }
 ];
 
 // ******************************** End SecondSection ******************************
 
+
+
+const heading1 = {
+    title: (
+        <>
+           Start Your 
+            <br />
+        </>
+    ),
+    highlight: "eBook Journey Today."
+};
+const descs = "Ready to hire an eBook ghostwriter and bring your ideas to life? Our team of eBook writers for hire at AMZ Book Publishing is here to help you create an eBook that's as unique and compelling as your vision. Contact us today for a free consultation and take the first step toward sharing your unforgettable story with the world.";
+
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
-  title: (
-    <>
-    Our Process To 
-   
-    </>
-  ),
-  highlight: "Craft Your Ebook"
+    title: (
+        <>
+            Our eBook 
+
+        </>
+    ),
+    highlight: "Ghostwriting Process"
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "Our process ensures your eBook is written precisely, creatively, and professionally.";
 const steps = [
-  {
-    image: designprocess1,
-    alt: "Outline",
-    title: "Outline",
-    description: "Let's kick things off! After you share your vision, we will match you with the perfect ebook ghostwriter from our talented team. They will create a detailed chapter outline based on your ideas, and once you give us the thumbs-up, it's time to start writing!"
-  },
-  {
-    image: designprocess2,
-    alt: "Chapter Approval",
-    title: "Chapter Approval",
-    description: "As your ebook comes to life, communication is key! Our expert ebook ghostwriters will share research materials and send chapters your way for approval. Your feedback is essential, as it shapes the direction of your ebook and ensures everything aligns with your vision."
-  },
-  {
-    image: designprocess3,
-    alt: "Editing and Proofreading",
-    title: "Editing and Proofreading",
-    description: "Once the writing is wrapped up, your manuscript gets polished by our dedicated editor. They will comb through every word to make sure it shines. After that, our proofreader takes the reins, eliminating any errors to ensure your ebook is ready for the spotlight."
-  },
-  {
-    image: designprocess4,
-    alt: "Designing",
-    title: "Designing",
-    description: "The final version then moves to our publication department, where we transform your text into a beautifully formatted ebook. Our graphic designers will also work on a stunning cover that grabs attention. Rest assured, we will ensure everything meets the guidelines of your chosen publishing platform, setting you up for success!"
-  }
+    {
+        image: designprocess1,
+        alt: "Initial Consultation & Project Setup",
+        title: "Initial Consultation & Project Setup",
+        description: "We discuss your concept through an initial meeting to discover your book vision. The project managers at our company will acquire every vital detail about your ideas, your writing style choices, and the desired deadline."
+    },
+    {
+        image: designprocess2,
+        alt: "eBook Writing & Revisions",
+        title: "eBook Writing & Revisions",
+        description: "The project moves ahead after your approval, and we will proceed to select the best eBook ghostwriter for your book creation. Our team provides multiple drafts for review and redesign if you want. "
+    },
+    {
+        image: designprocess3,
+        alt: "Final Approval & Publishing",
+        title: "Final Approval & Publishing",
+        description: "We final check your book for clarity. After you approve the final draft we publish it for print as well as for eBook distribution."
+    },
+    {
+        image: designprocess4,
+        alt: "Launch & Marketing Support",
+        title: "Launch & Marketing Support",
+        description: "We have advertising plans to ensure that you reach your intended audience when unveiling your eBook. With our help, your book will get the attention it deserves, from promotion to launch."
+    }
 ];
 
 // ******************************** End Design Process Props ******************************
 
 // ******************************** Start FAQ Section ******************************
 const faqData = [
-  {
-    question: "Are ghostwriters legal?",
-    answer: "Absolutely! Ghostwriters are perfectly legal professionals. Think of them as your behind-the-scenes allies, bringing your ideas to life without seeking credit. The world of ebook ghostwriting thrives on their expertise, and they earn their living by providing valuable services to authors like you."
-  },
-  {
-    question: "What exactly is ebook ghostwriting?",
-    answer: "Great question! Ebook ghostwriting is all about collaboration. You team up with a skilled ghostwriter who crafts a well-formatted ebook tailored to your needs. Whether you have a specific vision or need guidance, we’re here to help you shine!"
-  },
-  {
-    question: "How many words should my ebook be?",
-    answer: "It really depends on what you are aiming for! Shorter ebooks, like guides or list books, typically clock in under 10,000 words. For fiction or non-fiction, expect anywhere between 25,000 to 100,000 words, depending on the genre."
-  },
-  {
-    question: "Do you assist with ebook design?",
-    answer: "Absolutely! Our talented designers specialize in creating eye-catching visuals, illustrations, and infographics that align perfectly with your brand or story theme. We ensure that your book cover grabs attention and that the layout is reader-friendly, making for a smooth reading experience."
-  },
-  {
-    question: "Is your service confidential?",
-    answer: "You bet! We adhere to professional standards and respect your privacy. Rest assured, your book's excerpts will not be used anywhere without your permission. Your trust is paramount to us!"
-  }
+    {
+        question: "What is eBook ghostwriting?",
+        answer: "eBook ghostwriting involves hiring a professional writer to craft an eBook based on your ideas. The ghostwriter will create the manuscript while ensuring your voice and creative direction are reflected in the final product."
+    },
+    {
+        question: "How do I hire an eBook ghostwriter?",
+        answer: "To hire an eBook ghostwriter, contact us for an initial consultation. We'll discuss your concept, goals, and timeline and provide a custom quote based on your project."
+    },
+    {
+        question: "Can I make revisions during the writing process?",
+        answer: "Yes! We offer unlimited revisions to ensure your eBook aligns perfectly with your vision. You can review drafts and suggest changes at every stage."
+    },
+    {
+        question: "How long does it take to complete an eBook?",
+        answer: "The timeline depends on the length and complexity of your eBook. After our initial consultation, we'll provide a personalized estimate for completing your project."
+    },
+    {
+        question: "Do I have the right to access my eBook?",
+        answer: "Yes! Once your eBook is completed and you approve the final manuscript, you will own all rights to the work. We ensure all content is original and fully transferred to you."
+    }
 ];
 
 
@@ -118,141 +134,153 @@ const faqData = [
 // ******************************** End FAQ Section ******************************
 
 const EbookWriting = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
+    const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal
 
-  const openModal = () => {
-    setIsModalOpen(true); // Open the modal
-  };
+    const openModal = () => {
+        setIsModalOpen(true); // Open the modal
+    };
 
-  const closeModal = () => {
-    setIsModalOpen(false); // Close the modal
-  };
+    const closeModal = () => {
+        setIsModalOpen(false); // Close the modal
+    };
 
-  return (
-    <div>
-      <Helmet>
-          <title>Professional Ebook Ghostwriting Services | AMZ Book Publishing</title>
-          <meta name="description" content="Get top-quality Professional Ebook Ghostwriting Services at AMZ Book Publishing—expertly written, polished ebooks ready for publication" />
-          <link rel="canonical" href="https://amzbookpublishing.net/professional-ebook-ghostwriting-services " />
-          <meta name="robots" content="index, follow" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:type" content="article" />
-          <meta property="og:title" content="Ebook Writing Services by Expert eBook Ghostwriters" />
-          <meta property="og:description" content="Need an eBook ghostwriter? We offer professional ebook ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
-          <meta property="og:url" content="https://amzbookpublishing.net/professional-ebook-ghostwriting-services" />
-          <meta property="og:site_name" content="AMZBookPublishing" />
-          <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
-          <meta property="article:modified_time" content="2024-08-23T07:03:51+00:00" />
-      </Helmet>
-      {/* -------------------Start Banner section---------------------- */}
-      <Header />
-      <BreadCrumb
-        title="E-book Writing"
-        desc={
-          <>
-        Let’s collaborate and transform your vision into a best-selling ebook masterpiece that readers cannot put down. Connect with us today, and let’s get started on your writing journey!
+    return (
+        <div>
+            <Helmet>
+                <title>Professional Ebook Ghostwriting Services | AMZ Book Publishing</title>
+                <meta name="description" content="Get top-quality Professional Ebook Ghostwriting Services at AMZ Book Publishing—expertly written, polished ebooks ready for publication" />
+                <link rel="canonical" href="https://amzbookpublishing.net/professional-ebook-ghostwriting-services " />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="Ebook Writing Services by Expert eBook Ghostwriters" />
+                <meta property="og:description" content="Need an eBook ghostwriter? We offer professional ebook ghostwriting services at an affordable price. Contact us to hire expert writers remotely for your project." />
+                <meta property="og:url" content="https://amzbookpublishing.net/professional-ebook-ghostwriting-services" />
+                <meta property="og:site_name" content="AMZBookPublishing" />
+                <meta property="article:publisher" content="https://www.facebook.com/AmzBookPublishingUS" />
+                <meta property="article:modified_time" content="2024-08-23T07:03:51+00:00" />
+            </Helmet>
+            {/* -------------------Start Banner section---------------------- */}
+            <Header />
+            <BreadCrumb
+                className="responsive-height"
+                title="eBook Ghostwriting Services"
+                desc={
+                    <>
+                        All successful eBooks start with a compelling concept. Creating captivating eBooks from ideas can be challenging for many aspiring authors. At AMZ Book Publishing, we assist authors with incredible ideas who need professional help to bring their vision to life through the help of our expert eBook ghostwriters.
+                    </>
+                }
+                buttonText="Get a Quote"
+                onClick={openModal} // Call openModal on button click
+                backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
+            />
 
-          </>
-        }
-        buttonText="Get a Quote"
-        onClick={openModal} // Call openModal on button click
-        backgroundImage={Ghostwritingbg} // Pass the image URL as a prop
-      />
+            {/* Popup Form */}
+            <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
 
-      {/* Popup Form */}
-      <PopupForm1 isOpen={isModalOpen} closeModal={closeModal} />
-    
-   
-{/* -------------------End Banner section---------------------- */}
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+
+            {/* -------------------End Banner section---------------------- */}
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <ImageTextBanner 
     contentItems={contentItems} 
 />
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
-<ImageRightBanner
-    heading="E-book "
-    subHeading="Writing"
-    description={
-        <>
-In today’s competitive market, having a polished ebook is essential to stand out. That is where we come in! At AMZ Book Publishings, we offer top-notch ebook ghostwriting services to help you create something truly remarkable. Our talented team of ghostwriters, editors, and designers is dedicated to transforming your ideas into a captivating ebook that shines.
-           <br/><br/>
-           Just share a bit about yourself, your writing style, and your vision for the book. This helps us capture your unique voice and purpose. Then, we will match you with an experienced ghostwriter who will bring your dream to life. Let’s make your ebook a reality!
-        </>
-    }
-    imageSrc={FictionImage1}
-    objectfit="contain"
-    imageHeight="400px"  // Set height here
-    imageWidth="100%"     // Set width here
-    borderRadius="30px"
-/>
-</div>
+            <div style={{ padding: '30px 0px 0px 0px' }}>
+                <ImageRightBanner
+                    heading="Professional eBook"
+                    subHeading=" Ghostwriters for Hire"
+                    description={
+                        <>
+                            As professional staff members at AMZ Book Publishing, skilled eBook writers convert ideas directly into captivating eBooks through their years of experience. Our team works directly with you to develop the best outline while creating unique characters or personas before adding surprising twists that match your envisioned eBook perfectly.
+                        </>
+                    }
+                    imageSrc={FictionImage1}
+                    objectfit="contain"
+                    imageHeight="400px"  // Set height here
+                    imageWidth="100%"     // Set width here
+                    borderRadius="30px"
+                />
+            </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Expert  </>}
-        subHeading={<>
-         Ebook  <br/>
-         Ghostwriting </>}
-        heading2="Services"
-        paragraph="Our talented team at AMZ Book Publishings specializes in ebook ghostwriting services that bring your ideas to life."
-        services={services}
-      />
-      </div>
-{/* <div style={{ padding: '0px 0px 30px 0px' }}>
+           
+            {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
-<DesignProcess 
-        heading={heading}
-        // description={description}
-        steps={steps}
-      />
-<div style={{ padding: '0px 0px 50px 0px' }}>
-<ImageLeftBanner
-    heading="Why Choose Us"
-    subHeading=""
-    description={
-      <>
-        In today’s digital age, eBooks are more than just a reading option; they are a gateway to building authority and connecting with a broader audience. Here is why our ebook ghostwriting services stand out.
-        <ul>
-          <li>
-            <b>Expert Writers:</b> Our talented ebook ghostwriters are skilled at transforming your ideas into engaging, well-researched ebooks that resonate with your target audience.
-          </li>
-          <li>
-            <strong>Proven Track Record:</strong> We have a history of creating successful ebooks for a diverse range of clients, helping them share their knowledge and expertise effectively.
-          </li>
-          <li>
-            <strong>Comprehensive Support:</strong> From concept development to final publication, we provide end-to-end support to ensure your ebook is polished and ready for the market.
-          </li>
-          <li>
-            <strong>Convenient Format:</strong> eBooks allow readers to access your content anytime, anywhere, making them an ideal choice for reaching a wider audience.
-          </li>
-        </ul>
-      </>
-    }
-    
-    imageSrc={fictionwhychoose}
-    imageHeight=""        // Set height here
-    imageWidth=""          // Set width here
-    objectfit="cover"          // Set object-fit here
-    borderRadius="15px"        // Set border radius here
-/>
-</div>
-<CtaButton/>
-         
-          <div>
-      <FAQSection faqData={faqData} />
-    </div>
-         <ContactForm/>
+            <DesignProcess
+                heading={heading}
+                description={
+                    <div className="custom-description">
+                        {desc}
+                    </div>
+                }
+                steps={steps}
+            />
+             {/*****************  SERVICE Section *****************/}
+             <div>
+                <SecondSection
+                    buttonLabel="S e r v i c e s"
+                    heading1={<>
+                        Kinds </>}
+                    subHeading={<>
+                        of <br />
+                        eBook</>}
+                    heading2=" Stories"
+                    paragraph="At our company, we provide professional eBook writing services for various kinds of eBooks. Our eBook services have three main divisions, which include:"
+                    services={services}
+                />
+            </div>
+            <div style={{ padding: '0px 0px 50px 0px' }}>
+                <ImageLeftBanner
+                    heading="Why You Should Choose Our Professional eBook Ghostwriting Services"
+                    subHeading=""
+                    description={
+                        <>
+                            When hiring an eBook ghostwriter from AMZ Book Publishing, you choose high-quality, professionally written eBooks that will engage and captivate your audience.
+                            <ul>
+                                <li>
+                                    <b>Experienced Professionals: </b> Our team of eBook ghostwriters has years of experience creating diverse and impactful eBooks.
+                                </li>
+                                <li>
+                                    <strong>Collaborative Process: </strong> We work closely with you throughout the entire writing process. Your feedback is essential, and we ensure the eBook meets your expectations.
+                                </li>
+                                <li>
+                                    <strong>Unlimited Revisions: </strong> If you're not fully satisfied, we offer unlimited revisions to refine the manuscript until it's perfect.
+                                </li>
+                                <li>
+                                    <strong>Affordable Rates: </strong> Our services are top-tier but affordable, making them accessible for authors at all levels.
+                                </li>
+                            </ul>
+                        </>
+                    }
 
-      <Footer/>
-    </div>
-  );
+                    imageSrc={fictionwhychoose}
+                    imageHeight=""        // Set height here
+                    imageWidth=""          // Set width here
+                    objectfit="cover"          // Set object-fit here
+                    borderRadius="15px"        // Set border radius here
+                />
+            </div>
+            <CtaButton />
+
+            <div>
+                <FAQSection faqData={faqData} />
+            </div>
+            <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
+            <ContactForm />
+
+            <Footer />
+        </div>
+    );
 };
 export default EbookWriting;
 

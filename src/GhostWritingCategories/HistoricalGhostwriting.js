@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -42,6 +43,11 @@ const services = [
     title: "Memoirs and Biographies",
     image: bookEditingImage,
     description: "Whether you’re documenting the life of a historical figure or recounting your own personal history, our team ensures your story is told with authenticity and emotional depth."
+  },
+  {
+    title: "Historical Documentaries",
+    image: officedeskkeyboarddocuments,
+    description: "Make historical research and primary sources develop into a structured narrative that teaches your readers while providing enjoyable reading. Our team members demonstrate expertise in converting records from archives into engaging written material for readers."
   }
 ];
 

@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -46,6 +47,11 @@ const services = [
     title: "Historical Novels: ",
     image: bookEditingImage, // Update this if you have a specific image
     description: "We specialize in writing historical novels that are both accurate and engaging, bringing past events and characters to life."
+  },
+  {
+    title: "Memoirs & Biographies: ",
+    image: officedeskkeyboarddocuments, // Update this if you have a specific image
+    description: "We assist authors in writing compelling memoirs or biographies, capturing personal stories with authenticity and emotion."
   }
 ];
 
@@ -88,7 +94,7 @@ const steps = [
     image: designprocess1,
     alt: "Initial Consultation & Project Setup",
     title: "Initial Consultation & Project Setup",
-    description: "Our main priority is delivering superior work to our clients, and our team of professional novel ghostwriters is always brainstorming the most effective approach."
+    description: "Our first stage relies on focused dialogue because we work with you to identify the core components that make your short story framework and every fundamental requirement. Our project managers at our company need to receive essential information regarding your writing style along with your personal preferences to produce an accurate representation of your creative vision. "
   },
   {
     image: designprocess2,

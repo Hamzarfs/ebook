@@ -8,7 +8,7 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -23,6 +23,9 @@ import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import SecondSection from '../components/home/SecondCarousel';
+import Queries from '../components/common/Queries';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 
 // ******************************** Start SecondSection ******************************
 
@@ -41,11 +44,32 @@ const services = [
         title: "Nutrition Guides & Meal Plans: ",
         image: bookEditingImage, // Update this if you have a specific image
         description: "We help health coaches and nutritionists craft informative meal plans and nutrition guides that promote healthy eating habits."
+    },
+    {
+        title: "Product Descriptions & Reviews:  ",
+        image: officedeskkeyboarddocuments, // Update this if you have a specific image
+        description: "We create persuasive product descriptions for fitness equipment, supplements, and wellness products that capture the attention of potential customers."
     }
 ];
 
 
 // ******************************** End SecondSection ******************************
+
+
+
+const heading1 = {
+    title: (
+        <>
+           Start Your Health and Fitness
+            <br />
+        </>
+    ),
+    highlight: " Ghostwriting Journey Today"
+};
+const descs = "Ready to create compelling, informative content for your health and fitness brand? AMZ Book Publishing offers Professional Health and Fitness Ghostwriting Services that will help you create high-quality content that educates and inspires. Contact us today for a free consultation and start building your brand with expert health and fitness content.";
+
+
+
 
 // ******************************** Start Design Process Props ******************************
 
@@ -94,24 +118,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
     {
-        question: "Can you find me a ghostwriter who has specific experience/knows about law?",
-        answer: "Absolutely! At AMZ Book Publishings, we make sure to pair you with a legal ghostwriter who has the expertise and background in law that fits your project. Whether it’s contracts, legal briefs, or academic legal writing, we have a team of professionals who know their way around legal jargon and concepts."
+        question: "What are Health and Fitness Ghostwriting Services?",
+        answer: "Health and fitness ghostwriting services involve hiring a professional writer to create health-related content on your behalf. This content is customized to align with your voice and expertise, while you retain the credit for the work."
     },
     {
-        question: "If I invest in your services, can you ensure my legal ghostwriting piece is authentic?",
-        answer: "Yes, authenticity is key. Our legal ghostwriters work closely with you to ensure your unique voice and ideas shine through while still adhering to all the legal details. We take the time to understand your needs so that the final piece is 100% original, personalized, and tailored to your specific goals."
+        question: "How do I hire a Health and Fitness Ghostwriter?",
+        answer: "To hire a health and fitness ghostwriter, simply reach out for an initial consultation. We’ll discuss your needs, goals, and the type of content you’re looking to produce. Afterward, we provide a custom quote and timeline."
     },
     {
-        question: "Are your ghostwriting services confidential?",
-        answer: "Absolutely! Confidentiality is a top priority for us. We treat every project with the utmost discretion, so your documents, ideas, and personal information are completely secure. Your privacy is just as important to us as delivering quality work."
+        question: "Can I make revisions to the content?",
+        answer: "Absolutely! We offer unlimited revisions to ensure that the content meets your expectations. You’ll have the chance to review drafts and suggest changes as necessary."
     },
     {
-        question: "What kind of legal documents can I hire a ghostwriter for?",
-        answer: "You can hire us for a wide range of legal documents, including contracts, legal memos, case summaries, briefs, research papers, and even full legal textbooks. Whatever you need, our skilled team can handle it!"
+        question: "How long does it take to complete health and fitness content?",
+        answer: "The timeline varies depending on the type and complexity of the content. After our consultation, we’ll give you a clear estimated delivery time based on your specific needs."
     },
     {
-        question: "Is ghostwriting ethical?",
-        answer: "Yes, ghostwriting is completely ethical. It is a collaborative process where you provide the direction, and the ghostwriter provides the expertise. You are still the mastermind behind the project and our job is to help you bring it to life in a professional and polished way."
+        question: "Do I own the rights to my health and fitness content?",
+        answer: "Yes! Once the content is approved, you own all rights to it. We guarantee original work and a full ownership transfer upon final approval."
     }
 ];
 
@@ -236,8 +260,8 @@ const LegalGhostwriting = () => {
                                   <strong>Unlimited Revisions: </strong> We offer unlimited revisions, ensuring that the content you receive aligns perfectly with your vision. Your satisfaction is our priority.
                               </li>
                               <li>
-                                  <strong>Affordable Rates: npm start
-                                    </strong>We provide Affordable Health and Fitness Ghostwriting Services that don't compromise quality. We believe great health content should be accessible to everyone in the health and wellness industry.
+                                  <strong>Affordable Rates: 
+                                    </strong> We provide Affordable Health and Fitness Ghostwriting Services that don't compromise quality. We believe great health content should be accessible to everyone in the health and wellness industry.
                               </li>
                           </ul>
                       </>
@@ -254,6 +278,15 @@ const LegalGhostwriting = () => {
             <div>
                 <FAQSection faqData={faqData} />
             </div>
+            <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
             <ContactForm />
 
             <Footer />

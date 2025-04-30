@@ -1,0 +1,30 @@
+.second-swiper {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .second-swiper .swiper-slide {
+    padding: 0px;
+  }
+  
+  .image-box {
+    text-align: left;
+    border-right: 1px solid #ddd;
+  }
+  .custom-swiper .swiper-slide {
+    position: relative;
+    padding: 0 15px;
+  }
+  
+  /* Center Divider */
+  .custom-swiper .swiper-slide:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 1px;
+    height: 80%;
+    background-color: #ddd;
+  }
+  
+  

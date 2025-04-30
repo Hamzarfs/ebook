@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -17,73 +18,104 @@ import fictionwhychoose from '../images/fictionwhychoose.png';
 import ghostWritingImage from '../images/Ghost Writing.png';
 import designingImage from '../images/Designing.png';
 import bookEditingImage from '../images/book edit.png';
+
+import digitaldevicesoffice from '../images/digitaldevicesoffice.jpg';
 import designprocess1 from '../images/design-process-1.png';
 import designprocess2 from '../images/design-process-2.png';
 import designprocess3 from '../images/design-process-3.png';
 import designprocess4 from '../images/design-process-4.png';
 import PopupForm1 from '../components/common/PopupForm';
 import { Helmet } from 'react-helmet-async';
+import Queries from '../components/common/Queries';
 
 // ******************************** Start SecondSection ******************************
 
 const services = [
   {
-    title: "Legal Articles & Blogs",
+    title: "Contracts & Agreements: ",
     image: ghostWritingImage, // Update this if you have a specific image
-    description: "We will take your complex legal concepts and transform them into clear, engaging articles or blogs that resonate with both experts and everyday readers."
+    description: "From employment contracts to partnership agreements, we ensure your contracts are clear, binding, and legally sound."
   },
   {
-    title: "Legal Textbooks & Guides",
+    title: "Legal Briefs & Motions: ",
     image: designingImage, // Update this if you have a specific image
-    description: "Need to publish a comprehensive legal textbook or guide? Our legal ghostwriters have the expertise to craft insightful, well-organized material that hits the mark every time."
+    description: "Our team drafts well-researched and strategically crafted briefs and motions for a court case or legal presentation."
   },
   {
-    title: "Document Drafting",
+    title: "Legal Articles & Blogs: ",
     image: bookEditingImage, // Update this if you have a specific image
-    description: "Let us handle the fine print! We will draft contracts, memos, or other legal documents that are airtight, precise, and tailored to your specific requirements."
+    description: "Our writers can help law firms and professionals create informative, engaging content to build their online presence and authority."
+  },
+  {
+    title: "Legal Correspondence: ",
+    image:  officedeskkeyboarddocuments, // Update this if you have a specific image
+    description: "We draft professional and concise legal letters, including notices, demands, and formal letters between parties."
+  },
+  {
+    title: "Legal Research Papers: ",
+    image:  digitaldevicesoffice, // Update this if you have a specific image
+    description: "We provide comprehensive research and well-written papers for law firms and legal professionals needing expert-level analysis."
   }
 ];
 
 
 // ******************************** End SecondSection ******************************
 
+
+
+const heading1 = {
+    title: (
+        <>
+          Start Your Legal 
+            <br />
+        </>
+    ),
+    highlight: "Ghostwriting Journey Today"
+};
+const descs = "Ready to hire a legal ghostwriter and get professional help with your legal writing? At AMZ Book Publishing, we provide high-quality legal ghostwriting experts that will save you time and help you create the perfect legal documents. Contact us today for a free consultation, and take the first step toward transforming your legal writing needs into polished, professional content.";
+
+
+
+
+
+
 // ******************************** Start Design Process Props ******************************
 
 const heading = {
   title: (
     <>
-    Producing Your Work Of
+    Our Legal
      <br />
     </>
   ),
-  highlight: "Legal Ghostwriting"
+  highlight: " Ghostwriting Process"
 };
-// const description = "At AMZ Book Publishings, our medical ghostwriting services are designed to make your research process easier and more effective.";
+const desc = "We make sure to utilize the highest degree of professionalism, accuracy, and transparency while preparing your documents.";
 
 const steps = [
   {
     image: designprocess1,
-    alt: "Outlines for Your Legal Work",
-    title: "Outlines for Your Legal Work",
-    description: "We craft detailed outlines that keep your project on track, guiding you from concept to completion with ease."
+    alt: "Initial Consultation & Project Setup",
+    title: "Initial Consultation & Project Setup",
+    description: "As the first step, we have a meeting with you to gather information on your desired legal requirements, objectives, and target audience. This is where our project managers will collect all the necessary information needed for us to understand your expectations and requirements fully."
   },
   {
     image: designprocess2,
-    alt: "Content that Reflects Your Expertise",
-    title: "Content that Reflects Your Expertise",
-    description: "Our legal ghostwriters work closely with you to ensure your ideas, perspectives, and legal expertise shine through every word."
+    alt: "Legal Document Writing & Revisions",
+    title: "Legal Document Writing & Revisions",
+    description: "Upon receiving your feedback on the outline, the legal ghostwriter begins working on the document whereas we coordinate with you during the entire process, sharing drafts, and accepting comments until we achieve the required results."
   },
   {
     image: designprocess3,
-    alt: "Meticulous Review & Proofreading",
-    title: "Meticulous Review & Proofreading",
-    description: "We do not just write; we perfect. Our editors and proofreaders meticulously review your material, ensuring it is flawless from structure to punctuation."
+    alt: "Final Approval & Submission",
+    title: "Final Approval & Submission",
+    description: "We do a comprehensive quality check on the document upon receiving the payment to ensure that there are no logical, factual, or grammatical mistakes. After this, we either send the document directly to you or seek your final approval after submission."
   },
   {
     image: designprocess4,
-    alt: "Planning, Organizing & Formatting",
-    title: "Planning, Organizing & Formatting",
-    description: "From planning the structure to formatting the final document, we take care of every detail, ensuring your legal content is professionally polished and publication-ready."
+    alt: "Launch & Continued Support",
+    title: "Launch & Continued Support",
+    description: "Here at our company, you can expect outstanding post-project support. We assist you with the required changes, modifications, and any additional legal composition requirements that arise."
   }
 ];
 
@@ -94,24 +126,24 @@ const steps = [
 // ******************************** Start FAQ Section ******************************
 const faqData = [
   {
-    question: "Can you find me a ghostwriter who has specific experience/knows about law?",
-    answer: "Absolutely! At AMZ Book Publishings, we make sure to pair you with a legal ghostwriter who has the expertise and background in law that fits your project. Whether it’s contracts, legal briefs, or academic legal writing, we have a team of professionals who know their way around legal jargon and concepts."
+    question: "What is legal ghostwriting?",
+    answer: "Legal ghostwriting involves hiring a professional writer to create legal documents, articles, or content on your behalf. The writer ensures that the work aligns with your needs while maintaining legal standards."
   },
   {
-    question: "If I invest in your services, can you ensure my legal ghostwriting piece is authentic?",
-    answer: "Yes, authenticity is key. Our legal ghostwriters work closely with you to ensure your unique voice and ideas shine through while still adhering to all the legal details. We take the time to understand your needs so that the final piece is 100% original, personalized, and tailored to your specific goals."
+    question: "How do I hire a legal ghostwriter?",
+    answer: "To hire a legal ghostwriter, simply contact us for an initial consultation. We'll discuss your project’s requirements and provide a custom quote based on your needs."
   },
   {
-    question: "Are your ghostwriting services confidential?",
-    answer: "Absolutely! Confidentiality is a top priority for us. We treat every project with the utmost discretion, so your documents, ideas, and personal information are completely secure. Your privacy is just as important to us as delivering quality work."
+    question: "Can I make revisions during the writing process?",
+    answer: "Yes! We offer unlimited revisions to ensure your legal document meets your specifications. You can review drafts and suggest changes at every process stage."
   },
   {
-    question: "What kind of legal documents can I hire a ghostwriter for?",
-    answer: "You can hire us for a wide range of legal documents, including contracts, legal memos, case summaries, briefs, research papers, and even full legal textbooks. Whatever you need, our skilled team can handle it!"
+    question: "How long does it take to complete a legal document?",
+    answer: "The timeline depends on the complexity and type of legal document. After our initial consultation, we’ll provide an estimated timeline based on your requirements."
   },
   {
-    question: "Is ghostwriting ethical?",
-    answer: "Yes, ghostwriting is completely ethical. It is a collaborative process where you provide the direction, and the ghostwriter provides the expertise. You are still the mastermind behind the project and our job is to help you bring it to life in a professional and polished way."
+    question: "Do I own the rights to my legal document?",
+    answer: "Yes! Once the legal document is completed and you approve the final draft, you will own all rights to the work. We guarantee all content is original and fully transferred to you."
   }
 ];
 
@@ -147,10 +179,11 @@ const LegalGhostwriting = () => {
       </Helmet>
       <Header />
       <BreadCrumb
-        title="Legal Ghostwriting"
+       className="responsive-height"
+        title="Legal Ghostwriting Services"
         desc={
           <>
-   Law can feel like a maze and it is easy to feel lost. That is where we come in! As a professional legal ghostwriting service, we are here to lend a hand.
+   All legal documents need detailed accuracy in combination with expertise and clarity. The creation process takes both lengthy periods of work and complex steps when working with contracts, along with legal briefs and professional legal documents. The legal ghostwriting services at AMZ Book Publishing help legal professionals and lawyers develop expert legal content through efficient, professional assistance.
 
           </>
         }
@@ -171,15 +204,13 @@ const LegalGhostwriting = () => {
 </div> */}
 
 
-<div style={{ padding: '30px 0px 100px 0px' }}>
+<div style={{ padding: '30px 0px 20px 0px' }}>
 <ImageRightBanner
-    heading="Legal "
-    subHeading="Ghostwriting"
+    heading="Professional Legal "
+    subHeading="Ghostwriters for Hire"
     description={
         <>
-Legal writing is a tough balancing act: explaining complex concepts, making persuasive arguments, and ensuring everything is clear and precise. Whether it is influencing courtroom decisions, drafting contracts, or regulations, getting it right is crucial.
-           <br/><br/>
-           That is where AMZ Book Publishings steps in with our expert legal ghostwriters. We handle the heavy lifting of research and writing while you focus on what you do best, which is practicing law. Our team knows legal jargon, formatting, and structure inside out, so you will always get high-quality, polished work that meets the standards of the legal profession without cutting into your time.
+AMZ Book Publishing delivers legal documents through their team of expert ghostwriters who compose documents that fulfill industry criteria. Our team understands legal writing needs and maintains close communication to provide documents that satisfy your expectations. The writers at our company have the expertise to assist you in any case.
         </>
     }
     imageSrc={FictionImage1}
@@ -190,37 +221,54 @@ Legal writing is a tough balancing act: explaining complex concepts, making pers
 />
 </div>
 
-{/*****************  SERVICE Section *****************/}
-<div>
-<SecondSection 
-        buttonLabel="S e r v i c e s"
-        heading1={ <>
-        Top-Notch  </>}
-        subHeading={<>
-         Legal   <br/>
-         Ghostwriting </>}
-        heading2="Services"
-        paragraph="Our skilled legal ghostwriters are here to tackle even the most challenging legal topics with ease. We are your go-to team for handling the writing, while you stay focused on practicing law."
-        services={services}
-      />
-      </div>
+
 {/* <div style={{ padding: '0px 0px 30px 0px' }}>
 <SecondSection/>
 </div> */}
 <DesignProcess 
         heading={heading}
-        // description={description}
+        description={
+            <div className="custom-description">
+                {desc}
+            </div>
+        }
         steps={steps}
       />
+      {/*****************  SERVICE Section *****************/}
+<div>
+<SecondSection 
+        buttonLabel="S e r v i c e s"
+        heading1={ <>
+        Types of  </>}
+        subHeading={<>
+         Legal   <br/>
+         Documents </>}
+        heading2="We Specialize In"
+        paragraph="Our legal ghostwriter agency online covers a wide range of legal content. Here are some examples of the types of legal documents we can create:"
+        services={services}
+      />
+      </div>
 <div style={{ padding: '0px 0px 50px 0px' }}>
 <ImageLeftBanner
-    heading="Why Choose Us"
+    heading="Why You Should Choose Our Professional Legal Ghostwriting Services"
     subHeading=""
     description={
-      <>
-When it comes to legal ghostwriting, precision and expertise are everything, and that is exactly what we bring to the table. Our experienced legal ghostwriters can assist you with a wide range of services, from drafting contracts and legal memos to preparing documents that ensure accuracy, coherence, and full compliance with the latest laws and regulations.
-         <br/><br/>
-         What sets us apart? Our team does not just write; they bring a fresh perspective, often with specialized knowledge in specific areas of law. This means you get well-crafted, impactful legal content that is tailored to your needs while you focus on what you do best.
+        <>
+        When hiring a legal ghostwriter from AMZ Book Publishing, you choose a team that understands the importance of accuracy, confidentiality, and professionalism in legal writing.
+          <ul>
+              <li>
+                  <b>Experienced Professionals: </b>Our professional legal ghostwriters have years of experience drafting various legal documents for law firms, corporations, and legal professionals.
+              </li>
+              <li>
+                  <strong>Collaborative Process: </strong> We work closely with you, ensuring the content meets your specifications while preserving your unique style and voice.
+              </li>
+              <li>
+                  <strong>Unlimited Revisions: </strong> If unsatisfied, we offer unlimited revisions until your legal document meets your expectations.
+              </li>
+              <li>
+                  <strong>Affordable Rates: </strong> High-quality legal ghostwriting services shouldn’t break the bank. We offer competitive rates for all of our legal writing services.
+              </li>
+          </ul>
       </>
   }
     imageSrc={fictionwhychoose}
@@ -235,6 +283,15 @@ When it comes to legal ghostwriting, precision and expertise are everything, and
           <div>
       <FAQSection faqData={faqData} />
     </div>
+    <Queries
+                heading={heading1}
+                description={
+                    <div className="custom-description">
+                        {descs}
+                    </div>
+                }
+                steps={steps}
+            />
          <ContactForm/>
 
       <Footer/>

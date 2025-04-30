@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -47,6 +48,12 @@ const services = [
         image: bookEditingImage,
         description: "Suppose you've had a notable career or public life. In that case, our memoir writers for hire specialize in turning your professional milestones into a compelling narrative that speaks to both your personal and professional achievements.",
 
+    },
+    {
+        title: "Historical Memoirs",
+        image: officedeskkeyboarddocuments,
+        description: "For those documenting experiences from a historical perspective, we combine vivid storytelling with accurate historical details to bring your experiences to life in a way that educates and entertains readers.",
+
     }
 ];
 
@@ -76,7 +83,7 @@ const heading = {
     ),
 
 };
-const desc = "You can complete your memoir through three straightforward procedures to guide the writing toward your concept and smooth the process.";
+const desc = "You can complete your memoir through four straightforward procedures to guide the writing toward your concept and smooth the process.";
 
 const steps = [
     {
@@ -253,7 +260,7 @@ const FictionGhostwriting = () => {
                             When you hire a professional memoir ghostwriter with us, you choose a team committed to capturing the essence of your life story while offering an affordable and efficient service. Here's why you should choose us:
                             <ul>
                                 <li>
-                                    <b>Experienced Professionals</b>Our team of professional memoir writers has years of experience in helping individuals tell their stories. We are skilled in capturing your voice and experiences in a compelling and heartfelt way.
+                                    <b>Experienced Professionals:</b>Our team of professional memoir writers has years of experience in helping individuals tell their stories. We are skilled in capturing your voice and experiences in a compelling and heartfelt way.
                                 </li>
                                 <li>
                                     <strong>Collaborative Process:</strong>We work closely with you throughout the writing process. Your feedback is essential, and we ensure that your memoir stays true to your vision. Whether you want to be hands-on or leave the writing to us, you remain at the center of the writing process.

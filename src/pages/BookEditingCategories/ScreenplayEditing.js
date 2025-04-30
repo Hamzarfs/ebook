@@ -8,7 +8,8 @@ import Footer from '../../components/common/Footer';
 import Ghostwritingbg from '../../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../../components/Designing/DesignFaq';
 import ContactForm from '../../components/common/ContactForm1';
-import SecondSection from '../../components/home/SecondSection';
+import SecondSection from '../../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../../components/common/DesignProcess';
 import ImageRightBanner from '../../components/common/ImageRightText';
 import ImageLeftBanner from '../../components/common/ImageLeftText';
@@ -40,6 +41,11 @@ const services = [
     title: "Dialogue Refinement",
     image: bookEditingImage, // Update this if you have a specific image
     description: "We meticulously review dialogue to ensure it serves the story at every point. Our editors offer suggestions for making conversations more impactful, leaving a lasting impression on the audience."
+  },
+  {
+    title: "Documentary Scripts: ",
+    image: officedeskkeyboarddocuments, // Update this if you have a specific image
+    description: "Our team can also assist in writing scripts for documentaries, ensuring your narrative is both informative and engaging."
   }
 ];
 

@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -43,6 +44,11 @@ const services = [
     title: "Thrillers & Suspense: ",
     image: bookEditingImage,
     description: "We craft introspective literary fiction that tackles weighty themes, subtle characters, and internal emotional landscapes. We tell stories that inspire thought, challenge paradigms, and have profound personal impact."
+  },
+  {
+    title: "Literary Fiction: ",
+    image: officedeskkeyboarddocuments,
+    description: "Focusing on deeper plots, our novelists tackle ideas, see subtlety and character arcs, and follow deeper emotional paths. We write stories that make you think, prompt a reconsideration of perspectives, and feel deeply personal."
   }
 ];
 

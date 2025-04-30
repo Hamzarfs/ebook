@@ -58,7 +58,7 @@ const heading1 = {
             <br />
         </>
     ),
-    highlight: " Design Route Now"
+    highlight: "Design Right Now"
 };
 const descs = "Are you interested in updating your writer's brand with professional, visually appealing stationery? AMZ Book Publishing has the right solution – the best stationery designs that can make your brand more recognizable. Let the AMZ Book Publishing team give you a free guide to your perfect stationery.";
 

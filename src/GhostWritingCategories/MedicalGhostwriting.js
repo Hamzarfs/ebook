@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -42,6 +43,11 @@ const services = [
         title: "Clinical Guides & Textbooks:",
         image: bookEditingImage,
         description: "Medical book ghostwriting services from our team deliver practical educational and clinical guides and textbooks for medical audiences. Our healthcare professionals work together to generate simplified medical content that provides step-by-step guidance to students, medical professionals, and specialists across their fields."
+    },
+    {
+        title: "Patient-Centered Health Books:",
+        image: officedeskkeyboarddocuments,
+        description: "The books specifically target non-professionals through content that presents strategies for health management, wellness practices, and self-care methods. Our medical ghostwriting agency ensures the material combines professional medical knowledge with content anyone can understand."
     }
 ];
 
@@ -192,8 +198,8 @@ const MedicalGhostwriting = () => {
 
             <div style={{ padding: '30px 0px 0px 0px' }}>
                 <ImageRightBanner
-                    heading="Transforming Medical Expertise"
-                    subHeading=" into Published Works"
+                    heading="Professional Medical Ghostwriting:"
+                    subHeading=" Where Science Meets Storytelling"
                     description={
                         <>
                            A medical book succeeds beyond its capability to represent data and research findings. Medical book creation demands precise explanation, compelling storytelling, and faithful adherence to scientific data. Our Professional Medical Ghostwriters for Hire will customize their work method to convert your book into educational content that keeps readers actively interested. Our expert medical writers at the company take research and transform it through their expertise into readable medical books that serve professionals alongside lay readers.

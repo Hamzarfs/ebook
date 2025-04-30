@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -44,6 +45,11 @@ const services = [
     title: "SEO-Optimized Blog Posts: ",
     image: bookEditingImage, // Update this if you have a specific image
     description: "Articles designed to rank highly on search engines and drive traffic to your site, incorporating targeted keywords and SEO best practices."
+  },
+  {
+    title: "Product Reviews & Promotional Posts: ",
+    image: officedeskkeyboarddocuments, // Update this if you have a specific image
+    description: "Detailed, persuasive blog posts that highlight the features and benefits of your products or services."
   }
 ];
 
@@ -249,7 +255,7 @@ From lifestyle and technology to health and finance and business, our Profession
        Partnering with AMZ Book Publishing for your Professional Blog Post Writing Service offers several advantages:
          <ul>
              <li>
-                 <b>Experienced Writers: Our Blog Ghostwriters </b> Our Blog Ghostwriters are experts in creating content that is engaging, informative, and SEO-optimized. You’ll be working with writers who are skilled in your industry and understand what it takes to create content that resonates with your audience.
+                 <b>Experienced Writers:</b> Our Blog Ghostwriters are experts in creating content that is engaging, informative, and SEO-optimized. You’ll be working with writers who are skilled in your industry and understand what it takes to create content that resonates with your audience.
              </li>
              <li>
                  <strong>Collaborative Process: </strong> We work closely with you throughout the process, ensuring the content reflects your voice and goals. Your feedback is essential, and we’ll refine the content to meet your expectations.

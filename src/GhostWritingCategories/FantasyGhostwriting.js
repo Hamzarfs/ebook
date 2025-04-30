@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -44,6 +45,11 @@ const services = [
         image: bookEditingImage,
         description: "A dark fantasy combination takes fantasy elements through a horror vision while investigating ambiguous moral questions. Characters in Dark Fantasy face complex dilemmas and stark realities. Within traditional Fantasy stories, good and evil stay in clear opposition to one another. Readers who want to explore darker aspects of humanity should choose Black Fantasy because of its great value for exploration."
     },
+    {
+        title: "High Fantasy:",
+        image: officedeskkeyboarddocuments,
+        description: "High Fantasy fully developed worlds with pre-existing history, culture, and in-depth mythology to accompany the worlds. These narratives take root in imaginary settings with mythical beings, magic, and epic quests alongside brave protagonists. The story is about grand and heroic adventures along with mighty conflict, detailed lore, and the use of magic that make the experience more immersive for the reader."
+    }
 ];
 
 // ******************************** End SecondSection ******************************
@@ -59,7 +65,7 @@ const heading = {
     ),
     highlight: " Writing Process"
 };
-const desc = "We follow a streamlined process that ensures your adventure book is written with precision, creativity, and authenticity:";
+const desc = "We follow a streamlined process that ensures your fantasy book is written with precision, creativity, and authenticity:";
 
 const steps = [
     {

@@ -74,7 +74,7 @@ Our Beauty
   ),
   highlight: "Ghostwriting Process "
 };
-const desc = "Bringing your beauty book to life is easy with our 3-step process, designed to ensure that every detail is taken care of:";
+const desc = "Bringing your beauty book to life is easy with our 4-step process, designed to ensure that every detail is taken care of:";
 
 const steps = [
   {

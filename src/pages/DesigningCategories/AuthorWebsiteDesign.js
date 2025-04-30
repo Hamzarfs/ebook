@@ -91,7 +91,7 @@ const steps = [
         image: designprocess2,
         alt: "Design & Development",
         title: "Design & Development",
-        description: "Our designers build your site using responsive designs that will suit appearance and interaction. In this phase, you will review our designs, and you can make changes and ensure the website meets your expectations.s"
+        description: "Our designers build your site using responsive designs that will suit appearance and interaction. In this phase, you will review our designs, and you can make changes and ensure the website meets your expectations."
     },
     {
         image: designprocess3,
@@ -127,7 +127,7 @@ const faqData = [
     },
     {
         question: "How long does it take to build my website?",
-        answer: "Project timelines vary based on complexity and features, but most websites for professional authors are completed within 2–4 weeks after the initial consultation.s"
+        answer: "Project timelines vary based on complexity and features, but most websites for professional authors are completed within 2–4 weeks after the initial consultation."
     },
     {
         question: "Can I update my website myself?",

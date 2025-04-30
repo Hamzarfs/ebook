@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -47,6 +48,12 @@ const services = [
         image: bookEditingImage,
         description: "Our action fiction ghostwriting service is ideal for those needing a heart-pounding adventure. From world-ending warfare to white-knuckle pursuits, our authors specialize in writing captivating action novels that sustain readers’ attention. Access the realm of exhilarating fierce action stories, and let us assist you in rendering an indelible impression for your audiences.",
 
+    },
+    {
+        title: "Fantasy",
+        image: officedeskkeyboarddocuments,
+        description: "From epic quests to magical creatures, our fantasy fiction ghostwriting services will turn your wildest dreams into reality. In mesmerizing worlds that will captivate readers, we work to develop intricate plots and complex characters. If you have a captivating fantasy story, we are devoted to bringing it to life.",
+
     }
 ];
 
@@ -62,7 +69,7 @@ const heading = {
     ),
     highlight: "Writing Process"
 };
-const description = "Crafting compelling stories through a streamlined process We follow a streamlined, 3-step process to ensure your vision is brought to life smoothly and efficiently:";
+const desc = "Crafting compelling stories through a streamlined process We follow a streamlined, 4-step process to ensure your vision is brought to life smoothly and efficiently:";
 
 const steps = [
     {
@@ -234,7 +241,11 @@ const FictionGhostwriting = () => {
 
             <DesignProcess
                 heading={heading}
-                description={description}
+                description={
+                    <div className="custom-description">
+                        {desc}
+                    </div>
+                }
                 steps={steps}
             />
 

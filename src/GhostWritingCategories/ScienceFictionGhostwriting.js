@@ -8,7 +8,8 @@ import Footer from '../components/common/Footer';
 import Ghostwritingbg from '../images/Ghostwritingbg.png'; // Import the image
 import FAQSection from '../components/Designing/DesignFaq';
 import ContactForm from '../components/common/ContactForm1';
-import SecondSection from '../components/home/SecondSection';
+import SecondSection from '../components/home/SecondCarousel';
+import officedeskkeyboarddocuments from '../images/officedeskkeyboarddocuments.jpg';
 import DesignProcess from '../components/common/DesignProcess';
 import ImageRightBanner from '../components/common/ImageRightText';
 import ImageLeftBanner from '../components/common/ImageLeftText';
@@ -47,6 +48,12 @@ const services = [
         image: bookEditingImage,
         description: "We craft gripping dystopian futures and post-apocalyptic narratives that immerse readers in a world on the brink of collapse.",
 
+    },
+    {
+        title: "Alien Encounters",
+        image: officedeskkeyboarddocuments,
+        description: "From first contact to full-scale invasions, our writers excel at creating thrilling stories of alien life and interplanetary conflict.",
+
     }
 ];
 
@@ -79,7 +86,7 @@ const heading = {
     ),
     highlight: " Writing Process"
 };
-const desc = "Bringing your sci-fi vision to life is easy with our three-step process:";
+const desc = "Bringing your sci-fi vision to life is easy with our four-step process:";
 const steps = [
     {
         image: designprocess1,
